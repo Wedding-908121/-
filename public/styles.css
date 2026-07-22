@@ -720,3 +720,10 @@ input, button { border: none; outline: none; background: none; }
   .detail-grid div { flex-direction: column; }
   .key-points li { font-size: 0.78rem; }
 }
+
+.brief-week-range {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--c-text-muted);
+  margin-top: 2px;
+}
