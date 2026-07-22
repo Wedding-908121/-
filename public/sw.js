@@ -1,4 +1,4 @@
-const CACHE = "mech-intel-v2";
+const CACHE = "mech-intel-v3";
 const PRECACHE = ["/", "/index.html", "/styles.css", "/app.js", "/runtime-config.js", "/vendor/lucide.min.js", "/manifest.webmanifest"];
 
 self.addEventListener("install", e => {

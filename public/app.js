@@ -131,13 +131,13 @@ function renderIndustryDetails(article) {
 // ===== Load Data =====
 async function loadData() {
   try {
-    const resp = await fetch("./data/articles.json");
+    const resp = await fetch("./data/articles.json?v=" + Date.now());
     state.data = await resp.json();
     state.articles = state.data.articles || [];
     renderAll();
   // Load archive index for week selector
   try {
-    const archiveResp = await fetch("./data/archive/index.json");
+    const archiveResp = await fetch("./data/archive/index.json?v=" + Date.now());
     if (archiveResp.ok) {
       state.archiveIndex = await archiveResp.json();
       renderWeekSelector();
