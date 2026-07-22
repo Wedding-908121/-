@@ -1,0 +1,8 @@
+﻿node_modules/
+dist/
+_debug_archive/
+config/api.json
+.DS_Store
+*.log
+server_out.txt
+server_err.txt

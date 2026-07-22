@@ -1,0 +1,23 @@
+{
+  "name": "mechanical-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "机械共性部门每周行业情报 PWA — 风电动态、疲劳断裂仿真、AI建模、噪声与气动研究",
+  "scripts": {
+    "start": "node server.mjs",
+    "collect": "node scripts/collect.mjs",
+    "collect:dry": "node scripts/collect.mjs --dry-run",
+    "collect:resummarize": "node scripts/collect.mjs --resummarize",
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.10.0",
+    "google-news-url-decoder": "^1.2.2",
+    "node-html-parser": "^7.0.1"
+  }
+}

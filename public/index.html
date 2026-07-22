@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1A3A1A">
+  <meta name="description" content="机械共性部门每周行业情报 — 风电动态、疲劳断裂仿真、AI辅助建模、风机噪声与气动布局研究">
+  <meta property="og:title" content="机械共性部门情报中心">
+  <meta property="og:description" content="每周自动汇集国内外风电装备、疲劳断裂、AI动态、噪声与气动研究资讯，提供中文工程摘要与原文链接。">
+  <meta property="og:image" content="./assets/share-cover.png">
+  <meta property="og:type" content="website">
+  <title>机械共性部门情报中心 | 风电装备与仿真前沿简报</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%231A3A1A'/><text x='50' y='58' text-anchor='middle' fill='%23C8A45C' font-size='48' font-weight='bold' font-family='sans-serif'>M</text></svg>">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./vendor/lucide.min.js" defer></script>
+  <script src="./runtime-config.js"></script>
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#article-feed">跳到资料列表</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./" aria-label="机械共性部门情报中心首页">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span>
+          <strong>机械共性部门情报中心</strong>
+          <small>疲劳断裂 · 风机噪声 · 气动布局 · AI动态 · 风电动态</small>
+        </span>
+      </a>
+      <div class="topbar-actions">
+        <span class="freshness" id="freshness">
+          <span class="status-dot" aria-hidden="true"></span>
+        <select class="week-selector" id="week-selector" aria-label="选择历史周报">
+          <option value="">本周</option>
+        </select>
+          加载中
+        </span>
+        <button class="icon-button" id="share-app" type="button" title="分享机械共性部门情报中心" aria-label="分享">
+          <i data-lucide="share-2"></i>
+        </button>
+        <button class="icon-button mobile-only" id="open-filters-mobile" type="button" title="筛选" aria-label="筛选">
+          <i data-lucide="sliders-horizontal"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="brief-band" aria-labelledby="brief-title">
+      <div class="content-shell brief-inner">
+        <div class="brief-main">
+          <div class="eyebrow">
+            <i data-lucide="calendar-range"></i>
+            <span id="brief-period">本周情报简报</span>
+            <span class="brief-mode" id="brief-mode">加载中</span>
+          </div>
+          <h1 id="brief-title">正在整理本周机械共性部门情报中心…</h1>
+          <p id="brief-summary">正在加载最新采集结果与工程摘要。</p>
+          <div class="signal-list" id="signal-list" aria-label="本周关键信号"></div>
+        </div>
+        <div class="brief-metrics" aria-label="本周资料统计">
+          <div class="metric">
+            <strong id="metric-total">--</strong>
+            <span>高相关</span>
+          </div>
+          <div class="metric">
+            <strong id="metric-domestic">--</strong>
+            <span>国内资讯</span>
+          </div>
+          <div class="metric">
+            <strong id="metric-papers">--</strong>
+            <span>研究论文</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-shell workspace" aria-label="情报工作区">
+      <div class="primary-column">
+        <div class="search-panel">
+          <label class="search-box" for="search-input">
+            <i data-lucide="search" aria-hidden="true"></i>
+            <input id="search-input" type="search" autocomplete="off" placeholder="搜索疲劳机理、叶片翼型、数字孪生、噪声控制…">
+            <kbd>Ctrl K</kbd>
+            <button class="clear-search" id="clear-search" type="button" title="清空搜索" aria-label="清空搜索" hidden>
+              <i data-lucide="x"></i>
+            </button>
+          </label>
+          <button class="filter-button desktop-only" id="open-filters" type="button">
+            <i data-lucide="sliders-horizontal"></i>
+            筛选
+            <span class="filter-count" id="filter-count" hidden>0</span>
+          </button>
+        </div>
+
+        <nav class="category-tabs" id="category-tabs" aria-label="资料分类">
+          <button class="category-tab active" type="button" data-category="全部">全部</button>
+          <button class="category-tab" type="button" data-category="风电动态">风电动态</button>
+          <button class="category-tab" type="button" data-category="AI动态">AI动态</button>
+          <button class="category-tab" type="button" data-category="学术研究">学术研究</button>
+        </nav>
+
+        <div class="feed-header">
+          <div>
+            <h2 id="feed-title">全部资料</h2>
+            <span class="result-count" id="result-count">0 条</span>
+          </div>
+          <select class="sort-select" id="sort-select" aria-label="排序方式">
+            <option value="latest">最新优先</option>
+            <option value="oldest">最早优先</option>
+            <option value="relevant">相关度优先</option>
+          </select>
+        </div>
+
+        <div class="article-feed" id="article-feed" role="feed" aria-label="资料列表"></div>
+      </div>
+
+      <aside class="sidebar" aria-label="关注与趋势">
+        <div class="sidebar-card">
+          <h3><i data-lucide="eye"></i> 关注关键词</h3>
+          <div id="watch-list">
+            <div class="watch-item">风电叶片 <button class="watch-remove" data-tag="风电叶片" aria-label="移除">×</button></div>
+            <div class="watch-item">数字孪生 <button class="watch-remove" data-tag="数字孪生" aria-label="移除">×</button></div>
+            <div class="watch-item">螺栓连接 <button class="watch-remove" data-tag="螺栓连接" aria-label="移除">×</button></div>
+          </div>
+          <form class="watch-form" id="watch-form" onsubmit="return false">
+            <input id="watch-input" type="text" placeholder="添加关键词…" maxlength="20" autocomplete="off">
+            <button type="submit">添加</button>
+          </form>
+        </div>
+        <div class="sidebar-card">
+          <h3><i data-lucide="trending-up"></i> 本周趋势</h3>
+          <div id="trend-list">
+            <div class="trend-item"><span class="count">--</span> 加载中…</div>
+          </div>
+        </div>
+        <div class="sidebar-card" id="saved-panel">
+          <h3><i data-lucide="bookmark"></i> 收藏 (<span id="saved-count">0</span>)</h3>
+          <div id="saved-list"><span style="font-size:0.82rem;color:var(--c-text-muted)">暂无收藏</span></div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <div class="dialog-overlay" id="dialog-overlay" hidden>
+    <div class="dialog" id="dialog" role="dialog" aria-modal="true" aria-label="资料详情">
+      <div class="dialog-header">
+        <h2 id="dialog-title"></h2>
+        <button class="dialog-close" id="dialog-close" aria-label="关闭">×</button>
+      </div>
+      <div class="dialog-body" id="dialog-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,291 @@
+{
+  "lookbackDays": 7,
+  "maxArticles": 300,
+  "historyMaxArticles": 400,
+  "historyRetentionDays": 730,
+  "minimumRelevanceScore": 2,
+  "industryRelevanceBoost": 3,
+  "reliability": {
+    "minimumFeedback": 5,
+    "authorityDomains": {
+      "primary": [
+        "nrel.gov",
+        "energy.gov",
+        "iea.org",
+        "iec.ch",
+        "iso.org",
+        "cas.cn",
+        "cae.cn"
+      ],
+      "industry": [
+        "cwea.org.cn",
+        "windpower.org.cn",
+        "goldwind.com",
+        "envision-group.com",
+        "myse.com.cn",
+        "windeyenergy.com",
+        "shanghai-electric.com",
+        "vestas.com",
+        "siemensgamesa.com",
+        "gevernova.com",
+        "ansys.com",
+        "3ds.com",
+        "altair.com",
+        "comsol.com",
+        "mathworks.com",
+        "nvidia.com"
+      ],
+      "media": [
+        "sina.com.cn",
+        "qq.com",
+        "163.com",
+        "cls.cn",
+        "ne21.com",
+        "windpowermonthly.com",
+        "rechargenews.com"
+      ]
+    },
+    "commercialSignals": [
+      "咨询",
+      "市场规模",
+      "深度分析报告",
+      "market size",
+      "market forecast"
+    ],
+    "selfClaimSignals": [
+      "公司表示",
+      "公司称",
+      "主要产品涵盖",
+      "宣布",
+      "unveils",
+      "announces"
+    ]
+  },
+  "newsQueries": [
+    {
+      "id": "news-cn-wind",
+      "label": "国内风电行业动态",
+      "query": "风电 (项目 OR 中标 OR 交付 OR 投产 OR 订单 OR 合作 OR 海上风电 OR 大容量)",
+      "language": "Chinese",
+      "region": "国内"
+    },
+    {
+      "id": "news-cn-fatigue",
+      "label": "国内疲劳断裂仿真",
+      "query": "(疲劳 OR 断裂 OR 裂纹扩展) (仿真 OR 有限元 OR 寿命预测 OR S-N OR 损伤容限)",
+      "language": "Chinese",
+      "region": "国内"
+    },
+    {
+      "id": "news-cn-ai",
+      "label": "国内AI动态",
+      "query": "(人工智能 OR 机器学习 OR 深度学习) (机械 OR 工程 OR 仿真 OR 数字孪生 OR 代理模型 OR 物理信息神经网络)",
+      "language": "Chinese",
+      "region": "国内"
+    },
+    {
+      "id": "news-cn-noise",
+      "label": "国内风机噪声研究",
+      "query": "风机 (噪声 OR 噪音 OR 气动声学 OR NVH OR 降噪 OR 声压级)",
+      "language": "Chinese",
+      "region": "国内"
+    },
+    {
+      "id": "news-cn-aero",
+      "label": "国内风机气动布局研究",
+      "query": "风机 (气动 OR 叶片设计 OR 翼型 OR 气弹 OR CFD OR 涡流 OR 尾流)",
+      "language": "Chinese",
+      "region": "国内"
+    },
+    {
+      "id": "news-global-wind",
+      "label": "海外风电行业动态",
+      "query": "\"wind energy\" (project OR tender OR installation OR offshore OR turbine OR capacity)",
+      "language": "English",
+      "region": "海外"
+    },
+    {
+      "id": "news-global-fatigue",
+      "label": "海外疲劳断裂仿真",
+      "query": "\"fatigue\" (\"wind turbine\" OR mechanical OR fracture OR \"crack propagation\" OR \"finite element\" OR \"life prediction\")",
+      "language": "English",
+      "region": "海外"
+    },
+    {
+      "id": "news-global-ai",
+      "label": "海外AI动态",
+      "query": "\"machine learning\" (\"wind turbine\" OR \"digital twin\" OR \"surrogate model\" OR \"physics-informed\" OR \"neural network\") (simulation OR engineering)",
+      "language": "English",
+      "region": "海外"
+    },
+    {
+      "id": "news-global-noise",
+      "label": "海外风机噪声研究",
+      "query": "\"wind turbine\" (noise OR aeroacoustic OR NVH OR \"sound pressure\" OR \"noise reduction\")",
+      "language": "English",
+      "region": "海外"
+    },
+    {
+      "id": "news-global-aero",
+      "label": "海外风机气动布局研究",
+      "query": "\"wind turbine\" (aerodynamic OR \"blade design\" OR airfoil OR CFD OR vortex OR wake OR aeroelastic)",
+      "language": "English",
+      "region": "海外"
+    }
+  ],
+  "researchQueries": [
+    {
+      "id": "fatigue-fracture",
+      "label": "疲劳断裂仿真",
+      "query": "\"wind turbine\" (fatigue OR fracture OR crack) (blade OR tower OR gearbox OR bearing OR bolt)",
+      "region": "海外"
+    },
+    {
+      "id": "ai-modeling",
+      "label": "AI动态建模",
+      "query": "\"wind turbine\" (\"machine learning\" OR \"deep learning\" OR \"digital twin\" OR surrogate OR PINN OR \"neural network\")",
+      "region": "海外"
+    },
+    {
+      "id": "noise-research",
+      "label": "风机噪声研究",
+      "query": "\"wind turbine\" (noise OR aeroacoustic OR \"sound pressure\" OR acoustic) (blade OR airfoil OR aerodynamics)",
+      "region": "海外"
+    },
+    {
+      "id": "aero-research",
+      "label": "气动布局研究",
+      "query": "\"wind turbine\" (aerodynamic OR blade OR airfoil OR wake OR vortex OR CFD OR aeroelastic)",
+      "region": "海外"
+    },
+    {
+      "id": "bolt-research",
+      "label": "螺栓连接研究",
+      "query": "\"wind turbine\" (bolt OR fastener OR connection OR flange OR tension OR preload)",
+      "region": "海外"
+    },
+    {
+      "id": "cn-wind-tech",
+      "label": "国内风电技术",
+      "query": "风机 (疲劳 OR 断裂 OR 叶片 OR 螺栓 OR 噪声 OR 气动 OR AI OR 机器学习)",
+      "region": "国内"
+    }
+  ],
+  "relevanceKeywords": {
+    "风电": 3,
+    "风力发电": 2,
+    "风机": 2,
+    "疲劳": 3,
+    "断裂": 3,
+    "裂纹": 2,
+    "寿命": 2,
+    "有限元": 2,
+    "仿真": 2,
+    "FEM": 2,
+    "机器学习": 3,
+    "深度学习": 3,
+    "人工智能": 2,
+    "数字孪生": 3,
+    "代理模型": 2,
+    "物理信息": 4,
+    "神经网络": 2,
+    "噪声": 3,
+    "气动声学": 3,
+    "NVH": 3,
+    "降噪": 2,
+    "声压": 3,
+    "气动": 3,
+    "叶片": 3,
+    "翼型": 3,
+    "CFD": 2,
+    "气弹": 3,
+    "尾流": 2,
+    "wind turbine": 2,
+    "fatigue": 4,
+    "fracture": 4,
+    "crack": 3,
+    "finite element": 3,
+    "machine learning": 4,
+    "deep learning": 4,
+    "digital twin": 4,
+    "surrogate model": 3,
+    "neural network": 3,
+    "noise": 4,
+    "aeroacoustic": 4,
+    "sound pressure": 3,
+    "aerodynamic": 4,
+    "blade": 4,
+    "airfoil": 4,
+    "vortex": 3,
+    "wake": 3,
+    "aeroelastic": 4,
+    "S-N": 3,
+    "损伤容限": 3,
+    "Paris": 2,
+    "应力强度因子": 3,
+    "stress intensity": 3,
+    "PINN": 3,
+    "LSTM": 2,
+    "GAN": 2,
+    "CNN": 2,
+    "Transformer": 3,
+    "大涡模拟": 3,
+    "LES": 2,
+    "RANS": 2,
+    "BEM": 2,
+    "致动线": 2,
+    "actuator line": 2,
+    "海上风电": 4,
+    "offshore": 3,
+    "漂浮式": 3,
+    "floating": 3,
+    "世界人工智能": 3,
+    "人工智能大会": 2,
+    "机器人": 3,
+    "AI治理": 2,
+    "physics-informed": 3,
+    "项目": 1,
+    "中标": 2,
+    "招标": 2,
+    "投产": 2,
+    "核准": 2,
+    "开工": 2,
+    "签约": 2,
+    "投运": 2,
+    "吊装": 2,
+    "并网": 2,
+    "基地": 1,
+    "GW": 2,
+    "MW": 1,
+    "兆瓦": 2,
+    "万千瓦": 2,
+    "订单": 1,
+    "投资": 1,
+    "募资": 1,
+    "大模型": 4,
+    "智能体": 4,
+    "具身智能": 4,
+    "开源": 2,
+    "LLM": 4,
+    "Agent": 4,
+    "生成式": 3,
+    "推理": 3,
+    "多模态": 4,
+    "AI": 3,
+    "GPT": 3,
+    "model": 2,
+    "vision": 2,
+    "speech": 2,
+    "audio": 2,
+    "robot": 2
+  },
+  "weekStart": "2026-07-13",
+  "weekEnd": "2026-07-20",
+  "iopFeeds": [
+    {
+      "id": "iop-jpcs",
+      "label": "IOP J.Phys:Conf",
+      "url": "https://iopscience.iop.org/journal/rss/1742-6596"
+    }
+  ]
+}
