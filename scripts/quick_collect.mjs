@@ -2,6 +2,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
 import { cleanText, isDomainRelevant, relevanceScore, inferCategory, isNoiseArticle, isLowQualityArticle, isIndustryRelevant, deduplicateArticles, makeArticleId, createFallbackSummary, computeReliability } from "./lib/articles.mjs";
+import { resolveAiProvider, summarizeInBatches } from "./lib/ai.mjs";
 import { fileURLToPath } from "node:url";
 
 const projectRoot = fileURLToPath(new URL("../", import.meta.url));
@@ -303,6 +304,41 @@ console.log("\n学术研究 papers (" + academic.length + "):");
 academic.slice(0, 10).forEach((a, i) => {
   console.log("  " + (i+1) + ". [" + (a._researchTag||"无标签") + "] " + (a.title||"").substring(0, 80) + " | " + a.source);
 });
+
+
+// === AI Summarization ===
+console.log("\nStarting AI summarization...");
+const aiProvider = await resolveAiProvider();
+if (aiProvider) {
+  console.log("Using AI: " + aiProvider.id + " " + aiProvider.model);
+  const needsSummary = capped.filter(a => !a.keyPoints || a.keyPoints.length === 0);
+  if (needsSummary.length > 0) {
+    const startTime = Date.now();
+    const summaries = await summarizeInBatches(aiProvider, needsSummary, {
+      batchSize: 3,
+      onBatchError: (e, batchNum) => console.warn("AI batch " + batchNum + " error:", e.message)
+    });
+    console.log("AI summarized " + summaries.size + "/" + needsSummary.length + " articles (" + ((Date.now()-startTime)/1000).toFixed(0) + "s)");
+    
+    // Apply summaries
+    for (const a of capped) {
+      const s = summaries.get(a.id);
+      if (s) {
+        if (s.titleZh) a.titleZh = s.titleZh;
+        if (s.summary && s.summary.length > 5) a.summary = s.summary;
+        if (s.keyPoints?.length) a.keyPoints = s.keyPoints;
+        if (s.engineeringImpact) a.engineeringImpact = s.engineeringImpact;
+        if (s.paperDetails && Object.keys(s.paperDetails).length > 0) a.paperDetails = s.paperDetails;
+        if (s.industryDetails && Object.keys(s.industryDetails).length > 0) a.industryDetails = s.industryDetails;
+        if (s.readingMinutes) a.readingMinutes = s.readingMinutes;
+      }
+    }
+  } else {
+    console.log("All articles already have AI summaries");
+  }
+} else {
+  console.log("No AI provider configured, using fallback summaries");
+}
 
 // Write the output
 const output = {
