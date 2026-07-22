@@ -1,6 +1,6 @@
 {
   "app": "机械共性情报",
-  "generatedAt": "2026-07-22T01:21:21.967Z",
+  "generatedAt": "2026-07-22T03:33:08.309Z",
   "period": {
     "from": "2026-07-13T00:00:00.000Z",
     "to": "2026-07-20T23:59:59.999Z"
@@ -11,15 +11,15 @@
     "channels": 15,
     "succeeded": 15,
     "failed": 0,
-    "rawFetched": 606,
-    "inWindow": 509,
-    "currentCount": 147,
+    "rawFetched": 200,
+    "inWindow": 198,
+    "currentCount": 106,
     "archiveCount": 45,
     "ai": {
-      "provider": "deepseek",
-      "model": "deepseek-chat",
-      "requested": 45,
-      "summarized": 45
+      "provider": "none",
+      "model": "",
+      "requested": 0,
+      "summarized": 0
     },
     "sources": [
       {
@@ -44,31 +44,31 @@
         "id": "rss-wind-wiley",
         "label": "rss-wind-wiley",
         "status": "ok",
-        "fetched": 6
+        "fetched": 0
       },
       {
         "id": "rss-wind-mdpi",
         "label": "rss-wind-mdpi",
         "status": "ok",
-        "fetched": 100
+        "fetched": 0
       },
       {
         "id": "rss-energies",
         "label": "rss-energies",
         "status": "ok",
-        "fetched": 100
+        "fetched": 0
       },
       {
         "id": "rss-materials",
         "label": "rss-materials",
         "status": "ok",
-        "fetched": 100
+        "fetched": 0
       },
       {
         "id": "rss-metals",
         "label": "rss-metals",
         "status": "ok",
-        "fetched": 100
+        "fetched": 0
       },
       {
         "id": "rss-iop",
@@ -143,7 +143,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -156,43 +156,6 @@
       "id": "7798314f",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "面壁智能开源首个具身智能系列模型 MiniCPM-Robot",
-      "summary": "面壁智能开源了其首个具身智能系列模型 MiniCPM-Robot，该模型旨在为机器人提供感知与决策能力。资料介绍了模型的开源背景、技术特点及潜在应用场景，但未提供具体试验数据或性能对比。证据层级为官方发布，结论边界限于模型开源本身。",
-      "keyPoints": [
-        "面壁智能开源了具身智能模型 MiniCPM-Robot",
-        "该模型为系列模型，面向机器人感知与决策",
-        "资料来源于官方发布，未提供性能数据"
-      ],
-      "engineeringImpact": "该开源模型可能降低具身智能研发门槛，加速机器人感知与决策算法的验证与迭代，对机器人设计中的AI集成具有参考价值。",
-      "tags": [
-        "具身智能",
-        "开源模型",
-        "机器人"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供试验数据",
-          "未提供性能对比"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "开源发布",
-        "companies": [
-          "面壁智能"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "未提及",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -203,7 +166,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "面壁智能开源首个具身智能系列模型 MiniCPM-Robot",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "昆仑万维开源新一代可交互世界模型 Matrix-Game 3.5",
@@ -212,7 +182,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -225,43 +195,6 @@
       "id": "1a988ab7",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "昆仑万维开源新一代可交互世界模型 Matrix-Game 3.5",
-      "summary": "昆仑万维开源了新一代可交互世界模型 Matrix-Game 3.5，该模型支持用户与虚拟世界进行交互。资料介绍了模型的功能特性、开源意义及潜在应用，但未提供具体技术指标或性能评估。证据层级为官方发布，结论边界限于模型开源本身。",
-      "keyPoints": [
-        "昆仑万维开源了可交互世界模型 Matrix-Game 3.5",
-        "模型支持用户与虚拟世界交互",
-        "资料来源于官方发布，未提供性能数据"
-      ],
-      "engineeringImpact": "该开源模型可能推动虚拟世界交互技术的发展，为游戏、仿真等领域的AI应用提供基础，对交互式AI系统的设计具有启示。",
-      "tags": [
-        "世界模型",
-        "可交互",
-        "开源"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供技术指标",
-          "未提供性能评估"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "开源发布",
-        "companies": [
-          "昆仑万维"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "未提及",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -272,7 +205,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "昆仑万维开源新一代可交互世界模型 Matrix-Game 3.5",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "腾讯混元推出科学发现智能体 Hyra",
@@ -281,7 +221,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -294,43 +234,6 @@
       "id": "3220dd12",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "腾讯混元推出科学发现智能体 Hyra",
-      "summary": "腾讯混元推出了科学发现智能体 Hyra，旨在辅助科研人员进行科学发现。资料介绍了智能体的功能定位、技术特点及潜在应用场景，但未提供具体性能数据或案例验证。证据层级为官方发布，结论边界限于产品推出本身。",
-      "keyPoints": [
-        "腾讯混元推出了科学发现智能体 Hyra",
-        "智能体旨在辅助科研人员进行科学发现",
-        "资料来源于官方发布，未提供性能数据"
-      ],
-      "engineeringImpact": "该智能体可能提升科研效率，加速科学发现过程，对AI在科研领域的应用具有示范作用，但需进一步验证其实际效果。",
-      "tags": [
-        "科学发现",
-        "智能体",
-        "AI辅助"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供性能数据",
-          "未提供案例验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "产品发布",
-        "companies": [
-          "腾讯"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "未提及",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -341,7 +244,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "腾讯混元推出科学发现智能体 Hyra",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "元石科技推出新一代长内容生成引擎问小白 5 Pro",
@@ -350,7 +260,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -363,42 +273,6 @@
       "id": "7783d5f8",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "元石科技推出新一代长内容生成引擎问小白 5 Pro",
-      "summary": "元石科技发布了新一代长内容生成引擎问小白 5 Pro，该引擎专注于长文本生成，可能提升了内容质量和生成效率。资料未提供具体技术细节、性能数据或对比结果，仅作为产品发布信息。证据层级为行业动态，结论边界限于产品发布本身。",
-      "keyPoints": [
-        "元石科技发布了问小白 5 Pro",
-        "该引擎专注于长内容生成",
-        "资料未提供技术细节或性能数据"
-      ],
-      "engineeringImpact": "对AI内容生成领域的产品迭代有启示，但缺乏具体技术指标，工程影响有限。",
-      "tags": [
-        "长内容生成",
-        "问小白",
-        "元石科技"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供技术细节"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "产品发布",
-        "companies": [
-          "元石科技"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "未提及",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -409,7 +283,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "元石科技推出新一代长内容生成引擎问小白 5 Pro",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "阿里通义千问推出语音合成大模型 Qwen-Audio-3.0-TTS",
@@ -418,7 +299,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -431,43 +312,6 @@
       "id": "1efc78da",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "阿里通义千问推出语音合成大模型 Qwen-Audio-3.0-TTS",
-      "summary": "阿里通义千问发布了语音合成大模型 Qwen-Audio-3.0-TTS，该模型专注于语音合成任务。资料未提供具体技术细节、性能指标或对比结果，仅作为产品发布信息。证据层级为行业动态，结论边界限于产品发布本身。",
-      "keyPoints": [
-        "阿里通义千问发布了Qwen-Audio-3.0-TTS",
-        "该模型专注于语音合成",
-        "资料未提供技术细节或性能数据"
-      ],
-      "engineeringImpact": "对语音合成领域的产品迭代有启示，但缺乏具体技术指标，工程影响有限。",
-      "tags": [
-        "语音合成",
-        "Qwen-Audio",
-        "通义千问"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供技术细节"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "产品发布",
-        "companies": [
-          "阿里",
-          "通义千问"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "未提及",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -478,7 +322,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "阿里通义千问推出语音合成大模型 Qwen-Audio-3.0-TTS",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "美团推出下一代搜索智能体评测基准 LoHoSearch",
@@ -487,7 +338,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -500,42 +351,6 @@
       "id": "345a443d",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "美团推出下一代搜索智能体评测基准 LoHoSearch",
-      "summary": "美团发布了下一代搜索智能体评测基准 LoHoSearch，该基准用于评估搜索智能体的性能。资料未提供具体评测指标、方法或结果，仅作为产品发布信息。证据层级为行业动态，结论边界限于基准发布本身。",
-      "keyPoints": [
-        "美团推出了LoHoSearch评测基准",
-        "该基准用于评估搜索智能体",
-        "资料未提供具体评测细节"
-      ],
-      "engineeringImpact": "对搜索智能体评测领域有启示，但缺乏具体指标，工程影响有限。",
-      "tags": [
-        "搜索智能体",
-        "评测基准",
-        "LoHoSearch"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供评测细节"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "基准发布",
-        "companies": [
-          "美团"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "未提及",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -546,7 +361,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "美团推出下一代搜索智能体评测基准 LoHoSearch",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "阿里推出Qwen3.8-Max预览版模型，正式版即将发布并开源",
@@ -555,7 +377,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -568,42 +390,6 @@
       "id": "7995a02b",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "阿里推出Qwen3.8-Max预览版模型，正式版即将发布并开源",
-      "summary": "阿里巴巴发布了Qwen3.8-Max预览版模型，该模型在多项基准测试中表现优异，正式版即将发布并计划开源。资料来源于AI-BOT，属于行业动态，未提供具体测试数据或对比结果。",
-      "keyPoints": [
-        "Qwen3.8-Max为预览版模型",
-        "正式版即将发布并开源",
-        "来源为AI-BOT行业动态"
-      ],
-      "engineeringImpact": "该模型的开源可能推动AI技术在风电等工业领域的应用，如故障预测、优化设计等，但需等待正式版发布后评估实际性能。",
-      "tags": [
-        "AI模型",
-        "开源",
-        "Qwen"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供具体测试数据"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "模型发布",
-        "companies": [
-          "阿里巴巴"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "预览版",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -614,7 +400,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "阿里推出Qwen3.8-Max预览版模型，正式版即将发布并开源",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "趣丸科技推出旗舰级AI音乐生成大模型 Tempolor v4.7",
@@ -623,7 +416,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -636,42 +429,6 @@
       "id": "12c5f51f",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "趣丸科技推出旗舰级AI音乐生成大模型 Tempolor v4.7",
-      "summary": "趣丸科技发布了旗舰级AI音乐生成大模型Tempolor v4.7，该模型在音乐生成质量上有所提升。资料来源于AI-BOT，属于行业动态，未提供具体技术细节或性能指标。",
-      "keyPoints": [
-        "Tempolor v4.7为旗舰级AI音乐生成模型",
-        "由趣丸科技推出",
-        "来源为AI-BOT行业动态"
-      ],
-      "engineeringImpact": "AI音乐生成技术可应用于风电场的噪声模拟或声学设计，但需进一步验证模型在工程场景中的适用性。",
-      "tags": [
-        "AI音乐",
-        "生成模型",
-        "Tempolor"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供具体性能指标"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "模型发布",
-        "companies": [
-          "趣丸科技"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "发布",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -682,7 +439,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "趣丸科技推出旗舰级AI音乐生成大模型 Tempolor v4.7",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "字节跳动Seed推出音频创作模型 Seed Audio 1.0",
@@ -691,7 +455,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -704,42 +468,6 @@
       "id": "4dd612ff",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "字节跳动Seed推出音频创作模型 Seed Audio 1.0",
-      "summary": "字节跳动Seed团队发布了音频创作模型Seed Audio 1.0，该模型支持音频生成与编辑。资料来源于AI-BOT，属于行业动态，未提供具体技术细节或应用案例。",
-      "keyPoints": [
-        "Seed Audio 1.0为音频创作模型",
-        "由字节跳动Seed团队推出",
-        "来源为AI-BOT行业动态"
-      ],
-      "engineeringImpact": "音频创作模型可用于风电噪声的模拟与降噪设计，但需评估其在工程环境中的鲁棒性。",
-      "tags": [
-        "音频模型",
-        "AI创作",
-        "Seed"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供具体技术细节"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "模型发布",
-        "companies": [
-          "字节跳动"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "发布",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -750,7 +478,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "字节跳动Seed推出音频创作模型 Seed Audio 1.0",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "月之暗面推出最强开源 AI 大模型 Kimi K3",
@@ -759,7 +494,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -772,40 +507,6 @@
       "id": "54b6ca0f",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "月之暗面推出最强开源 AI 大模型 Kimi K3",
-      "summary": "月之暗面公司发布了其最新开源AI大模型Kimi K3，据称是当前最强的开源模型。该模型在多项基准测试中表现优异，但具体性能数据和对比细节未在摘要中提供。此消息来源于AI-BOT，发布于2026年7月19日。",
-      "keyPoints": [
-        "月之暗面公司发布了Kimi K3模型",
-        "Kimi K3被描述为最强开源AI大模型",
-        "消息发布于2026年7月19日"
-      ],
-      "engineeringImpact": "该模型的开源可能推动AI技术在风电等工业领域的应用，如故障预测、优化设计等，但具体影响需进一步评估。",
-      "tags": [
-        "AI大模型",
-        "开源",
-        "Kimi K3"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": []
-      },
-      "industryDetails": {
-        "eventType": "产品发布",
-        "companies": [
-          "月之暗面"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -816,7 +517,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "月之暗面推出最强开源 AI 大模型 Kimi K3",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "努比亚发售 AI 宠物机器人 iMoochi",
@@ -825,7 +533,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -838,40 +546,6 @@
       "id": "1977f4d3",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "努比亚发售 AI 宠物机器人 iMoochi",
-      "summary": "努比亚公司正式发售AI宠物机器人iMoochi，该产品具备AI交互功能，面向消费市场。具体技术规格、售价和上市地区未在摘要中提及。消息来源于IT之家，发布于2026年7月19日。",
-      "keyPoints": [
-        "努比亚发售AI宠物机器人iMoochi",
-        "产品具备AI交互功能",
-        "消息发布于2026年7月19日"
-      ],
-      "engineeringImpact": "AI宠物机器人的技术可能为工业机器人的人机交互提供借鉴，但直接工程影响有限。",
-      "tags": [
-        "AI宠物",
-        "机器人",
-        "努比亚"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": []
-      },
-      "industryDetails": {
-        "eventType": "产品发售",
-        "companies": [
-          "努比亚"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 55,
         "grade": "C",
@@ -883,7 +557,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "努比亚发售 AI 宠物机器人 iMoochi",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "英伟达开源的文本嵌入模型系列 Nemotron 3 Embed",
@@ -892,7 +573,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -905,40 +586,6 @@
       "id": "26f77dc6",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "英伟达开源的文本嵌入模型系列 Nemotron 3 Embed",
-      "summary": "英伟达开源了其文本嵌入模型系列Nemotron 3 Embed，该系列模型可用于自然语言处理任务。具体模型规模、性能指标和开源协议未在摘要中说明。消息来源于AI-BOT，发布于2026年7月19日。",
-      "keyPoints": [
-        "英伟达开源Nemotron 3 Embed模型系列",
-        "该模型用于文本嵌入任务",
-        "消息发布于2026年7月19日"
-      ],
-      "engineeringImpact": "文本嵌入模型可提升工业文档检索、知识图谱构建等效率，对风电运维知识管理有潜在价值。",
-      "tags": [
-        "文本嵌入",
-        "开源",
-        "英伟达"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": []
-      },
-      "industryDetails": {
-        "eventType": "开源发布",
-        "companies": [
-          "英伟达"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 55,
         "grade": "C",
@@ -950,7 +597,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "英伟达开源的文本嵌入模型系列 Nemotron 3 Embed",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "马斯克旗下 xAI 开源 AI 编程智能体 Grok Build",
@@ -959,7 +613,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -972,42 +626,6 @@
       "id": "2f8a4c69",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "马斯克旗下 xAI 开源 AI 编程智能体 Grok Build",
-      "summary": "本文报道了马斯克旗下 xAI 公司开源其 AI 编程智能体 Grok Build 的消息。该智能体旨在辅助开发者进行代码编写和调试，通过开源方式促进社区协作与创新。文章未提供具体技术细节或性能数据，属于行业动态报道。",
-      "keyPoints": [
-        "xAI 开源了 AI 编程智能体 Grok Build",
-        "Grok Build 用于辅助代码编写和调试",
-        "开源旨在促进社区协作与创新"
-      ],
-      "engineeringImpact": "对软件工程领域，开源 AI 编程助手可降低开发门槛，提升编码效率，但需关注代码质量和安全性。",
-      "tags": [
-        "AI编程",
-        "开源",
-        "智能体"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "开源发布",
-        "companies": [
-          "xAI"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 55,
         "grade": "C",
@@ -1019,7 +637,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "马斯克旗下 xAI 开源 AI 编程智能体 Grok Build",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "Codex 推出首款编程键盘硬件 Codex Micro",
@@ -1028,7 +653,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -1041,42 +666,6 @@
       "id": "69fb08ed",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "Codex 推出首款编程键盘硬件 Codex Micro",
-      "summary": "本文报道了 Codex 公司推出首款编程键盘硬件 Codex Micro 的消息。该键盘专为程序员设计，可能集成快捷键或自定义功能以提升编码效率。文章未提供具体规格或性能数据，属于行业动态报道。",
-      "keyPoints": [
-        "Codex 推出了首款编程键盘硬件 Codex Micro",
-        "该键盘专为程序员设计",
-        "可能集成快捷键或自定义功能"
-      ],
-      "engineeringImpact": "对硬件设计领域，专用编程键盘可优化输入效率，但需评估其与现有工具的兼容性和用户接受度。",
-      "tags": [
-        "编程键盘",
-        "硬件",
-        "Codex"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "产品发布",
-        "companies": [
-          "Codex"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -1087,7 +676,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "Codex 推出首款编程键盘硬件 Codex Micro",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "阿里通义推出实时语音交互模型 Qwen-Audio-3.0-Realtime",
@@ -1096,7 +692,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -1109,42 +705,6 @@
       "id": "1ba787da",
       "relevanceScore": 10,
       "category": "AI动态",
-      "titleZh": "阿里通义推出实时语音交互模型 Qwen-Audio-3.0-Realtime",
-      "summary": "本文报道了阿里通义推出实时语音交互模型 Qwen-Audio-3.0-Realtime 的消息。该模型支持实时语音识别与交互，可能应用于智能助手、客服等场景。文章未提供具体技术指标或性能数据，属于行业动态报道。",
-      "keyPoints": [
-        "阿里通义推出了实时语音交互模型 Qwen-Audio-3.0-Realtime",
-        "该模型支持实时语音识别与交互",
-        "可能应用于智能助手、客服等场景"
-      ],
-      "engineeringImpact": "对语音交互领域，实时模型可提升用户体验，但需关注延迟、准确率和多语言支持等工程挑战。",
-      "tags": [
-        "语音交互",
-        "实时模型",
-        "阿里通义"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "模型发布",
-        "companies": [
-          "阿里通义"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-19",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -1155,106 +715,14 @@
         "limitations": [
           "缺少内容摘要"
         ]
-      }
-    },
-    {
-      "title": "Range-Wide Aerodynamic Optimization of Darrieus Vertical Axis Wind Turbines Using CFD and Surrogate Models",
-      "url": "https://www.mdpi.com/2674-032X/6/1/2",
-      "sourceUrl": "https://www.mdpi.com/2674-032X/6/1/2",
-      "snippet": "The depletion of fossil fuel resources and the growing need for sustainable energy solutions have increased interest in vertical axis wind turbines (VAWTs), which offer advantages in urban and variable-wind environments but often exhibit limited performance at low tip speed ratios (TSRs). This study optimizes VAWT aerodynamic behavior across a wide TSR range by varying three geometric parameters: maximum thickness position (a/b), relative thickness (m), and pitch angle (&beta;). A two-dimensional computational fluid dynamics (CFD) framework, combined with the Metamodel of Optimal Prognosis (MOP), was used to build surrogate models, perform sensitivity analyses, and identify optimal profiles through gradient-based optimization of the integrated Cp&ndash;&lambda; curve. The Joukowsky transformation was employed for efficient geometric parameterization while maintaining aerodynamic adaptability. The optimized airfoils consistently outperformed the baseline NACA 0021, yielding up to a 14.4% improvement at &lambda;=2.64 and an average increase of 10.7% across all evaluated TSRs. Flow-field analysis confirmed reduced separation, smoother pressure gradients, and enhanced torque generation. Overall, the proposed methodology provides a robust and computationally efficient framework for multi-TSR optimization, integrating Joukowsky-based parameterization with surrogate modeling to improve VAWT performance under diverse operating conditions.",
-      "source": "Wind (MDPI)",
-      "publishedAt": "2026-01-12T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Wind (MDPI)",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电动态",
-      "contextTags": [
-        "风电动态"
-      ],
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 0,
-        "authors": [],
-        "journal": "Wind (MDPI)",
-        "isOpenAccess": true
       },
-      "id": "239232fe",
-      "relevanceScore": 24,
-      "_researchTag": "AI动态",
-      "category": "学术研究",
+      "titleZh": "阿里通义推出实时语音交互模型 Qwen-Audio-3.0-Realtime",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
       "tags": [
-        "垂直轴风力机",
-        "CFD",
-        "代理模型",
-        "气动优化",
-        "Joukowsky变换"
-      ],
-      "titleZh": "基于CFD和代理模型的达里厄垂直轴风力机全范围气动优化",
-      "summary": "针对垂直轴风力机在低尖速比下性能受限的问题，本研究通过改变最大厚度位置、相对厚度和桨距角三个几何参数，结合二维CFD与最优预测元模型构建代理模型，采用梯度优化方法对Cp-λ曲线进行集成优化。优化翼型相比NACA 0021在λ=2.64时功率系数提升14.4%，所有TSR平均提升10.7%。流场分析显示分离减小、压力梯度更平滑、扭矩增强。该框架为多TSR优化提供了计算高效的方法。证据来自仿真，未涉及实验验证。",
-      "keyPoints": [
-        "优化参数包括最大厚度位置、相对厚度和桨距角",
-        "使用Joukowsky变换进行几何参数化",
-        "优化翼型在λ=2.64时Cp提升14.4%",
-        "所有TSR平均Cp提升10.7%",
-        "流场分析表明分离减小和扭矩增强"
-      ],
-      "engineeringImpact": "该优化方法可直接用于VAWT叶片设计，通过调整三个几何参数即可在宽TSR范围内提升性能，减少迭代成本。对城市和变风环境下的VAWT设计具有工程指导意义。",
-      "paperDetails": {
-        "objective": "优化达里厄垂直轴风力机在宽TSR范围内的气动性能",
-        "methods": "二维CFD结合最优预测元模型，梯度优化，Joukowsky变换参数化",
-        "testObject": "达里厄垂直轴风力机翼型，基线为NACA 0021",
-        "operatingConditions": "宽TSR范围，具体未提及",
-        "quantitativeFindings": [
-          {
-            "metric": "功率系数提升",
-            "value": "14.4%",
-            "unit": "%",
-            "comparison": "相比NACA 0021",
-            "conditions": "λ=2.64",
-            "evidence": "仿真结果"
-          },
-          {
-            "metric": "平均功率系数提升",
-            "value": "10.7%",
-            "unit": "%",
-            "comparison": "相比NACA 0021",
-            "conditions": "所有评估TSR",
-            "evidence": "仿真结果"
-          }
-        ],
-        "limitations": [
-          "仅二维仿真，未考虑三维效应",
-          "未进行实验验证",
-          "仅针对特定翼型族"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
-      "reliability": {
-        "score": 76,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "发表在Wind (MDPI)",
-          "开放获取",
-          "有详细摘要",
-          "有结构化摘要"
-        ],
-        "limitations": []
-      }
+        "国内"
+      ]
     },
     {
       "title": "Coupled Aero-Hydro-Elastic Response Analysis of 16 MW Semi-Submersible and TLP Floating Wind Turbines",
@@ -1263,7 +731,7 @@
       "snippet": "This study investigates the dynamic performance characteristics of 16 MW-class floating wind turbines supported by semi-submersible and tension leg platform (TLP) concepts, with the aim of providing guidance for platform selection. High-fidelity coupled aero-hydro-servo-elastic models were developed in OpenFAST for both floating platform configurations. Dynamic simulations were carried out under operational conditions for five wind–wave inflow directions with aligned environmental loading. The responses of the floating systems were comprehensively evaluated in terms of platform six-degree-of-freedom motions, tower structural behavior, blade aeroelastic loads, and aerodynamic performance. The results show that the TLP configuration provides enhanced hydrodynamic stability, reduced platform motions, and improved aerodynamic efficiency compared with the semi-submersible platform. In contrast, the semi-submersible configuration exhibits lower aeroelastic loading levels. Furthermore, platform-induced hydrodynamic excitations significantly amplify the elastic responses of both the tower and blades, leading to noticeable variations in aerodynamic performance. These findings provide useful insights into the design and selection of next-generation large-scale floating wind turbine platforms.",
       "source": "Journal of Marine Science and Engineering",
       "publishedAt": "2026-07-20",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "OpenAlex/气动布局研究",
       "linkType": "publisher",
       "region": "海外",
@@ -1293,45 +761,8 @@
       "_researchTag": "气动研究",
       "category": "学术研究",
       "tags": [
-        "浮式风力机",
-        "半潜式",
-        "TLP",
-        "气动-水动-弹性耦合",
-        "OpenFAST"
+        "气动研究"
       ],
-      "titleZh": "16 MW半潜式与TLP浮式风力机耦合气动-水动-弹性响应分析",
-      "summary": "本研究针对16 MW级浮式风力机，对比半潜式和张力腿平台两种概念，在OpenFAST中建立高保真耦合模型，模拟五种风浪入流方向下的动态响应。结果显示TLP平台提供更好的水动稳定性和气动效率，但半潜式平台气弹载荷更低。平台诱导的水动激励显著放大塔架和叶片的弹性响应，导致气动性能变化。研究为下一代大型浮式风力机平台选型提供参考。证据来自仿真，未涉及实验。",
-      "keyPoints": [
-        "对比半潜式和TLP两种浮式平台",
-        "使用OpenFAST进行高保真耦合仿真",
-        "TLP平台水动稳定性更好，气动效率更高",
-        "半潜式平台气弹载荷更低",
-        "水动激励放大塔架和叶片弹性响应"
-      ],
-      "engineeringImpact": "研究结果可直接指导16 MW级浮式风力机平台选型：TLP适合追求稳定性和效率的场景，半潜式适合控制载荷。对浮式风电平台设计具有工程参考价值。",
-      "paperDetails": {
-        "objective": "比较16 MW半潜式和TLP浮式风力机的动态性能",
-        "methods": "OpenFAST高保真耦合仿真，五种风浪方向",
-        "testObject": "16 MW浮式风力机，半潜式和TLP平台",
-        "operatingConditions": "运行工况，五种风浪入流方向，环境载荷对齐",
-        "quantitativeFindings": [],
-        "limitations": [
-          "仅仿真，无实验验证",
-          "未考虑非线性波浪",
-          "仅针对特定平台设计"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 96,
         "grade": "A",
@@ -1344,98 +775,66 @@
           "有详细摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "Coupled Aero-Hydro-Elastic Response Analysis of 16 MW Semi-Submersible and TLP Floating Wind Turbines",
+      "summary": "This study investigates the dynamic performance characteristics of 16 MW-class floating wind turbines supported by semi-submersible and tension leg platform (TLP) concepts, with the aim of providing guidance for platform selection. High-fidelity coupled aero-hydro-servo-elastic models were developed in OpenFAST for both floating platform configurations. Dynamic simulations were carried out under operational conditions for five wind–wave inflow directions with aligned environmental loading. The responses of the floating systems were comprehensively evaluated in terms of platform six-degree-of-freedom motions, tower structural behavior, blade aeroelastic loads, and aerodynamic performance. The results show that the TLP configuration provides enhanced hydrodynamic stability, reduced platform motions, and improved aerodynamic efficiency compared with the semi-submersible platform. In contrast, the semi-submersible configuration exhibits lower aeroelastic loading levels. Furthermore, platform-induced hydrodynamic excitations significantly amplify the elastic responses of both the tower and blades, leading to noticeable variations in aerodynamic performance. These findings provide useful insights into the design and selection of next-generation large-scale floating wind turbine platforms.",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
       "title": "Identification of Roll Defect or Damage Based on Rayleigh Waves and Deep Convolutional Neural Network Models",
-      "url": "https://www.mdpi.com/1996-1944/19/14/3089",
-      "sourceUrl": "https://www.mdpi.com/1996-1944/19/14/3089",
+      "url": "https://doi.org/10.3390/ma19143089",
+      "sourceUrl": "https://doi.org/10.3390/ma19143089",
       "snippet": "It is important to detect the damage in the rollers and repair them since the damage to the rollers has a negative impact on the quality of the rolled products. Identifying the types of damage helps determine the repair process and normal production work. Ultrasonic testing technology has the advantages of large detection depth, accurate defect localization, low cost, convenient use, fast speed, and harmlessness to the human body. In order to improve the intelligence of ultrasonic detection for identifying damages in rollers, this article proposes a deep learning classification method of damages based on Rayleigh wave signals and power spectrum images with specific sampling rate, automatic identification of four common types of damages (void, hole, crack, and adhesion) is achieved by establishing end-to-end learning models for one-dimensional (1D) and two-dimensional (2D) data. Firstly, an organic glass inclined block and a clamping device were designed. In the experiment, time-domain signals were received on the right side of the damaged sample, and signal data sets were established for signals with different sampling rates. Then, the power spectrum image data sets were established after a short-time Fourier transform was performed. Next, a damage detection model is established based on a deep learning framework, which includes ResNet, GoogLeNet, DenseNet, and AlexNet with 1D and 2D convolutional channels to extract signal features for classifying damage. Finally, the performances of DenseNet models with different structures and depths are compared based on key indicators such as accuracy and training time. The experiment demonstrates that under high sampling rate conditions, using the power spectrum image of Rayleigh waves as data input yields better results than directly using Rayleigh wave signals. Moreover, for the power spectrum images of 0.5 MS/s Rayleigh waves, using ResNet-18 to establish a deep learning model can achieve high accuracy and shorter training ",
-      "source": "Materials (MDPI)",
-      "publishedAt": "2026-07-17T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Materials (MDPI)",
+      "source": "Materials",
+      "publishedAt": "2026-07-17",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "OpenAlex/螺栓连接研究",
       "linkType": "publisher",
       "region": "海外",
       "language": "en",
       "sourceType": "学术论文",
-      "queryTopic": "疲劳断裂",
-      "contextTags": [
-        "疲劳断裂"
-      ],
+      "queryTopic": "螺栓连接研究",
       "evidence": {
         "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 0,
-        "authors": [],
-        "journal": "Materials (MDPI)",
+        "doi": "10.3390/ma19143089",
+        "authorsCount": 4,
+        "authors": [
+          "Biao Xiao",
+          "Yue Zhang",
+          "Zhiwei Liu",
+          "Maoxun Sun"
+        ],
+        "citedByCount": 0,
+        "publicationType": "article",
+        "journal": "Materials",
+        "publisher": "Multidisciplinary Digital Publishing Institute",
         "isOpenAccess": true
       },
-      "id": "4a2e0ebf",
+      "id": "6cf46139",
       "relevanceScore": 21,
       "_researchTag": "疲劳断裂",
       "category": "学术研究",
       "tags": [
-        "超声检测",
-        "瑞利波",
-        "深度学习",
-        "轧辊缺陷",
-        "ResNet"
+        "疲劳断裂"
       ],
-      "titleZh": "基于瑞利波和深度卷积神经网络模型的轧辊缺陷或损伤识别",
-      "summary": "针对轧辊损伤影响产品质量的问题，提出基于瑞利波信号和功率谱图像的深度学习分类方法，自动识别空洞、孔洞、裂纹和粘附四种损伤。设计有机玻璃斜块和夹持装置采集时域信号，经短时傅里叶变换得到功率谱图像，利用ResNet、GoogLeNet、DenseNet和AlexNet等模型进行分类。实验表明，高采样率下功率谱图像作为输入优于原始信号，0.5 MS/s采样率下ResNet-18实现高精度和短训练时间。证据来自实验，但未给出具体准确率数值。",
-      "keyPoints": [
-        "识别四种损伤类型：空洞、孔洞、裂纹、粘附",
-        "使用瑞利波信号和功率谱图像作为输入",
-        "比较多种深度学习模型性能",
-        "高采样率下功率谱图像优于原始信号",
-        "ResNet-18在0.5 MS/s下表现最佳"
-      ],
-      "engineeringImpact": "该方法可集成到轧辊在线检测系统中，实现自动化损伤分类，提高维修效率。对冶金行业轧辊维护具有工程应用价值。",
-      "paperDetails": {
-        "objective": "基于瑞利波和深度学习自动识别轧辊损伤类型",
-        "methods": "超声检测，短时傅里叶变换，ResNet/GoogLeNet/DenseNet/AlexNet分类",
-        "testObject": "轧辊样品，含空洞、孔洞、裂纹、粘附四种损伤",
-        "operatingConditions": "不同采样率，0.5 MS/s等",
-        "quantitativeFindings": [
-          {
-            "metric": "采样率",
-            "value": "0.5",
-            "unit": "MS/s",
-            "comparison": "未提及",
-            "conditions": "ResNet-18最佳性能",
-            "evidence": "实验"
-          }
-        ],
-        "limitations": [
-          "未给出具体准确率数值",
-          "仅实验室条件，未现场验证",
-          "损伤类型有限"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
-        "score": 76,
-        "grade": "B",
-        "label": "待核验",
+        "score": 95,
+        "grade": "A",
+        "label": "高可靠",
         "factors": [
-          "发表在Materials (MDPI)",
+          "有DOI可追溯",
+          "发表在Materials",
+          "4位作者",
           "开放获取",
-          "有详细摘要",
-          "有结构化摘要"
+          "有详细摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "Identification of Roll Defect or Damage Based on Rayleigh Waves and Deep Convolutional Neural Network Models",
+      "summary": "It is important to detect the damage in the rollers and repair them since the damage to the rollers has a negative impact on the quality of the rolled products. Identifying the types of damage helps determine the repair process and normal production work. Ultrasonic testing technology has the advantages of large detection depth, accurate defect localization, low cost, convenient use, fast speed, and harmlessness to the human body. In order to improve the intelligence of ultrasonic detection for identifying damages in rollers, this article proposes a deep learning classification method of damages based on Rayleigh wave signals and power spectrum images with specific sampling rate, automatic identification of four common types of damages (void, hole, crack, and adhesion) is achieved by establishing end-to-end learning models for one-dimensional (1D) and two-dimensional (2D) data. Firstly, an organic glass inclined block and a clamping device were designed. In the experiment, time-domain signals were received on the right side of the damaged sample, and signal data sets were established for signals with different sampling rates. Then, the power spectrum image data sets were established after a short-time Fourier transform was performed. Next, a damage detection model is established based on a deep learning framework, which includes ResNet, GoogLeNet, DenseNet, and AlexNet with 1D and 2D convolutional channels to extract signal features for classifying damage. Finally, the performances of DenseNet models with different structures and depths are compared based on key indicators such as accuracy and training time. The experiment demonstrates that under high sampling rate conditions, using the power spectrum image of Rayleigh waves as data input yields better results than directly using Rayleigh wave signals. Moreover, for the power spectrum images of 0.5 MS/s Rayleigh waves, using ResNet-18 to establish a deep learning model can achieve high accuracy and shorter training ",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
       "title": "Influence of the inflow conditions on the dynamics of a floating wind turbine wake under harmonic surge motion",
@@ -1444,7 +843,7 @@
       "snippet": "Abstract. Floating offshore wind turbines (FOWTs) are projected to undergo substantial expansion in the coming decades. However, the high compliance of their floating foundations, coupled with aerodynamic, hydrodynamic and mooring forces, leads to complex platform motions that make it difficult to predict their wake dynamics. The vortex ring structure produced during surge motion has been the subject of study for nearly a decade now but there are still many features to bring to light. As most studies have been under idealised uniform flow, there is little knowledge on how this structure behaves under atmospheric boundary layer (ABL) flow. In this work, the authors propose to study this structure under three different inflow conditions: laminar and low-turbulence no-shear flows and ABL flow. Large eddy simulations are carried out in combination with an actuator disc (AD) as a wind turbine model, with a focus on surge motion and a Strouhal number ranging between 0 and 0.47. The velocity values are extracted at a vertical plane parallel to the AD axis, which is subsequently analysed by means of proper orthogonal decomposition (POD) and phase averaging. In the POD analysis, vortex ring structures are identified under all inflow conditions, though their energy decreases as turbulence increases. Additionally, a dependence of energy on frequency is observed for low-turbulence no-shear and ABL flows, with the maximum energy occurring at Strouhal numbers 0.30 and 0.32, respectively. Furthermore, vertical meandering is detected in both cases. In low-turbulence no-shear flow, meandering and vortex rings act as decoupled phenomena. Replicating the analysis on a horizontal plane at hub height, it is observed that lateral meandering is uniformly intense under this inflow condition. Conversely, under ABL conditions, the surge motion interacts with the turbulent shear flow to actively induce a coupled vertical meandering. Vertical and lateral meandering in ABL conditions rely on en",
       "source": "Wind energy science",
       "publishedAt": "2026-07-20",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "OpenAlex/气动布局研究",
       "linkType": "publisher",
       "region": "海外",
@@ -1472,62 +871,8 @@
       "_researchTag": "气动研究",
       "category": "学术研究",
       "tags": [
-        "浮式风力机",
-        "尾流动力学",
-        "涡环",
-        "纵摇运动",
-        "大涡模拟"
+        "气动研究"
       ],
-      "titleZh": "入流条件对谐波纵摇运动下浮式风力机尾流动力学的影响",
-      "summary": "本文通过大涡模拟结合致动盘模型，研究了三种入流条件（层流、低湍流无剪切流和大气边界层流）下浮式风力机纵摇运动产生的涡环结构。Strouhal数范围0-0.47。采用本征正交分解和相位平均分析垂直平面速度场。结果表明：所有入流条件下均识别出涡环结构，但其能量随湍流增加而降低；低湍流无剪切流和ABL流中能量随频率变化，最大能量分别出现在Strouhal数0.30和0.32；垂直偏摆在两种流中均被检测到，但低湍流无剪切流中偏摆与涡环解耦，而ABL流中纵摇运动与湍流剪切相互作用诱发耦合垂直偏摆。证据来自数值模拟，结论受限于致动盘模型和特定运动参数。",
-      "keyPoints": [
-        "涡环结构在三种入流条件下均被识别",
-        "涡环能量随湍流强度增加而降低",
-        "低湍流无剪切流中最大能量出现在Strouhal数0.30",
-        "ABL流中最大能量出现在Strouhal数0.32",
-        "ABL流中纵摇运动与湍流剪切耦合诱发垂直偏摆"
-      ],
-      "engineeringImpact": "揭示了不同入流条件下浮式风力机尾流涡环结构的能量和偏摆特性，为浮式风力机尾流预测和阵列布局优化提供了依据，尤其需考虑大气边界层湍流对尾流动力学的影响。",
-      "paperDetails": {
-        "objective": "研究不同入流条件（层流、低湍流无剪切流、大气边界层流）下浮式风力机纵摇运动产生的涡环结构及其动力学特性。",
-        "methods": "大涡模拟结合致动盘模型，本征正交分解和相位平均分析。",
-        "testObject": "浮式风力机模型（致动盘）",
-        "operatingConditions": "纵摇运动，Strouhal数0-0.47，三种入流条件",
-        "quantitativeFindings": [
-          {
-            "metric": "最大能量对应的Strouhal数",
-            "value": "0.30",
-            "unit": "无量纲",
-            "comparison": "低湍流无剪切流",
-            "conditions": "低湍流无剪切流",
-            "evidence": "POD分析"
-          },
-          {
-            "metric": "最大能量对应的Strouhal数",
-            "value": "0.32",
-            "unit": "无量纲",
-            "comparison": "ABL流",
-            "conditions": "ABL流",
-            "evidence": "POD分析"
-          }
-        ],
-        "limitations": [
-          "致动盘模型简化了叶片细节",
-          "仅考虑纵摇运动",
-          "Strouhal数范围有限"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 95,
         "grade": "A",
@@ -1540,7 +885,11 @@
           "有详细摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "Influence of the inflow conditions on the dynamics of a floating wind turbine wake under harmonic surge motion",
+      "summary": "Abstract. Floating offshore wind turbines (FOWTs) are projected to undergo substantial expansion in the coming decades. However, the high compliance of their floating foundations, coupled with aerodynamic, hydrodynamic and mooring forces, leads to complex platform motions that make it difficult to predict their wake dynamics. The vortex ring structure produced during surge motion has been the subject of study for nearly a decade now but there are still many features to bring to light. As most studies have been under idealised uniform flow, there is little knowledge on how this structure behaves under atmospheric boundary layer (ABL) flow. In this work, the authors propose to study this structure under three different inflow conditions: laminar and low-turbulence no-shear flows and ABL flow. Large eddy simulations are carried out in combination with an actuator disc (AD) as a wind turbine model, with a focus on surge motion and a Strouhal number ranging between 0 and 0.47. The velocity values are extracted at a vertical plane parallel to the AD axis, which is subsequently analysed by means of proper orthogonal decomposition (POD) and phase averaging. In the POD analysis, vortex ring structures are identified under all inflow conditions, though their energy decreases as turbulence increases. Additionally, a dependence of energy on frequency is observed for low-turbulence no-shear and ABL flows, with the maximum energy occurring at Strouhal numbers 0.30 and 0.32, respectively. Furthermore, vertical meandering is detected in both cases. In low-turbulence no-shear flow, meandering and vortex rings act as decoupled phenomena. Replicating the analysis on a horizontal plane at hub height, it is observed that lateral meandering is uniformly intense under this inflow condition. Conversely, under ABL conditions, the surge motion interacts with the turbulent shear flow to actively induce a coupled vertical meandering. Vertical and lateral meandering in ABL conditions rely on en",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
       "title": "Sensitivity analysis of key parameters for full-blade icing of wind turbines during rotation",
@@ -1549,7 +898,7 @@
       "snippet": "Blade icing critically constrains the efficiency and safety of wind turbines in cold and offshore regions, yet the spatial characteristics of full-blade icing under rotation, the parametric sensitivity of icing-induced aerodynamic degradation, and the mechanism of leeward icing remain insufficiently understood. This study develops a numerical framework coupling Fluent with FENSAP-ICE, in which Moving Reference Frame and dynamic-meshing techniques enable three-dimensional rotating simulations of airflow, droplet impingement, water-film migration, phase-change icing, and aerodynamic evaluation. At −10°C, rotational speed, inflow velocity, liquid water content (LWC), and median volume diameter (MVD) are varied parametrically, and response surface methodology quantifies spanwise sensitivities of icing and lift-to-drag ratio degradation. Wind velocity governs aerodynamic deterioration most strongly near the blade tip, with LWC secondary, whereas LWC dominates at mid-span, where wind velocity and droplet size show comparable secondary significance, indicating pronounced rotation-induced radial differences. Leeward icing stems mainly from windward water films transported into the leeward low-pressure separation zone by aerodynamic shear, centrifugal force, and gravity, rather than direct droplet impingement, and intensifies with larger droplets. Icing reduces the tip lift-to-drag ratio by up to 80% and shifts the optimal angle of attack, informing ice warning, zonal anti-/de-icing design, and operational control.",
       "source": "Nondestructive Testing And Evaluation",
       "publishedAt": "2026-07-19",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "OpenAlex/气动布局研究",
       "linkType": "publisher",
       "region": "海外",
@@ -1578,54 +927,8 @@
       "_researchTag": "气动研究",
       "category": "学术研究",
       "tags": [
-        "叶片结冰",
-        "气动退化",
-        "响应面法",
-        "FENSAP-ICE",
-        "升阻比"
+        "气动研究"
       ],
-      "titleZh": "旋转过程中风力机全叶片结冰关键参数敏感性分析",
-      "summary": "本文建立了耦合Fluent和FENSAP-ICE的数值框架，采用移动参考系和动网格技术实现三维旋转模拟，研究-10°C下转速、来流速度、液态水含量和液滴中值体积直径对叶片结冰及气动性能的影响。响应面法量化了展向敏感性：风速对叶尖气动退化影响最大，LWC次之；而LWC在叶中占主导。揭示了背风面结冰主要由迎风面水膜经气动剪切、离心力和重力输运至背风低压分离区所致。结冰使叶尖升阻比降低高达80%，并改变最佳攻角。",
-      "keyPoints": [
-        "风速对叶尖气动退化影响最大，LWC次之",
-        "LWC在叶中占主导，风速和液滴尺寸次之",
-        "背风面结冰源于迎风面水膜输运而非直接撞击",
-        "结冰使叶尖升阻比降低高达80%",
-        "响应面法用于量化展向敏感性"
-      ],
-      "engineeringImpact": "揭示了旋转条件下全叶片结冰的展向敏感性差异和背风面结冰机理，为结冰预警、分区防除冰设计和运行控制提供了定量依据，有助于提升寒冷地区风电机组的安全性和效率。",
-      "paperDetails": {
-        "objective": "分析旋转条件下风力机全叶片结冰关键参数（转速、来流速度、LWC、MVD）的敏感性及背风面结冰机理。",
-        "methods": "Fluent-FENSAP-ICE耦合数值模拟，移动参考系和动网格，响应面法。",
-        "testObject": "风力机全叶片三维模型",
-        "operatingConditions": "-10°C，旋转状态，参数变化",
-        "quantitativeFindings": [
-          {
-            "metric": "叶尖升阻比降低",
-            "value": "80",
-            "unit": "%",
-            "comparison": "结冰前后",
-            "conditions": "结冰条件",
-            "evidence": "数值模拟结果"
-          }
-        ],
-        "limitations": [
-          "数值模拟未考虑实际气象变化",
-          "仅针对-10°C单一温度",
-          "未验证实验数据"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 93,
         "grade": "A",
@@ -1638,221 +941,11 @@
           "有结构化摘要"
         ],
         "limitations": []
-      }
-    },
-    {
-      "title": "Computational Fluid Dynamics Analysis of Aerodynamic Characteristics in a Small-Scale Horizontal-Axis Wind Turbine",
-      "url": "https://www.mdpi.com/2674-032X/6/2/18",
-      "sourceUrl": "https://www.mdpi.com/2674-032X/6/2/18",
-      "snippet": "In various parts of Indonesia, particularly in coastal areas, wind energy can be used as a source of electricity, using wind turbines, whose energy depends on wind speed. Basically, the number of blades in a wind turbine affects the overall turbine performance. This research analyzes the influence of the blade number on the performance of a small-scale horizontal-axis wind turbine using experimental measurements and Computational Fluid Dynamics (CFD) simulations. The CFD simulations were conducted using ANSYS 2022 R2 software on a small-scale horizontal-axis wind turbine with variations in the number of blades, specifically three, four, and five blades, conducted at various wind speeds. It should be noted that due to the setup limitation in the experiment, only the RPM of the three-bladed turbine was measured. Other variables such as torque and power were derived from CFD simulations. The results of this research indicate that an increase in the number of turbine blades tends to result in higher power output, where the highest output obtained was 46.25 Watts. Furthermore, as the number of turbine blades increases, the turbine efficiency also tends to increase, but as wind speed increases, the efficiency decreases. This is demonstrated by the research results, where a wind turbine with five blades achieved the highest efficiency at a speed of 3 m/s, at 38.00%, while at a speed of 6 m/s, the efficiency was 34.80%. Overall, through experiments and cross-validation of CFD and QBlade version 0.963.1, the present study could confirm the significant effect of the number of blades on the power produced by a small-scale horizontal-axis wind turbine under low-speed conditions.",
-      "source": "Wind (MDPI)",
-      "publishedAt": "2026-04-20T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Wind (MDPI)",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电动态",
-      "contextTags": [
-        "风电动态"
-      ],
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 0,
-        "authors": [],
-        "journal": "Wind (MDPI)",
-        "isOpenAccess": true
       },
-      "id": "4cdebf17",
-      "relevanceScore": 17,
-      "_researchTag": "气动研究",
-      "category": "学术研究",
-      "tags": [
-        "小型风力机",
-        "叶片数",
-        "CFD",
-        "效率",
-        "低风速"
-      ],
-      "titleZh": "小型水平轴风力机气动特性的计算流体动力学分析",
-      "summary": "本文通过实验和CFD模拟（ANSYS 2022 R2）研究叶片数（3、4、5）对小型水平轴风力机性能的影响。实验仅测量了三叶片风轮的转速，扭矩和功率由CFD获得。结果表明：叶片数增加，功率输出增大，最高46.25瓦；效率也增加，但随风速升高而降低。五叶片风轮在3 m/s时效率最高38.00%，6 m/s时34.80%。通过实验与CFD及QBlade交叉验证，确认了低风速下叶片数对功率的显著影响。",
-      "keyPoints": [
-        "五叶片风轮在3 m/s时效率最高38.00%",
-        "五叶片风轮在6 m/s时效率34.80%",
-        "最高功率输出46.25瓦",
-        "实验仅测量了三叶片风轮的转速",
-        "CFD与QBlade交叉验证"
-      ],
-      "engineeringImpact": "为小型水平轴风力机在低风速地区的叶片数选型提供了参考，表明增加叶片数可提升功率和效率，但效率随风速增加而下降，需根据实际风况优化设计。",
-      "paperDetails": {
-        "objective": "分析叶片数对小型水平轴风力机性能的影响。",
-        "methods": "实验测量和CFD模拟（ANSYS 2022 R2），QBlade验证。",
-        "testObject": "小型水平轴风力机（3、4、5叶片）",
-        "operatingConditions": "不同风速（3-6 m/s）",
-        "quantitativeFindings": [
-          {
-            "metric": "最高功率",
-            "value": "46.25",
-            "unit": "W",
-            "comparison": "不同叶片数",
-            "conditions": "未提及具体风速",
-            "evidence": "CFD模拟"
-          },
-          {
-            "metric": "五叶片效率",
-            "value": "38.00",
-            "unit": "%",
-            "comparison": "3 m/s",
-            "conditions": "风速3 m/s",
-            "evidence": "CFD模拟"
-          },
-          {
-            "metric": "五叶片效率",
-            "value": "34.80",
-            "unit": "%",
-            "comparison": "6 m/s",
-            "conditions": "风速6 m/s",
-            "evidence": "CFD模拟"
-          }
-        ],
-        "limitations": [
-          "实验仅测量了三叶片转速",
-          "扭矩和功率来自CFD",
-          "未考虑湍流影响"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
-      "reliability": {
-        "score": 76,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "发表在Wind (MDPI)",
-          "开放获取",
-          "有详细摘要",
-          "有结构化摘要"
-        ],
-        "limitations": []
-      }
-    },
-    {
-      "title": "Asymmetric Residual Stress Distribution in Friction Stir Welded Magnesium Alloy: A Sequentially Coupled Thermo-Mechanical Analysis",
-      "url": "https://www.mdpi.com/2075-4701/16/7/774",
-      "sourceUrl": "https://www.mdpi.com/2075-4701/16/7/774",
-      "snippet": "Friction stir welding (FSW) is an effective solid-state joining technique for magnesium alloys such as AZ31, owing to its ability to minimize conventional welding defects. Nevertheless, the process generates significant residual stresses that can impair the fatigue performance and dimensional stability of welded structures. In this study, a sequentially coupled thermo-mechanical finite element model was employed to characterize the residual stress distribution in FSW AZ31 Mg alloy. The calculated near-surface longitudinal residual stress was assessed against XRD measurements at five locations on the top surface, giving a root mean square error of about 10.34 MPa. The results revealed an M-shaped longitudinal residual stress profile with marked asymmetry between the advancing and retreating sides, associated with non-uniform heat input and the resulting asymmetric temperature history. Among the three stress components, the longitudinal residual stress was the largest, followed by the transverse component, while the normal stress was the smallest. The thermo-mechanically affected zone and the crown zone exhibited higher residual stresses compared to the heat-affected zone. In addition, the influences of welding speed and tool rotational speed on residual stress evolution were systematically evaluated. The longitudinal residual stress increased with welding speed up to 350 mm/min and subsequently decreased, while a peak value was observed at 1200 rpm. These numerical results provide useful guidance, within the studied parameter range, for welding-parameter selection and residual-stress control in magnesium alloy joints.",
-      "source": "Metals (MDPI)",
-      "publishedAt": "2026-07-11T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Metals (MDPI)",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "疲劳断裂",
-      "contextTags": [
-        "疲劳断裂"
-      ],
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 0,
-        "authors": [],
-        "journal": "Metals (MDPI)",
-        "isOpenAccess": true
-      },
-      "id": "72019c72",
-      "relevanceScore": 16,
-      "_researchTag": "疲劳断裂",
-      "category": "学术研究",
-      "tags": [
-        "残余应力",
-        "搅拌摩擦焊",
-        "镁合金",
-        "有限元分析",
-        "疲劳断裂"
-      ],
-      "titleZh": "搅拌摩擦焊镁合金中非对称残余应力分布：顺序耦合热力分析",
-      "summary": "本研究采用顺序耦合热力有限元模型表征AZ31镁合金搅拌摩擦焊接头的残余应力分布。近表面纵向残余应力与XRD测量值对比，均方根误差约10.34 MPa。结果显示纵向残余应力呈M形分布，前进侧与后退侧明显不对称，归因于非均匀热输入和不对称温度历史。三个应力分量中纵向最大，横向次之，法向最小。热力影响区和冠区残余应力高于热影响区。焊接速度增至350 mm/min时纵向残余应力增大后减小，转速1200 rpm时出现峰值。结果为焊接参数选择和残余应力控制提供指导。",
-      "keyPoints": [
-        "采用顺序耦合热力有限元模型模拟FSW AZ31镁合金残余应力",
-        "近表面纵向残余应力与XRD测量均方根误差约10.34 MPa",
-        "纵向残余应力呈M形分布，前进侧与后退侧不对称",
-        "焊接速度350 mm/min时纵向残余应力最大，转速1200 rpm时峰值",
-        "热力影响区和冠区残余应力高于热影响区"
-      ],
-      "engineeringImpact": "对镁合金搅拌摩擦焊工艺参数选择（焊接速度、转速）具有指导意义，有助于控制残余应力以提升疲劳性能和尺寸稳定性。",
-      "paperDetails": {
-        "objective": "表征AZ31镁合金搅拌摩擦焊接头残余应力分布及工艺参数影响",
-        "methods": "顺序耦合热力有限元模型，XRD验证",
-        "testObject": "AZ31镁合金搅拌摩擦焊接头",
-        "operatingConditions": "焊接速度范围未提及，转速范围未提及，具体参数见结果",
-        "quantitativeFindings": [
-          {
-            "metric": "均方根误差",
-            "value": "10.34",
-            "unit": "MPa",
-            "comparison": "与XRD测量值对比",
-            "conditions": "近表面纵向残余应力",
-            "evidence": "摘要中明确给出"
-          },
-          {
-            "metric": "焊接速度",
-            "value": "350",
-            "unit": "mm/min",
-            "comparison": "纵向残余应力峰值",
-            "conditions": "焊接速度增至350 mm/min时增大后减小",
-            "evidence": "摘要中明确给出"
-          },
-          {
-            "metric": "转速",
-            "value": "1200",
-            "unit": "rpm",
-            "comparison": "纵向残余应力峰值",
-            "conditions": "转速1200 rpm时出现峰值",
-            "evidence": "摘要中明确给出"
-          }
-        ],
-        "limitations": [
-          "研究参数范围有限",
-          "仅针对AZ31镁合金",
-          "未考虑微观组织演化"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
-      "reliability": {
-        "score": 76,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "发表在Metals (MDPI)",
-          "开放获取",
-          "有详细摘要",
-          "有结构化摘要"
-        ],
-        "limitations": []
-      }
+      "titleZh": "Sensitivity analysis of key parameters for full-blade icing of wind turbines during rotation",
+      "summary": "Blade icing critically constrains the efficiency and safety of wind turbines in cold and offshore regions, yet the spatial characteristics of full-blade icing under rotation, the parametric sensitivity of icing-induced aerodynamic degradation, and the mechanism of leeward icing remain insufficiently understood. This study develops a numerical framework coupling Fluent with FENSAP-ICE, in which Moving Reference Frame and dynamic-meshing techniques enable three-dimensional rotating simulations of airflow, droplet impingement, water-film migration, phase-change icing, and aerodynamic evaluation. At −10°C, rotational speed, inflow velocity, liquid water content (LWC), and median volume diameter (MVD) are varied parametrically, and response surface methodology quantifies spanwise sensitivities of icing and lift-to-drag ratio degradation. Wind velocity governs aerodynamic deterioration most strongly near the blade tip, with LWC secondary, whereas LWC dominates at mid-span, where wind velocity and droplet size show comparable secondary significance, indicating pronounced rotation-induced radial differences. Leeward icing stems mainly from windward water films transported into the leeward low-pressure separation zone by aerodynamic shear, centrifugal force, and gravity, rather than direct droplet impingement, and intensifies with larger droplets. Icing reduces the tip lift-to-drag ratio by up to 80% and shifts the optimal angle of attack, informing ice warning, zonal anti-/de-icing design, and operational control.",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
       "title": "On particle dynamics in steady axial rotor flows",
@@ -1861,7 +954,7 @@
       "snippet": "We investigate the effect of rotor velocity induction on the distribution of particles impinging on rotor blades and model the delayed response of a particle to the rotor-induced velocity field. We consider as reference a wind turbine rotor and a small-scale propeller in axial flow conditions. We first show that the classical two-dimensional (2-D) modelling of the multiphase flow can generate a systematic error with respect to the three-dimensional (3-D) solution. We consider two limiting cases: particles in equilibrium with the rotor-induced velocity field, where the carrier phase is computed using the section’s aerodynamic velocity vector, and induction-independent particles, where the geometric velocity vector is used. The 3-D solution differs from the two limiting cases when particles are in partial equilibrium with the induced velocity. We introduce an induction Stokes number italic Stk Subscript italic ind <mml:math xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:mnf=\"http://cambridge.org/core/manifest\" xmlns:cup=\"http://contentservices.cambridge.org\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:m=\"http://cambridge.org/core/metadata\" xmlns:core=\"http://cambridge.org/core\" xmlns:c=\"http://cambridge.org/core/content\"> <mml:msub> <mml:mrow> <mml:mrow> <mml:mtext mathvariant=\"italic\" class=\"MJX-tex-mathit\">Stk</mml:mtext> </mml:mrow> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mtext mathvariant=\"italic\" class=\"MJX-tex-mathit\">ind</mml:mtext> </mml:mrow> </mml:mrow> </mml:msub> </mml:math> ${\\textit{Stk}}_{\\textit{ind}}$ and identify a transition regime between the two limiting solutions for 0.1 less than or equivalent to italic Stk Subscript italic ind Baseline less than or equivalent to 10 <mml:math xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:mnf=\"http://cambridge.org/core/manifest\" xmlns:cup=\"http://contentservices.cambridge.org\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:m=\"http://cambridge.org/core/metadata\" xmlns:core=\"http://cambridge.org/",
       "source": "Journal of Fluid Mechanics",
       "publishedAt": "2026-07-20",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "OpenAlex/气动布局研究",
       "linkType": "publisher",
       "region": "海外",
@@ -1887,54 +980,8 @@
       "_researchTag": "气动研究",
       "category": "学术研究",
       "tags": [
-        "颗粒动力学",
-        "转子流",
-        "诱导Stokes数",
-        "风力机",
-        "气动布局"
+        "气动研究"
       ],
-      "titleZh": "稳态轴向转子流中的颗粒动力学",
-      "summary": "本文研究转子速度诱导对撞击叶片颗粒分布的影响，并模拟颗粒对诱导速度场的延迟响应。以风力机转子和小型螺旋桨为参考，在轴向流条件下分析。发现经典二维多相流模型相对于三维解存在系统误差。考虑两种极限情况：颗粒与诱导速度场平衡（使用截面气动速度矢量）和与诱导无关（使用几何速度矢量）。当颗粒处于部分平衡时，三维解与两种极限情况不同。引入诱导Stokes数Stk_ind，识别出0.1≤Stk_ind≤10的过渡区间。",
-      "keyPoints": [
-        "二维多相流模型在轴向转子流中产生系统误差",
-        "引入诱导Stokes数Stk_ind描述颗粒与诱导速度场的平衡程度",
-        "过渡区间为0.1≤Stk_ind≤10",
-        "以风力机转子和小型螺旋桨为参考对象",
-        "颗粒部分平衡时三维解与极限情况不同"
-      ],
-      "engineeringImpact": "对风力机叶片颗粒冲击分布预测有重要意义，可改进多相流模型精度，指导叶片抗侵蚀设计。",
-      "paperDetails": {
-        "objective": "研究转子速度诱导对颗粒分布的影响及颗粒延迟响应",
-        "methods": "三维与二维模型对比，引入诱导Stokes数",
-        "testObject": "风力机转子和小型螺旋桨",
-        "operatingConditions": "轴向流条件",
-        "quantitativeFindings": [
-          {
-            "metric": "诱导Stokes数范围",
-            "value": "0.1-10",
-            "unit": "无量纲",
-            "comparison": "过渡区间",
-            "conditions": "颗粒部分平衡",
-            "evidence": "摘要中明确给出"
-          }
-        ],
-        "limitations": [
-          "仅考虑轴向流条件",
-          "未涉及实际颗粒尺寸分布",
-          "未考虑湍流影响"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 90,
         "grade": "A",
@@ -1947,88 +994,11 @@
           "有结构化摘要"
         ],
         "limitations": []
-      }
-    },
-    {
-      "title": "Cathodic Blister Evolution in Multilayer Coatings: A Critical Review of Diffusion, Fracture Coupling and Stability Criteria",
-      "url": "https://www.mdpi.com/1996-1944/19/14/3084",
-      "sourceUrl": "https://www.mdpi.com/1996-1944/19/14/3084",
-      "snippet": "Tribological systems involving rolling and sliding contacts generate coupled mechanical interactions that govern friction, wear, and surface degradation. These interactions produce multiaxial residual stresses that influence crack initiation, accelerate wear, and promote environmentally assisted damage. In corrosive environments, tribo-corrosion further intensifies material degradation through the combined action of mechanical wear and electrochemical reactions. Protective organic and metallic coatings are widely used to mitigate these effects; however, their performance depends on adhesion, stress evolution, and resistance to coupled mechanical and chemical degradation. Among the principal failure mechanisms, cathodic blistering is strongly influenced by diffusion, interfacial stresses, and tribological loading. This review therefore links cathodic blister evolution with coating degradation under combined tribological and corrosive conditions. The review critically examines the Khan&ndash;Nazir meso-mechanics Models I, II, and III, which integrate stress-assisted diffusion, residual stress development, mixed-mode fracture, and coating&ndash;substrate delamination. Recent developments have extended these models through substrate deformation, multilayer coating architectures, and electro-chemo-mechanical phase-field simulations. The models demonstrate how diffusion-induced and residual stresses interact with tribological loading to initiate and propagate interfacial defects. The analysis shows that blister evolution is primarily governed by elastic modulus mismatch and friction-induced stress fields, while stability criteria predict non-axisymmetric blister morphologies associated with buckling and delamination. Overall, this review highlights the significance of the Khan&ndash;Nazir models for understanding wear, friction, and coating durability in engineering systems. The unified framework provides valuable guidance for the design and optimisation of advanced multi",
-      "source": "Materials (MDPI)",
-      "publishedAt": "2026-07-17T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Materials (MDPI)",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "疲劳断裂",
-      "contextTags": [
-        "疲劳断裂"
-      ],
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 0,
-        "authors": [],
-        "journal": "Materials (MDPI)",
-        "isOpenAccess": true
       },
-      "id": "661da811",
-      "relevanceScore": 14,
-      "_researchTag": "疲劳断裂",
-      "category": "学术研究",
-      "tags": [
-        "阴极鼓泡",
-        "涂层",
-        "扩散-断裂耦合",
-        "残余应力",
-        "疲劳断裂"
-      ],
-      "titleZh": "多层涂层中阴极鼓泡演化：扩散、断裂耦合与稳定性准则综述",
-      "summary": "本文综述了滚动/滑动接触下摩擦系统产生的多轴残余应力对裂纹萌生、磨损和腐蚀的影响。重点讨论阴极鼓泡失效机制，受扩散、界面应力和摩擦载荷影响。详细评述了Khan-Nazir细观力学模型I、II、III，整合应力辅助扩散、残余应力发展、混合模式断裂和涂层-基体脱层。模型表明鼓泡演化主要由弹性模量失配和摩擦诱导应力场控制，稳定性准则预测非轴对称鼓泡形态。该框架为涂层耐久性设计提供指导。",
-      "keyPoints": [
-        "阴极鼓泡受扩散、界面应力和摩擦载荷耦合影响",
-        "Khan-Nazir模型整合应力辅助扩散、残余应力和混合模式断裂",
-        "鼓泡演化由弹性模量失配和摩擦诱导应力场主导",
-        "稳定性准则预测非轴对称鼓泡形态（屈曲和脱层）",
-        "综述了多层涂层架构和电化学-力学相场模拟进展"
-      ],
-      "engineeringImpact": "为多层涂层在摩擦腐蚀环境下的耐久性设计提供理论框架，指导涂层材料选择和界面优化。",
-      "paperDetails": {
-        "objective": "综述阴极鼓泡演化机制及与摩擦腐蚀的耦合",
-        "methods": "文献综述，重点分析Khan-Nazir模型",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "综述性质，无新实验数据",
-          "模型验证情况未详细说明"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
-      "reliability": {
-        "score": 76,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "发表在Materials (MDPI)",
-          "开放获取",
-          "有详细摘要",
-          "有结构化摘要"
-        ],
-        "limitations": []
-      }
+      "titleZh": "On particle dynamics in steady axial rotor flows",
+      "summary": "We investigate the effect of rotor velocity induction on the distribution of particles impinging on rotor blades and model the delayed response of a particle to the rotor-induced velocity field. We consider as reference a wind turbine rotor and a small-scale propeller in axial flow conditions. We first show that the classical two-dimensional (2-D) modelling of the multiphase flow can generate a systematic error with respect to the three-dimensional (3-D) solution. We consider two limiting cases: particles in equilibrium with the rotor-induced velocity field, where the carrier phase is computed using the section’s aerodynamic velocity vector, and induction-independent particles, where the geometric velocity vector is used. The 3-D solution differs from the two limiting cases when particles are in partial equilibrium with the induced velocity. We introduce an induction Stokes number italic Stk Subscript italic ind <mml:math xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:mnf=\"http://cambridge.org/core/manifest\" xmlns:cup=\"http://contentservices.cambridge.org\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:m=\"http://cambridge.org/core/metadata\" xmlns:core=\"http://cambridge.org/core\" xmlns:c=\"http://cambridge.org/core/content\"> <mml:msub> <mml:mrow> <mml:mrow> <mml:mtext mathvariant=\"italic\" class=\"MJX-tex-mathit\">Stk</mml:mtext> </mml:mrow> </mml:mrow> <mml:mrow> <mml:mrow> <mml:mtext mathvariant=\"italic\" class=\"MJX-tex-mathit\">ind</mml:mtext> </mml:mrow> </mml:mrow> </mml:msub> </mml:math> ${\\textit{Stk}}_{\\textit{ind}}$ and identify a transition regime between the two limiting solutions for 0.1 less than or equivalent to italic Stk Subscript italic ind Baseline less than or equivalent to 10 <mml:math xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:mnf=\"http://cambridge.org/core/manifest\" xmlns:cup=\"http://contentservices.cambridge.org\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:m=\"http://cambridge.org/core/metadata\" xmlns:core=\"http://cambridge.org/",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
       "title": "Physics-informed end-to-end fault diagnosis for rolling bearings under time-varying speed and variable load via multi-constraint IVMD and dual-branch sparse attention network",
@@ -2037,7 +1007,7 @@
       "snippet": "Rolling bearings operating under coupled variable-load and time-varying-speed (VL-TV) conditions generate vibration signals with pronounced non-stationarity, speed-dependent impulse spacing, and strong noise contamination, which weaken both decomposition-based and purely data-driven diagnosis methods. To address this issue, this study proposes a physics-informed end-to-end diagnosis framework that integrates Multi-Constraint Improved Variational Mode Decomposition (MC-IVMD) with a Dual-Branch Cross-Layer Fusion Sparse Attention Network (CLSAM++). MC-IVMD introduces fault-mechanism-guided frequency priors, impact sparsity, modal orthogonality, and multi-scale residual feedback to determine the modal number adaptively and extract fault-sensitive intrinsic mode functions with reduced mode aliasing. CLSAM++ combines a local feature branch and a temporal dependency branch based on gated sparse-attention LSTM to jointly model impulsive local signatures and long-range temporal dependencies. The core novelty lies in coupling the physics-informed decomposition loss and bearing-fault physical consistency constraints with the classifier training objective, thereby enabling mutual optimization between signal decomposition and deep feature learning rather than a conventional serial pipeline. Experiments on the University of Ottawa VL-TV bearing dataset and a synthetic CWRU VL-TV dataset demonstrate that the proposed framework achieves 98.9 % accuracy on the 12-condition Ottawa task and 97.2 % mean accuracy on the synthetic CWRU VL-TV task, while remaining statistically superior to competing models in repeated trials ( <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>p</mml:mi> <mml:mo>&lt;</mml:mo> </mml:math> 0.05). These results indicate that the proposed framework is accurate, robust, and promising for real-time intelligent monitoring of rotating machinery.",
       "source": "Journal of Vibroengineering",
       "publishedAt": "2026-07-19",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "OpenAlex/风机噪声研究",
       "linkType": "publisher",
       "region": "海外",
@@ -2063,69 +1033,8 @@
       "_researchTag": "AI动态",
       "category": "学术研究",
       "tags": [
-        "滚动轴承",
-        "故障诊断",
-        "变分模态分解",
-        "稀疏注意力",
-        "物理信息"
+        "AI动态"
       ],
-      "titleZh": "基于物理信息的多约束IVMD与双分支稀疏注意力网络的时变转速与变载荷滚动轴承端到端故障诊断",
-      "summary": "针对滚动轴承在变载荷与时变转速耦合工况下振动信号非平稳、噪声强的问题，提出融合多约束改进变分模态分解（MC-IVMD）与双分支跨层融合稀疏注意力网络（CLSAM++）的物理信息端到端诊断框架。MC-IVMD引入故障机理引导的频率先验、冲击稀疏性等约束自适应提取故障敏感模态；CLSAM++联合局部特征与时间依赖分支建模冲击特征与长程依赖。在渥太华大学VL-TV轴承数据集和合成CWRU VL-TV数据集上，12分类任务准确率达98.9%，合成任务平均准确率97.2%，统计显著优于对比模型（p<0.05）。证据来自公开数据集实验，结论限于实验室条件。",
-      "keyPoints": [
-        "提出MC-IVMD方法，引入故障机理引导的频率先验、冲击稀疏性、模态正交性和多尺度残差反馈",
-        "CLSAM++网络包含局部特征分支和基于门控稀疏注意力LSTM的时间依赖分支",
-        "在渥太华大学VL-TV轴承数据集上12分类准确率98.9%",
-        "在合成CWRU VL-TV数据集上平均准确率97.2%",
-        "统计检验p<0.05表明方法显著优于对比模型"
-      ],
-      "engineeringImpact": "该框架实现了信号分解与深度特征学习的联合优化，为变工况下滚动轴承的实时智能监测提供了高精度、鲁棒的端到端方案，可推广至旋转机械的在线故障诊断系统。",
-      "paperDetails": {
-        "objective": "解决变载荷与时变转速耦合工况下滚动轴承故障诊断中信号非平稳、噪声强的问题",
-        "methods": "多约束改进变分模态分解（MC-IVMD）与双分支跨层融合稀疏注意力网络（CLSAM++）",
-        "testObject": "渥太华大学VL-TV轴承数据集和合成CWRU VL-TV数据集",
-        "operatingConditions": "变载荷与时变转速耦合工况",
-        "quantitativeFindings": [
-          {
-            "metric": "准确率",
-            "value": "98.9",
-            "unit": "%",
-            "comparison": "渥太华大学12分类任务",
-            "conditions": "变载荷与时变转速",
-            "evidence": "原文：achieves 98.9% accuracy on the 12-condition Ottawa task"
-          },
-          {
-            "metric": "平均准确率",
-            "value": "97.2",
-            "unit": "%",
-            "comparison": "合成CWRU VL-TV任务",
-            "conditions": "变载荷与时变转速",
-            "evidence": "原文：97.2% mean accuracy on the synthetic CWRU VL-TV task"
-          },
-          {
-            "metric": "p值",
-            "value": "<0.05",
-            "unit": "",
-            "comparison": "统计显著性",
-            "conditions": "重复试验",
-            "evidence": "原文：p<0.05"
-          }
-        ],
-        "limitations": [
-          "实验基于公开数据集，未提及现场验证",
-          "未讨论计算效率与实时性"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 93,
         "grade": "A",
@@ -2138,7 +1047,11 @@
           "有详细摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "Physics-informed end-to-end fault diagnosis for rolling bearings under time-varying speed and variable load via multi-constraint IVMD and dual-branch sparse attention network",
+      "summary": "Rolling bearings operating under coupled variable-load and time-varying-speed (VL-TV) conditions generate vibration signals with pronounced non-stationarity, speed-dependent impulse spacing, and strong noise contamination, which weaken both decomposition-based and purely data-driven diagnosis methods. To address this issue, this study proposes a physics-informed end-to-end diagnosis framework that integrates Multi-Constraint Improved Variational Mode Decomposition (MC-IVMD) with a Dual-Branch Cross-Layer Fusion Sparse Attention Network (CLSAM++). MC-IVMD introduces fault-mechanism-guided frequency priors, impact sparsity, modal orthogonality, and multi-scale residual feedback to determine the modal number adaptively and extract fault-sensitive intrinsic mode functions with reduced mode aliasing. CLSAM++ combines a local feature branch and a temporal dependency branch based on gated sparse-attention LSTM to jointly model impulsive local signatures and long-range temporal dependencies. The core novelty lies in coupling the physics-informed decomposition loss and bearing-fault physical consistency constraints with the classifier training objective, thereby enabling mutual optimization between signal decomposition and deep feature learning rather than a conventional serial pipeline. Experiments on the University of Ottawa VL-TV bearing dataset and a synthetic CWRU VL-TV dataset demonstrate that the proposed framework achieves 98.9 % accuracy on the 12-condition Ottawa task and 97.2 % mean accuracy on the synthetic CWRU VL-TV task, while remaining statistically superior to competing models in repeated trials ( <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mi>p</mml:mi> <mml:mo>&lt;</mml:mo> </mml:math> 0.05). These results indicate that the proposed framework is accurate, robust, and promising for real-time intelligent monitoring of rotating machinery.",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
       "title": "Analytical Formulation and Equilibrium Structure of a 26-State Nonlinear Dynamical System for DFIG",
@@ -2147,7 +1060,7 @@
       "snippet": "We formulate and analyze a 26-dimensional nonlinear dynamical system governing a doubly-fed induction generator (DFIG) wind energy conversion system coupled to an infinite bus through a dynamic transmission line. Seven interacting subsystems—aerodynamics, a two-mass drivetrain, a fourth-order machine, rotor- and grid-side converter controllers, a phase-locked loop, and a pitch regulator—are assembled into a single vector field x˙=f(x,u) on R26, derived in dimensionless coordinates. Strict positivity of the determinant Δ=LsLr−Lm2=σLsLr for every physically admissible machine renders the flux–current map invertible, so the right-hand side is well defined; the nodal Kirchhoff constraint forms a semi-explicit differential-algebraic relation that we eliminate to obtain an explicit ordinary differential equation. The central contribution is a constructive scheme for the equilibria: the 26 stationarity conditions f(x★,u)=0 are solved by an iterative voltage-matching procedure converging to a residual below 10−11 per unit—essentially machine precision—which removes the spurious start-up transients common in reported simulations. Analytically chosen feedback gains induce a hierarchy of well-separated time scales, placing the closed loop in the multiple-time-scale class; the separation is made quantitative through explicit small parameters εi formed from the ratios of subsystem time constants. Numerical integration of a GE 3.6 MW configuration confirms the construction: under stationary forcing, the rotor speed stays within 1.32×10−5 pu of the equilibrium, and under a large-amplitude wind program (11→14→9 m/s) spanning the full operating envelope, it is regulated to within 0.065%, while the DC-link voltage deviation remains below 2.4×10−5 pu and the power balance closes with residual below 10−3 pu, the ≈2% mechanical–electrical gap being the modeled losses. Linearization about the computed equilibrium yields a Jacobian whose spectrum lies entirely in the open left half-plane,",
       "source": "Mathematics",
       "publishedAt": "2026-07-17",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "OpenAlex/螺栓连接研究",
       "linkType": "publisher",
       "region": "海外",
@@ -2173,85 +1086,8 @@
       "_researchTag": "气动研究",
       "category": "学术研究",
       "tags": [
-        "DFIG",
-        "非线性动力系统",
-        "平衡点",
-        "多时间尺度",
-        "稳定性"
+        "气动研究"
       ],
-      "titleZh": "双馈感应发电机26状态非线性动力系统的解析公式与平衡结构",
-      "summary": "构建并分析了双馈感应发电机（DFIG）风能转换系统耦合无限大电网的26维非线性动力系统，包含气动、两质量传动链、四阶电机、转子侧和网侧变流器控制器、锁相环及桨距调节七个子系统。通过无量纲坐标推导出显式常微分方程，并提出迭代电压匹配方法求解平衡点，残差低于10^-11 pu。数值积分GE 3.6 MW机组模型验证：稳态下转子转速偏差1.32×10^-5 pu，大风速变化（11→14→9 m/s）下转速调节偏差0.065%，直流母线电压偏差低于2.4×10^-5 pu，功率平衡残差低于10^-3 pu。线性化雅可比矩阵特征值全在左半平面。证据来自仿真，结论限于模型假设。",
-      "keyPoints": [
-        "构建了包含七个子系统的26维DFIG非线性动力系统模型",
-        "提出迭代电压匹配方法求解平衡点，残差低于10^-11 pu",
-        "GE 3.6 MW机组仿真：稳态转子转速偏差1.32×10^-5 pu",
-        "大风速变化下转速调节偏差0.065%，直流母线电压偏差低于2.4×10^-5 pu",
-        "线性化雅可比矩阵特征值全在左半平面，系统稳定"
-      ],
-      "engineeringImpact": "该解析框架为DFIG风电机组的稳定性分析和控制器设计提供了精确的平衡点求解方法，消除了仿真中的虚假启动瞬态，有助于提升风电并网系统的动态响应预测精度。",
-      "paperDetails": {
-        "objective": "建立并分析DFIG风能转换系统的26维非线性动力系统，求解平衡点并验证稳定性",
-        "methods": "无量纲坐标建模、迭代电压匹配平衡点求解、数值积分验证",
-        "testObject": "GE 3.6 MW DFIG机组模型",
-        "operatingConditions": "稳态及大风速变化（11→14→9 m/s）",
-        "quantitativeFindings": [
-          {
-            "metric": "平衡点求解残差",
-            "value": "10^-11",
-            "unit": "pu",
-            "comparison": "迭代电压匹配方法",
-            "conditions": "稳态",
-            "evidence": "原文：residual below 10^-11 per unit"
-          },
-          {
-            "metric": "转子转速偏差",
-            "value": "1.32×10^-5",
-            "unit": "pu",
-            "comparison": "稳态",
-            "conditions": "稳态",
-            "evidence": "原文：rotor speed stays within 1.32×10^-5 pu of the equilibrium"
-          },
-          {
-            "metric": "转速调节偏差",
-            "value": "0.065",
-            "unit": "%",
-            "comparison": "大风速变化",
-            "conditions": "11→14→9 m/s",
-            "evidence": "原文：regulated to within 0.065%"
-          },
-          {
-            "metric": "直流母线电压偏差",
-            "value": "2.4×10^-5",
-            "unit": "pu",
-            "comparison": "大风速变化",
-            "conditions": "11→14→9 m/s",
-            "evidence": "原文：DC-link voltage deviation remains below 2.4×10^-5 pu"
-          },
-          {
-            "metric": "功率平衡残差",
-            "value": "10^-3",
-            "unit": "pu",
-            "comparison": "大风速变化",
-            "conditions": "11→14→9 m/s",
-            "evidence": "原文：power balance closes with residual below 10^-3 pu"
-          }
-        ],
-        "limitations": [
-          "基于仿真模型，未提及实验验证",
-          "未考虑电网故障等极端工况"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 93,
         "grade": "A",
@@ -2264,212 +1100,135 @@
           "有详细摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "Analytical Formulation and Equilibrium Structure of a 26-State Nonlinear Dynamical System for DFIG",
+      "summary": "We formulate and analyze a 26-dimensional nonlinear dynamical system governing a doubly-fed induction generator (DFIG) wind energy conversion system coupled to an infinite bus through a dynamic transmission line. Seven interacting subsystems—aerodynamics, a two-mass drivetrain, a fourth-order machine, rotor- and grid-side converter controllers, a phase-locked loop, and a pitch regulator—are assembled into a single vector field x˙=f(x,u) on R26, derived in dimensionless coordinates. Strict positivity of the determinant Δ=LsLr−Lm2=σLsLr for every physically admissible machine renders the flux–current map invertible, so the right-hand side is well defined; the nodal Kirchhoff constraint forms a semi-explicit differential-algebraic relation that we eliminate to obtain an explicit ordinary differential equation. The central contribution is a constructive scheme for the equilibria: the 26 stationarity conditions f(x★,u)=0 are solved by an iterative voltage-matching procedure converging to a residual below 10−11 per unit—essentially machine precision—which removes the spurious start-up transients common in reported simulations. Analytically chosen feedback gains induce a hierarchy of well-separated time scales, placing the closed loop in the multiple-time-scale class; the separation is made quantitative through explicit small parameters εi formed from the ratios of subsystem time constants. Numerical integration of a GE 3.6 MW configuration confirms the construction: under stationary forcing, the rotor speed stays within 1.32×10−5 pu of the equilibrium, and under a large-amplitude wind program (11→14→9 m/s) spanning the full operating envelope, it is regulated to within 0.065%, while the DC-link voltage deviation remains below 2.4×10−5 pu and the power balance closes with residual below 10−3 pu, the ≈2% mechanical–electrical gap being the modeled losses. Linearization about the computed equilibrium yields a Jacobian whose spectrum lies entirely in the open left half-plane,",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
-      "title": "Aerodynamic Effect of Gurney Flaps on NREL Phase VI Wind Turbine Blade",
-      "url": "https://www.mdpi.com/2674-032X/6/2/19",
-      "sourceUrl": "https://www.mdpi.com/2674-032X/6/2/19",
-      "snippet": "As the population increases, the demand for power continues to rise. As fossil fuel resources reduce, wind energy emerges as a sustainable alternative and helps address adverse effects of global warming and environmental pollution caused by fossil fuels. Thus, this study focuses on increasing the efficiency of wind turbines by improving their energy conversion. In this study, the NREL Phase VI wind turbine blade was modified by adding a Gurney flap at trailing edge along the entire span. Computational fluid dynamics simulations using ANSYS CFX 19.2 were performed on the modified blades to evaluate their aerodynamic performance. Three different flap lengths were investigated with six wind speeds varying from 5 m/s to 20 m/s. The results obtained were compared with those from NREL Phase VI original shape and a blade equipped with a winglet. Computational domain was divided into a rotating cylindrical region and a stationary rectangular part. The aerodynamic parameters calculated include torque, thrust, and normal and tangential forces coefficients. At low velocities, the addition of a Gurney flap had an insignificant impact on torque and thrust, whereas at medium to high wind speeds, significant increases were observed on torque, indicating more power production.",
-      "source": "Wind (MDPI)",
-      "publishedAt": "2026-04-21T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Wind (MDPI)",
+      "title": "A 3D vision-based method for turbine blade crown cladding area recognition and automatic path planning",
+      "url": "https://doi.org/10.1007/s44500-026-00010-3",
+      "sourceUrl": "https://doi.org/10.1007/s44500-026-00010-3",
+      "snippet": "Turbine blades are critical aero-engine components whose crowns frequently require wear-resistant cladding. However, manual operations are hindered by small target areas and stringent precision requirements, while traditional robotic teach-playback methods suffer from inherently low efficiency. To eliminate the reliance on manual programming, this study proposes a novel, automated 3D vision-based framework for precise cladding area extraction and path planning on turbine blade crowns. The methodology introduces an adaptive Genetic Algorithm-Particle Swarm Optimization (GA-APSO) equipped with a geometry-tailored fitness function to mitigate local optima during coarse point cloud registration. To ensure extreme boundary fidelity, a Robust Edge-Constrained Iterative Closest Point (RE-ICP) algorithm is developed for fine registration, enabling accurate area extraction via the Convex Hull algorithm. Subsequently, a comprehensive path planning pipeline is established. By integrating Principal Component Analysis (PCA) for spatial segmentation and posture determination with Singular Value Decomposition (SVD) for path segment fitting, the system autonomously synthesizes continuous zigzag trajectories. Experimental evaluations demonstrate that the proposed framework achieves high-precision spatial alignment and robust, teaching-free path planning. Specifically, the algorithm yields an average Root Mean Square Error (RMSE) of 0.1960 mm and a total execution time of 5789 ms, significantly outperforming alternative methods. This performance satisfies the practical requirements for precision part cladding.",
+      "source": "Advanced Materials Joining",
+      "publishedAt": "2026-07-17",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "OpenAlex/疲劳断裂仿真",
       "linkType": "publisher",
       "region": "海外",
       "language": "en",
       "sourceType": "学术论文",
-      "queryTopic": "风电动态",
-      "contextTags": [
-        "风电动态"
-      ],
+      "queryTopic": "疲劳断裂仿真",
       "evidence": {
         "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 0,
-        "authors": [],
-        "journal": "Wind (MDPI)",
+        "doi": "10.1007/s44500-026-00010-3",
+        "authorsCount": 7,
+        "authors": [
+          "Zhongqi Wang",
+          "Chengyuan Ma",
+          "Zheng Meng",
+          "Y. M. Zhang",
+          "Bo Chen",
+          "C W Tan",
+          "Xiaoguo Song"
+        ],
+        "citedByCount": 0,
+        "publicationType": "article",
+        "journal": "Advanced Materials Joining",
+        "publisher": "",
         "isOpenAccess": true
       },
-      "id": "25eecbf9",
-      "relevanceScore": 13,
+      "id": "58b0b993",
+      "relevanceScore": 11,
       "_researchTag": "气动研究",
       "category": "学术研究",
       "tags": [
-        "Gurney襟翼",
-        "NREL Phase VI",
-        "气动性能",
-        "CFD",
-        "风力机"
+        "气动研究"
       ],
-      "titleZh": "Gurney襟翼对NREL Phase VI风力机叶片气动性能的影响",
-      "summary": "为提升风力机效率，在NREL Phase VI叶片整个展长后缘加装Gurney襟翼，利用ANSYS CFX 19.2进行CFD仿真，研究三种襟翼长度在5-20 m/s六种风速下的气动性能。计算了扭矩、推力及法向和切向力系数。结果表明：低速时Gurney襟翼对扭矩和推力影响不显著，中高速时扭矩显著增加，表明功率提升。证据来自CFD仿真，结论限于特定叶片和襟翼参数。",
-      "keyPoints": [
-        "在NREL Phase VI叶片整个展长后缘加装Gurney襟翼",
-        "使用ANSYS CFX 19.2进行CFD仿真",
-        "研究了三种襟翼长度和六种风速（5-20 m/s）",
-        "低速时Gurney襟翼对扭矩和推力影响不显著",
-        "中高速时扭矩显著增加，表明功率提升"
-      ],
-      "engineeringImpact": "Gurney襟翼在中高风速下可有效提升风力机扭矩和功率，为叶片气动优化设计提供了低成本改造方案，但需注意低速时效果有限。",
-      "paperDetails": {
-        "objective": "研究Gurney襟翼对NREL Phase VI风力机叶片气动性能的影响",
-        "methods": "CFD仿真（ANSYS CFX 19.2）",
-        "testObject": "NREL Phase VI叶片",
-        "operatingConditions": "风速5-20 m/s，三种襟翼长度",
-        "quantitativeFindings": [
-          {
-            "metric": "风速范围",
-            "value": "5-20",
-            "unit": "m/s",
-            "comparison": "六种风速",
-            "conditions": "所有工况",
-            "evidence": "原文：six wind speeds varying from 5 m/s to 20 m/s"
-          }
-        ],
-        "limitations": [
-          "仅仿真，无实验验证",
-          "仅考虑一种叶片和襟翼配置"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
-        "score": 76,
-        "grade": "B",
-        "label": "待核验",
+        "score": 96,
+        "grade": "A",
+        "label": "高可靠",
         "factors": [
-          "发表在Wind (MDPI)",
+          "有DOI可追溯",
+          "发表在Advanced Materials Joining",
+          "7位作者",
           "开放获取",
-          "有详细摘要",
-          "有结构化摘要"
+          "有详细摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "A 3D vision-based method for turbine blade crown cladding area recognition and automatic path planning",
+      "summary": "Turbine blades are critical aero-engine components whose crowns frequently require wear-resistant cladding. However, manual operations are hindered by small target areas and stringent precision requirements, while traditional robotic teach-playback methods suffer from inherently low efficiency. To eliminate the reliance on manual programming, this study proposes a novel, automated 3D vision-based framework for precise cladding area extraction and path planning on turbine blade crowns. The methodology introduces an adaptive Genetic Algorithm-Particle Swarm Optimization (GA-APSO) equipped with a geometry-tailored fitness function to mitigate local optima during coarse point cloud registration. To ensure extreme boundary fidelity, a Robust Edge-Constrained Iterative Closest Point (RE-ICP) algorithm is developed for fine registration, enabling accurate area extraction via the Convex Hull algorithm. Subsequently, a comprehensive path planning pipeline is established. By integrating Principal Component Analysis (PCA) for spatial segmentation and posture determination with Singular Value Decomposition (SVD) for path segment fitting, the system autonomously synthesizes continuous zigzag trajectories. Experimental evaluations demonstrate that the proposed framework achieves high-precision spatial alignment and robust, teaching-free path planning. Specifically, the algorithm yields an average Root Mean Square Error (RMSE) of 0.1960 mm and a total execution time of 5789 ms, significantly outperforming alternative methods. This performance satisfies the practical requirements for precision part cladding.",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
-      "title": "Investigation on Fatigue Damage Characteristics of Basalt Fiber-Reinforced Asphalt Mixtures with High RAP Content",
-      "url": "https://www.mdpi.com/1996-1944/19/14/3057",
-      "sourceUrl": "https://www.mdpi.com/1996-1944/19/14/3057",
-      "snippet": "High-RAP asphalt mixtures are highly susceptible to fatigue brittle fracture. This study investigated the fatigue damage evolution of basalt fiber (BF)-reinforced high-RAP mixtures. Four-point bending fatigue tests were performed to evaluate the stiffness damage factor and the ratio of cumulative dissipated energy change RCEDC. The ExpDec2 model and a second-derivative criterion were utilized to quantify steady-state energy dissipation and partition damage stages. Results indicate that BF extended fatigue life, yielding a 55% improvement at 70% RAP content. Model evaluations revealed that in the initial stage, increasing RAP delayed the critical damage inflection point due to accelerated non-steady damage, whereas BF shifted inflection points forward by constraining early damage accumulation. In the stable propagation stage, BF reduced the energy dissipation rates of 50% and 70% RAP mixtures by 44% and 22%, respectively. These quantitative results provide essential performance data regarding the effect of BF on the fatigue life and energy dissipation of high-RAP mixtures, serving as a practical reference for the design and durability optimization of sustainable asphalt pavements.",
-      "source": "Materials (MDPI)",
-      "publishedAt": "2026-07-16T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Materials (MDPI)",
+      "title": "Active wake optimization for wind farms considering turbine fatigue damage based on improved rainflow counting method",
+      "url": "https://doi.org/10.1007/s40722-026-00525-x",
+      "sourceUrl": "https://doi.org/10.1007/s40722-026-00525-x",
+      "snippet": "",
+      "source": "Journal of Ocean Engineering and Marine Energy",
+      "publishedAt": "2026-07-18",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "OpenAlex/气动布局研究",
       "linkType": "publisher",
       "region": "海外",
       "language": "en",
       "sourceType": "学术论文",
-      "queryTopic": "疲劳断裂",
-      "contextTags": [
-        "疲劳断裂"
-      ],
+      "queryTopic": "气动布局研究",
       "evidence": {
-        "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 0,
-        "authors": [],
-        "journal": "Materials (MDPI)",
-        "isOpenAccess": true
+        "hasAbstract": false,
+        "doi": "10.1007/s40722-026-00525-x",
+        "authorsCount": 5,
+        "authors": [
+          "Nan Jiang",
+          "Yanbo Che",
+          "Yuqian Qi",
+          "Shangyuan Zhang",
+          "Lei Wang"
+        ],
+        "citedByCount": 0,
+        "publicationType": "article",
+        "journal": "Journal of Ocean Engineering and Marine Energy",
+        "publisher": "Springer Science+Business Media",
+        "isOpenAccess": false
       },
-      "id": "74b13e80",
-      "relevanceScore": 13,
+      "id": "45f5e41c",
+      "relevanceScore": 10,
       "_researchTag": "疲劳断裂",
       "category": "学术研究",
       "tags": [
-        "疲劳断裂",
-        "玄武岩纤维",
-        "RAP",
-        "沥青混合料",
-        "能量耗散"
+        "疲劳断裂"
       ],
-      "titleZh": "高RAP含量玄武岩纤维增强沥青混合料疲劳损伤特性研究",
-      "summary": "该研究通过四点弯曲疲劳试验，评估了玄武岩纤维（BF）增强的高RAP（再生沥青路面）混合料的疲劳损伤演化。采用刚度损伤因子和累积耗散能量变化比（RCEDC）作为指标，利用ExpDec2模型和二阶导数准则量化稳态能量耗散并划分损伤阶段。结果表明，BF延长了疲劳寿命，在70% RAP含量下提升55%。模型分析显示，初始阶段高RAP因加速非稳态损伤延迟了临界损伤拐点，而BF通过抑制早期损伤积累使拐点前移；稳定扩展阶段，BF使50%和70% RAP混合料的能量耗散率分别降低44%和22%。该研究为可持续沥青路面设计提供了定量参考。证据层级为实验室试验，结论限于特定材料配比和试验条件。",
-      "keyPoints": [
-        "四点弯曲疲劳试验用于评估BF增强高RAP混合料",
-        "BF使70% RAP含量混合料疲劳寿命提升55%",
-        "稳定扩展阶段BF使50%和70% RAP混合料能量耗散率分别降低44%和22%",
-        "ExpDec2模型和二阶导数准则用于划分损伤阶段"
-      ],
-      "engineeringImpact": "对路面工程设计启示：玄武岩纤维可有效提升高RAP沥青混合料的抗疲劳性能，尤其在稳定扩展阶段显著降低能量耗散率，有助于延长路面使用寿命并优化可持续沥青路面耐久性设计。",
-      "paperDetails": {
-        "objective": "研究玄武岩纤维对高RAP沥青混合料疲劳损伤特性的影响",
-        "methods": "四点弯曲疲劳试验，刚度损伤因子，RCEDC，ExpDec2模型，二阶导数准则",
-        "testObject": "玄武岩纤维增强高RAP沥青混合料试件",
-        "operatingConditions": "四点弯曲疲劳加载，RAP含量50%和70%",
-        "quantitativeFindings": [
-          {
-            "metric": "疲劳寿命提升",
-            "value": "55%",
-            "unit": "%",
-            "comparison": "未添加BF的70% RAP混合料",
-            "conditions": "70% RAP含量",
-            "evidence": "标题和摘要中明确提及"
-          },
-          {
-            "metric": "能量耗散率降低",
-            "value": "44%",
-            "unit": "%",
-            "comparison": "未添加BF的50% RAP混合料",
-            "conditions": "稳定扩展阶段，50% RAP含量",
-            "evidence": "摘要中明确提及"
-          },
-          {
-            "metric": "能量耗散率降低",
-            "value": "22%",
-            "unit": "%",
-            "comparison": "未添加BF的70% RAP混合料",
-            "conditions": "稳定扩展阶段，70% RAP含量",
-            "evidence": "摘要中明确提及"
-          }
-        ],
-        "limitations": [
-          "仅针对特定RAP含量和纤维类型",
-          "试验条件为实验室四点弯曲，未考虑实际路面环境"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
-        "score": 76,
+        "score": 78,
         "grade": "B",
         "label": "待核验",
         "factors": [
-          "发表在Materials (MDPI)",
-          "开放获取",
-          "有详细摘要",
-          "有结构化摘要"
+          "有DOI可追溯",
+          "发表在Journal of Ocean Engineering and Marine Energy",
+          "5位作者"
         ],
-        "limitations": []
-      }
+        "limitations": [
+          "缺少内容摘要"
+        ]
+      },
+      "titleZh": "Active wake optimization for wind farms considering turbine fatigue damage based on improved rainflow counting method",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
-      "title": "Wind Characteristics and Energy Evaluation at Nasiriya International Airport, Iraq",
-      "url": "https://www.mdpi.com/2674-032X/6/3/35",
-      "sourceUrl": "https://www.mdpi.com/2674-032X/6/3/35",
-      "snippet": "In order to reduce aviation&rsquo;s negative environmental effects and support international efforts to battle climate change, the International Civil Aviation Organization (ICAO) seeks to cut greenhouse gas (GHG) emissions. About 2&ndash;3% of the world&rsquo;s CO2 emissions come from aviation, and at high altitudes, the fraction of other GHGs that significantly alter the atmosphere is considerably greater. In this study, hourly wind speed data at 100 m height from ECMWF&rsquo;s fifth-generation reanalysis (ERA-5) were used over a period of 40 years (1985&ndash;2025). Hourly assessments of wind speeds at 40 m and 80 m heights are conducted in ERA-5, with biases at specific ground locations rectified via the Global Wind Atlas (GWA). This research estimates and analyzes many factors, including Weibull statistical parameters, daily and monthly wind speed variations, cumulative distribution function (CDF), and atmospheric turbulence intensity. The energy generation from several wind turbine types at different elevations was assessed. The findings indicate that the examined location revealed fair potential for the construction of large-capacity wind energy units at heights equal to or above 80 m. Turbines that are less than 50 m tall are spread out at least 10 km around the airport runway. While turbines that are less than 150 m tall are spread out at least 15 km away from the airport runway.",
-      "source": "Wind (MDPI)",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Wind (MDPI)",
+      "title": "Optical properties of CdSe nanoparticles",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/3263/1/012006",
+      "sourceUrl": "https://iopscience.iop.org/article/10.1088/1742-6596/3263/1/012006",
+      "snippet": "We report on the optical properties of CdSe nanoparticles (NPs) in water (content change between 5 and 95 % with a step of 5 %). Optical transmission, reflection, refractive index and extinction coefficient were calculated with the transfer-matrix (TM) method. All estimated optical properties were analysed between 300 and 1000 nm in the spectral region. Optical dielectric functions (ε1 and ε2) were obtained from spectral behaviour refractive index and extinction coefficient. The high-frequency dielectric constant, the ratio of the carrier density to the effective mass of the carrier, and relaxation time were obtained from the spectral behaviour of the optical dielectric functions.",
+      "source": "IOP JPCS",
+      "publishedAt": "2026-06-30T23:00:00.000Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "RSS/IOP JPCS",
       "linkType": "publisher",
       "region": "海外",
       "language": "en",
@@ -2483,72 +1242,204 @@
         "doi": "",
         "authorsCount": 0,
         "authors": [],
-        "journal": "Wind (MDPI)",
+        "journal": "IOP JPCS",
         "isOpenAccess": true
       },
-      "id": "5f8dff7d",
-      "relevanceScore": 12,
+      "id": "1358f292",
+      "relevanceScore": 7,
       "_researchTag": "气动研究",
-      "category": "风电动态",
+      "category": "学术研究",
       "tags": [
-        "风特性",
-        "机场",
-        "风电评估",
-        "安全距离"
+        "气动研究"
       ],
-      "titleZh": "伊拉克纳西里耶国际机场风特性与能量评估",
-      "summary": "为减少航空业温室气体排放，本研究利用ERA-5再分析数据（1985-2025）和全球风图谱（GWA）校正，评估了伊拉克纳西里耶国际机场100米高度的风特性。分析了威布尔参数、日/月风速变化、累积分布函数和湍流强度，并评估了不同高度多种风机的发电量。结果表明，该场地在80米及以上高度具有建设大型风能单元的潜力；低于50米的风机应距跑道至少10公里，低于150米的风机应距跑道至少15公里。研究为机场周边风电布局提供了依据。",
-      "keyPoints": [
-        "使用ERA-5 40年（1985-2025）小时风速数据",
-        "评估了威布尔参数、CDF和湍流强度",
-        "80米及以上高度适合大型风能单元",
-        "风机高度低于50米需距跑道至少10公里"
-      ],
-      "engineeringImpact": "对机场风电规划启示：在机场周边建设风电场需考虑风机高度与跑道安全距离，80米以上高度具有开发潜力，但需遵守ICAO安全规范，避免对飞行造成干扰。",
-      "paperDetails": {
-        "objective": "评估伊拉克纳西里耶国际机场的风能潜力及对航空安全的影响",
-        "methods": "ERA-5再分析数据，GWA校正，威布尔分布，CDF，湍流强度分析",
-        "testObject": "纳西里耶国际机场区域",
-        "operatingConditions": "100米高度，40米和80米高度辅助分析",
-        "quantitativeFindings": [],
-        "limitations": [
-          "数据基于再分析，未提及实测验证",
-          "仅针对单一机场"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 76,
         "grade": "B",
         "label": "待核验",
         "factors": [
-          "发表在Wind (MDPI)",
+          "发表在IOP JPCS",
           "开放获取",
           "有详细摘要",
           "有结构化摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "Optical properties of CdSe nanoparticles",
+      "summary": "We report on the optical properties of CdSe nanoparticles (NPs) in water (content change between 5 and 95 % with a step of 5 %). Optical transmission, reflection, refractive index and extinction coefficient were calculated with the transfer-matrix (TM) method. All estimated optical properties were analysed between 300 and 1000 nm in the spectral region. Optical dielectric functions (ε1 and ε2) were obtained from spectral behaviour refractive index and extinction coefficient. The high-frequency dielectric constant, the ratio of the carrier density to the effective mass of the carrier, and relaxation time were obtained from the spectral behaviour of the optical dielectric functions.",
+      "keyPoints": [],
+      "engineeringImpact": ""
     },
     {
-      "title": "Rain Erosion Atlas of Wind Turbine Blades for Japan Based on Long-Term Meteorological and Climate Dataset CRIEPI-RCM-Era2",
-      "url": "https://www.mdpi.com/2674-032X/6/1/7",
-      "sourceUrl": "https://www.mdpi.com/2674-032X/6/1/7",
-      "snippet": "Leading-edge erosion of wind turbine blades caused by repeated raindrop impingement can significantly reduce power output and increase maintenance costs. This study develops a rain erosion atlas for Japan over 11 years from 2006 to 2016 based on the CRIEPI-RCM-Era2 dataset. The NREL 5 MW, DTU 10 MW, and IEA 15 MW wind turbines were employed to evaluate the incubation time (erosion onset time) of commercial polyurethane-based coating at the blade tip. Erosion progression was simulated using an empirical damage model that relates raindrop impingement and impact velocity to the incubation time. The rain erosion atlas reveals a clear correlation between wind turbine size and erosion risk: the NREL 5MW turbine shows an incubation time of 3&ndash;12 years, the DTU 10MW turbine 1&ndash;4 years, and the IEA 15MW turbine 0.5&ndash;2 years. Shorter incubation times are observed on the Pacific Ocean side, where annual precipitation is higher than on the Sea of Japan side. Additionally, the influence of coating degradation due to ultraviolet radiation was assessed using solar radiation data, revealing a further reduction in incubation time on the Pacific Ocean side. Finally, the potential of erosion-safe mode operation was examined, demonstrating its effectiveness in alleviating erosion progression.",
-      "source": "Wind (MDPI)",
-      "publishedAt": "2026-02-10T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "RSS/Wind (MDPI)",
+      "title": "Bayesian dynamic reliability assessment of wind turbine gearboxes with dependent failures under non-markov and non-stationary load transitions",
+      "url": "https://doi.org/10.1016/j.ijfatigue.2026.109866",
+      "sourceUrl": "https://doi.org/10.1016/j.ijfatigue.2026.109866",
+      "snippet": "",
+      "source": "International Journal of Fatigue",
+      "publishedAt": "2026-07-20",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "OpenAlex/疲劳断裂仿真",
+      "linkType": "publisher",
+      "region": "海外",
+      "language": "en",
+      "sourceType": "学术论文",
+      "queryTopic": "疲劳断裂仿真",
+      "evidence": {
+        "hasAbstract": false,
+        "doi": "10.1016/j.ijfatigue.2026.109866",
+        "authorsCount": 6,
+        "authors": [
+          "Yanling Yuan",
+          "Jin Zhou",
+          "Jiasong Liu",
+          "Quanwei Cui",
+          "Jun Chen",
+          "Z M Li"
+        ],
+        "citedByCount": 0,
+        "publicationType": "article",
+        "journal": "International Journal of Fatigue",
+        "publisher": "Elsevier BV",
+        "isOpenAccess": false
+      },
+      "id": "48f7b10e",
+      "relevanceScore": 7,
+      "_researchTag": "气动研究",
+      "category": "学术研究",
+      "tags": [
+        "气动研究"
+      ],
+      "reliability": {
+        "score": 78,
+        "grade": "B",
+        "label": "待核验",
+        "factors": [
+          "有DOI可追溯",
+          "发表在International Journal of Fatigue",
+          "6位作者"
+        ],
+        "limitations": [
+          "缺少内容摘要"
+        ]
+      },
+      "titleZh": "Bayesian dynamic reliability assessment of wind turbine gearboxes with dependent failures under non-markov and non-stationary load transitions",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": ""
+    },
+    {
+      "title": "Optimal Design and Analysis of Horizontal Axis Wind Turbine Blade",
+      "url": "https://doi.org/10.13140/rg.2.2.12660.51843",
+      "sourceUrl": "https://doi.org/10.13140/rg.2.2.12660.51843",
+      "snippet": "",
+      "source": "",
+      "publishedAt": "2026-07-18",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "OpenAlex/气动布局研究",
+      "linkType": "publisher",
+      "region": "海外",
+      "language": "en",
+      "sourceType": "学术论文",
+      "queryTopic": "气动布局研究",
+      "evidence": {
+        "hasAbstract": false,
+        "doi": "10.13140/rg.2.2.12660.51843",
+        "authorsCount": 4,
+        "authors": [
+          "Amir Khan",
+          "Ataur Rahman",
+          "Shakil Ahmad",
+          "Abdur Rafai"
+        ],
+        "citedByCount": 0,
+        "publicationType": "article",
+        "journal": "",
+        "publisher": "",
+        "isOpenAccess": true
+      },
+      "id": "4c384130",
+      "relevanceScore": 6,
+      "_researchTag": "气动研究",
+      "category": "学术研究",
+      "tags": [
+        "气动研究"
+      ],
+      "reliability": {
+        "score": 72,
+        "grade": "B",
+        "label": "待核验",
+        "factors": [
+          "有DOI可追溯",
+          "4位作者",
+          "开放获取"
+        ],
+        "limitations": [
+          "缺少内容摘要"
+        ]
+      },
+      "titleZh": "Optimal Design and Analysis of Horizontal Axis Wind Turbine Blade",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": ""
+    },
+    {
+      "title": "Stability Implications of Renewable Energy Integration in Interconnected Power Systems",
+      "url": "https://doi.org/10.37394/232016.2026.21.12",
+      "sourceUrl": "https://doi.org/10.37394/232016.2026.21.12",
+      "snippet": "This paper investigates the impact of renewable energy source (RES) integration on the small-signal stability of interconnected power systems using linear modal analysis. Unlike conventional synchronous generators, inverter-based RESs are non-dispatchable and do not inherently contribute rotational inertia or governor-based damping. Their increasing penetration consequently degrades system frequency response, leading to a higher rate of change of frequency (RoCoF) and a lower frequency nadir following disturbances. Modal analysis reveals that both interarea and local electromechanical oscillation modes experience reduced damping as RES penetration levels rise. Furthermore, wind power integration introduces a distinct low-frequency interarea oscillatory mode not observed with equivalent photovoltaic (PV) integration. A modified Kundur two-area test system is employed to model these scenarios, wherein wind and solar farms progressively replace conventional synchronous generation to evaluate their influence on system dynamic stability.",
+      "source": "WSEAS TRANSACTIONS ON POWER SYSTEMS",
+      "publishedAt": "2026-07-20",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "OpenAlex/气动布局研究",
+      "linkType": "publisher",
+      "region": "海外",
+      "language": "en",
+      "sourceType": "学术论文",
+      "queryTopic": "气动布局研究",
+      "evidence": {
+        "hasAbstract": true,
+        "doi": "10.37394/232016.2026.21.12",
+        "authorsCount": 2,
+        "authors": [
+          "Mabrouka Ghiloufi",
+          "Lassâad Sbita"
+        ],
+        "citedByCount": 0,
+        "publicationType": "article",
+        "journal": "WSEAS TRANSACTIONS ON POWER SYSTEMS",
+        "publisher": "World Scientific and Engineering Academy and Society",
+        "isOpenAccess": true
+      },
+      "id": "370c613e",
+      "relevanceScore": 5,
+      "category": "学术研究",
+      "reliability": {
+        "score": 93,
+        "grade": "A",
+        "label": "高可靠",
+        "factors": [
+          "有DOI可追溯",
+          "发表在WSEAS TRANSACTIONS ON POWER SYSTEMS",
+          "2位作者",
+          "开放获取",
+          "有详细摘要"
+        ],
+        "limitations": []
+      },
+      "titleZh": "Stability Implications of Renewable Energy Integration in Interconnected Power Systems",
+      "summary": "This paper investigates the impact of renewable energy source (RES) integration on the small-signal stability of interconnected power systems using linear modal analysis. Unlike conventional synchronous generators, inverter-based RESs are non-dispatchable and do not inherently contribute rotational inertia or governor-based damping. Their increasing penetration consequently degrades system frequency response, leading to a higher rate of change of frequency (RoCoF) and a lower frequency nadir following disturbances. Modal analysis reveals that both interarea and local electromechanical oscillation modes experience reduced damping as RES penetration levels rise. Furthermore, wind power integration introduces a distinct low-frequency interarea oscillatory mode not observed with equivalent photovoltaic (PV) integration. A modified Kundur two-area test system is employed to model these scenarios, wherein wind and solar farms progressively replace conventional synchronous generation to evaluate their influence on system dynamic stability.",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": []
+    },
+    {
+      "title": "Peer Review Statement",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/3263/1/011002",
+      "sourceUrl": "https://iopscience.iop.org/article/10.1088/1742-6596/3263/1/011002",
+      "snippet": "All papers published in this volume have been reviewed through processes administered by the Editors. Reviews were conducted by expert referees to the professional and scientific standards expected of a proceedings journal published by IOP Publishing. • Type of peer review: Single Anonymous • Conference submission management system: Morressier • Number of submissions received: 42 • Number of submissions sent for review: 42 • Number of submissions accepted: 42 • Acceptance Rate (Submissions Accepted / Submissions Received × 100): 100 • Average number of reviews per paper: 2 • Total number of reviewers involved: 72 • Contact person for queries: Name: Lyubomyr Nykyruy Email: liubomyr.nykyrui@cnu.edu.ua Affiliation: Vasyl Stefanyk Carpathian National University",
+      "source": "IOP JPCS",
+      "publishedAt": "2026-06-30T23:00:00.000Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "RSS/IOP JPCS",
       "linkType": "publisher",
       "region": "海外",
       "language": "en",
@@ -2562,89 +1453,75 @@
         "doi": "",
         "authorsCount": 0,
         "authors": [],
-        "journal": "Wind (MDPI)",
+        "journal": "IOP JPCS",
         "isOpenAccess": true
       },
-      "id": "467c45bd",
-      "relevanceScore": 12,
-      "_researchTag": "气动研究",
-      "category": "风电动态",
-      "tags": [
-        "雨蚀",
-        "叶片",
-        "涂层",
-        "孵化时间",
-        "日本"
-      ],
-      "titleZh": "基于长期气象与气候数据集CRIEPI-RCM-Era2的日本风力机叶片雨蚀图谱",
-      "summary": "叶片前缘雨蚀会降低风电输出并增加维护成本。本研究基于CRIEPI-RCM-Era2数据集（2006-2016），针对NREL 5MW、DTU 10MW和IEA 15MW风机，评估了商用聚氨酯涂层在叶尖的孵化时间（侵蚀起始时间）。采用经验损伤模型模拟侵蚀进程，发现风机尺寸与侵蚀风险正相关：5MW风机孵化时间3-12年，10MW为1-4年，15MW为0.5-2年。太平洋侧因降水多，孵化时间更短。紫外线辐射会进一步缩短孵化时间。还验证了侵蚀安全运行模式的有效性。",
-      "keyPoints": [
-        "基于11年（2006-2016）CRIEPI-RCM-Era2数据集",
-        "NREL 5MW孵化时间3-12年，DTU 10MW为1-4年，IEA 15MW为0.5-2年",
-        "太平洋侧孵化时间更短",
-        "紫外线辐射加剧涂层退化，缩短孵化时间"
-      ],
-      "engineeringImpact": "对风电运维启示：大型风机叶片更易受雨蚀，需根据区域降水特征制定涂层维护计划；紫外线辐射加速退化，可考虑抗UV涂层或侵蚀安全运行模式以延长叶片寿命。",
-      "paperDetails": {
-        "objective": "开发日本风力机叶片雨蚀图谱，评估不同尺寸风机和区域气候对侵蚀的影响",
-        "methods": "CRIEPI-RCM-Era2数据集，经验损伤模型，紫外线辐射数据",
-        "testObject": "NREL 5MW, DTU 10MW, IEA 15MW风机叶片尖部聚氨酯涂层",
-        "operatingConditions": "2006-2016年日本气象条件",
-        "quantitativeFindings": [
-          {
-            "metric": "孵化时间",
-            "value": "3-12",
-            "unit": "年",
-            "comparison": "不同风机型号",
-            "conditions": "NREL 5MW",
-            "evidence": "摘要中明确提及"
-          },
-          {
-            "metric": "孵化时间",
-            "value": "1-4",
-            "unit": "年",
-            "comparison": "不同风机型号",
-            "conditions": "DTU 10MW",
-            "evidence": "摘要中明确提及"
-          },
-          {
-            "metric": "孵化时间",
-            "value": "0.5-2",
-            "unit": "年",
-            "comparison": "不同风机型号",
-            "conditions": "IEA 15MW",
-            "evidence": "摘要中明确提及"
-          }
-        ],
-        "limitations": [
-          "仅针对日本区域",
-          "涂层类型单一（聚氨酯）",
-          "模型基于经验，未考虑实际运行工况"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
+      "id": "51ef51d6",
+      "relevanceScore": 3,
+      "category": "学术研究",
       "reliability": {
         "score": 76,
         "grade": "B",
         "label": "待核验",
         "factors": [
-          "发表在Wind (MDPI)",
+          "发表在IOP JPCS",
           "开放获取",
           "有详细摘要",
           "有结构化摘要"
         ],
         "limitations": []
-      }
+      },
+      "titleZh": "Peer Review Statement",
+      "summary": "All papers published in this volume have been reviewed through processes administered by the Editors. Reviews were conducted by expert referees to the professional and scientific standards expected of a proceedings journal published by IOP Publishing. • Type of peer review: Single Anonymous • Conference submission management system: Morressier • Number of submissions received: 42 • Number of submissions sent for review: 42 • Number of submissions accepted: 42 • Acceptance Rate (Submissions Accepted / Submissions Received × 100): 100 • Average number of reviews per paper: 2 • Total number of reviewers involved: 72 • Contact person for queries: Name: Lyubomyr Nykyruy Email: liubomyr.nykyrui@cnu.edu.ua Affiliation: Vasyl Stefanyk Carpathian National University",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": []
+    },
+    {
+      "title": "Ambient surface oxidation of thermally evaporated CdS thin films studied by XPS and EDS",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/3263/1/012001",
+      "sourceUrl": "https://iopscience.iop.org/article/10.1088/1742-6596/3263/1/012001",
+      "snippet": "Cadmium sulphide (CdS) thin films were deposited by thermal vacuum evaporation onto glass substrates and studied with respect to their surface chemical state after exposure to ambient atmosphere. Two series of films with different thicknesses (≈420 nm and ≈560 nm) were prepared under identical deposition conditions. The elemental composition and surface chemistry were investigated using energy-dispersive X-ray spectroscopy (EDS) and X-ray photoelectron spectroscopy (XPS). EDS confirms the presence of Cd and S as main constituents, while oxygen and carbon impurities are also detected. XPS survey and high-resolution spectra reveal the formation of surface oxide-related components, attributed to Cd–O and sulphur–oxygen bonds, as well as adventitious carbon species. The results indicate that even without post-deposition thermal treatment, CdS thin films undergo noticeable surface oxidation during storage in air, which may affect the electronic properties of CdS-based heterojunctions, particularly in CdS/CdTe photovoltaic devices.",
+      "source": "IOP JPCS",
+      "publishedAt": "2026-06-30T23:00:00.000Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "RSS/IOP JPCS",
+      "linkType": "publisher",
+      "region": "海外",
+      "language": "en",
+      "sourceType": "学术论文",
+      "queryTopic": "风电动态",
+      "contextTags": [
+        "风电动态"
+      ],
+      "evidence": {
+        "hasAbstract": true,
+        "doi": "",
+        "authorsCount": 0,
+        "authors": [],
+        "journal": "IOP JPCS",
+        "isOpenAccess": true
+      },
+      "id": "51d2a366",
+      "relevanceScore": 3,
+      "category": "学术研究",
+      "reliability": {
+        "score": 76,
+        "grade": "B",
+        "label": "待核验",
+        "factors": [
+          "发表在IOP JPCS",
+          "开放获取",
+          "有详细摘要",
+          "有结构化摘要"
+        ],
+        "limitations": []
+      },
+      "titleZh": "Ambient surface oxidation of thermally evaporated CdS thin films studied by XPS and EDS",
+      "summary": "Cadmium sulphide (CdS) thin films were deposited by thermal vacuum evaporation onto glass substrates and studied with respect to their surface chemical state after exposure to ambient atmosphere. Two series of films with different thicknesses (≈420 nm and ≈560 nm) were prepared under identical deposition conditions. The elemental composition and surface chemistry were investigated using energy-dispersive X-ray spectroscopy (EDS) and X-ray photoelectron spectroscopy (XPS). EDS confirms the presence of Cd and S as main constituents, while oxygen and carbon impurities are also detected. XPS survey and high-resolution spectra reveal the formation of surface oxide-related components, attributed to Cd–O and sulphur–oxygen bonds, as well as adventitious carbon species. The results indicate that even without post-deposition thermal treatment, CdS thin films undergo noticeable surface oxidation during storage in air, which may affect the electronic properties of CdS-based heterojunctions, particularly in CdS/CdTe photovoltaic devices.",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": []
     },
     {
       "title": "9支海上风电叶片损毁殆尽，这场事故原因公布！",
@@ -2653,7 +1530,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2666,42 +1543,6 @@
       "id": "4f741513",
       "relevanceScore": 10,
       "category": "风电动态",
-      "titleZh": "9支海上风电叶片损毁殆尽，这场事故原因公布！",
-      "summary": "报道了某海上风电场发生叶片损毁事故，共9支叶片严重损坏。事故原因已公布，但摘要未提供具体原因。证据层级为新闻报道，结论边界限于事故描述。",
-      "keyPoints": [
-        "9支海上风电叶片损毁",
-        "事故原因已公布",
-        "涉及海上风电场"
-      ],
-      "engineeringImpact": "该事故警示叶片设计、制造和运维中需加强质量控制和监测，避免批量失效。对供应链中叶片材料和工艺提出更高要求。",
-      "tags": [
-        "叶片损毁",
-        "事故分析",
-        "海上风电"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "事故",
-        "companies": [],
-        "location": "未提及",
-        "capacity": "未提及",
-        "investment": "未提及",
-        "timeline": "2026-07-13",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "原因已公布",
-        "quantitativeFacts": [
-          "9支叶片损毁"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -2714,7 +1555,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "9支海上风电叶片损毁殆尽，这场事故原因公布！",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "中广核葫芦岛80万千瓦海上风电项目公示",
@@ -2722,8 +1570,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30882.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-21T11:27:39.849Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "publishedAt": "2026-07-22T03:33:08.309Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2736,44 +1584,6 @@
       "id": "42d1d642",
       "relevanceScore": 10,
       "category": "风电动态",
-      "titleZh": "中广核葫芦岛80万千瓦海上风电项目公示",
-      "summary": "中广核在葫芦岛规划80万千瓦海上风电项目，已进行公示。项目规模明确，但具体进展和细节未提供。",
-      "keyPoints": [
-        "中广核葫芦岛海上风电项目",
-        "装机容量80万千瓦",
-        "项目已公示"
-      ],
-      "engineeringImpact": "该大型项目将推动海上风电技术应用和供应链需求，对风机选型、基础设计和施工提出挑战。",
-      "tags": [
-        "项目公示",
-        "海上风电",
-        "中广核"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "项目公示",
-        "companies": [
-          "中广核"
-        ],
-        "location": "葫芦岛",
-        "capacity": "80万千瓦",
-        "investment": "未提及",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "公示阶段",
-        "quantitativeFacts": [
-          "80万千瓦"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -2786,7 +1596,55 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "中广核葫芦岛80万千瓦海上风电项目公示",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
+    },
+    {
+      "title": "100台10MW大单！哈密1GW风电项目启动招标",
+      "url": "https://news.bjx.com.cn/html/20260722/1505255.shtml",
+      "sourceUrl": "https://news.bjx.com.cn/html/20260722/1505255.shtml",
+      "snippet": "",
+      "source": "北极星风力发电网",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "北极星风电/风电动态",
+      "linkType": "publisher",
+      "region": "国内",
+      "language": "zh",
+      "sourceType": "行业资讯",
+      "queryTopic": "industry",
+      "contextTags": [
+        "风电"
+      ],
+      "id": "4db33da3",
+      "relevanceScore": 9,
+      "category": "风电动态",
+      "reliability": {
+        "score": 60,
+        "grade": "B",
+        "label": "待核验",
+        "factors": [
+          "公开网络来源",
+          "国内行业权威渠道"
+        ],
+        "limitations": [
+          "非一级权威来源",
+          "缺少内容摘要"
+        ]
+      },
+      "titleZh": "100台10MW大单！哈密1GW风电项目启动招标",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "广东10.3GW海上风电启动竞配！",
@@ -2795,7 +1653,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2808,126 +1666,26 @@
       "id": "3cb089a0",
       "relevanceScore": 9,
       "category": "风电动态",
+      "reliability": {
+        "score": 60,
+        "grade": "B",
+        "label": "待核验",
+        "factors": [
+          "公开网络来源",
+          "国内行业权威渠道"
+        ],
+        "limitations": [
+          "非一级权威来源",
+          "缺少内容摘要"
+        ]
+      },
       "titleZh": "广东10.3GW海上风电启动竞配！",
-      "summary": "广东省启动10.3GW海上风电项目竞争配置，规模巨大，将推动区域风电发展。具体竞配规则和项目分布未详述。",
-      "keyPoints": [
-        "广东海上风电竞配启动",
-        "总容量10.3GW",
-        "大规模项目配置"
-      ],
-      "engineeringImpact": "大规模竞配将加速海上风电降本和技术创新，对风机大型化、漂浮式等新技术提出需求，影响供应链布局。",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
       "tags": [
-        "竞配",
-        "海上风电",
-        "广东"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "竞配启动",
-        "companies": [],
-        "location": "广东",
-        "capacity": "10.3GW",
-        "investment": "未提及",
-        "timeline": "2026-07-14",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "启动阶段",
-        "quantitativeFacts": [
-          "10.3GW"
-        ]
-      },
-      "reliability": {
-        "score": 60,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "公开网络来源",
-          "国内行业权威渠道"
-        ],
-        "limitations": [
-          "非一级权威来源",
-          "缺少内容摘要"
-        ]
-      }
-    },
-    {
-      "title": "三峡阳江16MW漂浮式风机示范项目获核准！",
-      "url": "https://news.bjx.com.cn/html/20260720/1504853.shtml",
-      "sourceUrl": "https://news.bjx.com.cn/html/20260720/1504853.shtml",
-      "snippet": "",
-      "source": "北极星风力发电网",
-      "publishedAt": "2026-07-20T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "北极星风电/风电动态",
-      "linkType": "publisher",
-      "region": "国内",
-      "language": "zh",
-      "sourceType": "行业资讯",
-      "queryTopic": "industry",
-      "contextTags": [
-        "风电"
-      ],
-      "id": "7fbae6c9",
-      "relevanceScore": 9,
-      "category": "风电动态",
-      "titleZh": "三峡阳江16MW漂浮式风机示范项目获核准",
-      "summary": "三峡阳江16MW漂浮式风机示范项目获得核准，标志着中国在超大容量漂浮式风电技术方面取得重要进展。该项目采用16MW机组，为目前国内最大单机容量漂浮式风机，将推动深远海风电开发。核准文件明确了项目规模、建设地点及投资要求，预计将带动相关产业链发展。",
-      "keyPoints": [
-        "项目采用16MW漂浮式风机",
-        "项目位于阳江海域",
-        "已获得政府核准批复"
-      ],
-      "engineeringImpact": "该示范项目验证16MW漂浮式风机的工程可行性，为深远海风电开发提供技术储备，推动大容量漂浮式机组的设计、制造与安装工艺成熟，降低度电成本。",
-      "tags": [
-        "漂浮式",
-        "16MW",
-        "示范项目",
-        "核准"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": []
-      },
-      "industryDetails": {
-        "eventType": "项目核准",
-        "companies": [
-          "三峡集团"
-        ],
-        "location": "阳江",
-        "capacity": "16MW",
-        "investment": "",
-        "timeline": "2026-07-20",
-        "supplyChainImpact": "推动大容量漂浮式风机产业链发展",
-        "verificationStatus": "已核准",
-        "quantitativeFacts": [
-          "16MW单机容量"
-        ]
-      },
-      "reliability": {
-        "score": 60,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "公开网络来源",
-          "国内行业权威渠道"
-        ],
-        "limitations": [
-          "非一级权威来源",
-          "缺少内容摘要"
-        ]
-      }
+        "国内"
+      ]
     },
     {
       "title": "26台12.5MW机组！江苏华电325MW海上风电项目公示",
@@ -2935,8 +1693,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30863.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-21T11:27:39.849Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "publishedAt": "2026-07-22T03:33:08.309Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2949,45 +1707,6 @@
       "id": "4e0f52c7",
       "relevanceScore": 9,
       "category": "风电动态",
-      "titleZh": "26台12.5MW机组！江苏华电325MW海上风电项目公示",
-      "summary": "江苏华电325MW海上风电项目进行公示，拟安装26台12.5MW风电机组。该项目位于江苏海域，总装机容量325MW，采用大容量机组可减少机位数量，降低基础及海缆成本。公示内容包含项目概况、环境影响等，为后续建设奠定基础。",
-      "keyPoints": [
-        "安装26台12.5MW机组",
-        "总装机容量325MW",
-        "项目位于江苏海域"
-      ],
-      "engineeringImpact": "采用12.5MW大容量机组可优化海上风电场布局，减少基础数量，降低施工与运维成本，提升项目经济性，为类似规模海上风电项目提供参考。",
-      "tags": [
-        "海上风电",
-        "12.5MW",
-        "325MW",
-        "项目公示"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": []
-      },
-      "industryDetails": {
-        "eventType": "项目公示",
-        "companies": [
-          "华电集团"
-        ],
-        "location": "江苏",
-        "capacity": "325MW",
-        "investment": "",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "促进大容量机组供应链需求",
-        "verificationStatus": "公示中",
-        "quantitativeFacts": [
-          "26台",
-          "12.5MW",
-          "325MW"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3000,7 +1719,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "26台12.5MW机组！江苏华电325MW海上风电项目公示",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "3.7GW！贵州省发布4-6月风电项目核准清单",
@@ -3009,7 +1735,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-21T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3022,41 +1748,6 @@
       "id": "38ee0268",
       "relevanceScore": 8,
       "category": "风电动态",
-      "titleZh": "3.7GW！贵州省发布4-6月风电项目核准清单",
-      "summary": "贵州省发布2026年4-6月风电项目核准清单，总容量3.7GW。清单包含多个风电项目，涉及不同投资主体和建设地点，反映了贵州省风电开发的积极态势。核准清单的发布有助于企业了解项目进展，推动风电装机增长。",
-      "keyPoints": [
-        "总容量3.7GW",
-        "时间范围为2026年4-6月",
-        "涉及多个风电项目"
-      ],
-      "engineeringImpact": "大规模项目核准将带动风电设备需求，促进供应链产能释放，同时需关注项目并网与消纳能力，对电网规划提出更高要求。",
-      "tags": [
-        "核准清单",
-        "3.7GW",
-        "贵州",
-        "风电项目"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": []
-      },
-      "industryDetails": {
-        "eventType": "项目核准清单发布",
-        "companies": [],
-        "location": "贵州",
-        "capacity": "3.7GW",
-        "investment": "",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "带动风电设备需求",
-        "verificationStatus": "已发布",
-        "quantitativeFacts": [
-          "3.7GW"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3069,7 +1760,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "3.7GW！贵州省发布4-6月风电项目核准清单",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "签约！又一中国企业拿下中亚1GW风电项目",
@@ -3078,7 +1776,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-21T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3091,45 +1789,6 @@
       "id": "4a0c9f12",
       "relevanceScore": 8,
       "category": "风电动态",
-      "titleZh": "签约！又一中国企业拿下中亚1GW风电项目",
-      "summary": "据北极星风力发电网报道，2026年7月21日，一家中国企业成功签约中亚地区一个1GW风电项目。该项目规模宏大，标志着中国风电企业在中亚市场的进一步拓展。资料来源于行业新闻，未提供具体企业名称、项目地点、投资金额等细节，属于行业动态报道。",
-      "keyPoints": [
-        "中国企业签约中亚1GW风电项目",
-        "项目规模为1GW",
-        "报道时间为2026年7月21日"
-      ],
-      "engineeringImpact": "该签约事件表明中国风电企业正加速海外布局，中亚市场成为新增长点。对工程设计、供应链管理及国际标准适应能力提出更高要求，需关注当地政策、物流及运维挑战。",
-      "tags": [
-        "风电项目",
-        "中亚",
-        "中国企业",
-        "1GW"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "项目签约",
-        "companies": [
-          "未提及"
-        ],
-        "location": "中亚",
-        "capacity": "1GW",
-        "investment": "未提及",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "未提及",
-        "quantitativeFacts": [
-          "项目容量1GW"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3142,7 +1801,55 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "签约！又一中国企业拿下中亚1GW风电项目",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
+    },
+    {
+      "title": "国能新疆160万千瓦风电项目主体工程集中开工",
+      "url": "https://news.bjx.com.cn/html/20260722/1505261.shtml",
+      "sourceUrl": "https://news.bjx.com.cn/html/20260722/1505261.shtml",
+      "snippet": "",
+      "source": "北极星风力发电网",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
+      "sourceChannel": "北极星风电/风电动态",
+      "linkType": "publisher",
+      "region": "国内",
+      "language": "zh",
+      "sourceType": "行业资讯",
+      "queryTopic": "industry",
+      "contextTags": [
+        "风电"
+      ],
+      "id": "234c0920",
+      "relevanceScore": 8,
+      "category": "风电动态",
+      "reliability": {
+        "score": 60,
+        "grade": "B",
+        "label": "待核验",
+        "factors": [
+          "公开网络来源",
+          "国内行业权威渠道"
+        ],
+        "limitations": [
+          "非一级权威来源",
+          "缺少内容摘要"
+        ]
+      },
+      "titleZh": "国能新疆160万千瓦风电项目主体工程集中开工",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "贵州核准批复41个风电项目，共计3.7GW！（附清单）",
@@ -3150,8 +1857,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30955.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-21T11:27:39.849Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "publishedAt": "2026-07-22T03:33:08.309Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3164,46 +1871,6 @@
       "id": "12fc6226",
       "relevanceScore": 8,
       "category": "风电动态",
-      "titleZh": "贵州核准批复41个风电项目，共计3.7GW！（附清单）",
-      "summary": "据每日风电2026年7月21日报道，贵州省核准批复了41个风电项目，总装机容量3.7GW。报道附有项目清单，但摘要中未列出具体项目名称。该信息表明贵州省在风电开发方面持续发力，推动清洁能源发展。",
-      "keyPoints": [
-        "贵州核准41个风电项目",
-        "总容量3.7GW",
-        "报道时间为2026年7月21日"
-      ],
-      "engineeringImpact": "大规模项目核准将带动风电设备需求，对风机选型、电网接入及运维服务提出更高要求。企业可关注贵州山地风电技术挑战，如运输、吊装及防雷等。",
-      "tags": [
-        "贵州",
-        "风电项目",
-        "核准",
-        "3.7GW"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "项目核准",
-        "companies": [
-          "未提及"
-        ],
-        "location": "贵州",
-        "capacity": "3.7GW",
-        "investment": "未提及",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "已核准",
-        "quantitativeFacts": [
-          "项目数量41个",
-          "总容量3.7GW"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3216,7 +1883,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "贵州核准批复41个风电项目，共计3.7GW！（附清单）",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "4765米！中广核海拔最高的风电项目完成首台风机吊装",
@@ -3224,8 +1898,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30935.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-21T11:27:39.849Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "publishedAt": "2026-07-22T03:33:08.309Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3238,45 +1912,6 @@
       "id": "6f8cecf8",
       "relevanceScore": 8,
       "category": "风电动态",
-      "titleZh": "4765米！中广核海拔最高的风电项目完成首台风机吊装",
-      "summary": "据每日风电2026年7月21日报道，中广核在海拔4765米处完成其海拔最高风电项目的首台风机吊装。该项目创下中广核风电项目海拔新高，展示了高海拔风电施工技术能力。",
-      "keyPoints": [
-        "中广核海拔最高风电项目首台风机吊装完成",
-        "海拔4765米",
-        "报道时间为2026年7月21日"
-      ],
-      "engineeringImpact": "高海拔风电项目对风机设计、运输、吊装及运维提出特殊要求，如空气密度低影响发电效率、低温环境材料选择等。该案例为高海拔风电开发提供工程参考。",
-      "tags": [
-        "中广核",
-        "高海拔",
-        "风机吊装",
-        "4765米"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "风机吊装",
-        "companies": [
-          "中广核"
-        ],
-        "location": "未提及",
-        "capacity": "未提及",
-        "investment": "未提及",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "首台吊装完成",
-        "quantitativeFacts": [
-          "海拔4765米"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3289,7 +1924,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "4765米！中广核海拔最高的风电项目完成首台风机吊装",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "年入千万“外快”！海上风电蹚出新路",
@@ -3298,7 +1940,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-08T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3311,40 +1953,6 @@
       "id": "1de381c4",
       "relevanceScore": 7,
       "category": "风电动态",
-      "titleZh": "年入千万“外快”！海上风电蹚出新路",
-      "summary": "本文报道了海上风电项目通过多元化经营（如渔业养殖、旅游等）实现额外收入，年增收可达千万元级别。文章基于行业案例，未提供具体试验数据或量化结论，属于行业动态报道。",
-      "keyPoints": [
-        "海上风电项目通过渔业养殖等多元化经营增收",
-        "年增收可达千万元级别",
-        "属于行业动态报道，无具体试验数据"
-      ],
-      "engineeringImpact": "启示海上风电项目可结合渔业、旅游等产业，提升项目经济性，对运维和供应链提出协同需求。",
-      "tags": [
-        "海上风电",
-        "多元化",
-        "增收"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "行业动态",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3357,7 +1965,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "年入千万“外快”！海上风电蹚出新路",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "国家能源局：1-5月全国新增并网风电装机2505万千瓦，同比下降46%！",
@@ -3365,8 +1980,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30913.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-21T11:27:39.849Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "publishedAt": "2026-07-22T03:33:08.309Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3379,51 +1994,6 @@
       "id": "4630db8f",
       "relevanceScore": 7,
       "category": "风电动态",
-      "titleZh": "国家能源局：1-5月全国新增并网风电装机2505万千瓦，同比下降46%！",
-      "summary": "国家能源局发布数据，2026年1-5月全国新增并网风电装机2505万千瓦，同比下降46%。该数据来自官方统计，属于行业宏观数据，未涉及具体技术细节。",
-      "keyPoints": [
-        "2026年1-5月新增并网风电装机2505万千瓦",
-        "同比下降46%",
-        "数据来源为国家能源局"
-      ],
-      "engineeringImpact": "装机量大幅下降可能影响风电设备供应链需求，对设计、制造和运维企业有市场预警作用。",
-      "tags": [
-        "装机量",
-        "并网",
-        "同比下降"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [
-          {
-            "metric": "新增并网风电装机",
-            "value": "2505",
-            "unit": "万千瓦",
-            "comparison": "同比下降46%",
-            "conditions": "2026年1-5月",
-            "evidence": "国家能源局数据"
-          }
-        ],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "行业数据发布",
-        "companies": [],
-        "location": "中国",
-        "capacity": "2505万千瓦",
-        "investment": "",
-        "timeline": "2026年1-5月",
-        "supplyChainImpact": "可能影响风电设备需求",
-        "verificationStatus": "官方数据",
-        "quantitativeFacts": [
-          "新增并网风电装机2505万千瓦，同比下降46%"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3436,7 +2006,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "国家能源局：1-5月全国新增并网风电装机2505万千瓦，同比下降46%！",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "2025中国山东国际风能技术及海上风电装备展览会暨发展论坛",
@@ -3444,8 +2021,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30057.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-21T11:27:39.849Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "publishedAt": "2026-07-22T03:33:08.309Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3458,40 +2035,6 @@
       "id": "62c54bed",
       "relevanceScore": 7,
       "category": "风电动态",
-      "titleZh": "2025中国山东国际风能技术及海上风电装备展览会暨发展论坛",
-      "summary": "本文预告了2025年在山东举办的风能技术及海上风电装备展览会暨发展论坛，属于行业展会信息，未提供具体技术内容或数据。",
-      "keyPoints": [
-        "2025年在山东举办风能技术及海上风电装备展览会",
-        "同期举办发展论坛",
-        "属于行业展会信息"
-      ],
-      "engineeringImpact": "展会促进技术交流与供应链合作，对设计、运维和供应链企业有市场拓展启示。",
-      "tags": [
-        "展会",
-        "山东",
-        "海上风电"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "展会预告",
-        "companies": [],
-        "location": "山东",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2025年",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3504,7 +2047,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "2025中国山东国际风能技术及海上风电装备展览会暨发展论坛",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
       "title": "金风科技翟恩地：风电与AI，正在从单向供给走向双向成就",
@@ -3513,7 +2063,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-21T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3525,116 +2075,7 @@
       ],
       "id": "2af964a7",
       "relevanceScore": 6,
-      "category": "AI动态",
-      "titleZh": "金风科技翟恩地：风电与AI，正在从单向供给走向双向成就",
-      "summary": "本文报道了金风科技翟恩地关于风电与人工智能（AI）融合发展的观点。文章指出，当前风电与AI的关系正从AI单向服务于风电（如预测性维护、功率预测）转向双向赋能：风电场景为AI提供真实数据训练环境，AI则提升风电全生命周期效率。文中未提供具体试验数据或量化结论，属于行业趋势分析。",
-      "keyPoints": [
-        "金风科技翟恩地发表观点",
-        "风电与AI关系从单向供给转向双向成就",
-        "AI在风电中的应用包括预测性维护和功率预测",
-        "风电场景为AI提供数据训练环境"
-      ],
-      "engineeringImpact": "该观点提示风电企业应重视AI与风电的协同发展，在运维、功率预测等领域深化AI应用，同时利用风电数据反哺AI模型优化，提升整体工程效率。",
-      "tags": [
-        "风电",
-        "AI",
-        "双向赋能",
-        "金风科技"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "行业观点",
-        "companies": [
-          "金风科技"
-        ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      },
-      "reliability": {
-        "score": 60,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "公开网络来源",
-          "国内行业权威渠道"
-        ],
-        "limitations": [
-          "非一级权威来源",
-          "缺少内容摘要"
-        ]
-      }
-    },
-    {
-      "title": "内蒙古700MW风电机组和塔筒采购招标！",
-      "url": "https://news.bjx.com.cn/html/20260720/1504908.shtml",
-      "sourceUrl": "https://news.bjx.com.cn/html/20260720/1504908.shtml",
-      "snippet": "",
-      "source": "北极星风力发电网",
-      "publishedAt": "2026-07-20T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
-      "sourceChannel": "北极星风电/风电动态",
-      "linkType": "publisher",
-      "region": "国内",
-      "language": "zh",
-      "sourceType": "行业资讯",
-      "queryTopic": "industry",
-      "contextTags": [
-        "风电"
-      ],
-      "id": "7ba2b7a1",
-      "relevanceScore": 6,
       "category": "风电动态",
-      "titleZh": "内蒙古700MW风电机组和塔筒采购招标！",
-      "summary": "本文报道了内蒙古地区一项700MW风电项目的机组和塔筒采购招标信息。招标内容涉及风电机组及配套塔筒的采购，但未披露具体机型、投标方或中标结果。属于行业采购动态，无试验数据或结论。",
-      "keyPoints": [
-        "内蒙古700MW风电项目招标",
-        "采购内容包括风电机组和塔筒",
-        "招标信息发布于2026年7月20日"
-      ],
-      "engineeringImpact": "该招标信息表明内蒙古风电市场持续扩张，对风电机组和塔筒的供应链有直接需求，相关企业可关注投标机会。",
-      "tags": [
-        "招标",
-        "风电机组",
-        "塔筒",
-        "内蒙古"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "采购招标",
-        "companies": [],
-        "location": "内蒙古",
-        "capacity": "700MW",
-        "investment": "",
-        "timeline": "2026-07-20",
-        "supplyChainImpact": "风电机组和塔筒需求增加",
-        "verificationStatus": "",
-        "quantitativeFacts": [
-          "700MW"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3647,16 +2088,23 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "金风科技翟恩地：风电与AI，正在从单向供给走向双向成就",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     },
     {
-      "title": "内蒙古赤峰100万千瓦荒漠风光储基地项目并网成功",
-      "url": "https://news.bjx.com.cn/html/20260721/1505060.shtml",
-      "sourceUrl": "https://news.bjx.com.cn/html/20260721/1505060.shtml",
+      "title": "金风科技预中标83.4MW“以大代小” 风机订单",
+      "url": "https://news.bjx.com.cn/html/20260721/1505054.shtml",
+      "sourceUrl": "https://news.bjx.com.cn/html/20260721/1505054.shtml",
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-21T00:00:00.000Z",
-      "collectedAt": "2026-07-21T11:27:39.849Z",
+      "collectedAt": "2026-07-22T03:33:08.309Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -3666,46 +2114,9 @@
       "contextTags": [
         "风电"
       ],
-      "id": "232a0c80",
+      "id": "5fe96e8b",
       "relevanceScore": 6,
       "category": "风电动态",
-      "titleZh": "内蒙古赤峰100万千瓦荒漠风光储基地项目并网成功",
-      "summary": "本文报道了内蒙古赤峰100万千瓦荒漠风光储基地项目成功并网。该项目为风光储一体化基地，位于荒漠地区，总容量100万千瓦。并网成功标志着项目进入运营阶段，但未提供具体发电数据或技术细节。",
-      "keyPoints": [
-        "内蒙古赤峰100万千瓦风光储基地并网",
-        "项目位于荒漠地区",
-        "并网成功时间2026年7月21日"
-      ],
-      "engineeringImpact": "该项目的并网为大规模风光储一体化基地建设提供了工程示范，对荒漠地区新能源开发具有参考价值，同时验证了多能互补的可行性。",
-      "tags": [
-        "并网",
-        "风光储",
-        "荒漠",
-        "内蒙古"
-      ],
-      "paperDetails": {
-        "objective": "未提及",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "项目并网",
-        "companies": [],
-        "location": "内蒙古赤峰",
-        "capacity": "100万千瓦",
-        "investment": "",
-        "timeline": "2026-07-21",
-        "supplyChainImpact": "",
-        "verificationStatus": "已并网",
-        "quantitativeFacts": [
-          "100万千瓦"
-        ]
-      },
       "reliability": {
         "score": 60,
         "grade": "B",
@@ -3718,7 +2129,14 @@
           "非一级权威来源",
           "缺少内容摘要"
         ]
-      }
+      },
+      "titleZh": "金风科技预中标83.4MW“以大代小” 风机订单",
+      "summary": "",
+      "keyPoints": [],
+      "engineeringImpact": "",
+      "tags": [
+        "国内"
+      ]
     }
   ]
 }
