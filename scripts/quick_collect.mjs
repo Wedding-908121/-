@@ -134,7 +134,7 @@ async function fetchJournalRSS(feedUrl, journalName, topicLabel) {
 async function fetchOpenAlex(query, label, region) {
   const key = openalexKey;
   const encoded = encodeURIComponent(query);
-  const url = "https://api.openalex.org/works?search=" + encoded + "&filter=from_publication_date:2026-01-01,type:article&sort=publication_date:desc&per_page=5";
+  const url = "https://api.openalex.org/works?search=" + encoded + "&filter=from_publication_date:2026-01-01,type:article&sort=publication_date:desc&per_page=10";
   try {
     const response = await fetch(url, { headers: { "User-Agent": "mailto:mech-intel@example.com", Authorization: "Bearer " + key } });
     if (!response.ok) throw new Error(response.status + " " + response.statusText);
@@ -219,8 +219,10 @@ const sources = [
 // Google News for technical categories (via Clash proxy)
   { id: "gn-metal", fn: () => fetchGoogleNews('"wind turbine" (steel OR material OR corrosion OR coating OR fatigue)', "金属材料") },
   { id: "gn-noise", fn: () => fetchGoogleNews('"wind turbine" (noise OR acoustic OR aeroacoustic OR "sound pressure")', "风机噪声") },
-  { id: "gn-test", fn: () => fetchGoogleNews('"wind turbine" (testing OR inspection OR "structural health" OR monitoring OR "field test")', "风电试验") },
-  { id: "gn-bolt", fn: () => fetchGoogleNews('"wind turbine" (bolt OR fastener OR flange OR "bolted connection" OR tightening)', "风电螺栓") },
+  { id: "gn-test", fn: () => fetchGoogleNews('"wind turbine" (testing OR inspection OR "tensile test" OR "fatigue test" OR "mechanical testing" OR NDT)', "风电试验") },
+  { id: "gn-test2", fn: () => fetchGoogleNews('(bolt OR fastener OR flange) ("tensile test" OR "hardness test" OR "material test" OR "mechanical properties")', "风电试验") },
+  { id: "gn-bolt", fn: () => fetchGoogleNews('(bolt OR fastener OR flange) ("wind turbine" OR offshore OR tower OR turbine)', "风电螺栓") },
+  { id: "gn-bolt2", fn: () => fetchGoogleNews('(bolt OR fastener) (fatigue OR preload OR tightening OR "bolted connection" OR "high strength")', "风电螺栓") },
 
   { id: "gn-wind", fn: () => fetchGoogleNews('"wind turbine" OR "wind power" OR "wind energy" OR "offshore wind"', "industry") },  // arXiv preprints
   { id: "arxiv-wind", fn: () => fetchArXiv('all:"wind turbine" AND (all:material OR all:steel OR all:corrosion OR all:fatigue)', "金属材料") },
@@ -235,7 +237,7 @@ const sources = [
 
 async function fetchArXiv(query, label) {
   try {
-    const url = "http://export.arxiv.org/api/query?search_query=" + encodeURIComponent(query) + "&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending";
+    const url = "http://export.arxiv.org/api/query?search_query=" + encodeURIComponent(query) + "&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending";
     const r = await fetch(url, { headers: { Accept: "application/atom+xml" } });
     const text = await r.text();
     const data = xmlParser.parse(text);
