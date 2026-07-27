@@ -16,17 +16,15 @@ function normalizeUrl(url) {
 
 // Category rules for classifying articles
 const categoryRules = [
-  ["疲劳断裂", ["fatigue", "fracture", "crack", "疲劳", "断裂", "裂纹", "finite element", "有限元", "S-N", "寿命预测", "损伤容限", "stress intensity"]],
-  ["AI动态", ["machine learning", "deep learning", "digital twin", "机器学习", "深度学习", "数字孪生", "neural network", "神经网络", "PINN", "physics-informed", "surrogate model", "代理模型", "人工智能", "工业AI"]],
-  ["噪声研究", ["noise", "aeroacoustic", "噪声", "气动声学", "NVH", "降噪", "声压", "sound pressure", "acoustic"]],
-  ["气动研究", ["aerodynamic", "blade", "airfoil", "气动", "叶片", "翼型", "CFD", "vortex", "wake", "涡流", "尾流", "aeroelastic", "气弹", "BEM", "LES", "RANS"]],
-  ["螺栓研究", ["bolt", "fastener", "螺栓", "紧固件", "连接", "tension", "预紧力", "flange", "法兰"]],
-  ["标准政策", ["标准", "政策", "规范", "竞配", "电价", "核准", "批复", "征求意见", "regulation", "standard", "policy", "IEC", "ISO"]],
-  ["风电动态", ["风电", "风力发电", "风机", "wind turbine", "wind power", "wind energy", "项目", "中标", "投产", "核准", "招标", "海上风电", "offshore"]]
+  ["风电动态", ["风电", "风力发电", "风机", "风场", "风电场", "风电项目", "机组", "叶片", "塔筒", "wind turbine", "wind power", "wind energy", "项目", "中标", "投产", "核准", "招标", "海上风电", "offshore", "新能源", "可再生能源"]],
+  ["金属材料", ["steel", "alloy", "corrosion", "coating", "fatigue", "fracture", "crack", "weld", "casting", "S-N", "metallur", "microstructure", "钢", "合金", "腐蚀", "疲劳", "断裂", "裂纹", "焊接", "涂层", "有限元", "finite element", "寿命预测", "损伤容限", "金相", "微观组织", "齿轮", "轴承", "高强钢", "不锈钢", "应力腐蚀", "氢脆"]],
+  ["风机噪声", ["noise", "aeroacoustic", "sound pressure", "sound power", "acoustic", "vibration", "noise reduction", "serration", "trailing edge", "噪声", "气动声学", "声压", "降噪", "振动", "NVH", "尾缘", "锯齿", "吸声", "隔声"]],
+  ["风电试验", ["experimental", "field test", "full-scale", "reliability test", "fatigue test", "structural health", "inspection", "monitoring", "NDT", "load test", "modal test", "试验", "测试", "检测", "监测", "型式试验", "现场测试", "出厂试验", "并网测试", "载荷试验", "模态"]],
+  ["风电螺栓", ["bolt", "fastener", "flange", "preload", "tension", "bolted", "tightening", "anti-loosening", "ring flange", "螺纹", "螺栓", "紧固件", "法兰", "预紧力", "连接", "防松", "扭矩", "垫圈", "高强度螺栓"]]
 ];
 
 // Sub-topic tags for academic research classification
-export const researchSubTopics = ["金属材料", "风机噪声", "风电试验", "风电螺栓"];
+export const researchSubTopics = ["风电螺栓", "风机噪声", "风电试验", "金属材料"];
 
 // Relevance scoring
 export function relevanceScore(article, keywordWeights) {
@@ -42,50 +40,32 @@ export function isDomainRelevant(article) {
   if (isLowQualityArticle(article)) return false;
 
   const windAnchors = [
-    "??", "????", "??", "???", "????", "????",
-    "wind turbine", "wind power", "wind energy", "wind farm", "offshore wind", "wind turbine blade",
+    "风电", "风力发电", "风机", "风场", "风电项目", "风电场",
+    "wind turbine", "wind power", "wind energy", "wind farm", "offshore wind",
     "monopile", "offshore structure", "renewable energy", "turbine blade", "turbine tower",
     "aeroelastic", "offshore foundation", "wind load", "wind tunnel",
-    "????", "???", "??", "??", "??", "??", "??"
-  ]
+    "叶片", "塔筒", "机组", "齿轮箱", "主轴", "轴承", "变桨"
+  ];
   
-  if (article.sourceType === '学术论文') {
+  // OpenAlex articles: pre-filtered by wind-turbine search queries → trust the source
+  const isOaArticle = (article.sourceChannel || "").startsWith("OpenAlex/");
+  if (isOaArticle && article.sourceType === "学术论文") {
+    // Only filter out obvious junk (noise check already done above)
+    return true;
+  }
+  
+  // RSS/journal articles from broad feeds → require wind relevance
+  if (article.sourceType === "学术论文" || article.sourceType === "论文") {
     const windJournals = ["Wind Energy (Wiley)", "Wind (MDPI)", "Wind Energy Science", "IOP JPCS"];
     const isWindJournal = windJournals.some(j => (article.source || "").includes(j) || (article.sourceChannel || "").includes(j));
     
     if (!isWindJournal) {
       const hasWindContext = windAnchors.some(k => containsKeyword(text, k));
-      
-      // Relaxed topics (noise, bolt, fatigue, aero): accept if topic-relevant
-      const isRelaxedTopic = article.queryTopic === "金属材料" || article.queryTopic === "风机噪声" || article.queryTopic === "风电试验" || article.queryTopic === "风电螺栓";
-      
-      if (isRelaxedTopic) {
-        // Accept if has wind context OR topic-specific terms
-        const relaxedTerms = [
-          "noise", "acoustic", "aeroacoustic", "sound", "vibration", "noise reduction", "sound power",
-          "bolt", "fastener", "flange", "connection", "tension", "preload", "bolted", "tightening",
-          "fatigue", "fracture", "crack", "corrosion", "steel", "alloy", "weld", "casting", "coating", "S-N",
-          "experimental", "field test", "full-scale", "monitoring", "inspection", "structural health", "SHM", "NDT",
-          "aerodynamic", "blade", "airfoil", "CFD", "wake", "turbine", "rotor",
-          "monopile", "offshore", "renewable", "turbine",
-          "??", "??", "??", "??", "??",
-          "??", "???", "??", "??", "??", "??", "??",
-          "??", "??", "??", "??", "?", "??", "??", "??",
-          "??", "??", "??", "??", "???",
-          "??", "??", "??", "??",
-          "??", "???", "??", "??"
-        ]
-        if (!hasWindContext && !relaxedTerms.some(k => containsKeyword(text, k))) return false;
-      } else {
-        // General papers: MUST have wind context
-        if (!hasWindContext) return false;
-      }
+      if (!hasWindContext) return false;
     }
   }
   
-  // AI动态 articles: bypass wind context check
-  if (article.queryTopic === "AI动态") return true;
-  
+  // News: require industry relevance
   if (article.queryTopic === "industry" || article.sourceType === "行业资讯") {
     return windAnchors.some(k => containsKeyword(text, k));
   }
@@ -93,7 +73,6 @@ export function isDomainRelevant(article) {
   return true;
 }
 
-// Industry relevance for news
 export function isIndustryRelevant(article) {
   if (article.queryTopic !== "industry") return false;
   const text = cleanText((article.title || "") + " " + (article.snippet || "")).toLowerCase();
@@ -192,34 +171,36 @@ export function isNoiseArticle(article) {
 export function inferCategory(article) {
   const text = (article.title + " " + article.snippet + " " + (article.tags || []).join(" ")).toLowerCase();
   
-  // Check research sub-topics first
-  let matchedResearch = "";
-  for (const subTopic of researchSubTopics) {
-    const rule = categoryRules.find(r => r[0] === subTopic);
-    if (rule && rule[1].some(k => containsKeyword(text, k))) {
-      matchedResearch = subTopic;
-      break;
-    }
+  // 1. Direct queryTopic mapping (most reliable signal)
+  const topicMap = {
+    "金属材料": "金属材料", "风机噪声": "风机噪声",
+    "风电试验": "风电试验", "风电螺栓": "风电螺栓",
+    "风电动态": "风电动态", "industry": "风电动态"
+  };
+  if (article.queryTopic && topicMap[article.queryTopic]) {
+    return topicMap[article.queryTopic];
   }
   
-  // Academic papers → "学术研究" (with sub-topic preserved)
-  if (article.sourceType === "学术论文" || article.sourceType === "论文") {
-    if (matchedResearch) {
-      return matchedResearch;
-    }
-    // Fallback: check for wind context keywords
-    const windTerms = ["wind turbine", "风电", "风机"];
-    if (windTerms.some(k => text.includes(k.toLowerCase()))) {
-      return "金属材料";  // default academic category
-    }
-    return "风电动态";
-  }
+  // 2. News → 风电动态
+  if (article.sourceType === "行业资讯") return "风电动态";
   
-  // News/articles: use category rules
+  // 3. Keyword scoring (fallback)
+  let bestCategory = "金属材料";
+  let bestScore = 0;
+  
   for (const [category, keywords] of categoryRules) {
-    if (keywords.some(k => containsKeyword(text, k))) return category;
+    if (category === "风电动态") continue;
+    let score = 0;
+    for (const kw of keywords) {
+      if (containsKeyword(text, kw)) score++;
+    }
+    if (score > bestScore) {
+      bestScore = score;
+      bestCategory = category;
+    }
   }
-  return article.queryTopic === "industry" ? "风电动态" : "工程技术";
+  
+  return bestCategory;
 }
 
 export function inferTags(article) {

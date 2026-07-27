@@ -109,7 +109,6 @@ async function fetchOpenAlex(query, label, region) {
   } catch(e) { console.warn("OpenAlex " + label + ": " + e.message); return []; }
 }
 
-
 function getWeekNumber(d) {
   const start = new Date(d.getFullYear(), 0, 1);
   const diff = d - start + (start.getTimezoneOffset() - d.getTimezoneOffset()) * 60000;
@@ -154,29 +153,16 @@ const sources = [
       return items.slice(0, 30);
     } catch(e) { console.warn("每日风电: "+e.message); return []; }
   }},
-  { id: "ai-bot", fn: async () => {
-    try {
-      const html = await fetchText("https://ai-bot.cn/daily-ai-news/");
-      const items = []; const seen = new Set();
-      const linkPattern = /<h[23][^>]*><a[^>]+href="([^"]+)"[^>]*>([^<]+)<\/a><\/h[23]>/gi;
-      let m;
-      while ((m = linkPattern.exec(html)) !== null) {
-        const href = m[1], rawTitle = m[2].replace(/<[^>]*>/g, "").trim();
-        if (!rawTitle || rawTitle.length < 8) continue;
-        if (seen.has(href)) continue; seen.add(href);
-        if (/融资|美元|亿元|估值|IPO|上市|股价|财报|营收|投资|收购/.test(rawTitle)) continue;
-        if (!/AI|人工智能|大模型|LLM|GPT|开源|模型|智能体|Agent|推理|训练|机器学习|深度学习|生成|语音|视觉|机器人|编程|代码|框架|平台|工具/.test(rawTitle)) continue;
-        items.push({ title: cleanText(rawTitle), url: href, sourceUrl: href, snippet: "", source: "AI-BOT", publishedAt: "2026-07-19T00:00:00.000Z", collectedAt: now.toISOString(), sourceChannel: "AI-BOT/AI动态", linkType: "aggregator", region: "国内", language: "zh", sourceType: "行业资讯", queryTopic: "AI动态", contextTags: ["AI"] });
-      }
-      return items.slice(0, 40);
-    } catch(e) { console.warn("AI-BOT: "+e.message); return []; }
-  }},
+  
   { id: "rss-wind-wiley", fn: () => fetchJournalRSS("https://onlinelibrary.wiley.com/action/showFeed?jc=10991824&type=etoc&feed=rss", "Wind Energy (Wiley)", "风电动态") },
   { id: "rss-wind-mdpi", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/wind", "Wind (MDPI)", "风电动态") },
   { id: "rss-energies", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/energies", "Energies (MDPI)", "风电动态") },
-  { id: "rss-materials", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/materials", "Materials (MDPI)", "疲劳断裂") },
-  { id: "rss-metals", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/metals", "Metals (MDPI)", "疲劳断裂") },
+  { id: "rss-materials", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/materials", "Materials (MDPI)", "金属材料") },
+  { id: "rss-metals", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/metals", "Metals (MDPI)", "金属材料") },
   { id: "rss-iop", fn: () => fetchJournalRSS("https://iopscience.iop.org/journal/rss/1742-6596", "IOP JPCS", "风电动态") },
+    { id: "rss-corrosion", label: "Corrosion & Materials Degradation", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/cmd", "Corrosion & Materials Degradation (MDPI)", "金属材料") },
+    { id: "rss-acoustics", label: "Acoustics", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/acoustics", "Acoustics (MDPI)", "风机噪声") },
+    { id: "rss-sensors", label: "Sensors", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/sensors", "Sensors (MDPI)", "风电试验") },
 ];
 
 // OpenAlex sources (staggered)
@@ -206,8 +192,8 @@ for (const a of rawArticles) {
   const isAcademic = a.sourceType === "学术论文";
   const isNewsScraper = (a.sourceChannel||"").includes("北极星") || (a.sourceChannel||"").includes("每日风电");
   if (isNewsScraper) { inWindow.push(a); continue; }
-  const start = isAcademic ? academicStart : newsStart;
-  if (pubDate >= start && pubDate <= periodEnd) inWindow.push(a);
+  if (isAcademic) { if (pubDate >= academicStart) inWindow.push(a); continue; }
+  if (pubDate >= newsStart && pubDate <= periodEnd) inWindow.push(a);
 }
 console.log("In window: " + inWindow.length);
 
@@ -220,7 +206,9 @@ for (const a of inWindow) {
   if (isNoiseArticle(a)) { continue; }
   if (isLowQualityArticle(a)) { continue; }
   const isTrustedNews = a.sourceType === "行业资讯" && ((a.sourceChannel||"").includes("北极星") || (a.sourceChannel||"").includes("每日风电"));
-  if (a.queryTopic === "AI动态") { a.relevanceScore = Math.max(a.relevanceScore, 10); }
+    if ((a.queryTopic||"").includes("试验")) {
+  }
+  if (a.queryTopic === "金属材料" || a.queryTopic === "风机噪声" || a.queryTopic === "风电试验" || a.queryTopic === "风电螺栓") { a.relevanceScore = Math.max(a.relevanceScore, 8); }
   else if (isTrustedNews) { a.relevanceScore = Math.max(a.relevanceScore, 5); }
   else if (a.queryTopic === "industry") { if (!isIndustryRelevant(a)) continue; a.relevanceScore += 3; }
   else { if (!isDomainRelevant(a)) continue; }
@@ -235,15 +223,7 @@ console.log("Deduped: " + currentArticles.length);
 // Categorize
 for (const a of currentArticles) {
   a.category = inferCategory(a);
-  if (a.sourceType === "学术论文" || a.sourceType === "论文") {
-    if (!a._researchTag) inferCategory(a);
-    if (a._researchTag && !(a.tags||[]).includes(a._researchTag)) { if (!a.tags) a.tags = []; a.tags.unshift(a._researchTag); }
-    a.category = "学术研究";
-  }
-  if ((a.source||"") === "AI-BOT" && a.queryTopic === "AI动态") a.category = "AI动态";
-  if (a.category === "标准政策" || a.category === "行业资讯" || a.category === "工程技术" || a.category === "气动研究" || a.category === "疲劳断裂" || a.category === "噪声研究" || a.category === "螺栓研究") a.category = "风电动态";
-  if (a.category === "AI动态" && (a.source||"") !== "AI-BOT") a.category = "风电动态";
-  if (!a.category) a.category = inferCategory(a);
+  if (!a.category) a.category = "风电动态";
   
   const rConfig = config.reliability || {};
   a.reliability = computeReliability(a, rConfig);
@@ -277,7 +257,7 @@ for (const cat of Object.keys(categorized)) {
 }
 const capped = [];
 const catCounts = {};
-const priorityOrder = ["????", "AI??", "????"];
+const priorityOrder = ["风电动态", "金属材料", "风机噪声", "风电试验", "风电螺栓"];
 for (const cat of priorityOrder) {
   if (!categorized[cat]) continue;
   for (const a of categorized[cat]) {
@@ -299,14 +279,17 @@ for (const a of capped) finalCats[a.category] = (finalCats[a.category]||0)+1;
 for (const [cat, count] of Object.entries(finalCats)) console.log("  " + cat + ": " + count);
 console.log("Total: " + capped.length);
 
-const academic = capped.filter(a => a.category === "学术研究");
-console.log("\n学术研究 papers (" + academic.length + "):");
+const academic = capped.filter(a => a.category && a.category !== "风电动态");
+console.log("\n技术方向 papers (" + academic.length + "):");
 academic.slice(0, 10).forEach((a, i) => {
-  console.log("  " + (i+1) + ". [" + (a._researchTag||"无标签") + "] " + (a.title||"").substring(0, 80) + " | " + a.source);
+  console.log("  " + (i+1) + ". [" + (a.category||"无标签") + "] " + (a.title||"").substring(0, 80) + " | " + a.source);
 });
 
-
 // === AI Summarization ===
+const skipAi = process.env.SKIP_AI === "1";
+if (skipAi) {
+  console.log("\nSkipping AI summarization (SKIP_AI=1)");
+} else {
 console.log("\nStarting AI summarization...");
 const aiProvider = await resolveAiProvider();
 if (aiProvider) {
@@ -339,6 +322,8 @@ if (aiProvider) {
 } else {
   console.log("No AI provider configured, using fallback summaries");
 }
+
+} // end skipAi
 
 // Write the output
 const output = {
