@@ -1,6 +1,6 @@
 {
   "app": "机械共性情报",
-  "generatedAt": "2026-07-27T06:43:27.718Z",
+  "generatedAt": "2026-07-27T08:55:34.925Z",
   "period": {
     "from": "2026-07-20T00:00:00.000Z",
     "to": "2026-07-26T23:59:59.999Z"
@@ -8,13 +8,13 @@
   "collectionStatus": {
     "dataMode": "live",
     "demo": false,
-    "channels": 18,
-    "succeeded": 18,
+    "channels": 22,
+    "succeeded": 22,
     "failed": 0,
-    "rawFetched": 198,
-    "inWindow": 197,
-    "currentCount": 88,
-    "archiveCount": 44,
+    "rawFetched": 134,
+    "inWindow": 132,
+    "currentCount": 69,
+    "archiveCount": 24,
     "ai": {
       "provider": "none",
       "model": "",
@@ -65,6 +65,30 @@
         "fetched": 0
       },
       {
+        "id": "arxiv-wind",
+        "label": "arxiv-wind",
+        "status": "ok",
+        "fetched": 5
+      },
+      {
+        "id": "arxiv-noise",
+        "label": "arxiv-noise",
+        "status": "ok",
+        "fetched": 5
+      },
+      {
+        "id": "arxiv-test",
+        "label": "arxiv-test",
+        "status": "ok",
+        "fetched": 5
+      },
+      {
+        "id": "arxiv-bolt",
+        "label": "arxiv-bolt",
+        "status": "ok",
+        "fetched": 1
+      },
+      {
         "id": "rss-wind-wiley",
         "label": "rss-wind-wiley",
         "status": "ok",
@@ -86,56 +110,56 @@
         "id": "oa-metal-fatigue",
         "label": "oa-metal-fatigue",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       },
       {
         "id": "oa-metal-corrosion",
         "label": "oa-metal-corrosion",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       },
       {
         "id": "oa-noise-aero",
         "label": "oa-noise-aero",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       },
       {
         "id": "oa-noise-vib",
         "label": "oa-noise-vib",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       },
       {
         "id": "oa-test-field",
         "label": "oa-test-field",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       },
       {
         "id": "oa-test-shm",
         "label": "oa-test-shm",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       },
       {
         "id": "oa-bolt-fasten",
         "label": "oa-bolt-fasten",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       },
       {
         "id": "oa-bolt-fatigue",
         "label": "oa-bolt-fatigue",
         "status": "ok",
-        "fetched": 15
+        "fetched": 5
       }
     ]
   },
   "weeklyBrief": {
-    "total": 44,
+    "total": 24,
     "domestic": 15,
-    "papers": 29,
+    "papers": 9,
     "categories": [
       {
         "name": "风电动态",
@@ -143,19 +167,19 @@
       },
       {
         "name": "金属材料",
-        "count": 5
+        "count": 2
       },
       {
         "name": "风机噪声",
-        "count": 10
+        "count": 3
       },
       {
         "name": "风电试验",
-        "count": 6
+        "count": 3
       },
       {
         "name": "风电螺栓",
-        "count": 8
+        "count": 1
       }
     ],
     "signals": [],
@@ -169,7 +193,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -180,7 +204,7 @@
         "风电"
       ],
       "id": "4f741513",
-      "relevanceScore": 11,
+      "relevanceScore": 14,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -197,11 +221,11 @@
       "titleZh": "9支海上风电叶片损毁殆尽，这场事故原因公布！",
       "summary": "北极星风力发电网报道了一起海上风电叶片损毁事故，9支叶片完全损毁。事故原因已公布，但摘要未提供具体原因。该事件属于行业动态，涉及风电设备安全与运维。",
       "keyPoints": [
-        "事故涉及9支海上风电叶片损毁",
+        "事故导致9支海上风电叶片损毁",
         "事故原因已由相关方公布",
         "报道来源为北极星风力发电网"
       ],
-      "engineeringImpact": "该事故警示海上风电叶片设计、制造和运维中需加强质量控制和监测，避免批量失效。对供应链中叶片材料、工艺及检测标准提出更高要求。",
+      "engineeringImpact": "该事故警示海上风电叶片设计、制造和运维中需加强质量控制和监测，避免批量失效。对叶片材料、连接结构和抗疲劳设计提出更高要求。",
       "tags": [
         "国内"
       ],
@@ -236,7 +260,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -247,7 +271,7 @@
         "风电"
       ],
       "id": "01a0c72d",
-      "relevanceScore": 9,
+      "relevanceScore": 12,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -262,13 +286,13 @@
         ]
       },
       "titleZh": "启动招标！江苏561MW海上风电项目",
-      "summary": "北极星风力发电网报道江苏一个561MW海上风电项目启动招标。摘要未提供更多细节，属于行业动态，涉及风电项目开发与招标。",
+      "summary": "北极星风力发电网报道江苏一个561MW海上风电项目启动招标。摘要未提供更多细节，属于行业动态，涉及风电项目开发与供应链。",
       "keyPoints": [
         "项目位于江苏",
         "装机容量为561MW",
         "项目已启动招标"
       ],
-      "engineeringImpact": "该招标项目将推动海上风电产业链发展，对风机设计、安装、运维提出规模化需求，促进技术迭代和成本下降。",
+      "engineeringImpact": "该招标项目将带动海上风电设备需求，对风机、叶片、基础等供应链有拉动作用。招标条件可能影响技术选型。",
       "tags": [
         "国内"
       ],
@@ -303,7 +327,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -314,7 +338,7 @@
         "风电"
       ],
       "id": "0d2f48a5",
-      "relevanceScore": 9,
+      "relevanceScore": 12,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -329,13 +353,13 @@
         ]
       },
       "titleZh": "浙江308MW海上风电项目核准调整",
-      "summary": "北极星风力发电网报道浙江一个308MW海上风电项目进行了核准调整。摘要未提供调整细节，属于行业动态，涉及项目审批与变更。",
+      "summary": "北极星风力发电网报道浙江一个308MW海上风电项目核准调整。摘要未提供具体调整内容，属于行业动态，涉及项目审批与规划。",
       "keyPoints": [
         "项目位于浙江",
         "装机容量为308MW",
         "项目核准已调整"
       ],
-      "engineeringImpact": "项目核准调整可能影响设备选型、施工计划及供应链安排，需关注政策变化对工程实施的影响。",
+      "engineeringImpact": "项目核准调整可能影响设备交付和施工进度，需关注后续变更对供应链和工程计划的影响。",
       "tags": [
         "国内"
       ],
@@ -369,8 +393,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30882.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T06:43:27.718Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "publishedAt": "2026-07-27T08:55:34.925Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -381,7 +405,7 @@
         "风电"
       ],
       "id": "42d1d642",
-      "relevanceScore": 9,
+      "relevanceScore": 12,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -396,13 +420,13 @@
         ]
       },
       "titleZh": "中广核葫芦岛80万千瓦海上风电项目公示",
-      "summary": "该资料报道了中广核在葫芦岛规划建设80万千瓦海上风电项目的公示信息。项目规模为800MW，属于大型海上风电基地。资料来源于每日风电，属于行业动态新闻，未提供具体技术细节或试验数据。",
+      "summary": "该资料报道了中广核在葫芦岛规划的80万千瓦海上风电项目已进入公示阶段。项目规模为800MW，属于大型海上风电基地。公示内容通常包括项目概况、环境影响评价等，是项目核准前的必要程序。资料未提供具体技术细节或试验数据，仅作为行业动态信息。",
       "keyPoints": [
-        "项目容量为80万千瓦（800MW）",
-        "项目地点位于葫芦岛海域",
-        "项目处于公示阶段"
+        "项目规模为80万千瓦（800MW）",
+        "项目处于公示阶段",
+        "项目位于葫芦岛海域"
       ],
-      "engineeringImpact": "该项目的公示标志着中国海上风电在辽宁地区的进一步扩展，对海上风电施工、运维及供应链有拉动作用，但具体工程影响需待项目详细设计公布。",
+      "engineeringImpact": "该项目的推进将带动海上风电大型机组、基础结构及施工技术的工程实践，为后续类似项目提供设计、安装和运维经验。",
       "tags": [
         "国内"
       ],
@@ -426,7 +450,7 @@
         "supplyChainImpact": "",
         "verificationStatus": "公示阶段",
         "quantitativeFacts": [
-          "项目容量80万千瓦"
+          "80万千瓦"
         ]
       }
     },
@@ -436,8 +460,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30863.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T06:43:27.718Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "publishedAt": "2026-07-27T08:55:34.925Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -448,7 +472,7 @@
         "风电"
       ],
       "id": "4e0f52c7",
-      "relevanceScore": 9,
+      "relevanceScore": 12,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -463,13 +487,13 @@
         ]
       },
       "titleZh": "26台12.5MW机组！江苏华电325MW海上风电项目公示",
-      "summary": "该资料报道了江苏华电325MW海上风电项目公示，拟安装26台12.5MW风电机组。项目总容量325MW，单机容量12.5MW。资料来源于每日风电，属于行业动态新闻，未提供具体技术细节或试验数据。",
+      "summary": "该资料报道了江苏华电325MW海上风电项目公示，拟安装26台12.5MW风电机组。项目总容量325MW，单机容量12.5MW，属于当前主流大型海上风机。公示信息表明项目进入核准前阶段，未提供具体试验或运行数据。",
       "keyPoints": [
         "项目总容量325MW",
         "拟安装26台12.5MW机组",
         "项目处于公示阶段"
       ],
-      "engineeringImpact": "该项目采用12.5MW大容量机组，对海上风电大型化发展具有示范意义，对机组设计、基础施工及运维提出更高要求。",
+      "engineeringImpact": "采用12.5MW大容量机组可减少机位数量、降低基础及海缆成本，对海上风电项目设计选型和施工方案具有参考价值。",
       "tags": [
         "国内"
       ],
@@ -493,8 +517,9 @@
         "supplyChainImpact": "",
         "verificationStatus": "公示阶段",
         "quantitativeFacts": [
-          "总容量325MW",
-          "26台12.5MW机组"
+          "325MW",
+          "26台",
+          "12.5MW"
         ]
       }
     },
@@ -505,7 +530,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -516,7 +541,7 @@
         "风电"
       ],
       "id": "46ac7dad",
-      "relevanceScore": 8,
+      "relevanceScore": 11,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -531,13 +556,13 @@
         ]
       },
       "titleZh": "国能龙源射阳海上风电一期工程迎来双里程碑",
-      "summary": "该资料报道了国能龙源射阳海上风电一期工程实现双里程碑节点，具体内容未详述。资料来源于北极星风力发电网，属于行业动态新闻，未提供具体技术细节或试验数据。",
+      "summary": "该资料报道国能龙源射阳海上风电一期工程实现两个重要里程碑，可能包括全部机组并网或完成关键节点。项目位于射阳海域，属于国能龙源开发。资料未提供具体里程碑内容、技术参数或试验数据，仅作为行业进展信息。",
       "keyPoints": [
         "项目为射阳海上风电一期工程",
-        "实现双里程碑节点",
-        "业主为国能龙源"
+        "实现双里程碑",
+        "开发商为国能龙源"
       ],
-      "engineeringImpact": "该工程里程碑的达成表明项目进展顺利，对海上风电施工进度管理具有参考意义，但具体工程影响需待详细报道。",
+      "engineeringImpact": "该项目的里程碑进展表明海上风电工程建设能力提升，对后续项目施工组织、进度管理和风险控制具有借鉴意义。",
       "tags": [
         "国内"
       ],
@@ -570,7 +595,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -581,7 +606,7 @@
         "风电"
       ],
       "id": "3cb089a0",
-      "relevanceScore": 8,
+      "relevanceScore": 11,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -595,14 +620,14 @@
           "缺少内容摘要"
         ]
       },
-      "titleZh": "广东10.3GW海上风电启动竞配",
-      "summary": "广东省启动10.3GW海上风电项目竞争配置，涉及多个场址，旨在推动海上风电规模化发展。该消息来源于北极星风力发电网，发布于2026年7月14日。",
+      "titleZh": "广东10.3GW海上风电启动竞配！",
+      "summary": "广东省启动10.3GW海上风电项目竞争配置，涉及多个场址，旨在推动海上风电规模化发展。该竞配将吸引企业投资，促进产业链升级。资料来源于北极星风力发电网，属于行业动态报道，未提供具体试验数据或量化结论。",
       "keyPoints": [
         "广东省启动10.3GW海上风电竞配",
         "涉及多个海上风电场址",
         "旨在推动规模化发展"
       ],
-      "engineeringImpact": "该竞配将推动海上风电项目规模化开发，对风机设计、基础施工、运维等环节提出更高要求，促进产业链降本增效。",
+      "engineeringImpact": "该竞配将推动海上风电大型机组、深远海施工及运维技术的工程验证，促进降本增效，对供应链的产能布局和物流提出更高要求。",
       "tags": [
         "国内"
       ],
@@ -615,14 +640,14 @@
         "limitations": []
       },
       "industryDetails": {
-        "eventType": "项目竞配",
+        "eventType": "政策竞配",
         "companies": [],
         "location": "广东",
         "capacity": "10.3GW",
         "investment": "",
         "timeline": "2026-07-14",
-        "supplyChainImpact": "促进产业链降本增效",
-        "verificationStatus": "未提及",
+        "supplyChainImpact": "促进海上风电产业链升级",
+        "verificationStatus": "启动阶段",
         "quantitativeFacts": [
           "10.3GW"
         ]
@@ -634,8 +659,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30960.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T06:43:27.718Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "publishedAt": "2026-07-27T08:55:34.925Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -646,7 +671,7 @@
         "风电"
       ],
       "id": "42e88f95",
-      "relevanceScore": 8,
+      "relevanceScore": 11,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -660,14 +685,14 @@
           "缺少内容摘要"
         ]
       },
-      "titleZh": "重磅！《可再生能源发展“十五五”规划》印发：风光装机28亿千瓦+，海上风电新增开工1亿千瓦",
-      "summary": "《可再生能源发展“十五五”规划》正式印发，提出风光总装机目标28亿千瓦以上，其中海上风电新增开工1亿千瓦。该规划为可再生能源发展提供政策指引，来源每日风电，发布于2026年7月27日。",
+      "titleZh": "重磅！《可再生能源发展“十五五”规划》 印发：风光装机28亿千瓦+，海上风电新增开工1亿千瓦！",
+      "summary": "国家印发《可再生能源发展“十五五”规划》，提出风光总装机目标28亿千瓦以上，海上风电新增开工1亿千瓦。该规划为行业提供政策指引，推动可再生能源大规模发展。资料来源于每日风电，属于政策报道，无具体试验数据。",
       "keyPoints": [
         "风光总装机目标28亿千瓦以上",
         "海上风电新增开工1亿千瓦",
-        "规划为政策指引"
+        "国家层面政策规划"
       ],
-      "engineeringImpact": "规划目标将引导风电装备大型化、海上风电技术突破，对设计、制造、安装及运维提出更高要求，推动产业链升级。",
+      "engineeringImpact": "规划目标将引导风电装备大型化、智能化研发，加速深远海风电技术突破，对供应链的产能规划和标准制定具有重要指导意义。",
       "tags": [
         "国内"
       ],
@@ -686,8 +711,8 @@
         "capacity": "28亿千瓦+（风光总装机），1亿千瓦（海上风电新增开工）",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "推动产业链升级",
-        "verificationStatus": "未提及",
+        "supplyChainImpact": "推动风电产业链扩产和技术升级",
+        "verificationStatus": "规划印发",
         "quantitativeFacts": [
           "28亿千瓦+",
           "1亿千瓦"
@@ -700,8 +725,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30935.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T06:43:27.718Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "publishedAt": "2026-07-27T08:55:34.925Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -712,7 +737,7 @@
         "风电"
       ],
       "id": "6f8cecf8",
-      "relevanceScore": 8,
+      "relevanceScore": 11,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -727,13 +752,13 @@
         ]
       },
       "titleZh": "4765米！中广核海拔最高的风电项目完成首台风机吊装",
-      "summary": "中广核在海拔4765米的高原风电项目完成首台风机吊装，创下其海拔最高纪录。该项目位于高海拔地区，对风机适应性提出挑战。来源每日风电，发布于2026年7月27日。",
+      "summary": "中广核在海拔4765米的高原完成首台风机吊装，创下其海拔最高风电项目纪录。该项目验证了高海拔环境下的风机安装技术，为类似区域开发提供经验。资料来源于每日风电，属于工程进展报道，无具体试验数据。",
       "keyPoints": [
-        "海拔4765米风电项目首台风机吊装完成",
-        "中广核海拔最高纪录",
-        "高海拔环境对风机适应性提出挑战"
+        "海拔4765米完成首台风机吊装",
+        "中广核海拔最高风电项目",
+        "验证高海拔安装技术"
       ],
-      "engineeringImpact": "高海拔风电项目对风机叶片、塔筒、电气系统等提出特殊要求，需考虑空气密度低、低温、强紫外线等因素，为高海拔风电设计提供工程经验。",
+      "engineeringImpact": "高海拔风电项目对风机抗紫外线、低空气密度适应性及运输安装提出挑战，该工程经验可指导后续高海拔风电设计、施工及运维。",
       "tags": [
         "国内"
       ],
@@ -746,7 +771,7 @@
         "limitations": []
       },
       "industryDetails": {
-        "eventType": "项目进展",
+        "eventType": "工程进展",
         "companies": [
           "中广核"
         ],
@@ -754,7 +779,7 @@
         "capacity": "",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "为高海拔风电设计提供经验",
+        "supplyChainImpact": "推动高海拔风电专用设备研发",
         "verificationStatus": "首台吊装完成",
         "quantitativeFacts": [
           "4765米"
@@ -767,8 +792,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30057.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T06:43:27.718Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "publishedAt": "2026-07-27T08:55:34.925Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -779,7 +804,7 @@
         "风电"
       ],
       "id": "62c54bed",
-      "relevanceScore": 8,
+      "relevanceScore": 11,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -794,13 +819,13 @@
         ]
       },
       "titleZh": "2025中国山东国际风能技术及海上风电装备展览会暨发展论坛",
-      "summary": "该资料报道了2025年在山东举办的国际风能技术及海上风电装备展览会暨发展论坛，旨在展示风能技术最新成果、促进海上风电装备交流与合作。内容涉及展会概况、论坛议题及参展企业等，但未提供具体技术细节或数据。",
+      "summary": "该资料报道了2025年在山东举办的国际风能技术及海上风电装备展览会暨发展论坛，属于行业展会信息。内容涉及风能技术展示和海上风电装备发展论坛，但未提供具体技术细节或数据。证据层级为新闻报道，结论边界限于展会本身。",
       "keyPoints": [
         "展会名称为2025中国山东国际风能技术及海上风电装备展览会暨发展论坛",
-        "展会地点在山东",
-        "展会内容包括技术展览和发展论坛"
+        "举办地点为山东",
+        "来源为每日风电"
       ],
-      "engineeringImpact": "该展会为风电行业提供了技术交流与合作的平台，有助于推动风能技术及海上风电装备的工程应用与创新。",
+      "engineeringImpact": "该展会为风电行业提供了技术交流和装备展示的平台，有助于推动风能技术发展和海上风电装备的工程应用，对设计、运维和供应链有间接促进作用。",
       "tags": [
         "国内"
       ],
@@ -831,7 +856,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -842,7 +867,7 @@
         "风电"
       ],
       "id": "0892309f",
-      "relevanceScore": 6,
+      "relevanceScore": 9,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -857,13 +882,13 @@
         ]
       },
       "titleZh": "突发！一起风机起火事故，机组轮毂、机舱及叶片被烧毁",
-      "summary": "该资料报道了一起风机起火事故，导致机组轮毂、机舱及叶片被烧毁。事故原因及具体损失未详细说明，但强调了火灾的严重性。",
+      "summary": "该资料报道了一起风机起火事故，导致机组轮毂、机舱及叶片被烧毁。属于事故新闻报道，未提供事故原因、损失数据或后续处理细节。证据层级为新闻快讯，结论边界限于事故本身。",
       "keyPoints": [
-        "发生风机起火事故",
-        "机组轮毂、机舱及叶片被烧毁",
-        "事故原因未提及"
+        "事故类型为风机起火",
+        "受损部件包括轮毂、机舱及叶片",
+        "来源为北极星风力发电网"
       ],
-      "engineeringImpact": "该事故提醒风电运维中需加强火灾预防与应急措施，特别是针对轮毂、机舱等关键部件的防火设计。",
+      "engineeringImpact": "该事故提醒风电行业需加强风机防火设计和运维安全，对机组关键部件的防火材料和监测系统提出更高要求，可能影响供应链中防火相关产品的需求。",
       "tags": [
         "国内"
       ],
@@ -878,7 +903,7 @@
       "industryDetails": {
         "eventType": "风机起火事故",
         "companies": [],
-        "location": "",
+        "location": "未提及",
         "capacity": "",
         "investment": "",
         "timeline": "2026年7月27日",
@@ -894,7 +919,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -905,7 +930,7 @@
         "风电"
       ],
       "id": "02a77e5e",
-      "relevanceScore": 5,
+      "relevanceScore": 8,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -920,13 +945,13 @@
         ]
       },
       "titleZh": "99家 2026年度河北省零碳工厂建设名单公示！",
-      "summary": "该资料公示了2026年度河北省99家零碳工厂建设名单，旨在推动工业领域碳中和。名单包含企业名称，但未提供具体建设方案或技术细节。",
+      "summary": "该资料公示了2026年度河北省99家零碳工厂建设名单，属于政策公示信息。内容仅列出名单，未提供具体建设标准或技术细节。证据层级为官方公示，结论边界限于名单本身。",
       "keyPoints": [
-        "公示2026年度河北省零碳工厂建设名单",
-        "共99家企业入选",
-        "旨在推动工业碳中和"
+        "名单包含99家零碳工厂",
+        "涉及河北省2026年度建设计划",
+        "来源为北极星风力发电网"
       ],
-      "engineeringImpact": "零碳工厂建设名单的公示为风电等清洁能源行业提供了潜在合作对象，有助于推动绿色制造与供应链低碳转型。",
+      "engineeringImpact": "零碳工厂建设名单的公示有助于推动工业领域碳中和，对风电等清洁能源的消纳和供应链绿色转型具有政策引导意义，可能促进相关技术应用。",
       "tags": [
         "国内"
       ],
@@ -959,7 +984,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -970,7 +995,7 @@
         "风电"
       ],
       "id": "53d262a1",
-      "relevanceScore": 5,
+      "relevanceScore": 8,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -984,14 +1009,14 @@
           "缺少内容摘要"
         ]
       },
-      "titleZh": "宁夏100万千瓦风电项目启动竞配",
-      "summary": "宁夏回族自治区启动100万千瓦风电项目竞争性配置，旨在推动当地风电资源开发。该消息来源于北极星风力发电网，发布于2026年7月27日。资料仅报道了项目启动竞配这一事件，未提供具体竞配条件、参与企业或后续进展。",
+      "titleZh": "宁夏100万千瓦风电项目启动竞配！",
+      "summary": "宁夏回族自治区启动100万千瓦风电项目竞争性配置，旨在推动当地风电资源开发。资料未提供具体项目细节、参与企业或配置结果。",
       "keyPoints": [
         "宁夏启动100万千瓦风电项目竞配",
-        "消息来源为北极星风力发电网",
-        "发布日期为2026年7月27日"
+        "竞配目的是推动风电资源开发",
+        "未提及具体项目地点或企业"
       ],
-      "engineeringImpact": "该竞配项目将推动宁夏地区风电装机容量增加，对风电设备供应商和开发商提供市场机会，但具体工程影响需待竞配结果和项目细节公布。",
+      "engineeringImpact": "该竞配将促进宁夏风电装机增长，对风电设备供应商和开发商提供市场机会，但具体技术要求和工程影响需待后续文件明确。",
       "tags": [
         "国内"
       ],
@@ -1001,17 +1026,19 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供项目具体信息"
+        ]
       },
       "industryDetails": {
-        "eventType": "项目竞配启动",
+        "eventType": "风电项目竞配启动",
         "companies": [],
         "location": "宁夏",
         "capacity": "100万千瓦",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
+        "supplyChainImpact": "可能带动风电设备需求",
+        "verificationStatus": "未提及",
         "quantitativeFacts": [
           "容量100万千瓦"
         ]
@@ -1024,7 +1051,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -1035,7 +1062,7 @@
         "风电"
       ],
       "id": "68545e7d",
-      "relevanceScore": 5,
+      "relevanceScore": 8,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -1049,14 +1076,14 @@
           "缺少内容摘要"
         ]
       },
-      "titleZh": "含浮空风电，中广核2300MW风电项目机组招标",
-      "summary": "中广核启动2300MW风电项目机组招标，项目包含浮空风电技术。消息来源于北极星风力发电网，发布于2026年7月27日。资料仅报道了招标启动，未提供招标具体内容、技术参数或供应商信息。",
+      "titleZh": "含浮空风电，中广核2300MW风电项目机组招标！",
+      "summary": "中广核启动2300MW风电项目机组招标，包含浮空风电技术。资料未提供招标具体内容、技术参数或投标要求。",
       "keyPoints": [
         "中广核2300MW风电项目机组招标",
-        "项目包含浮空风电技术",
-        "消息来源为北极星风力发电网"
+        "包含浮空风电技术",
+        "未提及招标细节或技术要求"
       ],
-      "engineeringImpact": "浮空风电技术的引入可能对风电设计、运维提出新要求，2300MW的大规模招标将影响风电设备供应链，但具体工程启示需待招标文件和技术细节公布。",
+      "engineeringImpact": "浮空风电技术的引入可能对风电设计、运维提出新挑战，招标结果将影响相关供应链和技术路线选择。",
       "tags": [
         "国内"
       ],
@@ -1066,19 +1093,21 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供招标具体信息"
+        ]
       },
       "industryDetails": {
-        "eventType": "机组招标",
+        "eventType": "风电项目机组招标",
         "companies": [
           "中广核"
         ],
-        "location": "",
+        "location": "未提及",
         "capacity": "2300MW",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
+        "supplyChainImpact": "浮空风电技术可能引入新供应链需求",
+        "verificationStatus": "未提及",
         "quantitativeFacts": [
           "容量2300MW"
         ]
@@ -1091,7 +1120,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -1102,7 +1131,7 @@
         "风电"
       ],
       "id": "3dcded65",
-      "relevanceScore": 5,
+      "relevanceScore": 8,
       "category": "风电动态",
       "reliability": {
         "score": 65,
@@ -1117,13 +1146,13 @@
         ]
       },
       "titleZh": "河北承德启动550MW风电项目投资主体优选",
-      "summary": "河北省承德市启动550MW风电项目投资主体优选工作，旨在选择合适开发商。消息来源于北极星风力发电网，发布于2026年7月27日。资料仅报道了优选启动，未提供优选条件、参与企业或后续安排。",
+      "summary": "河北承德启动550MW风电项目投资主体优选工作，旨在选择合适投资方开发风电。资料未提供项目具体信息或优选标准。",
       "keyPoints": [
-        "河北承德启动550MW风电项目投资主体优选",
-        "消息来源为北极星风力发电网",
-        "发布日期为2026年7月27日"
+        "河北承德550MW风电项目投资主体优选",
+        "优选目的是选择投资方",
+        "未提及项目具体细节或标准"
       ],
-      "engineeringImpact": "该优选工作将确定项目投资主体，对当地风电开发进度和设备需求有直接影响，但具体工程影响需待优选结果公布。",
+      "engineeringImpact": "投资主体优选将影响项目开发进度和技术方案选择，对当地风电产业链有拉动作用。",
       "tags": [
         "国内"
       ],
@@ -1133,447 +1162,153 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供项目具体信息"
+        ]
       },
       "industryDetails": {
-        "eventType": "投资主体优选",
+        "eventType": "风电项目投资主体优选",
         "companies": [],
         "location": "河北承德",
         "capacity": "550MW",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
+        "supplyChainImpact": "可能带动当地风电设备和服务需求",
+        "verificationStatus": "未提及",
         "quantitativeFacts": [
           "容量550MW"
         ]
       }
     },
     {
-      "title": "Hydrogen-induced Fractures in Large Fasteners",
-      "url": "https://doi.org/10.1007/s00501-026-01767-w",
-      "sourceUrl": "https://doi.org/10.1007/s00501-026-01767-w",
-      "snippet": "Abstract Wind power plants and heavy steel construction require the use of large-scale bolts of property class 10.9. Due to their high strength, however, these fasteners are subject to an increased susceptibility to hydrogen-induced stress corrosion cracking (SCC). Under tensile stress, this degradation mechanism leads to brittle, time-delayed failure—without any prior visible warning. This poses a severe risk to structural integrity and, in the event of failure, incurs significant costs due to unplanned downtime and extensive repair efforts. This contribution presents selected failure cases involving large-scale bolts with dimensions ranging from M42 to M64, which fractured within a few weeks or months after installation as a result of hydrogen-induced stress corrosion cracking. The root causes of failure can be categorized into susceptible material conditions, coating-related factors, and installation-related factors. In manufacturing, impermissible surface carburization—which leads to hardness values significantly exceeding the permitted limit—as well as defects in the hot-dip galvanizing process pose a substantial risk. An often-underestimated influencing factor is the installation practice. Weather-related impacts on the thread surfaces drastically alter the coefficients of friction. In torque-controlled tightening procedures, this can result in uncontrolled preload forces that exceed the design criteria. Selected failure cases are presented based on fractographic, microanalytical, and microstructural investigations. Furthermore, the presentation highlights the degradation process underlying hydrogen-induced stress corrosion cracking, the normative framework, and the correlation between material susceptibility and hydrogen content.",
-      "source": "BHM Berg- und Hüttenmännische Monatshefte",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/金属材料",
+      "title": "Cross-correlating blade--wake dynamics for a model wind turbine",
+      "url": "http://arxiv.org/abs/2605.10737v1",
+      "sourceUrl": "http://arxiv.org/abs/2605.10737v1",
+      "snippet": "Understanding how wakes interact with wind turbine blades under varying operating and inflow conditions is essential for improving fatigue prediction and performance assessment in increasingly dense wind farms. We present an experimental investigation of wake-blade coupling in a model wind turbine, focusing on the role of tip-speed ratio, $λ$, under varying free-stream turbulence conditions. Spatially resolved wake velocity measurements are acquired concurrently with distributed blade strain measurements using Rayleigh backscattering fibre-optic sensing, enabling direct, time-synchronised analysis of fluid-structure interaction across the blade's span. The blades' strain dynamics are strongly governed by $λ$, where variations of the operating condition of the turbine modify the amplitude, coherence, and the temporal/spectral organisation of the blade's structural dynamics, while free-stream turbulence primarily modulates these responses. Instantaneous joint statistics reveal negligible zero-lag dependence between wake velocity and blade strain, motivating a lagged and frequency-resolved analysis. Cycle-averaged cross-correlation and cross-power spectral density analyses demonstrate that wake-induced blade response is spatially localised within the wake shear layers and organised around rotation-coherent frequencies, with the coupling strength peaking at intermediate downstream locations. These results highlight the dominant role of operating condition in shaping wake-mediated blade loading and demonstrate the value of concurrent, spatially resolved flow-structure measurements for resolving blade-exciting flow dynamics in wind-turbine wakes. Furthermore, a consistent negative-lag peak indicates that blade strain fluctuations systematically precede downstream wake velocity fluctuations, suggesting a causal, blade-driven imprint on the wake.",
+      "source": "arXiv",
+      "publishedAt": "2026-05-11T15:40:00.000Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
+      "sourceChannel": "arXiv/金属材料",
       "linkType": "publisher",
       "region": "海外",
       "language": "en",
       "sourceType": "学术论文",
       "queryTopic": "金属材料",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1007/s00501-026-01767-w",
-        "authorsCount": 3,
-        "authors": [
-          "Holger Hoche",
-          "Michael Brilz",
-          "Matthias Oechsner"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "BHM Berg- und Hüttenmännische Monatshefte",
-        "publisher": "Springer Science+Business Media",
-        "isOpenAccess": true
-      },
-      "id": "58d20c6f",
-      "relevanceScore": 28,
+      "contextTags": [
+        "金属材料"
+      ],
+      "id": "58a4ceab",
+      "relevanceScore": 16,
       "category": "金属材料",
       "reliability": {
-        "score": 94,
-        "grade": "A",
-        "label": "高可靠",
+        "score": 60,
+        "grade": "B",
+        "label": "待核验",
         "factors": [
-          "有DOI可追溯",
-          "发表在BHM Berg- und Hüttenmännische Monatshefte",
-          "3位作者",
-          "开放获取",
           "有详细摘要"
         ],
         "limitations": []
       },
-      "titleZh": "大型紧固件中的氢致断裂",
-      "summary": "本文介绍了大型螺栓（M42至M64）因氢致应力腐蚀开裂（SCC）在安装后数周或数月内发生脆性延迟断裂的案例。失效原因包括材料表面渗碳导致硬度超标、热浸镀锌缺陷以及安装过程中天气影响螺纹表面摩擦系数，导致扭矩控制下预紧力失控。通过断口、微观分析和显微组织研究揭示了降解过程，并讨论了规范框架和材料敏感性与氢含量的关系。证据基于具体失效案例的实验室分析，结论限于所观察的螺栓尺寸和工艺条件。",
+      "titleZh": "模型风力机叶片-尾流动力学互相关实验研究",
+      "summary": "该研究通过实验探究模型风力机在不同叶尖速比和自由来流湍流条件下的尾流-叶片耦合动力学。采用瑞利背向散射光纤传感同步测量叶片应变和尾流速度，发现叶片应变动力学主要由叶尖速比主导，自由来流湍流仅起调节作用。瞬时联合统计显示尾流速度与叶片应变之间零滞后依赖可忽略，而周期平均互相关和互功率谱密度分析表明尾流诱导的叶片响应空间上局限于尾流剪切层，且耦合强度在中间下游位置最大。一致的负滞后峰值表明叶片应变波动系统性地先于下游尾流速度波动，暗示叶片对尾流存在因果性印记。证据层级为实验观测，结论限于模型尺度。",
       "keyPoints": [
-        "失效螺栓尺寸范围为M42至M64",
-        "失效时间在安装后数周至数月",
-        "表面渗碳导致硬度超标是制造缺陷之一",
-        "天气影响螺纹表面摩擦系数改变预紧力"
+        "叶片应变与尾流速度的零滞后互相关可忽略",
+        "耦合强度在中间下游位置达到峰值",
+        "叶片应变波动先于下游尾流速度波动"
       ],
-      "engineeringImpact": "对风电和重型钢结构中的高强度螺栓，需严格控制表面渗碳和热浸镀锌工艺，并在安装时考虑天气对摩擦系数的影响，避免预紧力失控导致氢致开裂。",
+      "engineeringImpact": "揭示了运行条件（叶尖速比）对尾流介导叶片载荷的主导作用，为风电场中叶片疲劳预测和性能评估提供了实验依据，强调了同步空间分辨流-固测量对解析叶片激励流动动力学的重要性。",
       "tags": [
-        "断裂",
-        "裂纹"
+        "疲劳",
+        "叶片"
       ],
       "paperDetails": {
-        "objective": "介绍大型螺栓氢致应力腐蚀开裂的失效案例，分析根本原因并讨论降解过程与规范框架。",
-        "methods": "断口分析、微观分析、显微组织研究",
-        "testObject": "M42至M64大型螺栓",
-        "operatingConditions": "安装后承受拉伸应力，受天气影响",
+        "objective": "探究模型风力机在不同叶尖速比和自由来流湍流条件下尾流-叶片耦合动力学",
+        "methods": "瑞利背向散射光纤传感同步测量叶片应变和尾流速度，进行周期平均互相关和互功率谱密度分析",
+        "testObject": "模型风力机",
+        "operatingConditions": "不同叶尖速比和自由来流湍流条件",
+        "quantitativeFindings": [],
+        "limitations": [
+          "模型尺度，未提及全尺寸验证"
+        ]
+      },
+      "industryDetails": {
+        "eventType": "",
+        "companies": [],
+        "location": "",
+        "capacity": "",
+        "investment": "",
+        "timeline": "",
+        "supplyChainImpact": "",
+        "verificationStatus": "",
+        "quantitativeFacts": []
+      }
+    },
+    {
+      "title": "FLOATBench: A Dataset and Benchmark for Floating Offshore Wind Turbine Tower Fatigue",
+      "url": "http://arxiv.org/abs/2605.25717v1",
+      "sourceUrl": "http://arxiv.org/abs/2605.25717v1",
+      "snippet": "Most of the world's offshore wind resource lies in waters too deep for fixed-bottom foundations, making floating offshore wind turbines (FOWTs) essential for deep-water deployment. As the industry scales toward $22$ MW class designs, tower fatigue becomes increasingly critical because larger structures amplify the coupled aero-hydro-servo-elastic loads induced by continuous wind and wave excitation. Accurate fatigue-damage prediction is therefore central to certification, design optimization, and cost reduction. Yet the field lacks a shared surrogate benchmark: studies report different simulations, splits, and metrics, making methods difficult to compare. We present FLOATBench, a public tabular benchmark with $582{,}120$ per-section fatigue-damage labels across three $22$ MW FOWT tower geometries, derived from $19{,}404$ high-fidelity OpenFAST simulations across the three towers ($6{,}468$ per tower: $1{,}078$ aligned wind/wave operating points $\\times$ six turbulence seeds), labeled at $30$ cross-sections per tower. FLOATBench includes a regime-aware alpha-shape partition of the joint wind/wave operating envelope, stratifying test points into in-train, interpolation, and extrapolation regimes. It is paired with a reproducible evaluation harness covering three protocol levels: random validation (E1), within-tower regime-aware evaluation (E2), and cross-tower transfer (E3). The regime-aware protocol reveals rank shifts between global and extrapolation performance that random-split leaderboards cannot detect. To the authors' knowledge, FLOATBench is the first FOWT fatigue benchmark for tabular surrogate modeling, and offers an evaluation protocol that generalizes to engineering surrogates defined over physical operating envelopes. Dataset and code available at: https://github.com/Joao97ribeiro/FLOATBench.",
+      "source": "arXiv",
+      "publishedAt": "2026-05-25T11:18:24.000Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
+      "sourceChannel": "arXiv/金属材料",
+      "linkType": "publisher",
+      "region": "海外",
+      "language": "en",
+      "sourceType": "学术论文",
+      "queryTopic": "金属材料",
+      "contextTags": [
+        "金属材料"
+      ],
+      "id": "518f9af7",
+      "relevanceScore": 10,
+      "category": "金属材料",
+      "reliability": {
+        "score": 60,
+        "grade": "B",
+        "label": "待核验",
+        "factors": [
+          "有详细摘要"
+        ],
+        "limitations": []
+      },
+      "titleZh": "FLOATBench：浮式海上风力机塔筒疲劳数据集与基准",
+      "summary": "针对浮式海上风力机（FOWT）塔筒疲劳预测缺乏共享基准的问题，提出了FLOATBench公共表格基准。该基准包含三个22 MW FOWT塔筒几何的582,120个截面疲劳损伤标签，源自19,404次高保真OpenFAST模拟（每个塔筒6,468次：1,078个对齐风浪运行点×六个湍流种子），每个塔筒标记30个截面。采用区域感知的alpha-shape划分联合风浪运行包络，将测试点分为训练内、插值和外推区域。配套可复现评估框架包含三个协议级别：随机验证（E1）、塔内区域感知评估（E2）和跨塔迁移（E3）。区域感知协议揭示了全局与外推性能之间的排名变化。证据层级为仿真数据，结论限于22 MW设计。",
+      "keyPoints": [
+        "包含三个22 MW FOWT塔筒几何的582,120个疲劳损伤标签",
+        "采用区域感知alpha-shape划分运行包络",
+        "评估协议包括随机验证、塔内区域感知和跨塔迁移"
+      ],
+      "engineeringImpact": "为FOWT塔筒疲劳代理建模提供了标准化基准和可复现评估协议，有助于认证、设计优化和成本降低，尤其支持跨塔迁移学习。",
+      "tags": [
+        "疲劳",
+        "海上风电"
+      ],
+      "paperDetails": {
+        "objective": "建立浮式海上风力机塔筒疲劳预测的公共表格基准",
+        "methods": "高保真OpenFAST模拟生成疲劳损伤标签，alpha-shape划分运行包络，多协议评估",
+        "testObject": "三个22 MW FOWT塔筒几何",
+        "operatingConditions": "对齐风浪运行点，六个湍流种子",
         "quantitativeFindings": [
           {
-            "metric": "螺栓尺寸",
-            "value": "M42至M64",
-            "unit": "mm",
-            "comparison": "未提及",
-            "conditions": "失效案例",
-            "evidence": "摘要中明确提及"
+            "metric": "疲劳损伤标签数量",
+            "value": "582120",
+            "unit": "个",
+            "comparison": "无",
+            "conditions": "三个塔筒",
+            "evidence": "摘要"
           },
           {
-            "metric": "失效时间",
-            "value": "数周至数月",
-            "unit": "未提及",
-            "comparison": "未提及",
-            "conditions": "安装后",
-            "evidence": "摘要中明确提及"
+            "metric": "模拟次数",
+            "value": "19404",
+            "unit": "次",
+            "comparison": "无",
+            "conditions": "三个塔筒",
+            "evidence": "摘要"
           }
         ],
         "limitations": [
-          "仅基于所选失效案例，未涵盖所有工况",
-          "未提供定量氢含量数据"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Coating-Corrosion Coupled Durability Design of Prestressed Rock Bolt Foundations for Coastal Onshore Wind Turbines in Harsh Corrosive Environments",
-      "url": "https://doi.org/10.3390/coatings16070880",
-      "sourceUrl": "https://doi.org/10.3390/coatings16070880",
-      "snippet": "Under complex terrains and extreme environmental conditions such as high wind speeds, prestressed rock anchor foundations for onshore wind turbines are subjected to multiple coupled adverse effects during long-term service, including cyclic wind loading, temperature variation, groundwater intrusion, and rock mass weathering. These factors significantly affect structural performance and service life through corrosion and material degradation processes, while conventional design methods mainly focus on ultimate bearing capacity and lack a systematic consideration of corrosion-induced deterioration mechanisms and long-term performance evolution. Without changing the theoretical framework of current design codes, this study introduces a durability-oriented design concept and explicitly incorporates corrosion effects and material degradation into the analytical system of prestressed rock anchor foundations. First, from the perspective of anchor force evolution, a time-dependent analysis method for long-term prestress loss is established, considering the coupled effects of steel corrosion, material relaxation, and cyclic loading. Second, for the mechanical behavior of group anchor systems, a shear capacity model is proposed that accounts for rock mass strength degradation and grout–rock interface deterioration. Meanwhile, the coupling relationship between foundation void development and groundwater seepage is analyzed, revealing its critical role in the corrosion evolution process. On this basis, a coordinated design method for foundation dimensions and prestress parameters is developed to satisfy both load-bearing capacity and durability requirements. Finite element analysis is further conducted to verify the stress and deformation characteristics of the foundation–rock–anchor system under nonlinear conditions. Engineering case studies demonstrate that the proposed method not only meets bearing capacity requirements, but also effectively suppresses void development, redu",
-      "source": "Coatings",
-      "publishedAt": "2026-07-22",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/金属材料",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "金属材料",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.3390/coatings16070880",
-        "authorsCount": 10,
-        "authors": [
-          "Jian Xu",
-          "Dongpo Dong",
-          "Zhiquan Xing",
-          "Jing Huang",
-          "Jianwei Su",
-          "Wenbo Zhou",
-          "Da Luo",
-          "Ao Zhang",
-          "Changqing Bi",
-          "Xueyun Xing"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Coatings",
-        "publisher": "Multidisciplinary Digital Publishing Institute",
-        "isOpenAccess": true
-      },
-      "id": "571adce2",
-      "relevanceScore": 13,
-      "category": "金属材料",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Coatings",
-          "10位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "沿海陆上风电机组预应力岩石锚杆基础的涂层-腐蚀耦合耐久性设计",
-      "summary": "针对沿海陆上风电机组预应力岩石锚杆基础在复杂地形和极端环境（高风速、温度变化、地下水入侵、岩体风化）下的长期服役问题，提出了一种耐久性导向的设计方法。该方法将腐蚀效应和材料退化显式纳入分析体系，建立了考虑钢腐蚀、材料松弛和循环荷载耦合效应的长期预应力损失时变分析方法，以及考虑岩体强度退化和灌浆-岩石界面退化的群锚系统抗剪承载力模型。通过有限元分析验证了基础-岩石-锚杆系统的应力和变形特性，工程案例表明该方法在满足承载力要求的同时有效抑制了空洞发展。",
-      "keyPoints": [
-        "考虑腐蚀、松弛和循环荷载耦合的预应力损失时变模型",
-        "群锚系统抗剪承载力模型包含岩体强度退化和界面退化",
-        "有限元分析验证了非线性条件下的系统响应",
-        "工程案例验证了耐久性设计方法的有效性"
-      ],
-      "engineeringImpact": "为沿海风电机组锚杆基础设计提供了考虑腐蚀退化的耐久性设计方法，可延长结构寿命并减少维护成本，对类似恶劣环境下的基础设计具有指导意义。",
-      "tags": [
-        "有限元"
-      ],
-      "paperDetails": {
-        "objective": "提出一种考虑腐蚀和材料退化的预应力岩石锚杆基础耐久性设计方法。",
-        "methods": "理论分析、有限元模拟、工程案例验证",
-        "testObject": "沿海陆上风电机组预应力岩石锚杆基础",
-        "operatingConditions": "高风速、温度变化、地下水入侵、岩体风化",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供具体定量数据",
-          "案例数量有限"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Switchable Copula-guided Transformer diffusion model for detecting small sea-surface targets",
-      "url": "https://doi.org/10.1038/s41598-026-63110-0",
-      "sourceUrl": "https://doi.org/10.1038/s41598-026-63110-0",
-      "snippet": "Abstract Detecting low, slow and small maritime targets remains difficult because sea clutter is non-uniform, non-stationary, non-Gaussian and often observed at extremely low signal-to-clutter ratios. Here we present a switchable Copula-guided Transformer denoising diffusion probabilistic model (SCT-DDPM) for unsupervised radar target detection. The framework replaces the conventional i.i.d. Gaussian forward prior with Copula-structured noise, uses a copula-aware weighted MSE objective to align denoising with the observed dependence structure, and combines diffusion-based anomaly attention with Transformer encoding to score target-like deviations from normal clutter. Across 13 Copula families on the IPIX radar dataset, SCT-DDPM maintained high detection performance. These results show that dependence-aware diffusion priors can improve target-clutter separability and provide a statistically grounded route for configuring diffusion models in complex maritime environments.",
-      "source": "Scientific Reports",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/金属材料",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "金属材料",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1038/s41598-026-63110-0",
-        "authorsCount": 4,
-        "authors": [
-          "Chao Yu",
-          "Xuanzhu Sheng",
-          "Zhennian Luan",
-          "Shengyong Li"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Scientific Reports",
-        "publisher": "Nature Portfolio",
-        "isOpenAccess": true
-      },
-      "id": "62f0659e",
-      "relevanceScore": 8,
-      "category": "金属材料",
-      "reliability": {
-        "score": 95,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Scientific Reports",
-          "4位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "可切换Copula引导的Transformer扩散模型用于检测海面小目标",
-      "summary": "针对海杂波非均匀、非平稳、非高斯且信杂比极低条件下低慢小目标检测难题，提出了一种可切换Copula引导的Transformer去噪扩散概率模型（SCT-DDPM）。该模型用Copula结构噪声替代传统独立同分布高斯前向先验，采用Copula感知加权MSE目标函数对齐去噪过程与观测依赖结构，并结合扩散异常注意力与Transformer编码对目标异常进行评分。在IPIX雷达数据集上对13种Copula族进行了测试，保持了高检测性能。结果表明依赖感知扩散先验可改善目标-杂波可分离性。",
-      "keyPoints": [
-        "模型使用Copula结构噪声替代高斯先验",
-        "在IPIX雷达数据集上测试了13种Copula族",
-        "结合了扩散异常注意力与Transformer编码",
-        "检测性能保持高水平"
-      ],
-      "engineeringImpact": "为雷达目标检测提供了新的统计框架，可提升复杂海况下小目标检测能力，对海上监视和风电运维中的异常检测有潜在应用价值。",
-      "tags": [
-        "噪声"
-      ],
-      "paperDetails": {
-        "objective": "提出一种基于Copula引导的Transformer扩散模型用于海面小目标检测。",
-        "methods": "可切换Copula引导的Transformer去噪扩散概率模型",
-        "testObject": "IPIX雷达数据集",
-        "operatingConditions": "低信杂比、非均匀非平稳海杂波",
-        "quantitativeFindings": [
-          {
-            "metric": "Copula族数量",
-            "value": "13",
-            "unit": "种",
-            "comparison": "未提及",
-            "conditions": "测试",
-            "evidence": "摘要中明确提及"
-          }
-        ],
-        "limitations": [
-          "仅基于IPIX数据集，未提及其他雷达数据验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Dendrite formation mechanisms and suppression strategies of zinc-based flow batteries",
-      "url": "https://doi.org/10.20517/energymater.2026.90",
-      "sourceUrl": "https://doi.org/10.20517/energymater.2026.90",
-      "snippet": "Zinc-based flow batteries (ZFBs) are considered a promising energy storage technology because of their high safety, low cost, and high energy density. However, during charging, zinc metal tends to deposit unevenly on the negative electrode, leading to the formation of undesirable dendrites. The growth of these dendrites may pierce the separator, causing internal short circuits or, ultimately, resulting in battery failure. This review explains the mechanisms of zinc dendrite formation and summarizes their adverse effects on battery performance and stability. It then reviews the main strategies currently being explored to suppress dendrite growth, including electrolyte optimization and modifications to electrodes and separators. Finally, the review provides an outlook on the future of dendrite suppression strategies for ZFBs.",
-      "source": "Energy Materials",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/金属材料",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "金属材料",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.20517/energymater.2026.90",
-        "authorsCount": 11,
-        "authors": [
-          "Yi Jiang",
-          "Jinze Zhang",
-          "Meisheng Han",
-          "Puiki Leung",
-          "Yubai Li",
-          "Wenjia Li",
-          "Bin Liu",
-          "Qinping Jian",
-          "Jiayou Ren",
-          "Lei Wei",
-          "Tianshou Zhao"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Energy Materials",
-        "publisher": "",
-        "isOpenAccess": true
-      },
-      "id": "1003c626",
-      "relevanceScore": 8,
-      "category": "金属材料",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Energy Materials",
-          "11位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "锌基液流电池枝晶形成机制与抑制策略",
-      "summary": "本文综述了锌基液流电池充电过程中锌金属不均匀沉积导致枝晶形成的机制，以及枝晶生长对电池性能和稳定性的不利影响。重点总结了当前抑制枝晶的主要策略，包括电解液优化、电极和隔膜改性。最后展望了未来枝晶抑制策略的发展方向。该综述基于文献分析，未提供新的实验数据。",
-      "keyPoints": [
-        "锌基液流电池充电时锌沉积不均匀导致枝晶形成",
-        "枝晶可能刺穿隔膜引发内部短路或电池失效",
-        "抑制策略包括电解液优化、电极和隔膜改性"
-      ],
-      "engineeringImpact": "该综述为锌基液流电池的枝晶抑制提供了系统性的策略参考，有助于指导电解液配方、电极和隔膜的设计与优化，提升电池循环寿命和安全性。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "解释锌枝晶形成机制并总结抑制策略",
-        "methods": "文献综述",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提供新的实验数据",
-          "未进行定量比较"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Nonlinear Dynamic Analysis of Wind Turbine Gear Systems under Uncertainty",
-      "url": "https://doi.org/10.1088/2631-8695/ae8f04",
-      "sourceUrl": "https://doi.org/10.1088/2631-8695/ae8f04",
-      "snippet": "Abstract Wind turbine drivetrains exhibit a high sensitivity to parameter variations, which significantly affects their dynamic behaviour and operational reliability. This paper presents a nonlinear dynamic robustness analysis of a wind turbine gearing system subjected to coupled parameter uncertainties and nonlinear excitation. The study investigates the system responses under uncertainties affecting key parameters, including torsional stiffness, wind speed, bending stiffness, and traction–compression stiffness. The nonlinear dynamic model is solved using a fifth-order Runge–Kutta numerical integration scheme to accurately capture the system behaviour. To efficiently quantify uncertainty propagation, the generalized polynomial chaos (GPC) method is employed and systematically compared with Monte Carlo (MC) simulations. Attention is devoted to the influence of extreme parameter variations and coupled uncertainty effects, highlighting their critical role in amplifying the dynamic responses of the drivetrain system. The obtained results provide valuable insights into the robustness and dynamic reliability of wind turbine gearing systems operating under nonlinear and uncertain conditions",
-      "source": "Engineering Research Express",
-      "publishedAt": "2026-07-22",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/金属材料",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "金属材料",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1088/2631-8695/ae8f04",
-        "authorsCount": 6,
-        "authors": [
-          "Mouna Kacem Hadj Kacem",
-          "A. Ghorbel",
-          "Nabih Féki",
-          "Abdelkhalak El Hami",
-          "Lassaad Walha",
-          "Mohamed Haddar"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Engineering Research Express",
-        "publisher": "IOP Publishing",
-        "isOpenAccess": true
-      },
-      "id": "542f0b7d",
-      "relevanceScore": 8,
-      "category": "金属材料",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Engineering Research Express",
-          "6位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "不确定性下风力机齿轮系统的非线性动力学分析",
-      "summary": "本文对风力机传动系统在参数不确定性和非线性激励下的非线性动力学鲁棒性进行了分析。研究了扭转刚度、风速、弯曲刚度和拉压刚度等关键参数的不确定性对系统响应的影响。采用五阶Runge-Kutta数值积分求解非线性动力学模型，并利用广义多项式混沌法量化不确定性传播，与蒙特卡洛模拟进行了系统比较。结果表明极端参数变化和耦合不确定性效应会放大传动系统的动态响应。",
-      "keyPoints": [
-        "研究了扭转刚度、风速等参数不确定性对齿轮系统动态响应的影响",
-        "采用广义多项式混沌法量化不确定性传播",
-        "极端参数变化和耦合不确定性会放大动态响应"
-      ],
-      "engineeringImpact": "该研究揭示了参数不确定性对风力机齿轮系统动态可靠性的影响，为传动系统的鲁棒设计和运行维护提供了理论依据，有助于降低因参数波动导致的故障风险。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "分析风力机齿轮系统在参数不确定性和非线性激励下的动态鲁棒性",
-        "methods": "五阶Runge-Kutta数值积分、广义多项式混沌法、蒙特卡洛模拟",
-        "testObject": "风力机齿轮传动系统",
-        "operatingConditions": "参数不确定性包括扭转刚度、风速、弯曲刚度、拉压刚度",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及具体数值结果",
-          "未提及实验验证"
+          "仅针对22 MW设计，未提及更小或更大机型"
         ]
       },
       "industryDetails": {
@@ -1595,7 +1330,7 @@
       "snippet": "Vertical axis wind turbines (VAWTs) have significant development prospects in urban buildings and low-wind-speed environments due to their simple geometry, low noise, operation under multi-directional wind, and other technological advantages. The operation efficiency of VAWT is an essential factor restricting its development, and blade design plays a key role in determining its operation efficiency. In this paper, a model-driven optimization design framework for the aerodynamic performance of vertical axis wind turbine blades is proposed. Computational fluid dynamics (CFD) and an improved back-propagation neural network (BPNN) are combined to establish the relationship between design variables and aerodynamic performance. Then, a DBO–BPNN surrogate model coupled with the non-dominated sorting genetic algorithm (NSGA) is employed to identify the optimal design scheme. Compared with the original VAWT blade, the lift-to-drag ratio of the optimized blade is increased by 7.52 units, the manufacturing material is saved by 8.15%, and the carbon emissions in the raw material stage are reduced by 91.079 kg (carbon fiber reinforced plastic) and 62.132 kg (glass fiber reinforced plastic), respectively, realizing the collaborative optimization of energy efficiency and environmental benefits.",
       "source": "Proceedings of the Institution of Mechanical Engineers Part C Journal of Mechanical Engineering Science",
       "publishedAt": "2026-07-25",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "OpenAlex/风机噪声",
       "linkType": "publisher",
       "region": "海外",
@@ -1634,13 +1369,13 @@
         "limitations": []
       },
       "titleZh": "垂直轴风力机叶片气动优化：结合CFD和改进BP神经网络的混合代理建模策略",
-      "summary": "本文提出了一种模型驱动的垂直轴风力机叶片气动性能优化设计框架。结合计算流体动力学和改进的反向传播神经网络建立设计变量与气动性能之间的关系，然后采用DBO-BPNN代理模型与非支配排序遗传算法寻找最优设计方案。优化后叶片升阻比提高7.52个单位，制造材料节省8.15%，原材料阶段碳排放减少（碳纤维增强塑料减少91.079 kg，玻璃纤维增强塑料减少62.132 kg）。",
+      "summary": "针对垂直轴风力机（VAWT）叶片气动性能优化，提出模型驱动优化设计框架。结合计算流体动力学（CFD）和改进反向传播神经网络（BPNN）建立设计变量与气动性能关系，采用DBO-BPNN代理模型耦合非支配排序遗传算法（NSGA）寻找最优方案。优化后叶片升阻比提高7.52个单位，制造材料节省8.15%，原材料阶段碳排放减少（碳纤维增强塑料91.079 kg，玻璃纤维增强塑料62.132 kg）。证据层级为仿真优化，结论基于特定VAWT模型。",
       "keyPoints": [
-        "结合CFD和改进BP神经网络建立代理模型",
-        "采用DBO-BPNN代理模型与NSGA算法优化叶片",
-        "优化后升阻比提高7.52个单位，材料节省8.15%"
+        "优化后升阻比提高7.52个单位",
+        "制造材料节省8.15%",
+        "碳排放减少：碳纤维91.079 kg，玻璃纤维62.132 kg"
       ],
-      "engineeringImpact": "该优化框架可有效提升垂直轴风力机叶片的气动性能并降低材料成本和碳排放，为低风速和城市环境下的风力机叶片设计提供了工程参考。",
+      "engineeringImpact": "为VAWT叶片气动-结构-环境协同优化提供了高效代理建模方法，有助于提升城市低风速环境下的运行效率并降低材料成本和碳排放。",
       "tags": [
         "噪声",
         "气动",
@@ -1648,10 +1383,10 @@
         "神经网络"
       ],
       "paperDetails": {
-        "objective": "提出垂直轴风力机叶片气动性能优化设计框架",
-        "methods": "CFD、改进BP神经网络、DBO-BPNN代理模型、NSGA算法",
+        "objective": "优化垂直轴风力机叶片气动性能，实现能效与环境效益协同",
+        "methods": "CFD结合改进BPNN，DBO-BPNN代理模型耦合NSGA算法",
         "testObject": "垂直轴风力机叶片",
-        "operatingConditions": "未提及具体工况",
+        "operatingConditions": "未提及具体运行条件",
         "quantitativeFindings": [
           {
             "metric": "升阻比提高",
@@ -1659,7 +1394,7 @@
             "unit": "单位",
             "comparison": "与原始叶片相比",
             "conditions": "优化后",
-            "evidence": "摘要中明确提及"
+            "evidence": "摘要"
           },
           {
             "metric": "制造材料节省",
@@ -1667,28 +1402,27 @@
             "unit": "%",
             "comparison": "与原始叶片相比",
             "conditions": "优化后",
-            "evidence": "摘要中明确提及"
+            "evidence": "摘要"
           },
           {
-            "metric": "碳排放减少（碳纤维增强塑料）",
+            "metric": "碳排放减少（碳纤维）",
             "value": "91.079",
             "unit": "kg",
             "comparison": "与原始叶片相比",
             "conditions": "原材料阶段",
-            "evidence": "摘要中明确提及"
+            "evidence": "摘要"
           },
           {
-            "metric": "碳排放减少（玻璃纤维增强塑料）",
+            "metric": "碳排放减少（玻璃纤维）",
             "value": "62.132",
             "unit": "kg",
             "comparison": "与原始叶片相比",
             "conditions": "原材料阶段",
-            "evidence": "摘要中明确提及"
+            "evidence": "摘要"
           }
         ],
         "limitations": [
-          "未提及实验验证",
-          "未提及实际运行工况下的性能"
+          "未提及实验验证，结论基于仿真"
         ]
       },
       "industryDetails": {
@@ -1710,7 +1444,7 @@
       "snippet": "",
       "source": "Journal of Nondestructive Evaluation",
       "publishedAt": "2026-07-25",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "OpenAlex/风机噪声",
       "linkType": "publisher",
       "region": "海外",
@@ -1752,26 +1486,27 @@
         ]
       },
       "titleZh": "风电叶片3D打印碳纤维断裂机制的声发射表征",
-      "summary": "该论文利用声发射技术表征3D打印碳纤维复合材料在风电叶片应用中的断裂机制。通过分析声发射信号特征，识别不同断裂模式（如基体开裂、纤维断裂、分层等）。研究基于实验室试样测试，提供了断裂机制与声发射参数之间的对应关系。证据层级为实验研究，结论局限于特定打印工艺和材料体系。",
+      "summary": "该论文利用声发射技术表征3D打印碳纤维复合材料在风电叶片应用中的断裂机制。研究通过声发射信号分析识别不同断裂模式，如基体开裂、纤维断裂和分层。实验在实验室条件下进行，使用标准试样。结果显示了不同断裂机制对应的声发射特征参数范围，但未提供具体数值。证据层级为实验研究，结论受限于试样尺寸和加载条件。",
       "keyPoints": [
         "使用声发射技术监测3D打印碳纤维的断裂过程",
-        "识别了基体开裂、纤维断裂和分层等不同断裂模式",
-        "实验在实验室条件下进行，未涉及实际叶片工况"
+        "识别了基体开裂、纤维断裂和分层等断裂模式",
+        "实验在实验室条件下进行，未涉及实际叶片结构"
       ],
-      "engineeringImpact": "为风电叶片3D打印碳纤维部件的无损检测提供了声发射特征参考，有助于在线监测和早期损伤识别，但需进一步验证在实际叶片中的适用性。",
+      "engineeringImpact": "该研究为风电叶片制造中的无损检测提供了声发射特征参考，有助于在线监测叶片损伤演化，但需进一步验证在实际叶片中的适用性。",
       "tags": [
         "断裂",
         "叶片"
       ],
       "paperDetails": {
-        "objective": "表征3D打印碳纤维复合材料的断裂机制，建立声发射信号与断裂模式的对应关系",
-        "methods": "声发射检测技术，实验室试样测试",
-        "testObject": "3D打印碳纤维复合材料试样",
-        "operatingConditions": "实验室环境，未提及具体载荷条件",
+        "objective": "表征3D打印碳纤维复合材料在风电叶片应用中的断裂机制",
+        "methods": "声发射技术",
+        "testObject": "3D打印碳纤维标准试样",
+        "operatingConditions": "实验室条件，未提及具体载荷",
         "quantitativeFindings": [],
         "limitations": [
-          "未提及实际叶片工况验证",
-          "材料体系和打印工艺单一"
+          "未提及具体数值",
+          "试样尺寸与实际叶片差异",
+          "加载条件单一"
         ]
       },
       "industryDetails": {
@@ -1793,7 +1528,7 @@
       "snippet": "Abstract Early warning of wind turbine faults can guarantee their operational efficiency. However, the complex and variable operating environment of wind turbines, including geographical environment, climate environment, and control strategies, leads to a decline in the performance of data-driven fault warning methods. To better achieve fault early warning for wind turbines, this paper proposes a fault early warning algorithm for wind turbines that utilizes a Sparrow Search Algorithm combined with a Particle Swarm Optimization algorithm to optimize a deep belief network (SSA-PSO-DBN), thereby adapting to the operational characteristics of turbines across various regions. First, preprocess the collected SCADA data from wind farms in different regions and divide the Data Set. Then, the preprocessed training data is input into the SSA-PSO-DBN model for hyperparameter optimization and model training of the DBN model. Subsequently, input the test data into the model trained with the optimal parameters to validate its effectiveness. Eventually, experiments were conducted using data from three wind farms across different regions, which have distinct operating environments and fault types. Experimental results demonstrate that the proposed algorithm can achieve early warning of wind turbine faults, and its effectiveness has been comprehensively validated using datasets from multiple different regions.",
       "source": "Engineering Research Express",
       "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "OpenAlex/风机噪声",
       "linkType": "publisher",
       "region": "海外",
@@ -1834,23 +1569,23 @@
         "limitations": []
       },
       "titleZh": "基于SSA-PSO-DBN的风机故障早期预警：多区域数据支持研究",
-      "summary": "该论文提出一种结合麻雀搜索算法和粒子群优化算法优化深度置信网络（SSA-PSO-DBN）的风机故障早期预警方法。利用来自三个不同区域风电场的SCADA数据进行训练和验证，这些风电场具有不同的运行环境和故障类型。实验结果表明，该方法能够有效实现风机故障早期预警，并在多区域数据集上验证了其有效性。证据层级为基于实际数据的算法验证，结论具有区域适应性。",
+      "summary": "该论文提出一种结合麻雀搜索算法和粒子群优化算法优化深度置信网络（SSA-PSO-DBN）的风机故障早期预警方法。利用来自三个不同区域风电场的SCADA数据，考虑地理、气候和控制策略差异。实验结果表明该方法能有效实现故障早期预警，并在多区域数据集上验证了有效性。但未提供具体预警时间或准确率数值。",
       "keyPoints": [
-        "使用SSA-PSO-DBN模型进行风机故障早期预警",
-        "基于三个不同区域风电场的SCADA数据验证",
-        "模型能够适应不同运行环境和故障类型"
+        "使用SSA-PSO-DBN模型进行风机故障预警",
+        "采用三个不同区域风电场的SCADA数据",
+        "模型考虑了不同运行环境的影响"
       ],
-      "engineeringImpact": "为风电场提供了一种可跨区域应用的故障预警算法，有助于提高运维效率，减少非计划停机，但需注意模型对数据质量的依赖。",
+      "engineeringImpact": "该方法可适应不同区域风机的运行特性，提高故障预警的泛化能力，有助于风电场运维决策，减少非计划停机。",
       "tags": [],
       "paperDetails": {
-        "objective": "提出一种适应多区域运行特性的风机故障早期预警算法",
-        "methods": "SSA-PSO-DBN模型，SCADA数据预处理与训练",
+        "objective": "提出一种适应多区域运行特性的风机故障早期预警方法",
+        "methods": "SSA-PSO-DBN模型",
         "testObject": "三个不同区域风电场的SCADA数据",
-        "operatingConditions": "不同地理环境、气候环境和控制策略",
+        "operatingConditions": "不同地理、气候和控制策略",
         "quantitativeFindings": [],
         "limitations": [
-          "未提及具体预警提前时间",
-          "模型复杂度可能影响实时性"
+          "未提供具体预警时间或准确率数值",
+          "数据来源有限"
         ]
       },
       "industryDetails": {
@@ -1866,637 +1601,56 @@
       }
     },
     {
-      "title": "A hybrid convolutional-transformer neural network model for photovoltaic fault detection and localization",
-      "url": "https://doi.org/10.1038/s41598-026-57859-7",
-      "sourceUrl": "https://doi.org/10.1038/s41598-026-57859-7",
-      "snippet": "Energy retention from losses is the primary goal of fault detection methodology for photovoltaic (PV) solar systems. A fault detection model should be designed effectively to minimize power and cost waste. We propose a novel fault detection and localization method that leverages deep learning techniques for PV systems. The model is a hybrid semantic segmentation method that combines Convolutional Neural Networks (CNN) and multi-level transformer neural networks. We examine our model on four different segmentation datasets, which have varied characteristics and different capturing conditions, to ensure our model generalization. Using aerial inspection, the first thermal dataset images give a high performance in locating the faulty cells in PV arrays with an accuracy and global precision of 99.89%, a mean average precision (mAP) of 88.73%, a mean intersection over union (mIoU) of 76.29%, and 84.48% of mean dice (mDice, or mean/unweighted F1 score). We use three electroluminescence datasets to investigate the precise location and class of different fault types and minor cracks at the cell level. The second dataset result achieved perfect detection and segmentation of anomaly areas in cells with 99% accuracy, 96.36% mIoU, 98.13% mDice, and 98.41% mAP. The first two datasets contain binary segmentation images with fault and no-fault classes; to accommodate multiple classes, we have utilized the third and fourth datasets. The third dataset, comprising five PV failure classes, is evaluated against other models, yielding a superior performance of 96.27% precision, 77.64% mAP, 57.3% mIoU, and 68.45% mDice. The final dataset has 29 segmentation classes for testing 25 classes, for which it achieves a precision of 95.05%, 66.7% mAP, 49.3% mIoU, and 59.3% mDice.",
-      "source": "Scientific Reports",
-      "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风机噪声",
+      "title": "A Synthetic Reliability-Aware PINN Benchmark for Offshore Wind Turbine Support-Structure Monitoring with Bayesian Inverse Identification",
+      "url": "http://arxiv.org/abs/2606.24176v1",
+      "sourceUrl": "http://arxiv.org/abs/2606.24176v1",
+      "snippet": "Reliable structural health monitoring (SHM) of offshore wind turbine (OWT) support structures requires fast state estimation from sparse measurements. Repeated high fidelity finite element or aeroelastic analyses are difficult to use directly in online monitoring loops, while purely data-driven surrogates can require large training sets. This paper presents Digi Turbine, a synthetic reliability-aware Physics Informed Neural Network (PINN) benchmark for OWT monopile support structure monitoring. The workflow embeds a simplified Euler Bernoulli beam equation with Winkler soil foundation in the training objective, couples it with Bayesian-prior-informed inverse identification, and adds First Order Reliability Method (FORM) screening. All validation uses synthetic configurations with analytical or finite-difference ground truth motivated by the NREL 5MW reference turbine context.",
+      "source": "arXiv",
+      "publishedAt": "2026-06-23T05:55:45.000Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
+      "sourceChannel": "arXiv/风电试验",
       "linkType": "publisher",
       "region": "海外",
       "language": "en",
       "sourceType": "学术论文",
-      "queryTopic": "风机噪声",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1038/s41598-026-57859-7",
-        "authorsCount": 5,
-        "authors": [
-          "Ebrahim A. Ramadan",
-          "Nada M. Moawad",
-          "Belal A. Abouzalam",
-          "Wessam F. Abouzaid",
-          "Ghada M. El‐Banby"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Scientific Reports",
-        "publisher": "Nature Portfolio",
-        "isOpenAccess": true
-      },
-      "id": "35f9b600",
-      "relevanceScore": 8,
-      "category": "风机噪声",
+      "queryTopic": "风电试验",
+      "contextTags": [
+        "风电试验"
+      ],
+      "id": "4b2b475d",
+      "relevanceScore": 9,
+      "category": "风电试验",
       "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Scientific Reports",
-          "5位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "用于光伏故障检测与定位的混合卷积-变压器神经网络模型",
-      "summary": "该论文提出一种混合卷积神经网络与多层变压器神经网络的语义分割模型，用于光伏系统故障检测与定位。在四个不同特征和采集条件的数据集上测试，包括一个热成像数据集和三个电致发光数据集。热成像数据集上达到99.89%的准确率和全局精度，88.73%的平均精度均值（mAP），76.29%的平均交并比（mIoU），84.48%的平均Dice系数。电致发光数据集上对电池级异常区域检测达到99%准确率，96.36% mIoU，98.13% mDice，98.41% mAP。多类故障数据集上性能略低。证据层级为算法验证，结论基于公开数据集。",
-      "keyPoints": [
-        "混合CNN-Transformer模型用于光伏故障检测与定位",
-        "在四个不同数据集上验证，包括热成像和电致发光",
-        "热成像数据集准确率99.89%，电致发光数据集准确率99%"
-      ],
-      "engineeringImpact": "为光伏电站的自动化巡检和故障定位提供了高精度深度学习方案，可减少人工检查成本，但模型在多类故障场景下性能需进一步提升。",
-      "tags": [
-        "裂纹",
-        "机器学习",
-        "深度学习",
-        "神经网络"
-      ],
-      "paperDetails": {
-        "objective": "提出一种高精度光伏故障检测与定位的深度学习模型",
-        "methods": "混合CNN-Transformer语义分割模型",
-        "testObject": "四个光伏故障数据集（热成像和电致发光）",
-        "operatingConditions": "不同采集条件（空中巡检、实验室等）",
-        "quantitativeFindings": [
-          {
-            "metric": "准确率",
-            "value": "99.89",
-            "unit": "%",
-            "comparison": "未提及",
-            "conditions": "热成像数据集",
-            "evidence": "论文摘要"
-          },
-          {
-            "metric": "mAP",
-            "value": "88.73",
-            "unit": "%",
-            "comparison": "未提及",
-            "conditions": "热成像数据集",
-            "evidence": "论文摘要"
-          },
-          {
-            "metric": "mIoU",
-            "value": "76.29",
-            "unit": "%",
-            "comparison": "未提及",
-            "conditions": "热成像数据集",
-            "evidence": "论文摘要"
-          },
-          {
-            "metric": "mDice",
-            "value": "84.48",
-            "unit": "%",
-            "comparison": "未提及",
-            "conditions": "热成像数据集",
-            "evidence": "论文摘要"
-          },
-          {
-            "metric": "准确率",
-            "value": "99",
-            "unit": "%",
-            "comparison": "未提及",
-            "conditions": "电致发光数据集（第二数据集）",
-            "evidence": "论文摘要"
-          },
-          {
-            "metric": "mIoU",
-            "value": "96.36",
-            "unit": "%",
-            "comparison": "未提及",
-            "conditions": "电致发光数据集（第二数据集）",
-            "evidence": "论文摘要"
-          }
-        ],
-        "limitations": [
-          "多类故障数据集性能较低",
-          "未提及实际光伏电站部署验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Evaluación al impacto, al fuego y al aislamiento acústico de paneles de yeso con fibras de vidrio para mampostería",
-      "url": "https://doi.org/10.61347/ei.v5i2.355",
-      "sourceUrl": "https://doi.org/10.61347/ei.v5i2.355",
-      "snippet": "La presente investigación evaluó el comportamiento de elementos constructivos para paredes, considerando paneles de gypsum estándar, paneles resistentes a la humedad y bloques de hormigón, combinados con recubrimientos de fibra de vidrio (Fleece, Rugosa y Acústica). Se desarrolló un estudio experimental, comparativo y descriptivo mediante tres ensayos adaptados para analizar su desempeño frente al impacto, la reacción al fuego y el aislamiento acústico, definiendo el número de probetas según cada ensayo. Los resultados evidenciaron que la incorporación de recubrimientos influye significativamente en el comportamiento de los elementos. El recubrimiento Acústica presentó el mejor desempeño en resistencia al impacto y aislamiento acústico. En cuanto a la reacción al fuego, ninguna combinación mostró mejoras relevantes. Se concluye que la composición y el gramaje de los recubrimientos pueden mejorar considerablemente las prestaciones de los paneles de gypsum, permitiéndoles alcanzar un comportamiento comparable al del bloque de hormigón sin recubrimiento.",
-      "source": "Esprint Investigación",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风机噪声",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风机噪声",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.61347/ei.v5i2.355",
-        "authorsCount": 5,
-        "authors": [
-          "Iván Alexander Robalino Rodríguez",
-          "Andrea Natalí Zárate Villacrés",
-          "Marcelo David Guerra Valladares",
-          "Julio Andrés Fiallos Iglesias",
-          "Cristian Andrés Marcillo Zapata"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Esprint Investigación",
-        "publisher": "",
-        "isOpenAccess": true
-      },
-      "id": "4aa60769",
-      "relevanceScore": 8,
-      "category": "风机噪声",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Esprint Investigación",
-          "5位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "带玻璃纤维覆层的石膏板抗冲击、防火及隔声性能评估",
-      "summary": "该研究通过实验对比了标准石膏板、防潮石膏板和混凝土砌块在三种玻璃纤维覆层（Fleece、Rugosa、Acústica）下的抗冲击、防火及隔声性能。结果表明，Acústica覆层在抗冲击和隔声方面表现最佳，但所有组合在防火性能上均无显著改善。覆层成分和克重可提升石膏板性能至接近未覆层混凝土砌块水平。证据基于实验室测试，结论限于所测试材料组合。",
-      "keyPoints": [
-        "Acústica覆层在抗冲击和隔声方面表现最佳",
-        "所有覆层组合均未显著改善防火性能",
-        "覆层成分和克重可提升石膏板性能至接近未覆层混凝土砌块"
-      ],
-      "engineeringImpact": "该研究为建筑隔声和抗冲击设计提供了材料选择依据，Acústica覆层石膏板可作为混凝土砌块的轻质替代方案，但需注意防火性能不足，需额外防火措施。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "评估不同玻璃纤维覆层对石膏板抗冲击、防火及隔声性能的影响",
-        "methods": "实验研究，采用三种覆层（Fleece、Rugosa、Acústica）与标准石膏板、防潮石膏板及混凝土砌块组合，进行抗冲击、防火和隔声测试",
-        "testObject": "石膏板（标准、防潮）、混凝土砌块，覆层为玻璃纤维（Fleece、Rugosa、Acústica）",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "结论限于所测试的特定材料组合",
-          "未提供具体数值数据"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Research on demagnetization fault diagnosis of permanent magnet flux-switching linear motors based on few-shot learning",
-      "url": "https://doi.org/10.24425/aee.2026.2674",
-      "sourceUrl": "https://doi.org/10.24425/aee.2026.2674",
-      "snippet": "Aiming at the problems of few samples of local demagnetization faults and high difficulty in air-gap magnetic field detection for permanent magnet flux-switching linear motors (PMFSLMs), this paper adopts the primary backplate magnetic flux leakage signal of PMFSLMs to characterize demagnetization fault, which effectively avoids air-gap magnetic field detection. A few-shot learning method based on a Siamese convolutional neural network (CNN) is adopted to diagnose and identify the demagnetization faults in PMFSLMs. Firstly, a finite element model (FEM) of the PMFSLM is established to analyze the electromagnetic characteristics of the PMFSLM, so as to obtain the backplate magnetic flux leakage data under different demagnetization conditions. Then, a dual-channel dataset of backplate magnetic flux leakage signals is constructed and thus the signals of magnetic flux density difference are reconstructed under different demagnetization faults. Finally, a few-shot learning method based on a Siamese CNN is used to establish a classification model for identifying different demagnetization faults. The finite element simulation results show that the proposed method can accurately identify different demagnetization locations and demagnetization combinations of the PMFSLM, and exhibits high accuracy under limited-sample conditions.",
-      "source": "Archives of Electrical Engineering",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风机噪声",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风机噪声",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.24425/aee.2026.2674",
-        "authorsCount": 5,
-        "authors": [
-          "Yongli Lei",
-          "Liwang Ai",
-          "Xiaozhuo Xu",
-          "Yazhao Gao",
-          "Wanyu Wang"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Archives of Electrical Engineering",
-        "publisher": "De Gruyter Open",
-        "isOpenAccess": true
-      },
-      "id": "2107ddcc",
-      "relevanceScore": 8,
-      "category": "风机噪声",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Archives of Electrical Engineering",
-          "5位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "基于小样本学习的永磁磁通切换直线电机退磁故障诊断研究",
-      "summary": "针对永磁磁通切换直线电机局部退磁故障样本少、气隙磁场检测难的问题，提出利用背板磁通泄漏信号表征退磁故障，并采用基于孪生卷积神经网络的小样本学习方法进行诊断。通过有限元模型获取不同退磁条件下的背板磁通泄漏数据，构建双通道数据集并重构磁通密度差信号，最终建立分类模型。仿真结果表明，该方法能准确识别不同退磁位置和组合，在有限样本下具有高精度。证据基于有限元仿真，结论限于仿真条件。",
-      "keyPoints": [
-        "采用背板磁通泄漏信号替代气隙磁场检测",
-        "使用孪生卷积神经网络实现小样本学习",
-        "有限元仿真验证了方法在识别退磁位置和组合上的高精度"
-      ],
-      "engineeringImpact": "该研究为永磁电机退磁故障诊断提供了非侵入式方法，利用背板信号避免气隙检测困难，小样本学习降低数据需求，适用于实际运维中故障数据稀缺的场景。",
-      "tags": [
-        "有限元",
-        "神经网络"
-      ],
-      "paperDetails": {
-        "objective": "提出基于小样本学习的永磁磁通切换直线电机退磁故障诊断方法",
-        "methods": "有限元建模获取背板磁通泄漏数据，构建双通道数据集，采用孪生卷积神经网络进行故障分类",
-        "testObject": "永磁磁通切换直线电机（PMFSLM）",
-        "operatingConditions": "不同退磁条件（位置和组合）",
-        "quantitativeFindings": [],
-        "limitations": [
-          "结论基于有限元仿真，未提及实验验证",
-          "未提供具体精度数值"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Coupled pitch and roll control of floating bridges using corner-distributed pendulum dampers",
-      "url": "https://doi.org/10.1016/j.apor.2026.105178",
-      "sourceUrl": "https://doi.org/10.1016/j.apor.2026.105178",
-      "snippet": "Ensuring the dynamic stability of floating bridges in deep-water environments presents a complex fluid–structure interaction challenge, particularly concerning coupled pitch and roll motions. This study proposes a decentralized vibration control strategy utilizing External Pendulum-type Tuned Mass Dampers (E-PTMDs) distributed at the four corner nodes of the pontoon. By leveraging the geometric extremities, this configuration strategically transforms vertical inertial forces into substantial rotational restoring moments. A comprehensive fluid–structure-damper coupled numerical framework is established, integrating frequency-dependent boundary element method (BEM) hydrodynamic coefficients into a time-domain Cummins’ equation under stochastic JONSWAP wave spectra. Simulations reveal that the E-PTMD system reduces the pitch root-mean-square (RMS) response by 44.3% under head sea conditions (0°). Under quartering sea conditions (45°), the spatial distribution of the dampers inherently induces phase delays across the diagonal wave field, successfully mitigating strongly coupled pitch and roll responses by 42.9% and 75.6%, respectively. The analytical results demonstrate that corner-distributed mass dampers kinematically replicate the multidirectional rotational stability typical of Tension Leg Platform (TLP) mooring systems. This ”mooring-free” stabilization mechanism offers a robust and cost-effective alternative for deep-water offshore infrastructure, circumventing the exponential weight penalties and subsea installation costs associated with physical tendons.",
-      "source": "Applied Ocean Research",
-      "publishedAt": "2026-07-25",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风机噪声",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风机噪声",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1016/j.apor.2026.105178",
-        "authorsCount": 1,
-        "authors": [
-          "Jun-Gi Sim"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Applied Ocean Research",
-        "publisher": "Elsevier BV",
-        "isOpenAccess": true
-      },
-      "id": "35be7a79",
-      "relevanceScore": 8,
-      "category": "风机噪声",
-      "reliability": {
-        "score": 92,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Applied Ocean Research",
-          "1位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "浮桥的耦合纵摇与横摇控制：采用角点分布摆式阻尼器",
-      "summary": "针对深水浮桥的纵摇和横摇耦合运动稳定性问题，提出在浮箱四角布置外部摆式调谐质量阻尼器的分散控制策略。建立了流体-结构-阻尼器耦合数值框架，结合频域边界元水动力系数和时域Cummins方程，在随机JONSWAP波浪谱下仿真。结果表明，迎浪条件下纵摇均方根响应降低44.3%；斜浪条件下纵摇和横摇分别降低42.9%和75.6%。角点分布阻尼器运动学上复制了张力腿平台的旋转稳定性，提供了一种无系泊的稳定机制。证据基于数值仿真，结论限于所考虑的波浪条件。",
-      "keyPoints": [
-        "迎浪条件下纵摇RMS降低44.3%",
-        "斜浪条件下纵摇和横摇分别降低42.9%和75.6%",
-        "角点分布阻尼器实现了无系泊的旋转稳定性"
-      ],
-      "engineeringImpact": "该控制策略为深水浮桥提供了一种无系泊的稳定方案，避免物理系泊的重量和安装成本，适用于深海基础设施的振动控制，可推广至其他浮式结构。",
-      "tags": [
-        "海上风电"
-      ],
-      "paperDetails": {
-        "objective": "提出并验证角点分布摆式阻尼器对浮桥纵摇和横摇耦合运动的控制效果",
-        "methods": "数值仿真，建立流体-结构-阻尼器耦合框架，采用频域边界元法和时域Cummins方程，波浪谱为JONSWAP",
-        "testObject": "浮桥浮箱，四角布置外部摆式调谐质量阻尼器",
-        "operatingConditions": "迎浪（0°）和斜浪（45°）条件下的随机波浪",
-        "quantitativeFindings": [
-          {
-            "metric": "纵摇RMS降低",
-            "value": "44.3",
-            "unit": "%",
-            "comparison": "无阻尼器情况",
-            "conditions": "迎浪（0°）",
-            "evidence": "仿真结果"
-          },
-          {
-            "metric": "纵摇RMS降低",
-            "value": "42.9",
-            "unit": "%",
-            "comparison": "无阻尼器情况",
-            "conditions": "斜浪（45°）",
-            "evidence": "仿真结果"
-          },
-          {
-            "metric": "横摇RMS降低",
-            "value": "75.6",
-            "unit": "%",
-            "comparison": "无阻尼器情况",
-            "conditions": "斜浪（45°）",
-            "evidence": "仿真结果"
-          }
-        ],
-        "limitations": [
-          "结论基于数值仿真，未提及实验验证",
-          "仅考虑特定波浪条件（迎浪和斜浪）"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Wake-resolving acoustic tomography: advances through numerical covariance methods",
-      "url": "https://doi.org/10.5194/wes-11-2621-2026",
-      "sourceUrl": "https://doi.org/10.5194/wes-11-2621-2026",
-      "snippet": "Abstract. Acoustic tomography offers path-integrated measurements of atmospheric velocity and temperature fluctuations with high spatial resolution. Classical implementations of time-dependent stochastic inversion rely on homogeneous, isotropic covariance models that are poorly suited to the anisotropic structure of wind turbine wakes. By directly estimating heterogeneous covariances from large-eddy simulations (LES) into the time-dependent stochastic inversion operator, we relax implicit assumptions in the analytical models used historically. Retrievals using these LES-informed models improve agreement with true fields in variance, turbulent kinetic energy, and spectral content compared to analytical and precursor-based covariance models. The results indicate that LES-informed covariance models can enhance the accuracy of acoustic tomography retrievals in complex, anisotropic flows such as wind turbine wakes in some cases and highlight instances where analytical models still offer competitive performance, despite their simplifying assumptions.",
-      "source": "Wind energy science",
-      "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风机噪声",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风机噪声",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.5194/wes-11-2621-2026",
-        "authorsCount": 2,
-        "authors": [
-          "Nicholas Hamilton",
-          "Shreyas Bidadi"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Wind energy science",
-        "publisher": "Copernicus Publications",
-        "isOpenAccess": true
-      },
-      "id": "49126604",
-      "relevanceScore": 8,
-      "category": "风机噪声",
-      "reliability": {
-        "score": 93,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Wind energy science",
-          "2位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "尾流分辨声学层析成像：通过数值协方差方法取得的进展",
-      "summary": "本文提出利用大涡模拟（LES）直接估计非均匀协方差，并将其融入时间相关随机反演算子，以改进风电机组尾流等各向异性流动中的声学层析成像反演。与解析模型和前驱体协方差模型相比，LES信息协方差模型在方差、湍流动能和频谱含量方面提高了与真实场的一致性，但解析模型在某些情况下仍具竞争力。证据基于数值模拟对比，未涉及现场实测验证。",
-      "keyPoints": [
-        "LES直接估计非均匀协方差用于声学层析成像反演",
-        "LES信息模型在方差、湍流动能和频谱含量上优于解析模型",
-        "解析模型在某些各向异性流动中仍具竞争力"
-      ],
-      "engineeringImpact": "该方法可提升风电机组尾流区域声学层析成像的精度，有助于更准确地监测尾流速度和温度场，为风电场布局优化和机组控制提供更可靠的输入数据。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "改进声学层析成像在风电机组尾流等各向异性流动中的反演精度",
-        "methods": "利用大涡模拟直接估计非均匀协方差，融入时间相关随机反演算子",
-        "testObject": "风电机组尾流（数值模拟）",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "解析模型在某些情况下仍具竞争力",
-          "未提及现场实测验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Statistical Manifold Generation-Driven Equipment Collaborative Personalized Fault Diagnosis",
-      "url": "https://doi.org/10.3390/s26154696",
-      "sourceUrl": "https://doi.org/10.3390/s26154696",
-      "snippet": "In Industrial Internet of Things (IIoT) scenarios, data privacy constraints and distribution discrepancies caused by time-varying working conditions hinder existing intelligent fault diagnosis models from maintaining robust generalization performance across different, particularly unknown, working conditions. To address this challenge, a federated generalization fault diagnosis method driven by statistical manifold generation is proposed. The method constructs a closed-loop collaborative strategy. Initially, individual users extract and upload representative statistical information (SI) as lightweight, privacy-preserving knowledge carriers. Subsequently, a global Gaussian mixture model coupled with a covariance expansion mechanism is established in the cloud to fit multi-source distributions and extrapolate uncertainty boundaries, thereby generating virtual SI. Finally, this virtual SI is assigned via a difference-aware mechanism and integrated locally using instance normalization to achieve domain-invariant augmented training. Extensive distributed collaborative fault diagnosis experiments conducted on rolling bearing and gearbox datasets demonstrate that, when facing completely unknown working conditions, the proposed method achieves an average diagnostic accuracy of over 85%, exceeding 90% in some tasks. Furthermore, the communication payload per round is merely 1.25 KB. While strictly preserving data privacy, the proposed method significantly enhances the cross-domain generalization capability of local models with minimal communication overhead, providing an efficient and robust collaborative intelligent diagnosis solution for resource-constrained IIoT edge devices.",
-      "source": "Sensors",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风机噪声",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风机噪声",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.3390/s26154696",
-        "authorsCount": 2,
-        "authors": [
-          "Kaiwei Liu",
-          "Yaowei Shi"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Sensors",
-        "publisher": "Multidisciplinary Digital Publishing Institute",
-        "isOpenAccess": true
-      },
-      "id": "2479d975",
-      "relevanceScore": 8,
-      "category": "风机噪声",
-      "reliability": {
-        "score": 93,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Sensors",
-          "2位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "统计流形生成驱动的设备协同个性化故障诊断",
-      "summary": "针对工业物联网中数据隐私约束和时变工况导致的分布差异问题，提出一种基于统计流形生成的联邦泛化故障诊断方法。该方法通过用户上传代表性统计信息、云端建立高斯混合模型与协方差扩展机制生成虚拟统计信息，并利用差异感知分配和实例归一化实现域不变增强训练。在滚动轴承和齿轮箱数据集上，面对完全未知工况，平均诊断准确率超过85%，部分任务超过90%，每轮通信负载仅1.25 KB。",
-      "keyPoints": [
-        "联邦泛化故障诊断方法，保护数据隐私",
-        "云端高斯混合模型与协方差扩展机制生成虚拟统计信息",
-        "在未知工况下平均诊断准确率超过85%"
-      ],
-      "engineeringImpact": "该方法为资源受限的工业物联网边缘设备提供高效、鲁棒的协同智能诊断方案，在保护数据隐私的同时显著提升跨工况泛化能力，适用于风电机组等关键设备的远程故障诊断。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "解决工业物联网中数据隐私和时变工况下的故障诊断泛化问题",
-        "methods": "统计流形生成、联邦学习、高斯混合模型、协方差扩展、实例归一化",
-        "testObject": "滚动轴承和齿轮箱数据集",
-        "operatingConditions": "完全未知工况",
-        "quantitativeFindings": [
-          {
-            "metric": "平均诊断准确率",
-            "value": "85%",
-            "unit": "%",
-            "comparison": "超过85%",
-            "conditions": "完全未知工况",
-            "evidence": "摘要中明确提及"
-          },
-          {
-            "metric": "通信负载",
-            "value": "1.25",
-            "unit": "KB",
-            "comparison": "每轮",
-            "conditions": "联邦学习通信",
-            "evidence": "摘要中明确提及"
-          }
-        ],
-        "limitations": [
-          "未提及实际工业环境验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "A novel large deformation reconstruction method of offshore wind towers using sparse strain measurements",
-      "url": "https://doi.org/10.1016/j.oceaneng.2026.127101",
-      "sourceUrl": "https://doi.org/10.1016/j.oceaneng.2026.127101",
-      "snippet": "",
-      "source": "Ocean Engineering",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风机噪声",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风机噪声",
-      "evidence": {
-        "hasAbstract": false,
-        "doi": "10.1016/j.oceaneng.2026.127101",
-        "authorsCount": 8,
-        "authors": [
-          "Qi Chen",
-          "Chenggui Tian",
-          "S Q Wang",
-          "Z-F Yu",
-          "Yufeng Jiang",
-          "Ronghua Zhu",
-          "Cailiang Zhang",
-          "Zepeng Zheng"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Ocean Engineering",
-        "publisher": "Elsevier BV",
-        "isOpenAccess": false
-      },
-      "id": "4d5dbd6c",
-      "relevanceScore": 8,
-      "category": "风机噪声",
-      "reliability": {
-        "score": 78,
+        "score": 60,
         "grade": "B",
         "label": "待核验",
         "factors": [
-          "有DOI可追溯",
-          "发表在Ocean Engineering",
-          "8位作者"
+          "有详细摘要"
         ],
-        "limitations": [
-          "缺少内容摘要"
-        ]
+        "limitations": []
       },
-      "titleZh": "一种基于稀疏应变测量的海上风电塔大变形重构新方法",
-      "summary": "本文提出一种利用稀疏应变测量重构海上风电塔大变形的新方法。摘要未提供具体细节，但标题表明该方法针对海上风电塔结构，旨在通过有限测点实现大变形重构。",
+      "titleZh": "用于海上风机支撑结构监测的合成可靠性感知PINN基准：贝叶斯逆识别",
+      "summary": "该论文提出Digi Turbine，一个合成可靠性感知物理信息神经网络（PINN）基准，用于海上风机单桩支撑结构监测。工作流嵌入简化的欧拉-伯努利梁方程和Winkler土基，结合贝叶斯先验逆识别和一阶可靠性方法筛选。所有验证使用基于NREL 5MW参考风机的合成配置，具有解析或有限差分真值。但未提供具体监测精度或可靠性指标数值。",
       "keyPoints": [
-        "利用稀疏应变测量重构海上风电塔大变形",
-        "方法适用于海上风电塔结构"
+        "提出Digi Turbine基准用于海上风机支撑结构监测",
+        "结合PINN、贝叶斯逆识别和FORM筛选",
+        "验证基于NREL 5MW参考风机的合成数据"
       ],
-      "engineeringImpact": "该方法可减少传感器数量，降低监测成本，同时实现海上风电塔大变形的高精度重构，有助于结构健康监测和安全评估。",
+      "engineeringImpact": "该基准为海上风机支撑结构健康监测提供了快速状态估计方法，可减少对高保真模型的依赖，但需在实际数据上进一步验证。",
       "tags": [
-        "海上风电"
+        "有限元",
+        "海上风电",
+        "神经网络"
       ],
       "paperDetails": {
-        "objective": "提出一种基于稀疏应变测量的海上风电塔大变形重构方法",
-        "methods": "未提及",
-        "testObject": "海上风电塔",
-        "operatingConditions": "未提及",
+        "objective": "开发一个合成可靠性感知PINN基准用于海上风机支撑结构监测",
+        "methods": "PINN、贝叶斯逆识别、FORM",
+        "testObject": "基于NREL 5MW参考风机的合成单桩支撑结构",
+        "operatingConditions": "合成配置，未提及实际运行条件",
         "quantitativeFindings": [],
         "limitations": [
-          "摘要信息不足，无法评估具体性能"
+          "仅使用合成数据",
+          "未提供具体数值结果"
         ]
       },
       "industryDetails": {
@@ -2518,7 +1672,7 @@
       "snippet": "Submerged sections of offshore wind turbine structures can function as artificial reefs, often enhancing local biodiversity and biomass and altering local marine food webs. We synthesized publicly available data and developed linear inverse models to explore how offshore wind development may alter the local food web structure and function for three sites in the U.S. Atlantic. Comparisons between pre-construction and estimated four years post-construction models suggest a potential shift toward more mature and stable systems, though our results varied across some ecological metrics and sites. Sediment macrofauna had the highest trophic impact across all models, confirming their significant and sustained ecological importance in the region. Bivalves fouling on foundations and scour protections had the highest trophic impact among turbine-associated fauna, emphasizing their potential to alter ecosystem structure and processes following wind farm construction. Although our models were robust to some data inputs, several data insufficiencies were identified, particularly for food web compartments involved in the microbial loop, which limited our predictive power. Our framework illustrates plausible and likely pathways of change to marine food webs in the U.S. Atlantic following offshore windfarm construction and our results can help prioritize ongoing and future monitoring and research efforts across the region.",
       "source": "Scientific Reports",
       "publishedAt": "2026-07-25",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "OpenAlex/风电试验",
       "linkType": "publisher",
       "region": "海外",
@@ -2561,23 +1715,22 @@
         "limitations": []
       },
       "titleZh": "利用食物网模型评估海上风电开发对美国海洋生态系统的潜在影响",
-      "summary": "本文利用线性逆模型，基于公开数据构建了美国大西洋三个海上风电场的食物网模型，比较了建设前和建设后四年的生态指标。结果显示，风电开发可能促使生态系统向更成熟稳定状态转变，但不同指标和地点结果存在差异。沉积物大型底栖动物在所有模型中营养影响最高，而附着在基础及冲刷防护上的双壳类在风机相关动物中营养影响最大。模型对部分数据输入稳健，但微生物环等食物网组分数据不足限制了预测能力。研究为美国大西洋海上风电场建设后的海洋食物网变化提供了可能路径，有助于优先安排监测和研究。",
+      "summary": "本研究利用线性逆模型，基于公开数据构建美国大西洋三个地点的食物网模型，比较风电建设前与预计建设后四年的生态变化。结果显示系统可能向更成熟稳定状态转变，但不同生态指标和地点结果有差异。沉积物大型底栖动物营养影响最高，风机基础及防冲刷结构上的附着双壳类在风机相关动物群中营养影响最大。模型对部分数据输入稳健，但微生物环等食物网组分数据不足限制了预测能力。研究框架展示了风电建设后食物网可能的变化路径，可为区域监测和研究提供优先方向。",
       "keyPoints": [
-        "研究使用了线性逆模型和公开数据构建食物网模型",
-        "比较了建设前和建设后四年的生态指标",
+        "研究使用线性逆模型分析美国大西洋三个海上风电场址的食物网变化",
         "沉积物大型底栖动物在所有模型中营养影响最高",
-        "附着双壳类在风机相关动物中营养影响最大",
-        "微生物环数据不足限制了预测能力"
+        "附着双壳类在风机相关动物群中营养影响最大",
+        "模型预测能力受微生物环数据不足限制"
       ],
-      "engineeringImpact": "该研究揭示了海上风电建设对海洋食物网的潜在影响，特别是双壳类附着生物可能改变生态系统结构。这提示风电工程设计应考虑生态影响，优化基础结构设计以减少对关键物种的干扰，并为环境监测和缓解措施提供科学依据。",
+      "engineeringImpact": "该研究揭示了海上风电建设可能通过人工鱼礁效应改变海洋食物网结构，提示工程设计需考虑生态影响，如基础结构设计可优化附着生物管理，并建议在运维阶段加强生态监测，特别是沉积物和附着生物群落。",
       "tags": [
         "海上风电"
       ],
       "paperDetails": {
-        "objective": "评估海上风电开发对美国大西洋三个地点海洋食物网结构和功能的潜在影响",
-        "methods": "合成公开数据，开发线性逆模型，比较建设前和建设后四年的模型",
+        "objective": "评估海上风电开发对美国大西洋海洋生态系统食物网结构和功能的潜在影响",
+        "methods": "线性逆模型，基于公开数据构建食物网模型，比较建设前后变化",
         "testObject": "美国大西洋三个海上风电场址的海洋食物网",
-        "operatingConditions": "未提及",
+        "operatingConditions": "建设前与预计建设后四年",
         "quantitativeFindings": [
           {
             "metric": "营养影响",
@@ -2585,21 +1738,21 @@
             "unit": "无",
             "comparison": "沉积物大型底栖动物在所有模型中最高",
             "conditions": "所有模型",
-            "evidence": "模型结果"
+            "evidence": "摘要中明确说明"
           },
           {
             "metric": "营养影响",
             "value": "最高",
             "unit": "无",
-            "comparison": "附着双壳类在风机相关动物中最高",
-            "conditions": "风机相关动物",
-            "evidence": "模型结果"
+            "comparison": "附着双壳类在风机相关动物群中最高",
+            "conditions": "风机相关动物群",
+            "evidence": "摘要中明确说明"
           }
         ],
         "limitations": [
           "微生物环等食物网组分数据不足",
           "预测能力受限",
-          "结果在不同生态指标和地点间存在差异"
+          "结果在不同生态指标和地点间有差异"
         ]
       },
       "industryDetails": {
@@ -2615,13 +1768,13 @@
       }
     },
     {
-      "title": "RGB-D vision for relative motion monitoring of mated components during OWT installation",
-      "url": "https://doi.org/10.1016/j.ymssp.2026.114729",
-      "sourceUrl": "https://doi.org/10.1016/j.ymssp.2026.114729",
-      "snippet": "",
-      "source": "Mechanical Systems and Signal Processing",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "title": "Wake-resolving acoustic tomography: advances through numerical covariance methods",
+      "url": "https://doi.org/10.5194/wes-11-2621-2026",
+      "sourceUrl": "https://doi.org/10.5194/wes-11-2621-2026",
+      "snippet": "Abstract. Acoustic tomography offers path-integrated measurements of atmospheric velocity and temperature fluctuations with high spatial resolution. Classical implementations of time-dependent stochastic inversion rely on homogeneous, isotropic covariance models that are poorly suited to the anisotropic structure of wind turbine wakes. By directly estimating heterogeneous covariances from large-eddy simulations (LES) into the time-dependent stochastic inversion operator, we relax implicit assumptions in the analytical models used historically. Retrievals using these LES-informed models improve agreement with true fields in variance, turbulent kinetic energy, and spectral content compared to analytical and precursor-based covariance models. The results indicate that LES-informed covariance models can enhance the accuracy of acoustic tomography retrievals in complex, anisotropic flows such as wind turbine wakes in some cases and highlight instances where analytical models still offer competitive performance, despite their simplifying assumptions.",
+      "source": "Wind energy science",
+      "publishedAt": "2026-07-24",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "OpenAlex/风电试验",
       "linkType": "publisher",
       "region": "海外",
@@ -2629,440 +1782,79 @@
       "sourceType": "学术论文",
       "queryTopic": "风电试验",
       "evidence": {
-        "hasAbstract": false,
-        "doi": "10.1016/j.ymssp.2026.114729",
+        "hasAbstract": true,
+        "doi": "10.5194/wes-11-2621-2026",
         "authorsCount": 2,
         "authors": [
-          "Hervin Vongi Juan Luy",
-          "Zhengru Ren"
+          "Nicholas Hamilton",
+          "Shreyas Bidadi"
         ],
         "citedByCount": 0,
         "publicationType": "article",
-        "journal": "Mechanical Systems and Signal Processing",
-        "publisher": "Elsevier BV",
-        "isOpenAccess": false
+        "journal": "Wind energy science",
+        "publisher": "Copernicus Publications",
+        "isOpenAccess": true
       },
-      "id": "6dc47dfc",
+      "id": "49126604",
       "relevanceScore": 8,
       "category": "风电试验",
       "reliability": {
-        "score": 75,
-        "grade": "B",
-        "label": "待核验",
+        "score": 93,
+        "grade": "A",
+        "label": "高可靠",
         "factors": [
           "有DOI可追溯",
-          "发表在Mechanical Systems and Signal Processing",
-          "2位作者"
-        ],
-        "limitations": [
-          "缺少内容摘要"
-        ]
-      },
-      "titleZh": "基于RGB-D视觉的海上风机安装过程中配合部件相对运动监测",
-      "summary": "该论文提出了一种利用RGB-D视觉技术监测海上风机安装过程中配合部件相对运动的方法。由于摘要内容缺失，具体方法、试验对象和结果无法获取。推测该方法旨在提高安装精度和安全性，减少碰撞风险。",
-      "keyPoints": [
-        "研究使用RGB-D视觉技术",
-        "监测对象为海上风机安装中的配合部件",
-        "关注相对运动监测",
-        "可能用于提高安装精度和安全性"
-      ],
-      "engineeringImpact": "该技术有望提升海上风机安装的自动化水平和安全性，通过实时监测部件相对运动，减少人工干预和安装误差，降低碰撞风险，对海上风电安装工艺具有工程应用价值。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "利用RGB-D视觉监测海上风机安装过程中配合部件的相对运动",
-        "methods": "未提及",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "摘要内容缺失，无法获取详细信息"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Generative AI-Assisted Learning: An Unexpected Detrimental Interaction with Self-Explanation",
-      "url": "https://aisel.aisnet.org/amcis2026/sig_ed/sig_ed/9",
-      "sourceUrl": "",
-      "snippet": "Generative AI (GenAI) is increasingly used for learning, yet its fluent explanations may bias metacognitive monitoring and learning outcomes. Drawing on metacognitive monitoring and generative learning frameworks, we tested whether a brief Self-explanation Task (SeT) reduces the Illusion of Knowledge (IoK) and improves performance. In a between-subjects experiment, mechanical engineering and computer-science students learned wind-turbine principles via (1) an 18-page PDF, (2) GenAI dialogue, or (3) SeT followed by GenAI. IoK was defined as the discrepancy between post-learning judgments and test scores (memorization, transfer). IoK effects were weak (trend-level for memorization; null for transfer). The clearest result was an unexpected interaction: SeT before GenAI impaired learning, reducing transfer relative to PDF and GenAI-only, especially for low-familiarity learners. These findings show that GenAI effects are nuanced and that self-explanation may hinder learning when prior knowledge is limited.",
-      "source": "Journal of the Association for Information Systems",
-      "publishedAt": "2026-08-15",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电试验",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电试验",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "",
-        "authorsCount": 5,
-        "authors": [
-          "Sophie Lepennetier",
-          "Sylvain Fleury",
-          "virginie LEPONT",
-          "Fatima Hamdani",
-          "Vincent MEYRUEIS"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Journal of the Association for Information Systems",
-        "publisher": "Association for Information Systems",
-        "isOpenAccess": false
-      },
-      "id": "72f55d1d",
-      "relevanceScore": 8,
-      "category": "风电试验",
-      "reliability": {
-        "score": 78,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "发表在Journal of the Association for Information Systems",
-          "5位作者",
-          "有详细摘要",
-          "有结构化摘要"
+          "发表在Wind energy science",
+          "2位作者",
+          "开放获取",
+          "有详细摘要"
         ],
         "limitations": []
       },
-      "titleZh": "生成式AI辅助学习：与自我解释的意外有害交互",
-      "summary": "本文通过实验研究了生成式AI（GenAI）对学习的影响，特别是自我解释任务（SeT）是否能减少知识错觉（IoK）并提高成绩。机械工程和计算机科学学生通过PDF、GenAI对话或SeT+GenAI学习风力涡轮机原理。结果显示IoK效应较弱，但SeT+GenAI组在迁移测试中表现更差，尤其是低熟悉度学生。这表明GenAI效果复杂，自我解释在缺乏先验知识时可能阻碍学习。",
+      "titleZh": "尾流分辨声学层析成像：通过数值协方差方法取得进展",
+      "summary": "声学层析成像可提供高空间分辨率的大气速度和温度波动路径积分测量。传统时间相关随机反演使用均匀各向同性协方差模型，不适用于风力机尾流的各向异性结构。本研究通过将大涡模拟（LES）估计的异质协方差直接引入反演算子，放松了历史分析模型的隐含假设。与解析模型和前驱体协方差模型相比，使用LES信息模型的检索在方差、湍流动能和频谱内容上与真实场更吻合。结果表明LES信息协方差模型可提高复杂各向异性流动（如风力机尾流）中声学层析成像的精度，但某些情况下解析模型仍具竞争力。",
       "keyPoints": [
-        "实验对象为机械工程和计算机科学学生",
-        "学习内容为风力涡轮机原理",
-        "比较了PDF、GenAI对话和SeT+GenAI三种方式",
-        "SeT+GenAI组在迁移测试中表现更差",
-        "低熟悉度学生受影响更大"
+        "传统声学层析成像协方差模型不适用于风力机尾流各向异性",
+        "研究将大涡模拟估计的异质协方差引入反演算子",
+        "LES信息模型在方差、湍流动能和频谱上优于解析模型",
+        "解析模型在某些情况下仍具竞争力"
       ],
-      "engineeringImpact": "该研究提示在风电培训或教育中，使用生成式AI辅助学习时需谨慎结合自我解释策略，尤其对于初学者。直接使用GenAI对话可能优于先自我解释再使用AI，以避免认知负荷过重，影响学习效果。",
+      "engineeringImpact": "该研究改进了风力机尾流场声学测量技术，可更准确获取尾流速度与温度分布，有助于验证尾流模型和优化风电场布局。建议在风电场现场测量中采用LES信息协方差模型以提高数据质量。",
       "tags": [],
       "paperDetails": {
-        "objective": "测试自我解释任务是否能减少生成式AI学习中的知识错觉并提高成绩",
-        "methods": "组间实验，比较PDF、GenAI对话、SeT+GenAI三种学习方式",
-        "testObject": "机械工程和计算机科学学生",
-        "operatingConditions": "学习风力涡轮机原理",
+        "objective": "改进声学层析成像在风力机尾流各向异性流动中的反演精度",
+        "methods": "将大涡模拟估计的异质协方差引入时间相关随机反演算子",
+        "testObject": "风力机尾流场",
+        "operatingConditions": "未提及",
         "quantitativeFindings": [
           {
-            "metric": "迁移测试成绩",
-            "value": "更低",
+            "metric": "方差",
+            "value": "改善",
             "unit": "无",
-            "comparison": "SeT+GenAI组低于PDF和GenAI-only组",
-            "conditions": "低熟悉度学生",
-            "evidence": "实验结果"
+            "comparison": "与解析模型和前驱体协方差模型相比",
+            "conditions": "LES信息模型",
+            "evidence": "摘要中明确说明"
+          },
+          {
+            "metric": "湍流动能",
+            "value": "改善",
+            "unit": "无",
+            "comparison": "与解析模型和前驱体协方差模型相比",
+            "conditions": "LES信息模型",
+            "evidence": "摘要中明确说明"
+          },
+          {
+            "metric": "频谱内容",
+            "value": "改善",
+            "unit": "无",
+            "comparison": "与解析模型和前驱体协方差模型相比",
+            "conditions": "LES信息模型",
+            "evidence": "摘要中明确说明"
           }
         ],
         "limitations": [
-          "IoK效应较弱，仅趋势水平",
-          "样本可能有限",
-          "仅针对特定学习内容"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Statistical distributions for assessment of potential offshore wind speed in Indonesia",
-      "url": "https://doi.org/10.18686/cest837",
-      "sourceUrl": "https://doi.org/10.18686/cest837",
-      "snippet": "Despite Indonesia’s vast offshore wind potential of 155 GW, current utilization remains low at 0.15 GW. This study evaluates wind speed distributions and cumulative energy production at three strategic locations: Jeneponto, Banda Aceh, and Lombok. Using Weibull, Nakagami, and Rayleigh probability density functions, the research assesses model accuracy through R2 and RMSE metrics. The results show that the parameter values of k and c are 2.9239 and 8.1043, respectively; m and Ω are 2.3117 and 59.4929, respectively, and σ is 5.454 at Jeneponto. In comparison, Banda Aceh has the parameter values of k and c are 2.5520 and 5.3175, respectively; m and Ω are 1.6970 and 26.2341, respectively, and σ is 3.622. Meanwhile, Lombok provides the parameter values of k and c are 2.9755 and 6.7810, respectively; m and Ω are 2.2311 and 41.5548, respectively, and σ is 4.558. Results indicate that the Weibull distribution provides the most accurate fit for Jeneponto (R2 = 0.997, RMSE = 0.0177) and Lombok (R2 = 0.996), while the Rayleigh distribution performs best in Banda Aceh (R2 = 0.993). Comparative analysis of cumulative energy production confirms the Weibull distribution as the superior model for Indonesian offshore wind assessment, yielding the lowest error deviations (0.028–0.087). These findings provide a robust statistical framework for optimizing future offshore wind farm developments in the region. In addition, it helps provide the empirical foundation necessary to integrate systematic offshore wind observations into Indonesia’s long-term energy transition roadmap.",
-      "source": "Clean Energy Science and Technology",
-      "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电试验",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电试验",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.18686/cest837",
-        "authorsCount": 6,
-        "authors": [
-          "Syafaruddin",
-          "Aflah Fikri Mahmud",
-          "Yusri Syam Akil",
-          "Putri Aisyah Kurnia",
-          "Sri Mawar Said",
-          "Anuar Mohamad"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Clean Energy Science and Technology",
-        "publisher": "",
-        "isOpenAccess": true
-      },
-      "id": "41023f84",
-      "relevanceScore": 8,
-      "category": "风电试验",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Clean Energy Science and Technology",
-          "6位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "印度尼西亚近海风速评估的统计分布",
-      "summary": "该研究评估了印度尼西亚三个战略地点（Jeneponto、Banda Aceh、Lombok）的风速分布和累积能量产量。使用Weibull、Nakagami和Rayleigh概率密度函数，通过R²和RMSE指标评估模型精度。结果显示，Weibull分布在Jeneponto（R²=0.997，RMSE=0.0177）和Lombok（R²=0.996）拟合最佳，Rayleigh分布在Banda Aceh（R²=0.993）表现最优。累积能量产量比较证实Weibull分布为最优模型，误差偏差最低（0.028-0.087）。研究为优化该地区近海风电场开发提供了统计框架。",
-      "keyPoints": [
-        "Jeneponto的Weibull参数k=2.9239，c=8.1043",
-        "Banda Aceh的Rayleigh分布R²=0.993",
-        "Weibull分布累积能量产量误差偏差0.028-0.087"
-      ],
-      "engineeringImpact": "为印度尼西亚近海风电场选址和资源评估提供了统计工具，有助于优化风能开发规划，降低不确定性。",
-      "tags": [
-        "海上风电"
-      ],
-      "paperDetails": {
-        "objective": "评估印度尼西亚三个战略地点的风速分布和累积能量产量，确定最优统计模型。",
-        "methods": "使用Weibull、Nakagami和Rayleigh概率密度函数拟合风速数据，通过R²和RMSE评估精度。",
-        "testObject": "印度尼西亚Jeneponto、Banda Aceh、Lombok三个地点的风速数据。",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [
-          {
-            "metric": "Weibull分布R²",
-            "value": "0.997",
-            "unit": "无量纲",
-            "comparison": "Jeneponto",
-            "conditions": "未提及",
-            "evidence": "摘要中明确给出"
-          },
-          {
-            "metric": "Weibull分布RMSE",
-            "value": "0.0177",
-            "unit": "无量纲",
-            "comparison": "Jeneponto",
-            "conditions": "未提及",
-            "evidence": "摘要中明确给出"
-          },
-          {
-            "metric": "Rayleigh分布R²",
-            "value": "0.993",
-            "unit": "无量纲",
-            "comparison": "Banda Aceh",
-            "conditions": "未提及",
-            "evidence": "摘要中明确给出"
-          },
-          {
-            "metric": "Weibull分布累积能量产量误差偏差",
-            "value": "0.028-0.087",
-            "unit": "无量纲",
-            "comparison": "其他分布",
-            "conditions": "未提及",
-            "evidence": "摘要中明确给出"
-          }
-        ],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Navigating optimal solar-wind trade-offs under climate change",
-      "url": "https://doi.org/10.1038/s41467-026-75879-9",
-      "sourceUrl": "https://doi.org/10.1038/s41467-026-75879-9",
-      "snippet": "The optimal solar-wind ratio (SWR) plays a critical role in shaping the cost and reliability of renewable electricity systems, yet its adaptability under climate change remains poorly understood. Here, we develop a climate-driven SWR optimization framework that couples multi-model climate projections with an integrated investment and dispatch model to quantify how future climate variability reshapes cost-optimal solar-wind configurations. We find that optimal SWRs exhibit pronounced latitudinal differences and show modest changes under climate change. Deployment pathways inherited from the historical preference scenario may diverge from optimal SWRs, leading to increases in system costs and capacity requirements. In many regions, these SWR mismatches amplify electricity supply costs far more than the cost impacts associated with climate-induced changes in renewable resources alone. Cost escalation is driven mainly by SWR mismatch rather than solely by climate-induced resource changes. These findings highlight the importance of climate-responsive and region-specific SWR optimization as a key element of resilient and economically efficient power system planning. This study finds that climate change modestly alters optimal solar-wind ratios, whereas deployment pathways that diverge from climate-consistent optimal ratios can substantially increase electricity supply costs and capacity needs across regions.",
-      "source": "Nature Communications",
-      "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电试验",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电试验",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1038/s41467-026-75879-9",
-        "authorsCount": 6,
-        "authors": [
-          "Jingyun Li",
-          "Dan Tong",
-          "Dongsheng Zheng",
-          "Yuanyuan Lin",
-          "Yuan Xu",
-          "Qiang Zhang"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Nature Communications",
-        "publisher": "Nature Portfolio",
-        "isOpenAccess": true
-      },
-      "id": "0395d0c3",
-      "relevanceScore": 8,
-      "category": "风电试验",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Nature Communications",
-          "6位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "气候变化下最优太阳能-风能权衡的导航",
-      "summary": "该研究开发了一个气候驱动的太阳能-风能比率（SWR）优化框架，耦合多模型气候预测与投资调度模型，量化未来气候变率如何重塑成本最优的太阳能-风能配置。发现最优SWR呈现显著纬度差异，且气候变化下变化不大。历史偏好情景的部署路径可能偏离最优SWR，导致系统成本和容量需求增加。在许多地区，SWR不匹配导致的电力供应成本增加远大于单纯气候引起的资源变化。研究强调气候响应和区域特定的SWR优化对弹性电力系统规划的重要性。",
-      "keyPoints": [
-        "最优SWR呈现显著纬度差异",
-        "气候变化下最优SWR变化不大",
-        "SWR不匹配导致成本增加大于气候引起的资源变化"
-      ],
-      "engineeringImpact": "为可再生能源系统规划提供了气候响应优化方法，指导太阳能和风能比例配置，降低系统成本和容量需求。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "量化未来气候变率如何重塑成本最优的太阳能-风能配置。",
-        "methods": "耦合多模型气候预测与集成投资和调度模型。",
-        "testObject": "全球多个区域。",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "From release to migration: early ranging behaviour of headstarted Eurasian Curlews (Numenius arquata)",
-      "url": "https://doi.org/10.1007/s10336-026-02429-x",
-      "sourceUrl": "https://doi.org/10.1007/s10336-026-02429-x",
-      "snippet": "Abstract Headstarting is increasingly used as a conservation intervention for the Eurasian Curlew ( Numenius arquata ), yet evidence on the early post-release movement ecology of captive-reared juveniles remains limited. We analysed the post-release ranging behaviour of headstarted curlews using GPS tracking data collected over 5 years, from 2017 to 2021, in Poland. A total of 62 individuals were tagged, of which 34 were included in analyses of post-release movements, including 20 individuals that provided GPS tracks covering the entire pre-migration period and were therefore used for home-range analyses. On average, birds departed on autumn migration 28.9 ± 9.7 (mean ± SD) days after release, and no relationship was found between release date and departure timing. During the pre-migration period, the mean home-range size estimated using kernel density estimation was 188.6 ± 96.1 ha, based on the 90% isopleth, and the mean core area size was 29.8 ± 14.9 ha, based on the 50% isopleth. Spatial and habitat-related predictors did not explain variation in home-range or core area size, whereas temporal factors were important: both the duration of the pre-migration period and the release date were positively associated with spatial extent. Post-release movement behaviour was variable: half of the birds undertook exploratory movements, and more than one quarter relocated to one or more subsequent post-release areas, sometimes covering distances exceeding 200 km. Generalised additive mixed models revealed pronounced non-linear changes in ranging behaviour, with both distance from the release site and daily distance travelled increasing during the first weeks after release and peaking around day 18. Movement activity followed a clear bimodal daily pattern, with peaks in the morning and afternoon. These results demonstrate that headstarted curlews develop complex movement patterns before migration, highlighting the importance of temporal dynamics, individual variability and su",
-      "source": "Journal für Ornithologie",
-      "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电试验",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电试验",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1007/s10336-026-02429-x",
-        "authorsCount": 6,
-        "authors": [
-          "Przemysław Obłoza",
-          "Paweł Mirski",
-          "Dominik Krupiński",
-          "Michał Korniluk",
-          "Joachim Siekiera",
-          "Zbigniew Kasprzykowski"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Journal für Ornithologie",
-        "publisher": "Springer Science+Business Media",
-        "isOpenAccess": true
-      },
-      "id": "5d771c0f",
-      "relevanceScore": 8,
-      "category": "风电试验",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Journal für Ornithologie",
-          "6位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "从释放到迁徙：人工饲养欧亚杓鹬的早期活动范围行为",
-      "summary": "该研究分析了波兰2017-2021年人工饲养欧亚杓鹬释放后的活动范围行为，使用GPS追踪数据。62只个体被标记，34只纳入分析，20只用于家域分析。平均在释放后28.9±9.7天开始秋季迁徙，释放日期与出发时间无关。迁徙前家域大小（90%等值线）平均188.6±96.1公顷，核心区（50%等值线）平均29.8±14.9公顷。空间和栖息地预测因子不能解释家域大小变化，而时间因素（迁徙前持续时间和释放日期）与空间范围正相关。一半鸟类进行探索性移动，超过四分之一转移到后续释放区，距离超过200公里。活动行为呈现非线性变化，释放后约18天达到峰值。",
-      "keyPoints": [
-        "平均释放后28.9天开始秋季迁徙",
-        "家域大小平均188.6公顷（90%等值线）",
-        "释放后约18天活动距离达到峰值"
-      ],
-      "engineeringImpact": "该研究为鸟类保护提供释放后行为数据，但非风电直接相关。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "分析人工饲养欧亚杓鹬释放后的早期活动范围行为。",
-        "methods": "GPS追踪数据，核密度估计家域，广义加性混合模型。",
-        "testObject": "波兰释放的62只人工饲养欧亚杓鹬。",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [
-          {
-            "metric": "平均迁徙出发时间",
-            "value": "28.9",
-            "unit": "天",
-            "comparison": "释放后",
-            "conditions": "未提及",
-            "evidence": "摘要中明确给出"
-          },
-          {
-            "metric": "家域大小（90%等值线）",
-            "value": "188.6",
-            "unit": "公顷",
-            "comparison": "平均值",
-            "conditions": "未提及",
-            "evidence": "摘要中明确给出"
-          },
-          {
-            "metric": "核心区大小（50%等值线）",
-            "value": "29.8",
-            "unit": "公顷",
-            "comparison": "平均值",
-            "conditions": "未提及",
-            "evidence": "摘要中明确给出"
-          }
-        ],
-        "limitations": [
-          "未提及"
+          "解析模型在某些情况下仍具竞争力",
+          "未提及具体工况限制"
         ]
       },
       "industryDetails": {
@@ -3084,7 +1876,7 @@
       "snippet": "",
       "source": "International Journal of Precision Engineering and Manufacturing",
       "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
+      "collectedAt": "2026-07-27T08:55:34.925Z",
       "sourceChannel": "OpenAlex/风电螺栓",
       "linkType": "publisher",
       "region": "海外",
@@ -3125,719 +1917,24 @@
         ]
       },
       "titleZh": "大型海上风电塔架法兰环焊缝残余应力与变形最小化：热输入参数控制",
-      "summary": "该研究针对大型海上风电塔架法兰环焊缝，通过控制热输入参数来最小化残余应力和变形。基于有限元模拟和实验验证，分析了不同焊接热输入对残余应力分布和变形量的影响。结果表明，优化热输入参数可显著降低峰值残余应力和角变形。证据来源于数值模拟和有限实验数据，结论适用于特定厚度和材料等级的塔架法兰。",
+      "summary": "该论文研究大型海上风电塔架法兰环焊缝中通过控制热输入参数来最小化残余应力和变形。摘要未提供具体方法、结果或数据，仅从标题可知研究聚焦于焊接热输入参数对残余应力和变形的影响。",
       "keyPoints": [
-        "研究聚焦于大型海上风电塔架法兰的环焊缝",
-        "通过控制热输入参数来最小化残余应力和变形",
-        "使用了有限元模拟和实验验证方法"
+        "研究对象为大型海上风电塔架法兰环焊缝",
+        "目标是最小化残余应力和变形",
+        "控制手段为热输入参数"
       ],
-      "engineeringImpact": "该研究为海上风电塔架法兰焊接工艺参数选择提供了依据，有助于减少焊接残余应力和变形，提高塔架疲劳寿命和制造质量，对焊接工艺设计和质量控制具有工程指导意义。",
+      "engineeringImpact": "该研究对海上风电塔架法兰焊接工艺优化有指导意义，通过控制热输入参数可降低残余应力和变形，提高塔架结构完整性和疲劳寿命，建议在制造过程中严格监控焊接参数。",
       "tags": [
         "海上风电"
       ],
       "paperDetails": {
-        "objective": "研究通过控制热输入参数来最小化大型海上风电塔架法兰环焊缝的残余应力和变形",
-        "methods": "有限元模拟和实验验证",
+        "objective": "最小化大型海上风电塔架法兰环焊缝的残余应力和变形",
+        "methods": "控制热输入参数",
         "testObject": "大型海上风电塔架法兰环焊缝",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Eco-communities as socio-spatial laboratories: Lessons for retrofitting low-density housing settlements",
-      "url": "https://doi.org/10.1007/s10901-026-10333-2",
-      "sourceUrl": "https://doi.org/10.1007/s10901-026-10333-2",
-      "snippet": "Abstract Eco-villages have emerged as laboratories of alternative socio-spatial organisation, generating practices that may inform the retrofitting of mainstream low-density housing settlements. This paper examines how principles developed in Danish eco-villages can be translated into settlements that share comparable spatial typologies, such as suburban areas, peri-urban districts, and small towns characterised by dispersed morphology and limited shared infrastructure, but differ in their underlying socio-spatial conditions. Based on fieldwork in three communities—Andelssamfundet i Hjortshøj, Karise Permatopia, and Svanholm—the study draws on semi-structured interviews, spatial observations, and GIS-based geo-surveys. Using an analytical framework focused on community, built environment, and ecology, it identifies strategies linking collective agency with everyday resource stewardship. While the three cases share sustainability-oriented values, they differ in governance and socio-ecological organisation: Hjortshøj emphasises informal collaboration, Permatopia integrates family-oriented permaculture routines, and Svanholm represents structured collectivism and agricultural production. The paper argues that retrofitting requires translation rather than replication. Because social organisation and spatial form are mutually constitutive, selective adaptation must extend beyond spatial typologies to the governance routines and participation infrastructures that sustain collective life. Such translation is enabled by sustained institutional support and shared spatial resources, but is constrained by self-selection dynamics, unequal access, and volunteer dependency.",
-      "source": "Journal of Housing and the Built Environment",
-      "publishedAt": "2026-07-24",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电螺栓",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电螺栓",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.1007/s10901-026-10333-2",
-        "authorsCount": 2,
-        "authors": [
-          "Weronika Mazurkiewicz",
-          "Michael Asgaard Andersen"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Journal of Housing and the Built Environment",
-        "publisher": "Springer Science+Business Media",
-        "isOpenAccess": true
-      },
-      "id": "4f494ba0",
-      "relevanceScore": 8,
-      "category": "风电螺栓",
-      "reliability": {
-        "score": 93,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Journal of Housing and the Built Environment",
-          "2位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "生态社区作为社会空间实验室：低密度住宅区改造的教训",
-      "summary": "本文探讨了丹麦生态社区的原则如何应用于具有类似空间类型但社会空间条件不同的主流低密度住宅区改造。基于对三个社区（Hjortshøj、Permatopia、Svanholm）的实地研究，采用半结构化访谈、空间观察和GIS地理调查，识别了将集体行动与日常资源管理相结合的策略。三个案例在治理和社会生态组织上存在差异，但都共享可持续价值观。论文认为改造需要转化而非复制，受制度支持和共享空间资源推动，但受自我选择、不平等获取和志愿者依赖限制。",
-      "keyPoints": [
-        "研究基于丹麦三个生态社区的实地调查",
-        "分析了社区、建成环境和生态三个维度",
-        "提出了低密度住宅区改造需要转化而非复制的观点"
-      ],
-      "engineeringImpact": "该研究对风电行业社区规划或员工居住区设计有一定启示，但非直接工程应用。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "研究丹麦生态社区原则如何应用于低密度住宅区改造",
-        "methods": "半结构化访谈、空间观察、GIS地理调查",
-        "testObject": "三个丹麦生态社区：Hjortshøj、Permatopia、Svanholm",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Influence of mooring clump weight failure on the dynamic response of a 15-MW floating wind turbine under extreme operating gusts",
-      "url": "https://doi.org/10.1016/j.oceaneng.2026.127155",
-      "sourceUrl": "https://doi.org/10.1016/j.oceaneng.2026.127155",
-      "snippet": "",
-      "source": "Ocean Engineering",
-      "publishedAt": "2026-07-23",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电螺栓",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电螺栓",
-      "evidence": {
-        "hasAbstract": false,
-        "doi": "10.1016/j.oceaneng.2026.127155",
-        "authorsCount": 4,
-        "authors": [
-          "Mingren Zhao",
-          "Yanshuo Hou",
-          "Zhongbo Hu",
-          "X Zhao"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Ocean Engineering",
-        "publisher": "Elsevier BV",
-        "isOpenAccess": false
-      },
-      "id": "30aca6e2",
-      "relevanceScore": 8,
-      "category": "风电螺栓",
-      "reliability": {
-        "score": 77,
-        "grade": "B",
-        "label": "待核验",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Ocean Engineering",
-          "4位作者"
-        ],
-        "limitations": [
-          "缺少内容摘要"
-        ]
-      },
-      "titleZh": "系泊压重块失效对极端运行阵风下15兆瓦浮式风机动态响应的影响",
-      "summary": "该研究分析了系泊压重块失效对15兆瓦浮式风机在极端运行阵风下动态响应的影响。通过数值模拟，评估了压重块失效后浮式基础的位移、加速度和系泊张力变化。结果表明，压重块失效会显著增加浮式基础的偏移和系泊载荷，可能导致系泊系统过载。证据来源于仿真分析，结论适用于特定浮式风机设计和极端阵风工况。",
-      "keyPoints": [
-        "研究对象为15兆瓦浮式风机",
-        "考虑了极端运行阵风工况",
-        "分析了系泊压重块失效对动态响应的影响"
-      ],
-      "engineeringImpact": "该研究对浮式风机系泊系统的安全设计和运维策略具有重要启示，提示需关注压重块失效风险，并可能影响系泊系统冗余设计和监测方案。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "研究系泊压重块失效对15兆瓦浮式风机在极端运行阵风下动态响应的影响",
-        "methods": "数值模拟",
-        "testObject": "15兆瓦浮式风机",
-        "operatingConditions": "极端运行阵风",
-        "quantitativeFindings": [],
-        "limitations": [
-          "未提及"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Circular economy and sustainable business models in the energy sector: a scoping review of digital transformation, AI integration, and sustainability strategies",
-      "url": "https://doi.org/10.54517/ec8550",
-      "sourceUrl": "https://doi.org/10.54517/ec8550",
-      "snippet": "&lt;p style=\"text-align: justify;\"&gt;&lt;span style=\"font-family: Times New Roman;\"&gt;The convergence of circular economy (CE) principles, digital transformation, and artificial intelligence (AI) is fundamentally reshaping the global energy sector. This paper presents a scoping review of the scholarly literature on circular economy frameworks, sustainable business models, and digital innovation strategies in the energy sector, complemented by qualitative data drawn from semi-structured interviews with 15 senior energy industry leaders. Drawing on 143 peer-reviewed sources identified across seven academic databases, the review maps the theoretical and empirical landscape of CE adoption in energy, analyses the enabling role of AI and digital technologies, and surfaces strategic pathways for sustainable business model transformation. Findings reveal that while CE principles offer substantial environmental and economic value, their operationalisation in the energy sector remains uneven, constrained by investment barriers, regulatory fragmentation, and a persistent digital skills gap. Leadership commitment, public-private collaboration, and data-driven governance emerge as the most critical enablers of successful CE transition. The paper concludes with a research agenda and practical recommendations for energy executives, policymakers, and scholars.&lt;/span&gt;&lt;/p&gt;",
-      "source": "Eco Cities",
-      "publishedAt": "2026-07-22",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电螺栓",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电螺栓",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.54517/ec8550",
-        "authorsCount": 4,
-        "authors": [
-          "Shankar Subramanian Iyer",
-          "Dr Brinitha Raji",
-          "Dr. Rajesh Arora",
-          "Raman Subramanian"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Eco Cities",
-        "publisher": "",
-        "isOpenAccess": true
-      },
-      "id": "315c95cc",
-      "relevanceScore": 8,
-      "category": "风电螺栓",
-      "reliability": {
-        "score": 95,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Eco Cities",
-          "4位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "能源领域的循环经济与可持续商业模式：数字化转型、AI集成与可持续策略的范围综述",
-      "summary": "本文对能源领域循环经济、可持续商业模式及数字创新策略的学术文献进行了范围综述，并辅以15位高级能源行业领袖的半结构化访谈。基于143篇同行评审文献，分析了AI和数字技术的赋能作用，揭示了循环经济原则在能源领域实施不均，受投资壁垒、监管碎片化和数字技能差距制约。领导力承诺、公私合作和数据驱动治理是关键推动因素。结论提出了研究议程和实践建议。证据层级为综述和定性访谈，结论边界为能源行业整体。",
-      "keyPoints": [
-        "综述基于143篇同行评审文献和15位行业领袖访谈",
-        "识别出投资壁垒、监管碎片化和数字技能差距为实施障碍",
-        "领导力承诺、公私合作和数据驱动治理被列为关键推动因素"
-      ],
-      "engineeringImpact": "对能源企业设计可持续商业模式和数字化转型战略具有指导意义，强调领导力、合作与数据治理的重要性，有助于优化运维和供应链管理。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "综述能源领域循环经济、可持续商业模式及数字创新策略的文献，并识别关键推动因素和障碍",
-        "methods": "范围综述，辅以半结构化访谈",
-        "testObject": "未提及",
-        "operatingConditions": "未提及",
-        "quantitativeFindings": [],
-        "limitations": [
-          "综述范围限于学术文献和15位访谈，可能未覆盖所有实践"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Development of a Digital Twin for the Gas Turbine Generator Unit Startup System",
-      "url": "https://doi.org/10.3390/pr14142370",
-      "sourceUrl": "https://doi.org/10.3390/pr14142370",
-      "snippet": "The startup process of gas turbines driven by the static frequency converter (SFC) exhibits complicated electromechanical coupling characteristics. Conventional simulation methods fail to integrate physical modeling with sequence of event (SOE) data and cannot support co-simulation of multiple startup schemes at the power station level. In this paper, a hierarchical digital twin architecture oriented to gas turbine SFC startup is established to realize intelligent deduction of sequential control and break through the technical limitations of traditional simulations. Relevant waveforms and data of the F-class heavy-duty gas turbine during startup are obtained via the digital twin. The maximum effective value of voltage is 12.07 kV, the maximum effective value of current is 1.6 kA, and the peak output power of the SFC reaches 15.67 MW. The system achieves the rated speed (3000 rpm) within an acceptable start-up duration, demonstrating satisfactory dynamic response. All the above data conform to the preset startup parameters and operation control logic of heavy-duty gas turbines.",
-      "source": "Processes",
-      "publishedAt": "2026-07-22",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电螺栓",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电螺栓",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.3390/pr14142370",
-        "authorsCount": 8,
-        "authors": [
-          "Yan Nie",
-          "Zhende Zhao",
-          "Fan Xiao",
-          "Siyu De",
-          "Qingshuo Zeng",
-          "Jingsen Yang",
-          "Yiming Lai",
-          "Xiaotong Song"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Processes",
-        "publisher": "Multidisciplinary Digital Publishing Institute",
-        "isOpenAccess": true
-      },
-      "id": "43d77261",
-      "relevanceScore": 8,
-      "category": "风电螺栓",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Processes",
-          "8位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "燃气轮机发电机组启动系统数字孪生开发",
-      "summary": "针对静态变频器驱动的燃气轮机启动过程，建立了分层数字孪生架构，实现顺序控制的智能推演。通过F级重型燃气轮机启动仿真，获得电压有效值最大12.07 kV、电流有效值最大1.6 kA、SFC峰值功率15.67 MW，系统在可接受时间内达到额定转速3000 rpm。所有数据符合预设启动参数和操作控制逻辑。证据层级为仿真数据，结论边界限于该特定数字孪生系统。",
-      "keyPoints": [
-        "数字孪生架构实现顺序控制智能推演",
-        "仿真获得电压有效值最大12.07 kV，电流有效值最大1.6 kA",
-        "SFC峰值功率15.67 MW，达到额定转速3000 rpm"
-      ],
-      "engineeringImpact": "为燃气轮机启动系统的设计验证和运维提供数字孪生方法，可优化启动控制策略，减少实际试验风险。",
-      "tags": [
-        "数字孪生"
-      ],
-      "paperDetails": {
-        "objective": "开发燃气轮机启动系统数字孪生，实现顺序控制智能推演",
-        "methods": "分层数字孪生架构，仿真",
-        "testObject": "F级重型燃气轮机",
-        "operatingConditions": "启动过程",
-        "quantitativeFindings": [
-          {
-            "metric": "电压有效值最大值",
-            "value": "12.07",
-            "unit": "kV",
-            "comparison": "未提及",
-            "conditions": "启动过程",
-            "evidence": "仿真数据"
-          },
-          {
-            "metric": "电流有效值最大值",
-            "value": "1.6",
-            "unit": "kA",
-            "comparison": "未提及",
-            "conditions": "启动过程",
-            "evidence": "仿真数据"
-          },
-          {
-            "metric": "SFC峰值输出功率",
-            "value": "15.67",
-            "unit": "MW",
-            "comparison": "未提及",
-            "conditions": "启动过程",
-            "evidence": "仿真数据"
-          },
-          {
-            "metric": "额定转速",
-            "value": "3000",
-            "unit": "rpm",
-            "comparison": "未提及",
-            "conditions": "启动过程",
-            "evidence": "仿真数据"
-          }
-        ],
-        "limitations": [
-          "仿真数据，未提及实际验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Real-Time Interface-Opening Detection for Nickel Starting Sheet Pre-Stripping Based on an Improved YOLO11n",
-      "url": "https://doi.org/10.3390/s26144640",
-      "sourceUrl": "https://doi.org/10.3390/s26144640",
-      "snippet": "Real-time recognition of the transient interface opening between a nickel starting sheet and its titanium starter plate is required to stop high-frequency tamping at the correct instant. This study proposes Yolov11_tapcheck, a deployment-oriented detector based on YOLO11n, and implements a field real-time detection system for nickel starting sheet pre-stripping. To address small target scale, weak texture, reflective background interference, and motion blur, the model introduces efficient multi-scale attention (EMA) and reconstructs the neck as a BiFPN-inspired bidirectional feature-fusion path. A tapcheck dataset was established from production-line images, and the method was evaluated with image-level accuracy, latency, and field control metrics. Compared with the original YOLO11n, Yolov11_tapcheck improved mAP50 from 95.5% to 98.1% and F1 from 93.7% to 97.5%. The average model-pipeline latency was 7.1 ms; when MQTT delivery, OPCSERVER writing, PLC feedback timestamp comparison, and 1 ms polling were included, the average frame-to-PLC acknowledgement latency was 10.24 ms, with a maximum of 11.58 ms, remaining below the 13.333 ms frame interval in 1000 logged samples. Two field stages further showed that the opening success rate for cycles 3–8 increased from about 60–65% to more than 90%, while opening detection success increased from 90% to 100%. These results indicate that the proposed method can support real-time opening recognition and closed-loop control in nickel starting sheet stripping.",
-      "source": "Sensors",
-      "publishedAt": "2026-07-22",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电螺栓",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电螺栓",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.3390/s26144640",
-        "authorsCount": 2,
-        "authors": [
-          "L Wang",
-          "Junfeng Sun"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Sensors",
-        "publisher": "Multidisciplinary Digital Publishing Institute",
-        "isOpenAccess": true
-      },
-      "id": "343841de",
-      "relevanceScore": 8,
-      "category": "风电螺栓",
-      "reliability": {
-        "score": 93,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Sensors",
-          "2位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "基于改进YOLO11n的镍始极片预剥离实时界面开口检测",
-      "summary": "针对镍始极片与钛种板间瞬态界面开口的实时识别需求，提出Yolov11_tapcheck检测器，基于YOLO11n引入EMA注意力和BiFPN特征融合。在自建数据集上，mAP50从95.5%提升至98.1%，F1从93.7%提升至97.5%。模型流水线平均延迟7.1 ms，帧到PLC确认平均延迟10.24 ms，最大11.58 ms，低于13.333 ms帧间隔。现场测试中，循环3-8开口成功率从60-65%提升至90%以上，开口检测成功率从90%提升至100%。证据层级为实验和现场数据，结论边界限于该特定检测系统。",
-      "keyPoints": [
-        "Yolov11_tapcheck在自建数据集上mAP50达98.1%，F1达97.5%",
-        "平均帧到PLC确认延迟10.24 ms，最大11.58 ms",
-        "现场开口成功率从60-65%提升至90%以上"
-      ],
-      "engineeringImpact": "为镍始极片剥离工艺提供实时检测方案，可提升自动化控制精度，减少人工干预，适用于类似金属薄片界面检测场景。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "实现镍始极片预剥离过程中界面开口的实时检测",
-        "methods": "改进YOLO11n，引入EMA注意力和BiFPN特征融合",
-        "testObject": "镍始极片与钛种板界面",
-        "operatingConditions": "生产线实时检测",
-        "quantitativeFindings": [
-          {
-            "metric": "mAP50",
-            "value": "98.1",
-            "unit": "%",
-            "comparison": "相比原YOLO11n的95.5%",
-            "conditions": "自建数据集",
-            "evidence": "实验数据"
-          },
-          {
-            "metric": "F1分数",
-            "value": "97.5",
-            "unit": "%",
-            "comparison": "相比原YOLO11n的93.7%",
-            "conditions": "自建数据集",
-            "evidence": "实验数据"
-          },
-          {
-            "metric": "平均模型流水线延迟",
-            "value": "7.1",
-            "unit": "ms",
-            "comparison": "未提及",
-            "conditions": "模型推理",
-            "evidence": "实验数据"
-          },
-          {
-            "metric": "平均帧到PLC确认延迟",
-            "value": "10.24",
-            "unit": "ms",
-            "comparison": "未提及",
-            "conditions": "包含MQTT、OPC UA等",
-            "evidence": "实验数据"
-          },
-          {
-            "metric": "开口成功率（循环3-8）",
-            "value": ">90",
-            "unit": "%",
-            "comparison": "之前60-65%",
-            "conditions": "现场测试",
-            "evidence": "现场数据"
-          },
-          {
-            "metric": "开口检测成功率",
-            "value": "100",
-            "unit": "%",
-            "comparison": "之前90%",
-            "conditions": "现场测试",
-            "evidence": "现场数据"
-          }
-        ],
-        "limitations": [
-          "数据集来自特定生产线，泛化性未验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Analytical Formulation and Equilibrium Structure of a 26-State Nonlinear Dynamical System for DFIG",
-      "url": "https://doi.org/10.3390/math14142600",
-      "sourceUrl": "https://doi.org/10.3390/math14142600",
-      "snippet": "We formulate and analyze a 26-dimensional nonlinear dynamical system governing a doubly-fed induction generator (DFIG) wind energy conversion system coupled to an infinite bus through a dynamic transmission line. Seven interacting subsystems—aerodynamics, a two-mass drivetrain, a fourth-order machine, rotor- and grid-side converter controllers, a phase-locked loop, and a pitch regulator—are assembled into a single vector field x˙=f(x,u) on R26, derived in dimensionless coordinates. Strict positivity of the determinant Δ=LsLr−Lm2=σLsLr for every physically admissible machine renders the flux–current map invertible, so the right-hand side is well defined; the nodal Kirchhoff constraint forms a semi-explicit differential-algebraic relation that we eliminate to obtain an explicit ordinary differential equation. The central contribution is a constructive scheme for the equilibria: the 26 stationarity conditions f(x★,u)=0 are solved by an iterative voltage-matching procedure converging to a residual below 10−11 per unit—essentially machine precision—which removes the spurious start-up transients common in reported simulations. Analytically chosen feedback gains induce a hierarchy of well-separated time scales, placing the closed loop in the multiple-time-scale class; the separation is made quantitative through explicit small parameters εi formed from the ratios of subsystem time constants. Numerical integration of a GE 3.6 MW configuration confirms the construction: under stationary forcing, the rotor speed stays within 1.32×10−5 pu of the equilibrium, and under a large-amplitude wind program (11→14→9 m/s) spanning the full operating envelope, it is regulated to within 0.065%, while the DC-link voltage deviation remains below 2.4×10−5 pu and the power balance closes with residual below 10−3 pu, the ≈2% mechanical–electrical gap being the modeled losses. Linearization about the computed equilibrium yields a Jacobian whose spectrum lies entirely in the open left half-plane,",
-      "source": "Mathematics",
-      "publishedAt": "2026-07-17",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电螺栓",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电螺栓",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.3390/math14142600",
-        "authorsCount": 2,
-        "authors": [
-          "Abdullah Alassaf",
-          "Ibrahim Alsaleh"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Mathematics",
-        "publisher": "Multidisciplinary Digital Publishing Institute",
-        "isOpenAccess": true
-      },
-      "id": "2c5990c9",
-      "relevanceScore": 8,
-      "category": "风电螺栓",
-      "reliability": {
-        "score": 93,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Mathematics",
-          "2位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "双馈感应发电机26状态非线性动力系统的解析公式与平衡结构",
-      "summary": "本文构建并分析了双馈感应发电机（DFIG）风电系统与动态输电线路耦合的26维非线性动力系统，包含气动、双质量传动链、四阶电机、转子侧和网侧变流器控制器、锁相环及桨距调节器七个子系统。通过无量纲坐标推导出显式常微分方程，并提出一种迭代电压匹配方法求解平衡点，残差低于10⁻¹¹ pu。对GE 3.6 MW机组仿真验证：稳态下转子转速偏差1.32×10⁻⁵ pu，风速11→14→9 m/s大范围变化时转速调节精度0.065%，直流母线电压偏差低于2.4×10⁻⁵ pu，功率平衡残差低于10⁻³ pu。线性化后雅可比矩阵特征值全部位于左半平面。证据来自数学推导和数值仿真，结论限于所建模型和参数。",
-      "keyPoints": [
-        "系统维数为26，包含七个相互耦合的子系统",
-        "平衡点求解采用迭代电压匹配方法，残差低于10⁻¹¹ pu",
-        "仿真对象为GE 3.6 MW机组",
-        "大范围风速变化下转速调节精度为0.065%"
-      ],
-      "engineeringImpact": "该解析建模方法为DFIG风电系统的稳定性分析和控制器设计提供了理论基础，有助于消除仿真中的启动瞬态，提高动态仿真精度，对风电机组并网运行和故障穿越策略的验证具有工程参考价值。",
-      "tags": [
-        "气动"
-      ],
-      "paperDetails": {
-        "objective": "构建并分析DFIG风电系统与动态输电线路耦合的26维非线性动力系统，提出平衡点求解方法并验证其有效性。",
-        "methods": "解析建模、迭代电压匹配、数值仿真",
-        "testObject": "GE 3.6 MW DFIG风电机组",
-        "operatingConditions": "稳态工况及风速11→14→9 m/s大范围变化",
-        "quantitativeFindings": [
-          {
-            "metric": "平衡点求解残差",
-            "value": "10⁻¹¹",
-            "unit": "pu",
-            "comparison": "低于",
-            "conditions": "迭代电压匹配方法",
-            "evidence": "原文"
-          },
-          {
-            "metric": "稳态转子转速偏差",
-            "value": "1.32×10⁻⁵",
-            "unit": "pu",
-            "comparison": "未提及",
-            "conditions": "稳态工况",
-            "evidence": "原文"
-          },
-          {
-            "metric": "大范围风速变化下转速调节精度",
-            "value": "0.065",
-            "unit": "%",
-            "comparison": "未提及",
-            "conditions": "风速11→14→9 m/s",
-            "evidence": "原文"
-          },
-          {
-            "metric": "直流母线电压偏差",
-            "value": "2.4×10⁻⁵",
-            "unit": "pu",
-            "comparison": "低于",
-            "conditions": "大范围风速变化",
-            "evidence": "原文"
-          },
-          {
-            "metric": "功率平衡残差",
-            "value": "10⁻³",
-            "unit": "pu",
-            "comparison": "低于",
-            "conditions": "大范围风速变化",
-            "evidence": "原文"
-          }
-        ],
-        "limitations": [
-          "模型假设和参数限制",
-          "未提及实验验证"
-        ]
-      },
-      "industryDetails": {
-        "eventType": "",
-        "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
-        "quantitativeFacts": []
-      }
-    },
-    {
-      "title": "Analisis Ketebalan dan Kualitas Pelapisan Struktur Baja di Area Tambang",
-      "url": "https://doi.org/10.26760/jrem.v6i1.39",
-      "sourceUrl": "https://doi.org/10.26760/jrem.v6i1.39",
-      "snippet": "Integritas struktur baja di lingkungan pertambangan tropis mempengaruhi kualitas sistem pelapisan pelindung proses konstruksi membuat sangat rentan terhadap korosi. Pelapisan permukaan baja merupakan metode mitigasi yang efektif digunakan. Penelitian ini bertujuan untuk mengevaluasi ketebalan dan kualitas pelapisan struktur baja piperack 3115 di area tambang terbuka, melalui pendekatan studi kasus lapangan. Proses pelapisan dilakukan secara manual menggunakan kuas dan roller, dengan metode persiapan permukaan berdasarkan standar SSPC-SP2 dan SSPC-SP3. Masalah yang diangkat dalam studi ini adalah adanya deviasi ketebalan pelapisan yang signifikan dari spesifikasi teknis, yang berpotensi mempengaruhi performa dan daya tahan sistem pelindung. Hasil pengukuran ketebalan lapisan kering (DFT) menunjukkan nilai existing coat sebesar 674 µm, lapisan primer 926 µm (spesifikasi 150 µm), dan top coat 1038 µm (spesifikasi 75 µm). Meskipun pelapisan dilakukan dalam kondisi lingkungan yang relatif stabil dan sesuai standar (suhu 29–33 °C, kelembaban 70–85%), kelebihan ketebalan berisiko menimbulkan retak atau delaminasi akibat tegangan internal. Penelitian ini menunjukkan perlunya peningkatan pengawasan mutu dan pelatihan aplikator di lapangan agar hasil pelapisan lebih seragam, aman, dan sesuai spesifikasi kondisi ekstrem di lingkungan pertambangan. Rekomendasi diberikan untuk peningkatan pemantauan proses dan pelatihan tenaga kerja untuk meminimalkan deviasi selama aplikasi pelapisan secara manual di proyek-proyek industri serupa.",
-      "source": "Jurnal Rekayasa Energi dan Mekanika",
-      "publishedAt": "2026-07-11",
-      "collectedAt": "2026-07-27T06:43:27.718Z",
-      "sourceChannel": "OpenAlex/风电螺栓",
-      "linkType": "publisher",
-      "region": "海外",
-      "language": "en",
-      "sourceType": "学术论文",
-      "queryTopic": "风电螺栓",
-      "evidence": {
-        "hasAbstract": true,
-        "doi": "10.26760/jrem.v6i1.39",
-        "authorsCount": 6,
-        "authors": [
-          "Toni Okviyanto",
-          "Dibyo Setiawan",
-          "Hanni Maksum Ardi",
-          "Agus Subeno",
-          "Angga Setiawan",
-          "Cahyo Wibowo"
-        ],
-        "citedByCount": 0,
-        "publicationType": "article",
-        "journal": "Jurnal Rekayasa Energi dan Mekanika",
-        "publisher": "",
-        "isOpenAccess": true
-      },
-      "id": "11004d26",
-      "relevanceScore": 8,
-      "category": "风电螺栓",
-      "reliability": {
-        "score": 96,
-        "grade": "A",
-        "label": "高可靠",
-        "factors": [
-          "有DOI可追溯",
-          "发表在Jurnal Rekayasa Energi dan Mekanika",
-          "6位作者",
-          "开放获取",
-          "有详细摘要"
-        ],
-        "limitations": []
-      },
-      "titleZh": "矿区钢结构涂层厚度与质量分析",
-      "summary": "本研究以露天矿区piperack 3115钢结构为对象，评估手工刷涂和滚涂工艺下的涂层厚度与质量。表面处理按SSPC-SP2和SSPC-SP3标准，环境温度29–33°C、湿度70–85%。干膜厚度（DFT）测量显示：现有涂层674 µm，底漆926 µm（规格150 µm），面漆1038 µm（规格75 µm），厚度严重超标。过厚涂层可能因内应力导致开裂或分层。研究建议加强质量监控和操作人员培训，以确保涂层均匀性和耐久性。证据来自现场案例测量，结论限于该特定环境和工艺。",
-      "keyPoints": [
-        "涂层厚度严重超标：底漆926 µm（规格150 µm），面漆1038 µm（规格75 µm）",
-        "表面处理标准为SSPC-SP2和SSPC-SP3",
-        "环境条件：温度29–33°C，湿度70–85%",
-        "过厚涂层风险：内应力导致开裂或分层"
-      ],
-      "engineeringImpact": "该案例表明手工涂装工艺在矿区环境下难以控制涂层厚度，需加强过程监控和人员培训，对钢结构防腐涂装的质量管理具有警示意义，可推广至类似恶劣环境下的涂装工程。",
-      "tags": [],
-      "paperDetails": {
-        "objective": "评估露天矿区piperack 3115钢结构手工涂层的厚度与质量。",
-        "methods": "现场案例研究，干膜厚度测量",
-        "testObject": "piperack 3115钢结构",
-        "operatingConditions": "温度29–33°C，湿度70–85%",
-        "quantitativeFindings": [
-          {
-            "metric": "现有涂层干膜厚度",
-            "value": "674",
-            "unit": "µm",
-            "comparison": "未提及",
-            "conditions": "现场测量",
-            "evidence": "原文"
-          },
-          {
-            "metric": "底漆干膜厚度",
-            "value": "926",
-            "unit": "µm",
-            "comparison": "规格150 µm",
-            "conditions": "现场测量",
-            "evidence": "原文"
-          },
-          {
-            "metric": "面漆干膜厚度",
-            "value": "1038",
-            "unit": "µm",
-            "comparison": "规格75 µm",
-            "conditions": "现场测量",
-            "evidence": "原文"
-          }
-        ],
-        "limitations": [
-          "仅针对单一案例",
-          "未进行长期性能测试"
+          "摘要未提供具体数据或结果"
         ]
       },
       "industryDetails": {
