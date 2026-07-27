@@ -1,4 +1,4 @@
-﻿# ============================================
+# ============================================
 #  机械共性情报 — 一键采集 + 启动
 #  用法: .\start.ps1
 #  参数: .\start.ps1 -DryRun    (仅预览不写入)
@@ -23,7 +23,7 @@ if (-not $Server -and -not $NoCollect) {
     $nodePath = "C:\Users\Chao Hu\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
   }
   
-  $args = @("scripts/collect.mjs")
+  $args = @("scripts/quick_collect.mjs")
   if ($DryRun) { $args += "--dry-run" }
   
   & $nodePath $args
