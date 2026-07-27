@@ -222,7 +222,7 @@ function renderHero() {
     weekEl = document.createElement("span");
     weekEl.id = "brief-week-range";
     weekEl.className = "brief-week-range";
-    weekEl.textContent = "2026.07.13-2026.07.20 第29周";
+    weekEl.textContent = "2026.07.20-2026.07.26 第30周";
     document.getElementById("brief-period").after(weekEl);
   }
   document.getElementById("brief-mode").textContent = state.data?.collectionStatus?.dataMode === "live" ? "生产数据" : "";
