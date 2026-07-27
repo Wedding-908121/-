@@ -1,6 +1,6 @@
 {
   "app": "机械共性情报",
-  "generatedAt": "2026-07-27T02:56:58.169Z",
+  "generatedAt": "2026-07-27T03:05:02.473Z",
   "period": {
     "from": "2026-07-13T00:00:00.000Z",
     "to": "2026-07-20T23:59:59.999Z"
@@ -161,7 +161,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -187,13 +187,13 @@
         ]
       },
       "titleZh": "Anthropic 推出新一代旗舰级模型 Claude Opus 5",
-      "summary": "Anthropic 发布了其新一代旗舰级 AI 模型 Claude Opus 5，该模型在推理、编码和多模态能力上显著提升，旨在与 OpenAI 的 GPT-5 竞争。资料未提供具体性能指标或测试结果，仅基于官方发布信息。",
+      "summary": "Anthropic 发布了其新一代旗舰级 AI 模型 Claude Opus 5，该模型在推理、编码和多模态能力上显著提升，性能超越前代及竞品。资料未提供具体基准测试数据或实验细节，仅基于官方发布信息。结论边界限于模型发布本身，未涉及实际应用效果。",
       "keyPoints": [
         "Anthropic 发布了 Claude Opus 5 模型",
-        "模型定位为旗舰级，对标 GPT-5",
-        "强调推理、编码和多模态能力提升"
+        "模型在推理、编码和多模态方面有提升",
+        "性能超越前代及竞品"
       ],
-      "engineeringImpact": "对 AI 应用开发者而言，Claude Opus 5 的发布可能带来更强大的 API 服务，需关注其定价、可用性及与现有系统的集成兼容性。",
+      "engineeringImpact": "对 AI 应用开发者而言，Claude Opus 5 的发布意味着更强大的基础模型可供调用，可能提升复杂任务处理效率，但需关注 API 成本与部署兼容性。",
       "tags": [
         "国内"
       ],
@@ -208,7 +208,7 @@
         ]
       },
       "industryDetails": {
-        "eventType": "产品发布",
+        "eventType": "模型发布",
         "companies": [
           "Anthropic"
         ],
@@ -217,7 +217,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "未提及",
+        "verificationStatus": "官方发布",
         "quantitativeFacts": []
       }
     },
@@ -228,7 +228,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -254,13 +254,13 @@
         ]
       },
       "titleZh": "吴恩达开源个人桌面Agent「OpenWorker」",
-      "summary": "吴恩达团队开源了个人桌面 Agent 项目「OpenWorker」，旨在让用户通过自然语言控制桌面应用，实现自动化操作。资料未提供技术细节或性能评估，仅报道了开源事件。",
+      "summary": "吴恩达团队开源了个人桌面 Agent 项目 OpenWorker，旨在让用户通过自然语言控制桌面应用。资料未提供技术细节或性能评估，仅报道了开源事件。结论边界限于项目发布本身，未涉及实际使用效果。",
       "keyPoints": [
         "吴恩达团队开源了 OpenWorker 项目",
         "OpenWorker 是个人桌面 Agent",
         "支持通过自然语言控制桌面应用"
       ],
-      "engineeringImpact": "该开源项目可能降低桌面自动化开发门槛，开发者可基于此构建定制化工作流，但需关注其安全性和跨平台兼容性。",
+      "engineeringImpact": "对桌面自动化领域有启发意义，可能降低开发门槛，但需关注安全性和稳定性。",
       "tags": [
         "国内"
       ],
@@ -284,7 +284,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "未提及",
+        "verificationStatus": "开源发布",
         "quantitativeFacts": []
       }
     },
@@ -295,7 +295,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -321,13 +321,13 @@
         ]
       },
       "titleZh": "Black Forest Labs 推出多模态基础模型 FLUX 3",
-      "summary": "Black Forest Labs 发布了多模态基础模型 FLUX 3，该模型在图像生成、视频理解和跨模态推理方面取得进展。资料未提供具体基准测试结果或模型架构细节，仅基于官方公告。",
+      "summary": "Black Forest Labs 发布了多模态基础模型 FLUX 3，该模型在图像生成和理解方面有显著提升。资料未提供具体技术细节或基准测试结果，仅报道了模型发布。结论边界限于发布信息，未涉及实际性能。",
       "keyPoints": [
         "Black Forest Labs 发布了 FLUX 3 模型",
         "FLUX 3 是多模态基础模型",
-        "能力涵盖图像生成、视频理解和跨模态推理"
+        "在图像生成和理解方面有提升"
       ],
-      "engineeringImpact": "FLUX 3 的发布可能推动多模态 AI 应用发展，开发者可探索其在内容创作、视频分析等场景的集成，但需评估其实际性能与成本。",
+      "engineeringImpact": "对多模态 AI 应用开发者而言，FLUX 3 提供了新的基础模型选择，可能推动图像相关任务的发展，但需评估实际效果。",
       "tags": [
         "国内"
       ],
@@ -342,7 +342,7 @@
         ]
       },
       "industryDetails": {
-        "eventType": "产品发布",
+        "eventType": "模型发布",
         "companies": [
           "Black Forest Labs"
         ],
@@ -351,7 +351,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "未提及",
+        "verificationStatus": "官方发布",
         "quantitativeFacts": []
       }
     },
@@ -362,7 +362,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -388,13 +388,13 @@
         ]
       },
       "titleZh": "TRAE Work 升级内置 Seedream 及 Seedance 模型能力",
-      "summary": "该资料报道了TRAE Work产品升级，内置了Seedream和Seedance模型能力。主要结果是提升了AI模型的功能集成。证据层级为产品发布新闻，结论边界限于产品功能更新，未涉及具体性能数据。",
+      "summary": "该资料报道了TRAE Work产品升级，内置了Seedream和Seedance两个AI模型的能力。主要结果包括模型能力的增强，但未提供具体性能数据或对比。证据层级为产品发布新闻，结论边界限于功能升级描述。",
       "keyPoints": [
         "TRAE Work 产品升级",
         "内置 Seedream 模型",
         "内置 Seedance 模型"
       ],
-      "engineeringImpact": "对AI应用开发者的启示：集成多模型能力可提升产品功能，但需关注模型兼容性与部署效率。",
+      "engineeringImpact": "对AI应用开发者而言，TRAE Work的升级可能提供更强大的模型能力，便于集成到工作流中，提升自动化水平。但缺乏具体性能指标，工程影响需进一步验证。",
       "tags": [
         "国内"
       ],
@@ -404,7 +404,9 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供具体性能数据"
+        ]
       },
       "industryDetails": {
         "eventType": "产品升级",
@@ -416,7 +418,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "",
+        "verificationStatus": "未提及",
         "quantitativeFacts": []
       }
     },
@@ -427,7 +429,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -453,13 +455,13 @@
         ]
       },
       "titleZh": "微软推出两款 AI 模型 MAI-Image-2.5-Pro 与 MAI-Voice-2-Flash",
-      "summary": "该资料报道微软发布了两款AI模型：MAI-Image-2.5-Pro和MAI-Voice-2-Flash。主要结果是模型发布，未提供具体性能指标。证据层级为产品发布新闻，结论边界限于模型名称和类型。",
+      "summary": "该资料报道微软发布了两款AI模型：MAI-Image-2.5-Pro（图像模型）和MAI-Voice-2-Flash（语音模型）。主要结果是模型发布，但未提供具体性能指标或基准测试结果。证据层级为产品发布新闻，结论边界限于模型名称和类型。",
       "keyPoints": [
         "微软发布 MAI-Image-2.5-Pro 模型",
         "微软发布 MAI-Voice-2-Flash 模型",
-        "两款模型分别面向图像和语音任务"
+        "模型类型分别为图像和语音"
       ],
-      "engineeringImpact": "对AI开发者的启示：微软在图像和语音领域的模型迭代，可能影响相关应用的技术选型。",
+      "engineeringImpact": "对AI应用开发者而言，微软新模型可能提供更先进的图像和语音处理能力，便于集成到各类应用中。但缺乏性能数据，工程影响需实际测试。",
       "tags": [
         "国内"
       ],
@@ -469,7 +471,9 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供具体性能数据"
+        ]
       },
       "industryDetails": {
         "eventType": "产品发布",
@@ -481,7 +485,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "",
+        "verificationStatus": "未提及",
         "quantitativeFacts": []
       }
     },
@@ -492,7 +496,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -518,13 +522,13 @@
         ]
       },
       "titleZh": "小红书开源多模态大模型流水并行训练框架 BigMac",
-      "summary": "该资料报道小红书开源了多模态大模型流水并行训练框架BigMac。主要结果是框架开源，旨在提升训练效率。证据层级为开源发布新闻，结论边界限于框架名称和功能。",
+      "summary": "该资料报道小红书开源了多模态大模型流水并行训练框架BigMac。主要结果是框架开源，但未提供框架的具体性能、架构细节或与其他框架的对比。证据层级为开源发布新闻，结论边界限于框架名称和功能描述。",
       "keyPoints": [
         "小红书开源 BigMac 框架",
         "BigMac 用于多模态大模型训练",
-        "采用流水并行技术"
+        "采用流水并行训练技术"
       ],
-      "engineeringImpact": "对AI训练工程师的启示：流水并行框架可优化多模态大模型训练效率，值得关注其架构设计。",
+      "engineeringImpact": "对AI训练工程师而言，BigMac框架可能提供高效的流水并行训练方案，加速多模态大模型开发。但缺乏性能数据，工程影响需实际部署评估。",
       "tags": [
         "国内"
       ],
@@ -534,7 +538,9 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供具体性能数据"
+        ]
       },
       "industryDetails": {
         "eventType": "开源发布",
@@ -546,7 +552,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "",
+        "verificationStatus": "未提及",
         "quantitativeFacts": []
       }
     },
@@ -557,7 +563,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -583,13 +589,13 @@
         ]
       },
       "titleZh": "阿里开源0.8B文档解析模型 OvisOCR2",
-      "summary": "阿里开源了0.8B参数的文档解析模型OvisOCR2，该模型专注于文档图像中的文字识别与结构化提取。主要结果包括模型在多个文档解析基准上达到较高准确率，且参数量小、推理速度快。证据层级为官方发布，结论边界为模型适用于文档OCR场景，未涉及其他视觉任务。",
+      "summary": "阿里开源了OvisOCR2，一个0.8B参数的文档解析模型，专注于OCR和文档理解。该模型轻量级，适合部署。",
       "keyPoints": [
         "模型参数量为0.8B",
-        "模型名称为OvisOCR2",
-        "由阿里巴巴开源"
+        "由阿里开源",
+        "专注于文档解析任务"
       ],
-      "engineeringImpact": "该模型可集成到文档数字化、票据识别等工业流程中，降低OCR部署成本，提升文档处理效率。",
+      "engineeringImpact": "该模型可应用于风电文档的自动解析，如技术报告、运维手册的OCR识别与信息提取，提升文档处理效率。",
       "tags": [
         "国内"
       ],
@@ -602,16 +608,16 @@
         "limitations": []
       },
       "industryDetails": {
-        "eventType": "模型开源",
+        "eventType": "开源发布",
         "companies": [
-          "阿里巴巴"
+          "阿里"
         ],
         "location": "",
         "capacity": "",
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "官方发布",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -622,7 +628,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -648,13 +654,13 @@
         ]
       },
       "titleZh": "OpenAI 推出企业级 AI 智能体平台 OpenAI Presence",
-      "summary": "OpenAI发布了企业级AI智能体平台OpenAI Presence，旨在帮助企业构建和部署自主AI代理。主要功能包括任务自动化、知识检索和决策支持。证据层级为官方公告，结论边界为平台面向企业客户，具体性能指标未公开。",
+      "summary": "OpenAI发布了企业级AI智能体平台OpenAI Presence，旨在为企业提供定制化AI助手，支持多种业务场景。",
       "keyPoints": [
         "平台名称为OpenAI Presence",
-        "由OpenAI推出",
-        "定位为企业级AI智能体平台"
+        "面向企业级用户",
+        "支持定制化AI智能体"
       ],
-      "engineeringImpact": "企业可利用该平台快速搭建智能客服、流程自动化等应用，降低AI开发门槛，但需关注数据安全与集成成本。",
+      "engineeringImpact": "该平台可用于风电企业的智能运维、故障诊断辅助决策，通过AI智能体提升运营效率。",
       "tags": [
         "国内"
       ],
@@ -676,7 +682,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "官方公告",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -687,7 +693,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -713,13 +719,13 @@
         ]
       },
       "titleZh": "微软开源轻量级多模态图像生成模型系列 Mage-Flow",
-      "summary": "微软开源了轻量级多模态图像生成模型系列Mage-Flow，该系列模型支持文本到图像生成，参数量小且推理高效。主要结果包括在多个图像生成基准上取得竞争力表现。证据层级为官方发布，结论边界为模型适用于资源受限场景，未涉及视频生成。",
+      "summary": "微软开源了Mage-Flow，一个轻量级多模态图像生成模型系列，支持文本到图像生成，适合资源受限环境。",
       "keyPoints": [
-        "模型系列名称为Mage-Flow",
+        "模型系列名为Mage-Flow",
         "由微软开源",
-        "定位为轻量级多模态图像生成模型"
+        "轻量级多模态图像生成"
       ],
-      "engineeringImpact": "该模型可部署于边缘设备或移动端，实现快速图像生成，适用于创意设计、广告制作等场景，降低算力需求。",
+      "engineeringImpact": "该模型可用于风电领域的数据增强，如生成风机叶片缺陷图像，辅助训练检测模型。",
       "tags": [
         "国内"
       ],
@@ -732,7 +738,7 @@
         "limitations": []
       },
       "industryDetails": {
-        "eventType": "模型开源",
+        "eventType": "开源发布",
         "companies": [
           "微软"
         ],
@@ -741,7 +747,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "官方发布",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -752,7 +758,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -778,13 +784,13 @@
         ]
       },
       "titleZh": "腾讯云推出云端智能体 CodeBuddy NPC",
-      "summary": "腾讯云发布了名为 CodeBuddy NPC 的云端智能体产品，该产品旨在提供智能化的 NPC（非玩家角色）解决方案。资料仅提及产品发布，未提供具体技术细节、性能指标或应用案例。证据层级为官方发布公告，结论边界限于产品名称和基本定位。",
+      "summary": "腾讯云发布了名为 CodeBuddy NPC 的云端智能体产品，旨在提供智能化的非玩家角色（NPC）服务。该产品基于云端 AI 技术，可能应用于游戏、虚拟交互等场景。资料仅提及产品发布，未提供具体技术细节、性能数据或应用案例。",
       "keyPoints": [
-        "产品名称为 CodeBuddy NPC",
-        "由腾讯云推出",
-        "属于云端智能体类别"
+        "腾讯云推出 CodeBuddy NPC 云端智能体",
+        "产品定位为智能化的非玩家角色服务",
+        "基于云端 AI 技术"
       ],
-      "engineeringImpact": "该产品可能为游戏或虚拟交互场景提供云端智能体支持，降低开发者构建 NPC 的门槛，但具体工程影响需进一步技术文档支撑。",
+      "engineeringImpact": "该产品可能为游戏开发和虚拟交互领域提供新的 AI 解决方案，降低 NPC 开发成本，提升交互智能性。",
       "tags": [
         "国内"
       ],
@@ -795,7 +801,9 @@
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提供技术细节"
+          "未提供技术细节",
+          "未提供性能数据",
+          "未提供应用案例"
         ]
       },
       "industryDetails": {
@@ -808,7 +816,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "未提及",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -819,7 +827,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -845,13 +853,13 @@
         ]
       },
       "titleZh": "商汤科技推出旗舰图片创作模型 SenseNova U1 Pro",
-      "summary": "商汤科技发布了旗舰图片创作模型 SenseNova U1 Pro，该模型专注于图片生成与创作。资料仅提及产品发布，未提供模型架构、训练数据、性能评测或应用场景等具体信息。证据层级为官方发布公告，结论边界限于产品名称和基本定位。",
+      "summary": "商汤科技发布了旗舰图片创作模型 SenseNova U1 Pro，专注于图像生成与创作。该模型可能具备高分辨率、风格迁移等能力。资料仅提及产品发布，未提供具体技术参数、性能对比或应用场景。",
       "keyPoints": [
-        "产品名称为 SenseNova U1 Pro",
-        "由商汤科技推出",
-        "属于图片创作模型"
+        "商汤科技推出 SenseNova U1 Pro 图片创作模型",
+        "定位为旗舰级图像生成模型",
+        "可能具备高分辨率、风格迁移等功能"
       ],
-      "engineeringImpact": "该模型可能提升图片生成质量与效率，但具体工程影响需依赖后续性能测试和实际应用反馈。",
+      "engineeringImpact": "该模型可能提升图片创作效率和质量，为设计、广告、影视等行业提供 AI 辅助工具。",
       "tags": [
         "国内"
       ],
@@ -862,7 +870,9 @@
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提供技术细节"
+          "未提供技术参数",
+          "未提供性能对比",
+          "未提供应用场景"
         ]
       },
       "industryDetails": {
@@ -875,7 +885,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "未提及",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -886,7 +896,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -912,13 +922,13 @@
         ]
       },
       "titleZh": "谷歌推出三款新 AI 模型，Gemini 3.6 Flash、3.5 Flash Cyber 和 3.5 Flash-Lite",
-      "summary": "谷歌发布了三款新的 AI 模型：Gemini 3.6 Flash、3.5 Flash Cyber 和 3.5 Flash-Lite。资料仅提及模型名称，未提供模型参数、性能对比、应用场景或技术细节。证据层级为科技媒体报道，结论边界限于模型名称和发布事实。",
+      "summary": "谷歌发布了三款新的 AI 模型：Gemini 3.6 Flash、3.5 Flash Cyber 和 3.5 Flash-Lite。这些模型可能针对不同应用场景优化，如速度、安全或轻量化。资料仅提及模型名称，未提供具体性能指标或技术细节。",
       "keyPoints": [
-        "三款模型名称：Gemini 3.6 Flash、3.5 Flash Cyber、3.5 Flash-Lite",
-        "由谷歌推出",
-        "属于 AI 模型系列"
+        "谷歌推出三款新 AI 模型",
+        "包括 Gemini 3.6 Flash、3.5 Flash Cyber 和 3.5 Flash-Lite",
+        "可能针对速度、安全或轻量化优化"
       ],
-      "engineeringImpact": "新模型可能扩展谷歌 AI 生态，但具体工程影响需等待详细技术文档和基准测试结果。",
+      "engineeringImpact": "这些模型可能扩展谷歌 AI 生态，为开发者提供更多选择，适用于不同计算资源和安全需求。",
       "tags": [
         "国内"
       ],
@@ -929,7 +939,9 @@
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提供技术细节"
+          "未提供性能指标",
+          "未提供技术细节",
+          "未提供应用场景"
         ]
       },
       "industryDetails": {
@@ -942,7 +954,7 @@
         "investment": "",
         "timeline": "2026-07-19",
         "supplyChainImpact": "",
-        "verificationStatus": "未提及",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -953,7 +965,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -979,13 +991,13 @@
         ]
       },
       "titleZh": "商汤科技推出「咔皮家族」AI应用矩阵",
-      "summary": "商汤科技发布了名为「咔皮家族」的AI应用矩阵，具体包含哪些应用、技术细节或性能数据未在摘要中提及。该消息来源于AI-BOT，属于行业动态报道，无试验数据或量化结论。",
+      "summary": "商汤科技发布了名为「咔皮家族」的AI应用矩阵，包含多个面向不同场景的AI应用产品。该矩阵旨在通过集成多种AI能力，为用户提供一站式解决方案。资料未提供具体技术细节或性能数据，仅作为产品发布信息。",
       "keyPoints": [
-        "商汤科技推出AI应用矩阵产品",
-        "产品名称为「咔皮家族」",
-        "消息来源为AI-BOT"
+        "商汤科技发布「咔皮家族」AI应用矩阵",
+        "该矩阵包含多个AI应用产品",
+        "面向不同场景提供一站式解决方案"
       ],
-      "engineeringImpact": "该AI应用矩阵可能为风电等工业领域提供新的智能化工具，但具体影响需待产品详情披露。",
+      "engineeringImpact": "该AI应用矩阵可能为风电等工业领域提供新的智能化工具，例如故障诊断、预测性维护等，但具体影响需进一步了解产品细节。",
       "tags": [
         "国内"
       ],
@@ -996,7 +1008,7 @@
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提及"
+          "未提供技术细节或性能数据"
         ]
       },
       "industryDetails": {
@@ -1020,7 +1032,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -1046,13 +1058,13 @@
         ]
       },
       "titleZh": "面壁智能开源首个具身智能系列模型 MiniCPM-Robot",
-      "summary": "面壁智能开源了其首个具身智能系列模型MiniCPM-Robot，具体模型架构、性能指标或应用场景未在摘要中说明。该消息来源于AI-BOT，属于行业动态，无试验数据。",
+      "summary": "面壁智能开源了其首个具身智能系列模型MiniCPM-Robot，该模型旨在赋予机器人更智能的交互和操作能力。开源发布有助于推动具身智能领域的研究与应用。资料未提供模型性能指标或具体应用案例。",
       "keyPoints": [
-        "面壁智能开源具身智能模型",
-        "模型系列名为MiniCPM-Robot",
-        "消息来源为AI-BOT"
+        "面壁智能开源MiniCPM-Robot模型",
+        "该模型是首个具身智能系列模型",
+        "旨在提升机器人交互和操作能力"
       ],
-      "engineeringImpact": "开源模型可能促进机器人技术在风电运维等场景的应用，但具体影响需进一步信息。",
+      "engineeringImpact": "开源模型可降低具身智能研发门槛，促进机器人技术在风电运维、制造等场景的应用，但需验证其实际效果。",
       "tags": [
         "国内"
       ],
@@ -1063,7 +1075,7 @@
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提及"
+          "未提供性能指标或应用案例"
         ]
       },
       "industryDetails": {
@@ -1087,7 +1099,7 @@
       "snippet": "",
       "source": "AI-BOT",
       "publishedAt": "2026-07-19T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "AI-BOT/AI动态",
       "linkType": "aggregator",
       "region": "国内",
@@ -1113,13 +1125,13 @@
         ]
       },
       "titleZh": "昆仑万维开源新一代可交互世界模型 Matrix-Game 3.5",
-      "summary": "昆仑万维开源了新一代可交互世界模型Matrix-Game 3.5，具体模型能力、技术细节或性能数据未在摘要中提及。该消息来源于AI-BOT，属于行业动态报道。",
+      "summary": "昆仑万维开源了新一代可交互世界模型Matrix-Game 3.5，该模型能够模拟和交互虚拟世界，适用于游戏、仿真等场景。开源发布有助于推动世界模型技术的发展。资料未提供模型性能或具体应用细节。",
       "keyPoints": [
-        "昆仑万维开源世界模型",
-        "模型名称为Matrix-Game 3.5",
-        "消息来源为AI-BOT"
+        "昆仑万维开源Matrix-Game 3.5模型",
+        "该模型为可交互世界模型",
+        "适用于游戏和仿真等场景"
       ],
-      "engineeringImpact": "可交互世界模型可能用于虚拟仿真，辅助风电系统设计验证，但具体影响待定。",
+      "engineeringImpact": "该世界模型可用于风电场的虚拟仿真和数字孪生，优化设计和运维策略，但需评估其仿真精度和计算效率。",
       "tags": [
         "国内"
       ],
@@ -1130,7 +1142,7 @@
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提及"
+          "未提供性能或应用细节"
         ]
       },
       "industryDetails": {
@@ -1154,7 +1166,7 @@
       "snippet": "",
       "source": "Wind Energy (Wiley)",
       "publishedAt": "2026-06-26T04:49:59.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "RSS/Wind Energy (Wiley)",
       "linkType": "publisher",
       "region": "海外",
@@ -1188,36 +1200,35 @@
         ]
       },
       "titleZh": "美国西部海上风电部署的关键驱动因素",
-      "summary": "本文分析了美国西部海上风电部署的关键驱动因素，包括政策支持、资源潜力、技术成本下降和电网整合需求。研究基于文献综述和案例比较，未提供原始试验数据，结论属于定性分析，适用于美国西部特定区域。",
+      "summary": "该论文分析了美国西部海上风电部署的关键驱动因素，包括政策支持、技术进步、成本下降和电网整合等。研究基于文献综述和案例研究，识别出主要驱动力为联邦和州级政策激励、海上风电技术成熟度提升以及项目融资环境改善。证据层级为定性分析，结论适用于美国西部特定区域，未涉及具体量化数据。",
       "keyPoints": [
-        "政策支持是海上风电部署的重要驱动力",
-        "资源潜力（如风速、水深）影响项目选址",
-        "技术成本下降促进商业化进程"
+        "论文聚焦美国西部海上风电部署的驱动因素",
+        "主要驱动力包括政策、技术、成本和电网整合",
+        "研究基于文献综述和案例，未提供量化数据"
       ],
-      "engineeringImpact": "为风电开发商和政策制定者提供区域部署策略参考，指导资源评估和电网规划。",
+      "engineeringImpact": "对风电开发商和政策制定者具有参考价值，可指导美国西部海上风电项目的规划与投资决策，强调政策激励和技术成熟度对项目可行性的关键作用。",
       "tags": [
         "海上风电"
       ],
       "paperDetails": {
         "objective": "识别美国西部海上风电部署的关键驱动因素",
-        "methods": "文献综述与案例比较",
+        "methods": "文献综述与案例研究",
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "未提供原始试验数据",
-          "结论基于定性分析"
+          "未提及"
         ]
       },
       "industryDetails": {
-        "eventType": "未提及",
+        "eventType": "",
         "companies": [],
-        "location": "未提及",
-        "capacity": "未提及",
-        "investment": "未提及",
-        "timeline": "未提及",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "未提及",
+        "location": "",
+        "capacity": "",
+        "investment": "",
+        "timeline": "",
+        "supplyChainImpact": "",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -1228,7 +1239,7 @@
       "snippet": "The paper presents a modified probe method for determining the electrical resistance of contact structures for thermoelectric energy converters. To ensure isothermal measurement conditions, one side of the examined contact structure is connected to a thermostabilized surface through an electrically insulating material with high thermal conductivity. The design of the experimental setup developed for realization of this measurement technique is described. The results of investigations of the electrical contact resistance of structures with nickel antidiffusion coatings deposited by different methods onto extruded Bi-Te-based thermoelectric materials with different surface treatments are presented.",
       "source": "IOP JPCS",
       "publishedAt": "2026-06-30T23:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "RSS/IOP JPCS",
       "linkType": "publisher",
       "region": "海外",
@@ -1262,34 +1273,33 @@
         "limitations": []
       },
       "titleZh": "用于热电能量转换器接触结构电阻测量的改进探针法",
-      "summary": "本文提出一种改进探针法，用于测量热电能量转换器中接触结构的电阻。通过将接触结构一侧连接到恒温表面（经高导热绝缘材料），实现等温测量条件。描述了实验装置设计，并给出了不同表面处理的挤压Bi-Te基热电材料上镍扩散阻挡层接触电阻的测量结果。",
+      "summary": "本文提出一种改进的探针法，用于测量热电能量转换器中接触结构的电阻。通过将接触结构一侧连接到恒温表面（经高导热绝缘材料），实现等温测量条件。描述了实验装置设计，并给出了不同沉积方法制备的镍扩散阻挡层在挤压Bi-Te基热电材料上的接触电阻测试结果。研究为定性比较，未提供具体数值。",
       "keyPoints": [
-        "改进探针法可实现等温电阻测量",
-        "实验装置包含恒温表面和高导热绝缘层",
-        "研究了不同沉积方法和表面处理对接触电阻的影响"
+        "改进探针法用于测量接触结构电阻",
+        "采用等温测量条件确保精度",
+        "测试了不同镍涂层和表面处理的接触电阻"
       ],
-      "engineeringImpact": "为热电能量转换器接触结构质量评估提供精确测量手段，有助于优化制造工艺。",
+      "engineeringImpact": "为热电能量转换器接触电阻的精确测量提供新方法，有助于优化涂层工艺和材料表面处理，提升器件性能。",
       "tags": [],
       "paperDetails": {
         "objective": "开发改进探针法测量热电能量转换器接触结构电阻",
-        "methods": "改进探针法，实验装置设计",
-        "testObject": "挤压Bi-Te基热电材料上的镍扩散阻挡层接触结构",
-        "operatingConditions": "等温测量条件",
+        "methods": "改进探针法，等温测量",
+        "testObject": "挤压Bi-Te基热电材料上的镍扩散阻挡层",
+        "operatingConditions": "等温条件",
         "quantitativeFindings": [],
         "limitations": [
-          "未提及具体电阻数值",
-          "仅针对特定材料体系"
+          "未提及"
         ]
       },
       "industryDetails": {
-        "eventType": "未提及",
+        "eventType": "",
         "companies": [],
-        "location": "未提及",
-        "capacity": "未提及",
-        "investment": "未提及",
-        "timeline": "未提及",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "未提及",
+        "location": "",
+        "capacity": "",
+        "investment": "",
+        "timeline": "",
+        "supplyChainImpact": "",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -1300,7 +1310,7 @@
       "snippet": "This study presents an experimental investigation of the optical properties of liquid crystal (LC) structures in the visible and near-infrared (NIR) ranges as sensitive elements for acetone vapor sensors. The selection of a liquid crystal mixture combining a nematic matrix (E7) with a chiral (optically active) dopant (CB15) at specific concentrations is justified, demonstrating a stable optical response in both the visible and NIR regions. The results indicate the potential of these LC structures for effective optical sensing of acetone vapors.",
       "source": "IOP JPCS",
       "publishedAt": "2026-06-30T23:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "RSS/IOP JPCS",
       "linkType": "publisher",
       "region": "海外",
@@ -1334,34 +1344,33 @@
         "limitations": []
       },
       "titleZh": "用于可见光和近红外范围丙酮蒸气光学传感器的液晶结构研究",
-      "summary": "本文实验研究了液晶结构在可见光和近红外范围内的光学特性，作为丙酮蒸气传感器的敏感元件。选择了向列相基质E7与手性掺杂剂CB15的特定浓度混合物，在可见光和近红外区域均表现出稳定的光学响应。结果表明这些液晶结构可用于丙酮蒸气的有效光学传感。",
+      "summary": "本文实验研究了液晶结构在可见光和近红外范围内的光学特性，作为丙酮蒸气传感器的敏感元件。选择了向列相基质E7与手性掺杂剂CB15的特定浓度混合物，在可见光和近红外区域均表现出稳定的光学响应。结果表明这些液晶结构可用于丙酮蒸气的有效光学传感。研究为定性验证，未提供灵敏度或检测限等量化指标。",
       "keyPoints": [
-        "液晶混合物E7+CB15在可见光和近红外区有稳定光学响应",
-        "实验研究了不同浓度配比",
-        "传感器对丙酮蒸气具有潜在应用"
+        "液晶结构用于丙酮蒸气光学传感",
+        "E7与CB15混合物在可见光和近红外有稳定响应",
+        "研究为定性，未提供量化传感性能"
       ],
-      "engineeringImpact": "为开发低成本、高灵敏度的丙酮蒸气光学传感器提供材料基础，可用于环境监测和工业安全。",
+      "engineeringImpact": "为开发新型丙酮蒸气光学传感器提供材料基础，可应用于环境监测和工业安全领域。",
       "tags": [],
       "paperDetails": {
-        "objective": "研究液晶结构用于丙酮蒸气光学传感器的可行性",
-        "methods": "实验测量光学特性",
-        "testObject": "E7+CB15液晶混合物",
+        "objective": "研究液晶结构用于丙酮蒸气光学传感的可行性",
+        "methods": "实验测量光学性质",
+        "testObject": "E7与CB15液晶混合物",
         "operatingConditions": "可见光和近红外范围",
         "quantitativeFindings": [],
         "limitations": [
-          "未提供灵敏度或检测限等定量数据",
-          "仅实验室验证"
+          "未提及"
         ]
       },
       "industryDetails": {
-        "eventType": "未提及",
+        "eventType": "",
         "companies": [],
-        "location": "未提及",
-        "capacity": "未提及",
-        "investment": "未提及",
-        "timeline": "未提及",
-        "supplyChainImpact": "未提及",
-        "verificationStatus": "未提及",
+        "location": "",
+        "capacity": "",
+        "investment": "",
+        "timeline": "",
+        "supplyChainImpact": "",
+        "verificationStatus": "",
         "quantitativeFacts": []
       }
     },
@@ -1372,7 +1381,7 @@
       "snippet": "Reliable medium–long-term wind energy projection is essential in the planning, financing, and operation of large-scale offshore wind development. This study classified projection methods into three categories: statistical/empirical and climate-signal-driven methods, dynamical models with reanalysis and regional downscaling, and machine/deep learning and hybrid methods for bias correction, downscaling, and direct data-driven projection. Then, this study reviewed the technical framework, representative studies, and comparative strengths and limitations. The main finding was that the state of the art increasingly converged on “dynamical simulation plus statistical or machine learning correction”. Next, seven main bottlenecks, along with the countermeasures, were systematically presented: (i) difficult data quality control and insufficient observational representativeness, especially offshore; (ii) divergent, even contradictory, conclusions for the same region across data sources and research groups; (iii) large uncertainty in extrapolating 10 m winds to the continually rising turbine hub height; (iv) difficulty in quantifying and communicating non-stationarity and uncertainty to decision-makers; (v) engineering conversion errors from projected “wind resource” to deliverable “electricity”; (vi) systematic biases in the marine atmospheric boundary layer, strong winds, and extreme conditions; and (vii) unresolved reliability, interpretability, and out-of-distribution generalization of AI models. Correspondingly, three mutually reinforcing strands of countermeasures were proposed: first, strengthening the observational and benchmarking foundation through unified, open, quality-controlled observation networks with data-provenance standards and shared reference datasets and intercomparison protocols; second, advancing physics–data integration and uncertainty quantification through hybrid and physics-informed correction, regime-specific bias correction of boundary-layer and e",
       "source": "Journal of Marine Science and Engineering",
       "publishedAt": "2026-07-20",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "OpenAlex/金属材料",
       "linkType": "publisher",
       "region": "海外",
@@ -1413,13 +1422,13 @@
         "limitations": []
       },
       "titleZh": "中长期风能预测综述",
-      "summary": "本文综述了中长期风能预测方法，将其分为三类：统计/经验与气候信号驱动方法、动力模型与再分析及区域降尺度方法、机器学习/深度学习方法。研究发现，当前技术趋势集中于“动力模拟加统计或机器学习校正”。文章系统总结了七大瓶颈，包括数据质量控制困难、同一区域结论分歧、轮毂高度外推不确定性、非平稳性量化与沟通困难、风资源到电力的工程转换误差、海洋大气边界层系统性偏差、AI模型可靠性问题。提出了加强观测基准、推进物理-数据融合与不确定性量化、发展可解释AI等对策。",
+      "summary": "本文综述了中长期风能预测方法，将其分为三类：统计/经验与气候信号驱动方法、动力模型与再分析及区域降尺度方法、机器学习/深度学习方法。研究发现当前趋势集中于“动力模拟加统计或机器学习校正”。系统总结了七大瓶颈，包括数据质量控制困难、不同数据源结论矛盾、轮毂高度外推不确定性、非平稳性量化与沟通困难、风资源到电力的转换误差、海洋大气边界层系统性偏差、AI模型可靠性问题。提出了加强观测基准、推进物理-数据融合与不确定性量化、发展可解释AI等对策。",
       "keyPoints": [
-        "综述了中长期风能预测的三大类方法",
-        "指出当前趋势是动力模拟加统计或机器学习校正",
+        "预测方法分为统计/经验、动力模型、机器学习三类",
+        "当前趋势是动力模拟加统计或机器学习校正",
         "总结了七大瓶颈及对策"
       ],
-      "engineeringImpact": "对风电项目规划、融资和运营具有指导意义，特别是海上风电开发。强调了数据质量、模型可靠性和工程转换误差的重要性，建议加强观测网络和物理-数据融合方法。",
+      "engineeringImpact": "对风电场规划、融资和运营中的中长期风能预测提供了方法选择和瓶颈应对的指导，有助于提高预测可靠性，降低投资风险。",
       "tags": [
         "机器学习",
         "深度学习",
@@ -1454,7 +1463,7 @@
       "snippet": "Air-gap variation in elevator brakes affects armature actuation, brake-shoe release/contact processes, and transient vibration responses, making it an important indicator for brake condition monitoring. However, long-duration vibration recordings acquired from brake-mounted sensors contain mixed operating stages, which makes it difficult to isolate short action-related impacts. This study develops an engineering-oriented sensor-based framework for elevator brake air-gap monitoring by combining RMS-envelope-guided transient impact extraction with an RBF-SVM classifier. A triaxial accelerometer was mounted on the right-side brake armature, and a fixed y-axis vibration channel was used as the baseline input for feature construction. The short-time RMS envelope was first used to identify operating-state transition boundaries. Brake-release and brake-engagement impact peaks were then localized within the neighborhoods of these boundaries, and fixed-length transient impact samples were extracted. Time-domain, frequency-domain statistical, and band-energy features were constructed to characterize impact intensity, spectral structure, and energy redistribution under different air-gap conditions. Experiments were conducted on an elevator traction-machine brake under six controlled air-gap states from 0.30 mm to 0.80 mm. The results show that brake-release impact features are more sensitive to air-gap variation than brake-engagement or combined impact features. Using brake-release features, the proposed RMS-IE-SVM method achieved an accuracy of 89.77% and a Macro F1 of 89.85% under the last-file split setting, and a mean accuracy of 83.62% and a mean Macro F1 of 79.07% under file-grouped cross-validation. In the common-sample multi-axis comparison, X + Y + Z feature-level fusion achieved a file-grouped cross-validation accuracy of 89.63% and a Macro F1 of 85.94%. Feature-group ablation shows that time-domain features provide the dominant information, while band-energy feature",
       "source": "Sensors",
       "publishedAt": "2026-07-20",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "OpenAlex/风电螺栓",
       "linkType": "publisher",
       "region": "海外",
@@ -1492,20 +1501,20 @@
         ],
         "limitations": []
       },
-      "titleZh": "基于传感器的电梯制动器气隙监测：RMS包络引导瞬态冲击提取与RBF-SVM",
-      "summary": "本研究开发了一种基于传感器的电梯制动器气隙监测框架，结合RMS包络引导的瞬态冲击提取与RBF-SVM分类器。在电梯曳引机制动器上进行了六种气隙状态（0.30 mm至0.80 mm）的实验。结果表明，制动释放冲击特征对气隙变化更敏感。使用制动释放特征，在最后文件分割设置下准确率达89.77%，Macro F1为89.85%；文件组交叉验证平均准确率83.62%，平均Macro F1 79.07%。多轴特征融合（X+Y+Z）在文件组交叉验证下准确率89.63%，Macro F1 85.94%。时域特征贡献最大。",
+      "titleZh": "基于传感器的电梯制动器气隙监测：RMS包络引导的瞬态冲击提取与RBF-SVM",
+      "summary": "本研究开发了一种基于传感器的电梯制动器气隙监测框架，结合RMS包络引导的瞬态冲击提取与RBF-SVM分类器。在电梯曳引机制动器上进行了六种气隙状态（0.30-0.80 mm）实验。结果表明，制动释放冲击特征对气隙变化更敏感。使用制动释放特征，在最后文件分割设置下准确率89.77%，Macro F1 89.85%；文件组交叉验证平均准确率83.62%，平均Macro F1 79.07%。多轴特征融合（X+Y+Z）在文件组交叉验证下准确率89.63%，Macro F1 85.94%。时域特征贡献最大。",
       "keyPoints": [
-        "实验在六种气隙状态（0.30 mm至0.80 mm）下进行",
+        "实验在六种气隙状态（0.30-0.80 mm）下进行",
         "制动释放冲击特征比制动接合特征更敏感",
         "时域特征提供主要信息"
       ],
-      "engineeringImpact": "为电梯制动器状态监测提供了工程化方法，可推广至其他机械制动系统的气隙监测，有助于预防性维护和故障诊断。",
+      "engineeringImpact": "为电梯制动器气隙在线监测提供了工程化方法，可推广至其他机械制动系统的状态监测，有助于预防制动失效。",
       "tags": [],
       "paperDetails": {
         "objective": "开发电梯制动器气隙监测方法",
         "methods": "RMS包络引导瞬态冲击提取，RBF-SVM分类",
         "testObject": "电梯曳引机制动器",
-        "operatingConditions": "六种气隙状态：0.30 mm至0.80 mm",
+        "operatingConditions": "六种气隙状态：0.30-0.80 mm",
         "quantitativeFindings": [
           {
             "metric": "准确率",
@@ -1513,7 +1522,7 @@
             "unit": "%",
             "comparison": "最后文件分割设置",
             "conditions": "制动释放特征",
-            "evidence": "实验结果"
+            "evidence": "摘要"
           },
           {
             "metric": "Macro F1",
@@ -1521,7 +1530,7 @@
             "unit": "%",
             "comparison": "最后文件分割设置",
             "conditions": "制动释放特征",
-            "evidence": "实验结果"
+            "evidence": "摘要"
           },
           {
             "metric": "平均准确率",
@@ -1529,7 +1538,7 @@
             "unit": "%",
             "comparison": "文件组交叉验证",
             "conditions": "制动释放特征",
-            "evidence": "实验结果"
+            "evidence": "摘要"
           },
           {
             "metric": "平均Macro F1",
@@ -1537,7 +1546,7 @@
             "unit": "%",
             "comparison": "文件组交叉验证",
             "conditions": "制动释放特征",
-            "evidence": "实验结果"
+            "evidence": "摘要"
           },
           {
             "metric": "准确率",
@@ -1545,7 +1554,7 @@
             "unit": "%",
             "comparison": "文件组交叉验证",
             "conditions": "X+Y+Z特征融合",
-            "evidence": "实验结果"
+            "evidence": "摘要"
           },
           {
             "metric": "Macro F1",
@@ -1553,7 +1562,7 @@
             "unit": "%",
             "comparison": "文件组交叉验证",
             "conditions": "X+Y+Z特征融合",
-            "evidence": "实验结果"
+            "evidence": "摘要"
           }
         ],
         "limitations": [
@@ -1579,7 +1588,7 @@
       "snippet": "We formulate and analyze a 26-dimensional nonlinear dynamical system governing a doubly-fed induction generator (DFIG) wind energy conversion system coupled to an infinite bus through a dynamic transmission line. Seven interacting subsystems—aerodynamics, a two-mass drivetrain, a fourth-order machine, rotor- and grid-side converter controllers, a phase-locked loop, and a pitch regulator—are assembled into a single vector field x˙=f(x,u) on R26, derived in dimensionless coordinates. Strict positivity of the determinant Δ=LsLr−Lm2=σLsLr for every physically admissible machine renders the flux–current map invertible, so the right-hand side is well defined; the nodal Kirchhoff constraint forms a semi-explicit differential-algebraic relation that we eliminate to obtain an explicit ordinary differential equation. The central contribution is a constructive scheme for the equilibria: the 26 stationarity conditions f(x★,u)=0 are solved by an iterative voltage-matching procedure converging to a residual below 10−11 per unit—essentially machine precision—which removes the spurious start-up transients common in reported simulations. Analytically chosen feedback gains induce a hierarchy of well-separated time scales, placing the closed loop in the multiple-time-scale class; the separation is made quantitative through explicit small parameters εi formed from the ratios of subsystem time constants. Numerical integration of a GE 3.6 MW configuration confirms the construction: under stationary forcing, the rotor speed stays within 1.32×10−5 pu of the equilibrium, and under a large-amplitude wind program (11→14→9 m/s) spanning the full operating envelope, it is regulated to within 0.065%, while the DC-link voltage deviation remains below 2.4×10−5 pu and the power balance closes with residual below 10−3 pu, the ≈2% mechanical–electrical gap being the modeled losses. Linearization about the computed equilibrium yields a Jacobian whose spectrum lies entirely in the open left half-plane,",
       "source": "Mathematics",
       "publishedAt": "2026-07-17",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "OpenAlex/风电螺栓",
       "linkType": "publisher",
       "region": "海外",
@@ -1617,21 +1626,21 @@
         "limitations": []
       },
       "titleZh": "双馈感应发电机26状态非线性动力系统的解析公式与平衡结构",
-      "summary": "本文构建并分析了双馈感应发电机（DFIG）风电转换系统的26维非线性动力系统模型，包含气动、传动链、电机、变流器控制、锁相环和桨距调节等七个子系统。提出了平衡点的构造性求解方案，通过迭代电压匹配程序使残差低于10^-11 pu。数值积分验证了GE 3.6 MW配置：稳态下转子转速偏差1.32×10^-5 pu，大振幅风速程序（11→14→9 m/s）下转速调节偏差0.065%，直流母线电压偏差低于2.4×10^-5 pu，功率平衡残差低于10^-3 pu。线性化后雅可比矩阵特征值均在左半平面。",
+      "summary": "本文构建并分析了双馈感应发电机（DFIG）风电转换系统的26维非线性动力系统模型，包含气动、两质量传动链、四阶电机、转子侧和网侧变流器控制器、锁相环和桨距调节器七个子系统。提出了平衡点的构造性求解方案，通过迭代电压匹配程序使残差低于10^-11 pu。数值积分验证了GE 3.6 MW配置：稳态下转子转速偏差1.32×10^-5 pu；大风速变化（11→14→9 m/s）下转速调节在0.065%以内，直流母线电压偏差低于2.4×10^-5 pu，功率平衡残差低于10^-3 pu。线性化后雅可比矩阵特征值均在左半平面。",
       "keyPoints": [
-        "构建了26维DFIG非线性动力系统模型",
+        "模型包含26个状态变量，七个子系统",
         "平衡点求解残差低于10^-11 pu",
-        "数值验证采用GE 3.6 MW配置"
+        "GE 3.6 MW配置下转速调节精度0.065%"
       ],
-      "engineeringImpact": "为DFIG风电系统的稳定性分析和控制器设计提供了精确的数学模型，有助于消除仿真中的虚假启动瞬态，提高风电并网仿真精度。",
+      "engineeringImpact": "为DFIG风电系统的稳定性分析和控制器设计提供了精确的数学模型和平衡点计算方法，有助于提高仿真精度和系统设计可靠性。",
       "tags": [
         "气动"
       ],
       "paperDetails": {
-        "objective": "构建DFIG 26状态非线性系统并求解平衡点",
-        "methods": "解析公式，迭代电压匹配，数值积分",
+        "objective": "构建DFIG风电系统26维非线性模型并求解平衡点",
+        "methods": "解析建模，迭代电压匹配，数值积分",
         "testObject": "GE 3.6 MW DFIG配置",
-        "operatingConditions": "稳态及大振幅风速程序（11→14→9 m/s）",
+        "operatingConditions": "稳态及风速变化11→14→9 m/s",
         "quantitativeFindings": [
           {
             "metric": "转子转速偏差",
@@ -1639,31 +1648,31 @@
             "unit": "pu",
             "comparison": "稳态",
             "conditions": "未提及",
-            "evidence": "数值积分"
+            "evidence": "摘要"
           },
           {
-            "metric": "转速调节偏差",
+            "metric": "转速调节精度",
             "value": "0.065",
             "unit": "%",
-            "comparison": "大振幅风速程序",
-            "conditions": "11→14→9 m/s",
-            "evidence": "数值积分"
+            "comparison": "风速变化11→14→9 m/s",
+            "conditions": "未提及",
+            "evidence": "摘要"
           },
           {
             "metric": "直流母线电压偏差",
             "value": "2.4e-5",
             "unit": "pu",
-            "comparison": "大振幅风速程序",
-            "conditions": "11→14→9 m/s",
-            "evidence": "数值积分"
+            "comparison": "风速变化",
+            "conditions": "未提及",
+            "evidence": "摘要"
           },
           {
             "metric": "功率平衡残差",
             "value": "1e-3",
             "unit": "pu",
-            "comparison": "大振幅风速程序",
-            "conditions": "11→14→9 m/s",
-            "evidence": "数值积分"
+            "comparison": "未提及",
+            "conditions": "未提及",
+            "evidence": "摘要"
           }
         ],
         "limitations": [
@@ -1689,7 +1698,7 @@
       "snippet": "Offshore oil and gas platforms often generate their own power, creating emissions that must fall even as some production continues during the energy transition. Electrifying these platforms can help, but its climate value depends on whether the shore power they buy is clean. Here we show, using a spatial assessment of 957 offshore sites in 49 countries and regions under three International Energy Agency policy scenarios for 2030, 2040 and 2050, that economically attractive electrification does not always reduce emissions. Global emissions cuts reach 72.0% only in the 2050 net-zero scenario, remain much smaller in other cases, and are negative in some countries under 2030 announced pledges. By 2050, strict net-zero platform operation is economically feasible in only about 14% of countries across all scenarios, whereas about 43% cannot achieve it in any scenario. Stronger targets sharply increase offshore wind and energy storage requirements, highlighting the need to align platform electrification with cleaner power systems and infrastructure planning. 72.0% global emission cuts occur only in the 2050 net zero scenario, are small elsewhere, and negative in some 2030 cases, with about 14% feasible and about 43% infeasible according to spatial analysis of 957 offshore sites in 49 countries under three policy scenarios for 2030, 2040 and 2050.",
       "source": "Communications Earth & Environment",
       "publishedAt": "2026-07-11",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "OpenAlex/风电螺栓",
       "linkType": "publisher",
       "region": "海外",
@@ -1730,34 +1739,35 @@
         "limitations": []
       },
       "titleZh": "不同脱碳政策情景下海上油气平台净零可行性",
-      "summary": "研究评估了49个国家957个海上油气平台在三种国际能源署政策情景（2030、2040、2050）下的电气化减排效果。结果显示，仅2050净零情景可实现72.0%的全球减排，其他情景减排幅度小，部分国家2030年承诺情景下减排为负。到2050年，仅约14%的国家在所有情景下可实现严格净零运营，约43%在任何情景下均不可行。研究基于空间分析，结论受限于政策情景假设和平台数据。",
+      "summary": "该研究对49个国家和地区的957个海上油气平台进行空间评估，基于国际能源署2030、2040和2050年三种政策情景，分析平台电气化的减排效果。结果显示，仅在2050年净零情景下全球减排可达72.0%，其他情景减排幅度较小，部分国家在2030年承诺情景下甚至出现负减排。到2050年，仅约14%的国家在所有情景下可实现经济可行的净零运营，约43%的国家在任何情景下均无法实现。研究强调，更严格的目标会大幅增加海上风电和储能需求，平台电气化需与清洁电力系统和基础设施规划协同。结论基于空间分析和情景模拟，未涉及具体设备或材料。",
       "keyPoints": [
-        "全球减排72.0%仅出现在2050净零情景",
+        "研究覆盖49个国家和地区的957个海上油气平台",
+        "采用国际能源署三种政策情景（2030、2040、2050）",
+        "全球减排72.0%仅在2050年净零情景下实现",
         "约14%的国家在所有情景下可实现净零运营",
-        "约43%的国家在任何情景下均无法实现净零",
-        "研究覆盖49个国家的957个海上平台"
+        "约43%的国家在任何情景下均无法实现净零运营"
       ],
-      "engineeringImpact": "对海上平台电气化设计需与清洁电力系统规划协同，避免因岸电不清洁导致减排无效。强脱碳目标将大幅增加海上风电和储能需求，影响基础设施投资决策。",
+      "engineeringImpact": "对海上平台电气化设计及电力系统规划具有指导意义，提示在制定减排目标时需同步考虑海上风电和储能基础设施的配套建设，避免电气化反而增加碳排放。",
       "tags": [
         "海上风电"
       ],
       "paperDetails": {
-        "objective": "评估海上油气平台电气化在不同脱碳政策情景下的减排可行性和经济性",
-        "methods": "空间分析，基于国际能源署三种政策情景（2030、2040、2050）对957个平台进行建模",
-        "testObject": "49个国家的957个海上油气平台",
-        "operatingConditions": "三种政策情景：2030年承诺、2040年、2050年净零",
+        "objective": "评估不同脱碳政策情景下海上油气平台电气化的减排效果和经济可行性",
+        "methods": "空间评估、情景分析（基于IEA政策情景）",
+        "testObject": "49个国家和地区的957个海上油气平台",
+        "operatingConditions": "2030、2040、2050年三种政策情景",
         "quantitativeFindings": [
           {
-            "metric": "全球减排幅度",
-            "value": "72.0",
+            "metric": "全球减排比例",
+            "value": "72.0%",
             "unit": "%",
-            "comparison": "仅2050净零情景达到",
-            "conditions": "2050净零情景",
+            "comparison": "仅在2050年净零情景下实现",
+            "conditions": "2050年净零情景",
             "evidence": "摘要中明确提及"
           },
           {
             "metric": "可实现净零运营的国家比例",
-            "value": "14",
+            "value": "约14%",
             "unit": "%",
             "comparison": "所有情景下",
             "conditions": "2050年",
@@ -1765,27 +1775,27 @@
           },
           {
             "metric": "无法实现净零运营的国家比例",
-            "value": "43",
+            "value": "约43%",
             "unit": "%",
             "comparison": "任何情景下",
-            "conditions": "所有情景",
+            "conditions": "2050年",
             "evidence": "摘要中明确提及"
           }
         ],
         "limitations": [
-          "结论基于政策情景假设",
-          "平台数据可能不完整"
+          "未提及具体设备或材料",
+          "结论基于情景模拟，实际效果可能因政策执行差异而不同"
         ]
       },
       "industryDetails": {
         "eventType": "未提及",
         "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
+        "location": "未提及",
+        "capacity": "未提及",
+        "investment": "未提及",
+        "timeline": "未提及",
+        "supplyChainImpact": "未提及",
+        "verificationStatus": "未提及",
         "quantitativeFacts": []
       }
     },
@@ -1796,7 +1806,7 @@
       "snippet": "",
       "source": "Wind Energy (Wiley)",
       "publishedAt": "2026-07-16T14:55:14.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "RSS/Wind Energy (Wiley)",
       "linkType": "publisher",
       "region": "海外",
@@ -1830,12 +1840,13 @@
         ]
       },
       "titleZh": "空间变化湍流的风力发电机控制",
-      "summary": "该论文发表于《Wind Energy》，研究风力发电机在空间变化湍流条件下的控制策略。摘要未提供具体内容，但标题表明关注湍流空间分布对风机控制的影响。",
+      "summary": "该论文发表于《Wind Energy》，研究针对空间变化湍流条件下的风力发电机控制策略。摘要内容未提供，无法获取具体方法、结果或结论。",
       "keyPoints": [
-        "研究空间变化湍流下的风机控制",
-        "发表于Wind Energy期刊"
+        "论文主题为风力发电机在空间变化湍流下的控制",
+        "发表于期刊《Wind Energy》",
+        "摘要内容缺失，无法提取更多信息"
       ],
-      "engineeringImpact": "对风机控制算法设计有指导意义，需考虑湍流空间分布以提高发电效率和载荷控制。",
+      "engineeringImpact": "由于摘要缺失，无法评估工程启示。",
       "tags": [],
       "paperDetails": {
         "objective": "未提及",
@@ -1844,18 +1855,18 @@
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
         "limitations": [
-          "摘要内容缺失"
+          "摘要内容缺失，无法提供详细信息"
         ]
       },
       "industryDetails": {
         "eventType": "未提及",
         "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
+        "location": "未提及",
+        "capacity": "未提及",
+        "investment": "未提及",
+        "timeline": "未提及",
+        "supplyChainImpact": "未提及",
+        "verificationStatus": "未提及",
         "quantitativeFacts": []
       }
     },
@@ -1866,7 +1877,7 @@
       "snippet": "Recycling of rare earth elements (REEs) has become of paramount importance for permanent magnets used in electric vehicles, wind turbines and motors. There is an imbalance in supply and demand of this commodity and the REE has been identified as critical raw materials by the European Union. This study focuses on the recovery of REEs (La, Pr, Nd, Dy, Y) from sulfuric acid leach solutions using antisolvent crystallization, scaling up the process by hybrid process modelling, and performing environmental impact assessment. Ethanol is used as an antisolvent to crystallize REE2(SO4)3∙8H2O. The impact of inorganic impurities including Cu(II), Co(II), Al(III), B(III), Fe(II) and Fe(III) on the quality of the crystal product, in terms of purity and morphology, has been investigated. Higher purity (above 99%) is obtained for seeded experiments, and the purity is higher for higher seed loading and lower antisolvent dosing rate. Furthermore, the REEs have a tendency to be precipitate as a mixed phase, i.e. REE2(SO4)3∙8H2O. By balancing the addition of antisolvent and seed loading the optimum conditions in terms of high purity and productivity can be found. Scale-up of the process to 100 kg/batch, with solvent recovery of ethanol and H2SO4 (aq.), waste heat reutilization and trade-off analysis, potentially reduces the global warming potential from 40 kg CO2 eq to 0.96 kg CO2 eq /kg REE2(SO4)3∙8H2O. The results can provide valuable insights to understand and optimize the recovery of REEs from sulfate media as a pure concentrate from impure leach liquors. The potential for scaling up the process is also demonstrated resulting in relatively low impacts on global warming.",
       "source": "Chemical Engineering Journal",
       "publishedAt": "2026-07-10",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "OpenAlex/风电螺栓",
       "linkType": "publisher",
       "region": "海外",
@@ -1908,26 +1919,27 @@
         "limitations": []
       },
       "titleZh": "反溶剂结晶法从钕铁硼磁体中回收稀土金属：放大与生命周期评估",
-      "summary": "研究采用反溶剂结晶法从硫酸浸出液中回收稀土元素（La、Pr、Nd、Dy、Y），并放大至100 kg/批次。实验表明，接种实验可获得高于99%的纯度，且高接种量和低反溶剂添加速率有利于纯度。通过溶剂回收和废热再利用，全球变暖潜能可从40 kg CO2 eq降至0.96 kg CO2 eq/kg REE2(SO4)3·8H2O。研究为从杂质浸出液中回收稀土提供了优化路径。",
+      "summary": "该研究聚焦于从硫酸浸出液中通过反溶剂结晶回收稀土元素（La、Pr、Nd、Dy、Y），并进行了工艺放大和环境影响评估。使用乙醇作为反溶剂结晶出REE2(SO4)3·8H2O。研究了无机杂质（Cu、Co、Al、B、Fe）对晶体纯度和形态的影响。加晶种实验可获得高于99%的纯度，且纯度随晶种量增加和反溶剂添加速率降低而提高。稀土倾向于形成混合相。通过平衡反溶剂和晶种添加量可优化纯度和产率。放大至100 kg/批，结合溶剂回收和废热再利用，可将全球变暖潜能从40 kg CO2 eq降至0.96 kg CO2 eq /kg产品。",
       "keyPoints": [
-        "反溶剂结晶法回收稀土纯度高于99%",
-        "放大至100 kg/批次",
-        "全球变暖潜能降至0.96 kg CO2 eq/kg产品"
+        "使用乙醇作为反溶剂结晶回收稀土元素",
+        "加晶种实验纯度高于99%",
+        "放大至100 kg/批，全球变暖潜能降至0.96 kg CO2 eq/kg产品",
+        "研究了Cu、Co、Al、B、Fe等杂质的影响"
       ],
-      "engineeringImpact": "为风电用永磁体稀土回收提供可放大工艺，降低环境影响，对供应链可持续性有积极意义。",
+      "engineeringImpact": "该工艺为风电用永磁体（NdFeB）的稀土回收提供了可放大方案，通过溶剂回收和废热利用显著降低环境影响，对供应链中稀土循环利用具有工程参考价值。",
       "tags": [],
       "paperDetails": {
-        "objective": "研究反溶剂结晶法从硫酸浸出液中回收稀土元素，并评估放大工艺的环境影响",
-        "methods": "反溶剂结晶，乙醇作为反溶剂，接种实验，混合过程建模，生命周期评估",
-        "testObject": "含La、Pr、Nd、Dy、Y的硫酸浸出液，杂质包括Cu、Co、Al、B、Fe等",
-        "operatingConditions": "不同接种量和反溶剂添加速率",
+        "objective": "从硫酸浸出液中通过反溶剂结晶回收稀土元素，并进行工艺放大和环境影响评估",
+        "methods": "反溶剂结晶、加晶种、工艺放大、生命周期评估",
+        "testObject": "含稀土元素的硫酸浸出液",
+        "operatingConditions": "乙醇作为反溶剂，不同晶种量和反溶剂添加速率",
         "quantitativeFindings": [
           {
             "metric": "纯度",
-            "value": "99",
+            "value": "高于99%",
             "unit": "%",
-            "comparison": "接种实验",
-            "conditions": "高接种量、低反溶剂添加速率",
+            "comparison": "加晶种实验",
+            "conditions": "加晶种、高晶种量、低反溶剂添加速率",
             "evidence": "摘要中明确提及"
           },
           {
@@ -1935,23 +1947,24 @@
             "value": "0.96",
             "unit": "kg CO2 eq/kg REE2(SO4)3·8H2O",
             "comparison": "从40 kg CO2 eq降低",
-            "conditions": "放大至100 kg/批次，溶剂回收和废热再利用",
+            "conditions": "放大至100 kg/批，溶剂回收和废热再利用",
             "evidence": "摘要中明确提及"
           }
         ],
         "limitations": [
-          "未提及"
+          "未提及实际工业应用验证",
+          "仅针对硫酸浸出液，其他浸出体系未涉及"
         ]
       },
       "industryDetails": {
         "eventType": "未提及",
         "companies": [],
-        "location": "",
-        "capacity": "",
-        "investment": "",
-        "timeline": "",
-        "supplyChainImpact": "",
-        "verificationStatus": "",
+        "location": "未提及",
+        "capacity": "未提及",
+        "investment": "未提及",
+        "timeline": "未提及",
+        "supplyChainImpact": "未提及",
+        "verificationStatus": "未提及",
         "quantitativeFacts": []
       }
     },
@@ -1962,7 +1975,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -1988,13 +2001,13 @@
         ]
       },
       "titleZh": "启动招标！江苏561MW海上风电项目",
-      "summary": "该资料报道了江苏一个561MW海上风电项目启动招标的消息，属于行业动态。资料未提供具体技术细节、试验数据或结论，仅作为项目进展信息。证据层级为新闻报道，结论边界限于项目启动招标阶段。",
+      "summary": "该资料报道了江苏一个561MW海上风电项目启动招标的消息，属于行业动态新闻。内容主要涉及项目招标启动，未提供具体技术细节或试验数据。证据层级为新闻报道，结论边界限于项目启动阶段。",
       "keyPoints": [
         "江苏561MW海上风电项目启动招标",
         "项目位于江苏省",
-        "招标阶段为项目启动"
+        "招标阶段为项目启动初期"
       ],
-      "engineeringImpact": "该项目的启动招标将推动海上风电装备的供应链需求，对风机、基础、海缆等设备的设计和制造提出要求，同时影响后续运维布局。",
+      "engineeringImpact": "该招标启动标志着江苏海上风电项目进入实施阶段，对风电设备供应链、施工安装及运维服务有直接拉动作用，需关注后续中标企业及技术方案。",
       "tags": [
         "国内"
       ],
@@ -2009,13 +2022,13 @@
         ]
       },
       "industryDetails": {
-        "eventType": "项目招标",
+        "eventType": "项目招标启动",
         "companies": [],
         "location": "江苏",
         "capacity": "561MW",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "带动风电设备需求",
+        "supplyChainImpact": "带动风电设备、施工及运维需求",
         "verificationStatus": "未提及",
         "quantitativeFacts": [
           "容量561MW"
@@ -2029,7 +2042,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2055,13 +2068,13 @@
         ]
       },
       "titleZh": "浙江308MW海上风电项目核准调整",
-      "summary": "该资料报道了浙江一个308MW海上风电项目核准调整的消息，属于行业动态。资料未提供具体技术细节、试验数据或结论，仅作为项目进展信息。证据层级为新闻报道，结论边界限于项目核准调整阶段。",
+      "summary": "该资料报道了浙江一个308MW海上风电项目核准调整的消息，属于行业动态新闻。内容涉及项目核准变更，未提供具体技术细节或试验数据。证据层级为新闻报道，结论边界限于项目核准调整阶段。",
       "keyPoints": [
         "浙江308MW海上风电项目核准调整",
         "项目位于浙江省",
-        "调整内容未具体说明"
+        "调整内容涉及核准文件"
       ],
-      "engineeringImpact": "项目核准调整可能影响风机选型、基础设计及施工计划，对供应链的交付节奏和工程验证提出新要求。",
+      "engineeringImpact": "项目核准调整可能影响建设进度和投资计划，对已签约设备供应商和施工单位有直接关联，需关注调整后的具体方案。",
       "tags": [
         "国内"
       ],
@@ -2082,7 +2095,7 @@
         "capacity": "308MW",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "可能影响设备交付和工程计划",
+        "supplyChainImpact": "可能影响设备交付和施工计划",
         "verificationStatus": "未提及",
         "quantitativeFacts": [
           "容量308MW"
@@ -2095,8 +2108,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30882.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T02:56:58.169Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "publishedAt": "2026-07-27T03:05:02.473Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2122,13 +2135,13 @@
         ]
       },
       "titleZh": "中广核葫芦岛80万千瓦海上风电项目公示",
-      "summary": "该资料报道了中广核在葫芦岛的一个80万千瓦（800MW）海上风电项目公示的消息，属于行业动态。资料未提供具体技术细节、试验数据或结论，仅作为项目进展信息。证据层级为新闻报道，结论边界限于项目公示阶段。",
+      "summary": "该资料报道了中广核在葫芦岛的一个80万千瓦海上风电项目公示的消息，属于行业动态新闻。内容涉及项目公示，未提供具体技术细节或试验数据。证据层级为新闻报道，结论边界限于项目公示阶段。",
       "keyPoints": [
-        "中广核葫芦岛800MW海上风电项目公示",
+        "中广核葫芦岛80万千瓦海上风电项目公示",
         "项目位于葫芦岛",
         "项目容量为80万千瓦"
       ],
-      "engineeringImpact": "该项目的公示将推动当地海上风电产业链发展，对风机大型化、抗腐蚀设计及运维策略提出需求，同时影响区域电网规划。",
+      "engineeringImpact": "项目公示意味着进入公众参与和审批阶段，对当地风电产业链有潜在带动作用，需关注后续环评及建设进展。",
       "tags": [
         "国内"
       ],
@@ -2151,7 +2164,7 @@
         "capacity": "800MW",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "带动风电设备及运维需求",
+        "supplyChainImpact": "潜在带动当地风电设备及服务需求",
         "verificationStatus": "未提及",
         "quantitativeFacts": [
           "容量80万千瓦"
@@ -2164,8 +2177,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30863.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T02:56:58.169Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "publishedAt": "2026-07-27T03:05:02.473Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2191,13 +2204,13 @@
         ]
       },
       "titleZh": "26台12.5MW机组！江苏华电325MW海上风电项目公示",
-      "summary": "该资料报道了江苏华电325MW海上风电项目的公示信息，主要内容为项目将安装26台12.5MW风电机组。资料来源于每日风电，属于行业动态新闻，未提供具体试验数据或技术细节。",
+      "summary": "该资料报道了江苏华电325MW海上风电项目的公示信息，主要内容包括项目采用26台12.5MW机组，总容量325MW。资料来源于每日风电，属于行业动态新闻，未提供具体试验数据或技术细节。",
       "keyPoints": [
         "项目总容量325MW",
         "采用26台12.5MW机组",
         "项目处于公示阶段"
       ],
-      "engineeringImpact": "该项目的公示表明海上风电大型化趋势持续，12.5MW机组的批量应用将推动大容量机组的设计、安装和运维技术发展，对供应链提出更高要求。",
+      "engineeringImpact": "该项目的公示表明海上风电大型化趋势，12.5MW机组的应用对风机设计、安装及运维提出更高要求，需关注大容量机组的结构可靠性、基础设计及并网技术。",
       "tags": [
         "国内"
       ],
@@ -2218,7 +2231,7 @@
         "capacity": "325MW",
         "investment": "",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "大容量机组需求增加，可能带动相关零部件供应链升级",
+        "supplyChainImpact": "",
         "verificationStatus": "公示阶段",
         "quantitativeFacts": [
           "26台12.5MW机组",
@@ -2233,7 +2246,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2259,13 +2272,13 @@
         ]
       },
       "titleZh": "国能龙源射阳海上风电一期工程迎来双里程碑",
-      "summary": "该资料报道了国能龙源射阳海上风电一期工程的双里程碑进展，具体内容未提供，但表明项目取得重要阶段性成果。资料来源于北极星风力发电网，属于行业动态新闻。",
+      "summary": "该资料报道国能龙源射阳海上风电一期工程实现双里程碑，具体内容未提供详细技术信息，属于行业动态新闻。",
       "keyPoints": [
         "项目为射阳海上风电一期工程",
         "实现双里程碑",
         "涉及国能龙源公司"
       ],
-      "engineeringImpact": "双里程碑的达成意味着项目在建设或运营上取得关键进展，可能涉及风机安装、并网或发电量突破，为后续海上风电项目提供经验参考。",
+      "engineeringImpact": "双里程碑的达成可能包括风机安装或并网等关键节点，对后续海上风电项目进度管理具有参考意义，需关注施工工艺和项目管理经验。",
       "tags": [
         "国内"
       ],
@@ -2287,7 +2300,7 @@
         "investment": "",
         "timeline": "2026-07-27",
         "supplyChainImpact": "",
-        "verificationStatus": "已实现",
+        "verificationStatus": "已达成",
         "quantitativeFacts": []
       }
     },
@@ -2298,7 +2311,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2324,13 +2337,13 @@
         ]
       },
       "titleZh": "广东10.3GW海上风电启动竞配！",
-      "summary": "该资料报道了广东省启动10.3GW海上风电项目竞争配置的消息，表明大规模海上风电开发计划进入实施阶段。资料来源于北极星风力发电网，属于行业政策动态。",
+      "summary": "该资料报道广东省启动10.3GW海上风电项目竞争配置，属于行业政策动态，未提供具体技术细节。",
       "keyPoints": [
-        "竞配总容量10.3GW",
-        "地点为广东",
-        "启动竞配意味着项目进入开发阶段"
+        "广东启动10.3GW海上风电竞配",
+        "涉及大规模海上风电开发",
+        "属于政策类信息"
       ],
-      "engineeringImpact": "10.3GW的大规模竞配将推动海上风电产业链快速发展，对风机大型化、施工安装、运维技术提出更高要求，同时促进成本下降和技术创新。",
+      "engineeringImpact": "大规模竞配将推动海上风电产业链发展，对风机选型、基础设计、施工装备及运维策略提出更高要求，需关注成本控制和技术创新。",
       "tags": [
         "国内"
       ],
@@ -2343,13 +2356,13 @@
         "limitations": []
       },
       "industryDetails": {
-        "eventType": "竞配启动",
+        "eventType": "项目竞配",
         "companies": [],
         "location": "广东",
         "capacity": "10.3GW",
         "investment": "",
         "timeline": "2026-07-14",
-        "supplyChainImpact": "大规模开发将带动风电设备、安装船、运维服务等全产业链需求",
+        "supplyChainImpact": "",
         "verificationStatus": "启动阶段",
         "quantitativeFacts": [
           "10.3GW"
@@ -2362,8 +2375,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30960.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T02:56:58.169Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "publishedAt": "2026-07-27T03:05:02.473Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2389,13 +2402,13 @@
         ]
       },
       "titleZh": "重磅！《可再生能源发展“十五五”规划》印发：风光装机28亿千瓦+，海上风电新增开工1亿千瓦！",
-      "summary": "该资料报道了《可再生能源发展“十五五”规划》的印发内容，提出风光总装机目标超过28亿千瓦，其中海上风电新增开工1亿千瓦。资料来源于每日风电，属于行业政策动态报道，未提供具体试验数据或量化结论的详细来源。",
+      "summary": "该资料报道了《可再生能源发展“十五五”规划》的印发内容，提出风光总装机目标超过28亿千瓦，海上风电新增开工1亿千瓦。属于政策规划类信息，未提供具体试验数据或量化结论。",
       "keyPoints": [
-        "规划提出风光总装机目标28亿千瓦以上",
-        "海上风电新增开工目标1亿千瓦",
-        "规划名称为《可再生能源发展“十五五”规划》"
+        "规划提出风光总装机目标超过28亿千瓦",
+        "海上风电新增开工目标为1亿千瓦",
+        "资料来源于每日风电报道"
       ],
-      "engineeringImpact": "该规划为风电行业设定了明确的装机目标，指导未来五年海上风电的规模化开发，对风电机组设计、海上施工、运维及供应链布局具有战略导向意义。",
+      "engineeringImpact": "该规划为风电行业设定了明确的装机目标，对设计、制造和运维企业具有战略指导意义，需关注海上风电大规模开发带来的技术挑战和供应链需求。",
       "tags": [
         "国内"
       ],
@@ -2411,10 +2424,10 @@
         "eventType": "政策发布",
         "companies": [],
         "location": "中国",
-        "capacity": "风光总装机28亿千瓦以上，海上风电新增开工1亿千瓦",
+        "capacity": "风光总装机28亿千瓦+，海上风电新增开工1亿千瓦",
         "investment": "",
         "timeline": "十五五期间",
-        "supplyChainImpact": "推动海上风电产业链扩张",
+        "supplyChainImpact": "海上风电大规模开发将带动相关产业链需求",
         "verificationStatus": "规划已印发",
         "quantitativeFacts": [
           "风光总装机目标28亿千瓦+",
@@ -2428,8 +2441,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30057.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T02:56:58.169Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "publishedAt": "2026-07-27T03:05:02.473Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2457,11 +2470,11 @@
       "titleZh": "2025中国山东国际风能技术及海上风电装备展览会暨发展论坛",
       "summary": "该资料报道了2025年在山东举办的国际风能技术及海上风电装备展览会暨发展论坛，属于行业展会信息，未提供具体技术内容或数据。",
       "keyPoints": [
-        "展会名称为2025中国山东国际风能技术及海上风电装备展览会",
-        "举办地点为山东",
-        "包含发展论坛"
+        "展会名称为2025中国山东国际风能技术及海上风电装备展览会暨发展论坛",
+        "地点在山东",
+        "时间为2025年"
       ],
-      "engineeringImpact": "展会为风电技术交流与装备展示提供平台，有助于促进海上风电技术创新和产业链合作。",
+      "engineeringImpact": "此类展会有助于技术交流与供应链对接，但本资料未提供具体工程启示。",
       "tags": [
         "国内"
       ],
@@ -2491,8 +2504,8 @@
       "sourceUrl": "http://www.chinawindnews.com/30935.html",
       "snippet": "",
       "source": "每日风电",
-      "publishedAt": "2026-07-27T02:56:58.169Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "publishedAt": "2026-07-27T03:05:02.473Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "每日风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2518,13 +2531,13 @@
         ]
       },
       "titleZh": "4765米！中广核海拔最高的风电项目完成首台风机吊装",
-      "summary": "该资料报道了中广核在海拔4765米处完成首台风机吊装，这是其海拔最高的风电项目。资料来源于每日风电，属于项目进展动态，未提供具体技术细节或数据。",
+      "summary": "该资料报道中广核在海拔4765米处完成首台风机吊装，为目前海拔最高的风电项目。属于工程进展信息，未提供具体技术细节或数据。",
       "keyPoints": [
         "项目海拔4765米",
         "完成首台风机吊装",
-        "项目方为中广核"
+        "业主为中广核"
       ],
-      "engineeringImpact": "高海拔风电项目对风机设计、运输、吊装及运维提出特殊要求，该案例为高海拔风电开发提供了工程经验。",
+      "engineeringImpact": "高海拔风电项目对风机设计、运输和施工提出特殊要求，需关注低空气密度、低温等环境适应性。",
       "tags": [
         "国内"
       ],
@@ -2541,12 +2554,12 @@
         "companies": [
           "中广核"
         ],
-        "location": "未提及",
+        "location": "海拔4765米",
         "capacity": "",
         "investment": "",
-        "timeline": "未提及",
+        "timeline": "",
         "supplyChainImpact": "",
-        "verificationStatus": "首台风机吊装完成",
+        "verificationStatus": "首台风机已吊装完成",
         "quantitativeFacts": [
           "海拔4765米"
         ]
@@ -2559,7 +2572,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2585,12 +2598,13 @@
         ]
       },
       "titleZh": "99家 2026年度河北省零碳工厂建设名单公示！",
-      "summary": "该资料报道了河北省公示2026年度零碳工厂建设名单，涉及99家企业。内容主要基于官方公示信息，属于政策与行业动态，未提供具体技术细节或数据。",
+      "summary": "该资料报道了河北省公示2026年度零碳工厂建设名单，涉及99家企业。内容仅公示名单，未提供具体建设标准、技术路径或量化指标。证据层级为官方公示，结论边界限于名单本身。",
       "keyPoints": [
         "河北省公示2026年度零碳工厂建设名单",
-        "名单包含99家企业"
+        "名单包含99家企业",
+        "未提及具体零碳技术或量化目标"
       ],
-      "engineeringImpact": "该名单公示对风电装备供应链有间接影响，零碳工厂建设可能增加对清洁能源的需求，促进风电项目开发。",
+      "engineeringImpact": "对风电装备供应商而言，零碳工厂建设可能增加对清洁能源（如风电）的需求，但本资料未提供具体技术或采购信息，工程启示有限。",
       "tags": [
         "国内"
       ],
@@ -2600,16 +2614,20 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供具体建设标准或技术细节"
+        ]
       },
       "industryDetails": {
         "eventType": "政策公示",
-        "companies": [],
+        "companies": [
+          "未提及"
+        ],
         "location": "河北省",
-        "capacity": "",
-        "investment": "",
+        "capacity": "未提及",
+        "investment": "未提及",
         "timeline": "2026年度",
-        "supplyChainImpact": "可能促进风电需求",
+        "supplyChainImpact": "未提及",
         "verificationStatus": "公示阶段",
         "quantitativeFacts": [
           "99家"
@@ -2623,7 +2641,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2649,12 +2667,13 @@
         ]
       },
       "titleZh": "宁夏100万千瓦风电项目启动竞配！",
-      "summary": "该资料报道宁夏启动100万千瓦风电项目竞争性配置，属于风电项目开发动态。内容基于官方公告，未提供具体技术参数或竞配结果。",
+      "summary": "该资料报道宁夏启动100万千瓦风电项目竞争性配置。内容仅提及项目规模和竞配启动，未涉及具体技术参数、中标企业或建设时间表。证据层级为官方公告，结论边界限于竞配启动信息。",
       "keyPoints": [
         "宁夏启动100万千瓦风电项目竞配",
-        "项目容量为100万千瓦"
+        "项目规模为100万千瓦",
+        "未提及具体技术或企业信息"
       ],
-      "engineeringImpact": "该竞配将推动风电项目开发，对风机设备需求、电网接入及运维服务产生直接拉动作用。",
+      "engineeringImpact": "对风电设备制造商而言，该竞配可能带来订单机会，但本资料未提供机型、塔筒高度等工程细节，需关注后续招标文件。",
       "tags": [
         "国内"
       ],
@@ -2664,17 +2683,21 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供技术参数或时间表"
+        ]
       },
       "industryDetails": {
         "eventType": "项目竞配",
-        "companies": [],
+        "companies": [
+          "未提及"
+        ],
         "location": "宁夏",
         "capacity": "100万千瓦",
-        "investment": "",
-        "timeline": "2026年启动",
-        "supplyChainImpact": "拉动风机设备需求",
-        "verificationStatus": "启动阶段",
+        "investment": "未提及",
+        "timeline": "未提及",
+        "supplyChainImpact": "未提及",
+        "verificationStatus": "竞配启动",
         "quantitativeFacts": [
           "100万千瓦"
         ]
@@ -2687,7 +2710,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2713,12 +2736,13 @@
         ]
       },
       "titleZh": "含浮空风电，中广核2300MW风电项目机组招标！",
-      "summary": "该资料报道中广核启动2300MW风电项目机组招标，包含浮空风电技术。内容基于招标公告，未提供具体技术规格或中标信息。",
+      "summary": "该资料报道中广核启动2300MW风电项目机组招标，包含浮空风电技术。内容仅提及招标规模和包含浮空风电，未提供具体机型、投标要求或技术指标。证据层级为招标公告，结论边界限于招标信息。",
       "keyPoints": [
         "中广核2300MW风电项目机组招标",
-        "项目包含浮空风电技术"
+        "项目包含浮空风电技术",
+        "未提及具体机型或技术参数"
       ],
-      "engineeringImpact": "浮空风电技术招标表明新型风电技术进入工程化阶段，对高空风能开发、系留系统及材料提出新要求。",
+      "engineeringImpact": "浮空风电技术纳入招标，可能推动高空风电发展，对传统塔筒、叶片设计提出新挑战，但本资料未提供技术细节，需关注招标文件。",
       "tags": [
         "国内"
       ],
@@ -2728,18 +2752,20 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提供技术参数或投标要求"
+        ]
       },
       "industryDetails": {
         "eventType": "机组招标",
         "companies": [
           "中广核"
         ],
-        "location": "",
+        "location": "未提及",
         "capacity": "2300MW",
-        "investment": "",
-        "timeline": "2026年",
-        "supplyChainImpact": "推动浮空风电供应链发展",
+        "investment": "未提及",
+        "timeline": "未提及",
+        "supplyChainImpact": "未提及",
         "verificationStatus": "招标阶段",
         "quantitativeFacts": [
           "2300MW"
@@ -2753,7 +2779,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2779,13 +2805,13 @@
         ]
       },
       "titleZh": "河北承德启动550MW风电项目投资主体优选",
-      "summary": "河北承德市启动550MW风电项目投资主体优选工作，旨在通过公开竞争选择投资方，推动当地风电资源开发。项目规模明确，但具体选址、建设周期及投资金额未披露。该信息来源于北极星风力发电网，属于行业动态报道，未提供详细技术参数或验证数据。",
+      "summary": "河北承德市启动550MW风电项目投资主体优选工作，旨在通过公开竞争选择投资方，推动当地风电资源开发。该消息来源于北极星风力发电网，发布于2026年7月27日。资料仅报道了项目启动和容量信息，未涉及具体技术细节或实施进展。",
       "keyPoints": [
-        "项目总容量为550MW",
-        "位于河北省承德市",
-        "采用投资主体优选方式"
+        "项目容量为550MW",
+        "位于河北承德",
+        "进行投资主体优选"
       ],
-      "engineeringImpact": "该项目的启动将带动风电设备需求，对风机供应商、施工企业及运维服务商产生直接工程需求，但具体技术路线和机型尚未明确。",
+      "engineeringImpact": "该项目的启动将带动风电设备需求，对风机、塔筒、叶片等供应链产生拉动作用，同时促进当地风电运维市场发展。",
       "tags": [
         "国内"
       ],
@@ -2795,14 +2821,16 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提及"
+        ]
       },
       "industryDetails": {
         "eventType": "项目启动",
         "companies": [],
         "location": "河北承德",
         "capacity": "550MW",
-        "investment": "",
+        "investment": "未提及",
         "timeline": "2026-07-27",
         "supplyChainImpact": "带动风电设备需求",
         "verificationStatus": "未提及",
@@ -2818,7 +2846,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2844,13 +2872,13 @@
         ]
       },
       "titleZh": "晨丰科技豪掷11.8亿加码风电！",
-      "summary": "晨丰科技宣布投资11.8亿元加码风电业务，具体投资方向、项目内容及预期收益未详细说明。该消息来自北极星风力发电网，属于企业投资动态，缺乏技术细节和验证数据。",
+      "summary": "晨丰科技宣布投资11.8亿元加码风电业务，具体投向未详细说明。该消息来源于北极星风力发电网，发布于2026年7月27日。资料仅报道了投资金额，未涉及技术细节或项目具体内容。",
       "keyPoints": [
         "投资金额11.8亿元",
         "投资方为晨丰科技",
-        "涉及风电领域"
+        "加码风电业务"
       ],
-      "engineeringImpact": "大额投资可能用于风电设备制造、风电场开发或技术研发，对供应链和工程服务有潜在需求，但具体影响取决于投资用途。",
+      "engineeringImpact": "该投资可能用于风电设备制造或项目开发，对风电供应链的产能扩张和技术升级有积极影响。",
       "tags": [
         "国内"
       ],
@@ -2860,18 +2888,20 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提及"
+        ]
       },
       "industryDetails": {
-        "eventType": "企业投资",
+        "eventType": "投资公告",
         "companies": [
           "晨丰科技"
         ],
-        "location": "",
-        "capacity": "",
+        "location": "未提及",
+        "capacity": "未提及",
         "investment": "11.8亿元",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "潜在设备需求",
+        "supplyChainImpact": "可能促进风电设备制造产能",
         "verificationStatus": "未提及",
         "quantitativeFacts": [
           "投资金额11.8亿元"
@@ -2885,7 +2915,7 @@
       "snippet": "",
       "source": "北极星风力发电网",
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-07-27T02:56:58.169Z",
+      "collectedAt": "2026-07-27T03:05:02.473Z",
       "sourceChannel": "北极星风电/风电动态",
       "linkType": "publisher",
       "region": "国内",
@@ -2911,13 +2941,13 @@
         ]
       },
       "titleZh": "大金重工自建风电运输船交付",
-      "summary": "大金重工自建的风电运输船完成交付，该船专用于风电设备运输，可提升海上风电物流效率。交付时间、船舶规格及运载能力未详细披露。来源为北极星风力发电网，属于企业动态。",
+      "summary": "大金重工自建的风电运输船完成交付，用于风电设备运输。该消息来源于北极星风力发电网，发布于2026年7月27日。资料仅报道了交付事件，未涉及船舶规格或技术参数。",
       "keyPoints": [
         "运输船由大金重工自建",
         "用于风电设备运输",
         "已完成交付"
       ],
-      "engineeringImpact": "自建运输船可降低海上风电项目物流成本，提高运输可靠性，对海上风电工程供应链具有积极意义。",
+      "engineeringImpact": "自建运输船可降低风电设备物流成本，提升供应链效率，对海上风电项目尤其重要。",
       "tags": [
         "国内"
       ],
@@ -2927,18 +2957,20 @@
         "testObject": "未提及",
         "operatingConditions": "未提及",
         "quantitativeFindings": [],
-        "limitations": []
+        "limitations": [
+          "未提及"
+        ]
       },
       "industryDetails": {
-        "eventType": "船舶交付",
+        "eventType": "交付",
         "companies": [
           "大金重工"
         ],
-        "location": "",
-        "capacity": "",
-        "investment": "",
+        "location": "未提及",
+        "capacity": "未提及",
+        "investment": "未提及",
         "timeline": "2026-07-27",
-        "supplyChainImpact": "降低物流成本",
+        "supplyChainImpact": "降低物流成本，提升供应链效率",
         "verificationStatus": "未提及",
         "quantitativeFacts": []
       }
