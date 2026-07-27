@@ -98,6 +98,35 @@ async function fetchGoogleNews(query, label) {
   } catch(e) { console.warn("GoogleNews " + label + ": " + e.message); return []; }
 }
 
+async function fetchGoogleNewsCN(query, label) {
+  try {
+    const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query) + "&hl=zh-CN&gl=CN&ceid=CN:zh-Hans";
+    const r = await proxyFetch(url);
+    if (!r.ok) return [];
+    const text = await r.text();
+    const data = xmlParser.parse(text);
+    let items = (data?.rss?.channel?.item) || [];
+    if (!Array.isArray(items)) items = [items];
+    return items.map(item => ({
+      title: cleanText(String(item.title || "")),
+      url: String(item.link || ""),
+      sourceUrl: String(item.link || ""),
+      snippet: cleanText(String(item.description || "")).slice(0, 2000),
+      source: cleanText(String(
+        (typeof item.source === "object" && item.source !== null
+          ? (item.source._ || item.source["#text"] || item.source.$text || JSON.stringify(item.source))
+          : item.source)
+        || "Google News"
+      )),
+      publishedAt: new Date(item.pubDate || Date.now()).toISOString(),
+      collectedAt: now.toISOString(),
+      sourceChannel: "GoogleNewsCN/" + label,
+      linkType: "publisher", region: "国内", language: "zh",
+      sourceType: "行业资讯", queryTopic: label, contextTags: [label]
+    })).filter(a => a.title && a.url);
+  } catch(e) { console.warn("GoogleNewsCN " + label + ": " + e.message); return []; }
+}
+
 async function fetchJournalRSS(feedUrl, journalName, topicLabel) {
   try {
     const text = await fetchText(feedUrl);
@@ -134,7 +163,7 @@ async function fetchJournalRSS(feedUrl, journalName, topicLabel) {
 async function fetchOpenAlex(query, label, region) {
   const key = openalexKey;
   const encoded = encodeURIComponent(query);
-  const url = "https://api.openalex.org/works?search=" + encoded + "&filter=from_publication_date:2026-01-01,type:article&sort=publication_date:desc&per_page=10";
+  const url = "https://api.openalex.org/works?search=" + encoded + "&filter=from_publication_date:2026-01-01,type:article&sort=publication_date:desc&per_page=15";
   try {
     const response = await fetch(url, { headers: { "User-Agent": "mailto:mech-intel@example.com", Authorization: "Bearer " + key } });
     if (!response.ok) throw new Error(response.status + " " + response.statusText);
@@ -223,6 +252,11 @@ const sources = [
   { id: "gn-test2", fn: () => fetchGoogleNews('(bolt OR fastener OR flange) ("tensile test" OR "hardness test" OR "material test" OR "mechanical properties")', "风电试验") },
   { id: "gn-bolt", fn: () => fetchGoogleNews('(bolt OR fastener OR flange) ("wind turbine" OR offshore OR tower OR turbine)', "风电螺栓") },
   { id: "gn-bolt2", fn: () => fetchGoogleNews('(bolt OR fastener) (fatigue OR preload OR tightening OR "bolted connection" OR "high strength")', "风电螺栓") },
+
+  { id: "gn-test-cn", fn: () => fetchGoogleNewsCN("风电 试验 OR 测试 OR 检测 OR 监测", "风电试验") },
+  { id: "gn-bolt-cn", fn: () => fetchGoogleNewsCN("风电 螺栓 OR 紧固件 OR 法兰 OR 预紧力", "风电螺栓") },
+  { id: "gn-metal-cn", fn: () => fetchGoogleNewsCN("风电 金属材料 OR 钢材 OR 合金 OR 疲劳 OR 腐蚀", "金属材料") },
+  { id: "gn-noise-cn", fn: () => fetchGoogleNewsCN("风电 噪声 OR 降噪 OR 振动 OR 声学", "风机噪声") },
 
   { id: "gn-wind", fn: () => fetchGoogleNews('"wind turbine" OR "wind power" OR "wind energy" OR "offshore wind"', "industry") },  // arXiv preprints
   { id: "arxiv-wind", fn: () => fetchArXiv('all:"wind turbine" AND (all:material OR all:steel OR all:corrosion OR all:fatigue)', "金属材料") },

@@ -74,26 +74,38 @@
     {
       "id": "test-materials",
       "label": "风电试验",
-      "query": "\"wind turbine\" (\"tensile test\" OR \"hardness test\" OR \"impact test\" OR \"fatigue test\" OR \"mechanical testing\" OR \"material characterization\" OR \"NDT\" OR \"nondestructive\") (steel OR alloy OR composite OR weld)",
+      "query": "\"wind turbine\" (\"tensile test\" OR \"hardness test\" OR \"fatigue test\" OR \"mechanical testing\" OR \"material test\" OR NDT OR nondestructive OR \"full-scale test\")",
       "region": "海外"
     },
     {
       "id": "test-shm",
       "label": "风电试验",
-      "query": "\"wind turbine\" (\"structural health\" OR inspection OR monitoring OR \"field test\" OR \"full-scale test\" OR \"modal test\" OR \"reliability test\")",
+      "query": "\"wind turbine\" (\"structural health\" OR \"condition monitoring\" OR \"field test\" OR \"modal test\" OR \"reliability test\" OR \"load test\" OR \"dynamic test\")",
       "region": "海外"
+    },
+    {
+      "id": "test-cn",
+      "label": "风电试验",
+      "query": "风电 (试验 OR 测试 OR 检测 OR 监测 OR 无损 OR 疲劳试验 OR 载荷试验 OR 模态试验 OR 型式试验)",
+      "region": "国内"
     },
     {
       "id": "bolt-fasten",
       "label": "风电螺栓",
-      "query": "(bolt OR fastener OR flange OR preload OR bolted OR tightening OR \"anti-loosening\") (\"wind turbine\" OR turbine OR tower OR blade OR nacelle)",
+      "query": "(bolt OR fastener OR flange OR preload OR bolted OR tightening) (\"wind turbine\" OR turbine OR tower OR nacelle OR blade OR offshore)",
       "region": "海外"
     },
     {
       "id": "bolt-fatigue",
       "label": "风电螺栓",
-      "query": "(\"bolt fatigue\" OR \"thread failure\" OR \"bolted connection\" OR \"ring flange\") (\"wind turbine\" OR tower OR foundation OR offshore)",
+      "query": "(\"bolt fatigue\" OR \"thread failure\" OR \"bolted connection\" OR \"ring flange\" OR \"high-strength bolt\") (\"wind turbine\" OR tower OR foundation OR offshore OR structural)",
       "region": "海外"
+    },
+    {
+      "id": "bolt-cn",
+      "label": "风电螺栓",
+      "query": "风电 (螺栓 OR 紧固件 OR 法兰 OR 预紧力 OR 高强度螺栓 OR 防松)",
+      "region": "国内"
     }
   ],
   "relevanceKeywords": {
