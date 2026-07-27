@@ -39,37 +39,26 @@ export function isDomainRelevant(article) {
   if (isNoiseArticle(article)) return false;
   if (isLowQualityArticle(article)) return false;
 
-  const windAnchors = [
-    "风电", "风力发电", "风机", "风场", "风电项目", "风电场",
+  // Wind context terms that MUST appear for ANY article to be relevant
+  const windRequired = [
     "wind turbine", "wind power", "wind energy", "wind farm", "offshore wind",
-    "monopile", "offshore structure", "renewable energy", "turbine blade", "turbine tower",
-    "aeroelastic", "offshore foundation", "wind load", "wind tunnel",
-    "叶片", "塔筒", "机组", "齿轮箱", "主轴", "轴承", "变桨"
+    "turbine blade", "turbine tower", "wind load", "wind tunnel",
+    "风电", "风力发电", "风机", "风场", "风电场", "风电项目",
+    "海上风电", "叶片", "塔筒", "机组", "齿轮箱"
   ];
   
-  // OpenAlex articles: pre-filtered by wind-turbine search queries → trust the source
-  const isOaArticle = (article.sourceChannel || "").startsWith("OpenAlex/");
-  if (isOaArticle && article.sourceType === "学术论文") {
-    // Only filter out obvious junk (noise check already done above)
-    return true;
+  const hasWindContext = windRequired.some(k => text.includes(k.toLowerCase()));
+  
+  // News → must pass industry relevance
+  if (article.sourceType === "行业资讯") {
+    return hasWindContext;
   }
   
-  // RSS/journal articles from broad feeds → require wind relevance
+  // Academic papers → MUST have wind context (no exceptions)
   if (article.sourceType === "学术论文" || article.sourceType === "论文") {
-    const windJournals = ["Wind Energy (Wiley)", "Wind (MDPI)", "Wind Energy Science", "IOP JPCS"];
-    const isWindJournal = windJournals.some(j => (article.source || "").includes(j) || (article.sourceChannel || "").includes(j));
-    
-    if (!isWindJournal) {
-      const hasWindContext = windAnchors.some(k => containsKeyword(text, k));
-      if (!hasWindContext) return false;
-    }
+    if (!hasWindContext) return false;
   }
   
-  // News: require industry relevance
-  if (article.queryTopic === "industry" || article.sourceType === "行业资讯") {
-    return windAnchors.some(k => containsKeyword(text, k));
-  }
-
   return true;
 }
 

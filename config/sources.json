@@ -1,108 +1,156 @@
 {
-  "lookbackDays": 7,
-  "maxArticles": 300,
-  "historyMaxArticles": 400,
-  "historyRetentionDays": 730,
-  "minimumRelevanceScore": 2,
-  "weekStart": "2026-07-13",
-  "weekEnd": "2026-07-20",
-  "reliability": {
-    "minimumFeedback": 5,
-    "authorityDomains": {
-      "primary": ["nrel.gov", "energy.gov", "iea.org", "iec.ch", "iso.org", "cas.cn", "cae.cn"],
-      "industry": ["cwea.org.cn", "goldwind.com", "envision-group.com", "vestas.com", "siemensgamesa.com", "gevernova.com"],
-      "media": ["bjx.com.cn", "chinawindnews.com", "windpowermonthly.com"]
-    },
-    "commercialSignals": ["市场规模", "深度分析报告", "market size", "market forecast"],
-    "selfClaimSignals": ["公司表示", "公司称", "宣布", "unveils", "announces"]
-  },
-  "researchQueries": [
-    {
-      "id": "metal-fatigue",
-      "label": "金属材料",
-      "query": "\"wind turbine\" (fatigue OR fracture OR crack OR \"S-N\" OR \"stress intensity\") (steel OR alloy OR weld OR casting OR gear OR bearing)",
-      "region": "海外"
-    },
-    {
-      "id": "metal-corrosion",
-      "label": "金属材料",
-      "query": "\"wind turbine\" (corrosion OR coating OR \"hydrogen embrittlement\" OR microstructure) (steel OR alloy OR tower OR monopile)",
-      "region": "海外"
-    },
-    {
-      "id": "metal-cn",
-      "label": "金属材料",
-      "query": "风电 (钢 OR 合金 OR 疲劳 OR 断裂 OR 腐蚀 OR 齿轮 OR 轴承 OR 焊接)",
-      "region": "国内"
-    },
-    {
-      "id": "noise-aero",
-      "label": "风机噪声",
-      "query": "\"wind turbine\" (noise OR aeroacoustic OR \"sound pressure\" OR \"sound power\" OR \"trailing edge\" OR serration) (blade OR airfoil OR rotor)",
-      "region": "海外"
-    },
-    {
-      "id": "noise-vib",
-      "label": "风机噪声",
-      "query": "\"wind turbine\" (vibration OR \"noise reduction\" OR acoustic OR NVH) (tower OR blade OR gearbox OR drivetrain)",
-      "region": "海外"
-    },
-    {
-      "id": "noise-cn",
-      "label": "风机噪声",
-      "query": "风电 (噪声 OR 气动声学 OR 降噪 OR 振动 OR 声压) (叶片 OR 塔筒 OR 齿轮箱)",
-      "region": "国内"
-    },
-    {
-      "id": "test-field",
-      "label": "风电试验",
-      "query": "\"wind turbine\" (experimental OR \"field test\" OR \"full-scale\" OR \"fatigue test\" OR \"load test\" OR \"modal test\") (blade OR tower OR gearbox OR drivetrain)",
-      "region": "海外"
-    },
-    {
-      "id": "test-shm",
-      "label": "风电试验",
-      "query": "\"wind turbine\" (\"structural health\" OR inspection OR monitoring OR NDT OR \"reliability test\" OR \"condition monitoring\")",
-      "region": "海外"
-    },
-    {
-      "id": "test-cn",
-      "label": "风电试验",
-      "query": "风电 (试验 OR 测试 OR 检测 OR 监测 OR 型式试验 OR 现场测试 OR 出厂试验)",
-      "region": "国内"
-    },
-    {
-      "id": "bolt-fasten",
-      "label": "风电螺栓",
-      "query": "\"wind turbine\" (bolt OR fastener OR flange OR preload OR tension OR bolted OR tightening OR \"anti-loosening\")",
-      "region": "海外"
-    },
-    {
-      "id": "bolt-fatigue",
-      "label": "风电螺栓",
-      "query": "\"wind turbine\" (\"bolt fatigue\" OR \"ring flange\" OR \"bolted connection\" OR \"thread\") (tower OR blade OR foundation)",
-      "region": "海外"
-    },
-    {
-      "id": "bolt-cn",
-      "label": "风电螺栓",
-      "query": "风电 (螺栓 OR 紧固件 OR 法兰 OR 预紧力 OR 连接 OR 防松 OR 高强度螺栓)",
-      "region": "国内"
-    }
-  ],
-  "relevanceKeywords": {
-    "wind turbine": 3, "wind power": 3, "wind energy": 3, "wind farm": 3,
-    "风电": 4, "风机": 3, "风场": 2, "风电场": 2,
-    "fatigue": 4, "fracture": 4, "crack": 3, "steel": 3, "alloy": 3,
-    "疲劳": 4, "断裂": 4, "裂纹": 3, "钢": 2, "合金": 3,
-    "corrosion": 3, "涂层": 2, "焊接": 3, "有限元": 2,
-    "noise": 4, "aeroacoustic": 4, "sound pressure": 3, "vibration": 3,
-    "噪声": 4, "振动": 3, "降噪": 3, "声压": 3,
-    "experimental": 3, "field test": 3, "structural health": 3,
-    "试验": 4, "测试": 3, "检测": 3, "监测": 3,
-    "bolt": 4, "fastener": 4, "flange": 3, "preload": 4,
-    "螺栓": 4, "紧固件": 4, "法兰": 3, "预紧力": 4,
-    "aerodynamic": 3, "blade": 3, "airfoil": 3, "气动": 3, "叶片": 3,
-    "offshore": 3, "海上风电": 4, "项目": 1, "中标": 2, "投产": 2
-  }
+    "lookbackDays":  7,
+    "maxArticles":  300,
+    "historyMaxArticles":  400,
+    "historyRetentionDays":  730,
+    "minimumRelevanceScore":  2,
+    "weekStart":  "2026-07-13",
+    "weekEnd":  "2026-07-20",
+    "reliability":  {
+                        "minimumFeedback":  5,
+                        "authorityDomains":  {
+                                                 "primary":  [
+                                                                 "nrel.gov",
+                                                                 "energy.gov",
+                                                                 "iea.org",
+                                                                 "iec.ch",
+                                                                 "iso.org",
+                                                                 "cas.cn",
+                                                                 "cae.cn"
+                                                             ],
+                                                 "industry":  [
+                                                                  "cwea.org.cn",
+                                                                  "goldwind.com",
+                                                                  "envision-group.com",
+                                                                  "vestas.com",
+                                                                  "siemensgamesa.com",
+                                                                  "gevernova.com"
+                                                              ],
+                                                 "media":  [
+                                                               "bjx.com.cn",
+                                                               "chinawindnews.com",
+                                                               "windpowermonthly.com"
+                                                           ]
+                                             },
+                        "commercialSignals":  [
+                                                  "市场规模",
+                                                  "深度分析报告",
+                                                  "market size",
+                                                  "market forecast"
+                                              ],
+                        "selfClaimSignals":  [
+                                                 "公司表示",
+                                                 "公司称",
+                                                 "宣布",
+                                                 "unveils",
+                                                 "announces"
+                                             ]
+                    },
+    "researchQueries":  [
+                            {
+                                "id":  "metal-fatigue",
+                                "label":  "金属材料",
+                                "query":  "\"wind turbine\" (fatigue OR fracture OR crack OR \"S-N\" OR \"stress intensity\") (steel OR alloy OR weld OR casting OR gear OR bearing)",
+                                "region":  "海外"
+                            },
+                            {
+                                "id":  "metal-corrosion",
+                                "label":  "金属材料",
+                                "query":  "\"wind turbine\" (corrosion OR coating OR \"hydrogen embrittlement\" OR microstructure) (steel OR alloy OR tower OR monopile)",
+                                "region":  "海外"
+                            },
+                            {
+                                "id":  "noise-aero",
+                                "label":  "风机噪声",
+                                "query":  "\"wind turbine\" (noise OR aeroacoustic OR \"sound pressure\" OR \"sound power\" OR \"trailing edge\" OR serration) (blade OR airfoil OR rotor)",
+                                "region":  "海外"
+                            },
+                            {
+                                "id":  "noise-vib",
+                                "label":  "风机噪声",
+                                "query":  "\"wind turbine\" (vibration OR \"noise reduction\" OR acoustic OR NVH) (tower OR blade OR gearbox OR drivetrain)",
+                                "region":  "海外"
+                            },
+                            {
+                                "id":  "test-field",
+                                "label":  "风电试验",
+                                "query":  "\"wind turbine\" (experimental OR \"field test\" OR \"full-scale\" OR \"fatigue test\" OR \"load test\" OR \"modal test\") (blade OR tower OR gearbox OR drivetrain)",
+                                "region":  "海外"
+                            },
+                            {
+                                "id":  "test-shm",
+                                "label":  "风电试验",
+                                "query":  "\"wind turbine\" (\"structural health\" OR inspection OR monitoring OR NDT OR \"reliability test\" OR \"condition monitoring\")",
+                                "region":  "海外"
+                            },
+                            {
+                                "id":  "bolt-fasten",
+                                "label":  "风电螺栓",
+                                "query":  "\"wind turbine\" (bolt OR fastener OR flange OR preload OR tension OR bolted OR tightening OR \"anti-loosening\")",
+                                "region":  "海外"
+                            },
+                            {
+                                "id":  "bolt-fatigue",
+                                "label":  "风电螺栓",
+                                "query":  "\"wind turbine\" (\"bolt fatigue\" OR \"ring flange\" OR \"bolted connection\" OR \"thread\") (tower OR blade OR foundation)",
+                                "region":  "海外"
+                            }
+                        ],
+    "relevanceKeywords":  {
+                              "wind turbine":  3,
+                              "wind power":  3,
+                              "wind energy":  3,
+                              "wind farm":  3,
+                              "风电":  4,
+                              "风机":  3,
+                              "风场":  2,
+                              "风电场":  2,
+                              "fatigue":  4,
+                              "fracture":  4,
+                              "crack":  3,
+                              "steel":  3,
+                              "alloy":  3,
+                              "疲劳":  4,
+                              "断裂":  4,
+                              "裂纹":  3,
+                              "钢":  2,
+                              "合金":  3,
+                              "corrosion":  3,
+                              "涂层":  2,
+                              "焊接":  3,
+                              "有限元":  2,
+                              "noise":  4,
+                              "aeroacoustic":  4,
+                              "sound pressure":  3,
+                              "vibration":  3,
+                              "噪声":  4,
+                              "振动":  3,
+                              "降噪":  3,
+                              "声压":  3,
+                              "experimental":  3,
+                              "field test":  3,
+                              "structural health":  3,
+                              "试验":  4,
+                              "测试":  3,
+                              "检测":  3,
+                              "监测":  3,
+                              "bolt":  4,
+                              "fastener":  4,
+                              "flange":  3,
+                              "preload":  4,
+                              "螺栓":  4,
+                              "紧固件":  4,
+                              "法兰":  3,
+                              "预紧力":  4,
+                              "aerodynamic":  3,
+                              "blade":  3,
+                              "airfoil":  3,
+                              "气动":  3,
+                              "叶片":  3,
+                              "offshore":  3,
+                              "海上风电":  4,
+                              "项目":  1,
+                              "中标":  2,
+                              "投产":  2
+                          }
 }

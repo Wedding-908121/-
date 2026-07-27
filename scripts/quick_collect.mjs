@@ -36,6 +36,63 @@ async function fetchJson(url) {
 
 function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+// Proxy fetch through Clash (127.0.0.1:7890) for Google News etc.
+import { request as httpRequest } from "node:http";
+import { request as httpsRequest } from "node:https";
+function proxyFetch(url, proxyUrl) {
+  proxyUrl = proxyUrl || "http://127.0.0.1:7890";
+  const target = new URL(url);
+  const proxy = new URL(proxyUrl);
+  return new Promise((resolve) => {
+    const req = httpRequest({
+      host: proxy.hostname, port: proxy.port || 7890, method: "CONNECT",
+      path: target.hostname + ":443",
+      headers: { "User-Agent": "Mozilla/5.0" }
+    });
+    req.setTimeout(10000, () => { req.destroy(); resolve({ ok: false, text: () => Promise.resolve("") }); });
+    req.on("connect", (res, socket) => {
+      const opts = {
+        host: target.hostname, path: target.pathname + target.search, method: "GET",
+        socket, agent: false,
+        headers: { Accept: "application/rss+xml,text/xml", "User-Agent": "Mozilla/5.0" }
+      };
+      const hReq = httpsRequest(opts, (hRes) => {
+        let body = ""; hRes.on("data", c => body += c);
+        hRes.on("end", () => resolve({ ok: true, text: () => Promise.resolve(body) }));
+      });
+      hReq.setTimeout(10000, () => { hReq.destroy(); resolve({ ok: false, text: () => Promise.resolve("") }); });
+      hReq.on("error", () => resolve({ ok: false, text: () => Promise.resolve("") }));
+      hReq.end();
+    });
+    req.on("error", () => resolve({ ok: false, text: () => Promise.resolve("") }));
+    req.end();
+  });
+}
+
+async function fetchGoogleNews(query, label) {
+  try {
+    const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query) + "&hl=en-US&gl=US&ceid=US:en";
+    const r = await proxyFetch(url);
+    if (!r.ok) return [];
+    const text = await r.text();
+    const data = xmlParser.parse(text);
+    let items = (data?.rss?.channel?.item) || [];
+    if (!Array.isArray(items)) items = [items];
+    return items.map(item => ({
+      title: cleanText(String(item.title || "")),
+      url: String(item.link || ""),
+      sourceUrl: String(item.link || ""),
+      snippet: cleanText(String(item.description || "")).slice(0, 2000),
+      source: cleanText(String((item.source || {})._ || item.source || "Google News")),
+      publishedAt: new Date(item.pubDate || Date.now()).toISOString(),
+      collectedAt: now.toISOString(),
+      sourceChannel: "GoogleNews/" + label,
+      linkType: "publisher", region: "海外", language: "en",
+      sourceType: "行业资讯", queryTopic: label, contextTags: [label]
+    })).filter(a => a.title && a.url);
+  } catch(e) { console.warn("GoogleNews " + label + ": " + e.message); return []; }
+}
+
 async function fetchJournalRSS(feedUrl, journalName, topicLabel) {
   try {
     const text = await fetchText(feedUrl);
@@ -154,15 +211,15 @@ const sources = [
     } catch(e) { console.warn("每日风电: "+e.message); return []; }
   }},
   
-  { id: "rss-wind-wiley", fn: () => fetchJournalRSS("https://onlinelibrary.wiley.com/action/showFeed?jc=10991824&type=etoc&feed=rss", "Wind Energy (Wiley)", "风电动态") },
+  
+  // Google News for technical categories (via Clash proxy)
+  { id: "gn-metal", fn: () => fetchGoogleNews('"wind turbine" steel OR material OR corrosion OR fatigue OR alloy', "金属材料") },
+  { id: "gn-noise", fn: () => fetchGoogleNews('"wind turbine" noise OR acoustic OR sound OR vibration OR aeroacoustic', "风机噪声") },
+  { id: "gn-test", fn: () => fetchGoogleNews('"wind turbine" testing OR inspection OR monitoring OR "structural health" OR NDT', "风电试验") },
+  { id: "gn-bolt", fn: () => fetchGoogleNews('"wind turbine" bolt OR fastener OR flange OR connection OR tightening', "风电螺栓") },
+{ id: "rss-wind-wiley", fn: () => fetchJournalRSS("https://onlinelibrary.wiley.com/action/showFeed?jc=10991824&type=etoc&feed=rss", "Wind Energy (Wiley)", "风电动态") },
   { id: "rss-wind-mdpi", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/wind", "Wind (MDPI)", "风电动态") },
-  { id: "rss-energies", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/energies", "Energies (MDPI)", "风电动态") },
-  { id: "rss-materials", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/materials", "Materials (MDPI)", "金属材料") },
-  { id: "rss-metals", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/metals", "Metals (MDPI)", "金属材料") },
   { id: "rss-iop", fn: () => fetchJournalRSS("https://iopscience.iop.org/journal/rss/1742-6596", "IOP JPCS", "风电动态") },
-    { id: "rss-corrosion", label: "Corrosion & Materials Degradation", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/cmd", "Corrosion & Materials Degradation (MDPI)", "金属材料") },
-    { id: "rss-acoustics", label: "Acoustics", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/acoustics", "Acoustics (MDPI)", "风机噪声") },
-    { id: "rss-sensors", label: "Sensors", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/sensors", "Sensors (MDPI)", "风电试验") },
 ];
 
 // OpenAlex sources (staggered)
