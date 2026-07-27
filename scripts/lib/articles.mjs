@@ -33,33 +33,45 @@ export function relevanceScore(article, keywordWeights) {
 }
 
 // Domain relevance check for academic papers
-export function isDomainRelevant(article) {
+
+// Strict title filter: title MUST contain wind-related terms
+// Wind-related journal names for additional title matching
+export function isWindTitle(title) {
+  const t = (title || "").toLowerCase();
+  const windTitleTerms = [
+    "wind turbine", "wind power", "wind energy", "wind farm", "offshore wind",
+    "turbine blade", "turbine tower", "wind turbine blade",
+    "floating offshore", "offshore wind turbine",
+    "风电", "风力发电", "风机", "风电场", "海上风电", "叶片", "塔筒", "机组", "风场"
+  ];
+  return windTitleTerms.some(k => t.includes(k.toLowerCase()));
+}export function isDomainRelevant(article) {
   const text = (article.title + " " + article.snippet + " " + (article.tags || []).join(" ")).toLowerCase();
   
   if (isNoiseArticle(article)) return false;
   if (isLowQualityArticle(article)) return false;
 
-  // Wind context terms that MUST appear for ANY article to be relevant
+  // Academic papers → title MUST contain wind terms, OR be from a wind journal
+  if (article.sourceType === "学术论文" || article.sourceType === "论文") {
+    if (isWindTitle(article.title)) return true;
+    // Check if published in a wind-related journal/source
+    const journalSource = ((article.source || "") + " " + (article.sourceChannel || "")).toLowerCase();
+    const windJournalTerms = [
+      "wind energy", "wind engineering", "wind turbine", "offshore wind",
+      "renewable energy", "renewable and sustainable",
+      "wind and structures", "offshore and polar"
+    ];
+    if (windJournalTerms.some(j => journalSource.includes(j))) return true;
+    return false;
+  }
+  
+  // News → must have wind context in title+snippet
   const windRequired = [
     "wind turbine", "wind power", "wind energy", "wind farm", "offshore wind",
-    "turbine blade", "turbine tower", "wind load", "wind tunnel",
-    "风电", "风力发电", "风机", "风场", "风电场", "风电项目",
-    "海上风电", "叶片", "塔筒", "机组", "齿轮箱"
+    "turbine blade", "turbine tower", "wind turbine blade",
+    "风电", "风力发电", "风机", "风电场", "海上风电", "叶片", "塔筒", "机组", "风场"
   ];
-  
-  const hasWindContext = windRequired.some(k => text.includes(k.toLowerCase()));
-  
-  // News → must pass industry relevance
-  if (article.sourceType === "行业资讯") {
-    return hasWindContext;
-  }
-  
-  // Academic papers → MUST have wind context (no exceptions)
-  if (article.sourceType === "学术论文" || article.sourceType === "论文") {
-    if (!hasWindContext) return false;
-  }
-  
-  return true;
+  return windRequired.some(k => text.includes(k.toLowerCase()));
 }
 
 export function isIndustryRelevant(article) {
@@ -160,7 +172,10 @@ export function isNoiseArticle(article) {
 export function inferCategory(article) {
   const text = (article.title + " " + article.snippet + " " + (article.tags || []).join(" ")).toLowerCase();
   
-  // 1. Direct queryTopic mapping (most reliable signal)
+  // 1. News articles → always 风电动态 (industry news, not research)
+  if (article.sourceType === "行业资讯") return "风电动态";
+
+  // 2. Direct queryTopic mapping for research papers only
   const topicMap = {
     "金属材料": "金属材料", "风机噪声": "风机噪声",
     "风电试验": "风电试验", "风电螺栓": "风电螺栓",
@@ -170,8 +185,7 @@ export function inferCategory(article) {
     return topicMap[article.queryTopic];
   }
   
-  // 2. News → 风电动态
-  if (article.sourceType === "行业资讯") return "风电动态";
+  
   
   // 3. Keyword scoring (fallback)
   let bestCategory = "金属材料";

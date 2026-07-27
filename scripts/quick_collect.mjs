@@ -1,7 +1,7 @@
 // Quick collection test without AI
 import { readFile, writeFile } from "node:fs/promises";
 import { XMLParser } from "fast-xml-parser";
-import { cleanText, isDomainRelevant, relevanceScore, inferCategory, isNoiseArticle, isLowQualityArticle, isIndustryRelevant, deduplicateArticles, makeArticleId, createFallbackSummary, computeReliability } from "./lib/articles.mjs";
+import { cleanText, isDomainRelevant, isWindTitle, relevanceScore, inferCategory, isNoiseArticle, isLowQualityArticle, isIndustryRelevant, deduplicateArticles, makeArticleId, createFallbackSummary, computeReliability } from "./lib/articles.mjs";
 import { resolveAiProvider, summarizeInBatches } from "./lib/ai.mjs";
 import { fileURLToPath } from "node:url";
 
@@ -83,7 +83,12 @@ async function fetchGoogleNews(query, label) {
       url: String(item.link || ""),
       sourceUrl: String(item.link || ""),
       snippet: cleanText(String(item.description || "")).slice(0, 2000),
-      source: cleanText(String((item.source || {})._ || item.source || "Google News")),
+      source: cleanText(String(
+        (typeof item.source === "object" && item.source !== null
+          ? (item.source._ || item.source["#text"] || item.source.$text || JSON.stringify(item.source))
+          : item.source)
+        || "Google News"
+      )),
       publishedAt: new Date(item.pubDate || Date.now()).toISOString(),
       collectedAt: now.toISOString(),
       sourceChannel: "GoogleNews/" + label,
@@ -129,7 +134,7 @@ async function fetchJournalRSS(feedUrl, journalName, topicLabel) {
 async function fetchOpenAlex(query, label, region) {
   const key = openalexKey;
   const encoded = encodeURIComponent(query);
-  const url = "https://api.openalex.org/works?search=" + encoded + "&filter=from_publication_date:2026-01-01,type:article&sort=publication_date:desc&per_page=15";
+  const url = "https://api.openalex.org/works?search=" + encoded + "&filter=from_publication_date:2026-01-01,type:article&sort=publication_date:desc&per_page=5";
   try {
     const response = await fetch(url, { headers: { "User-Agent": "mailto:mech-intel@example.com", Authorization: "Bearer " + key } });
     if (!response.ok) throw new Error(response.status + " " + response.statusText);
@@ -210,18 +215,47 @@ const sources = [
       return items.slice(0, 30);
     } catch(e) { console.warn("每日风电: "+e.message); return []; }
   }},
-  
-  
-  // Google News for technical categories (via Clash proxy)
-  { id: "gn-metal", fn: () => fetchGoogleNews('"wind turbine" steel OR material OR corrosion OR fatigue OR alloy', "金属材料") },
-  { id: "gn-noise", fn: () => fetchGoogleNews('"wind turbine" noise OR acoustic OR sound OR vibration OR aeroacoustic', "风机噪声") },
-  { id: "gn-test", fn: () => fetchGoogleNews('"wind turbine" testing OR inspection OR monitoring OR "structural health" OR NDT', "风电试验") },
-  { id: "gn-bolt", fn: () => fetchGoogleNews('"wind turbine" bolt OR fastener OR flange OR connection OR tightening', "风电螺栓") },
 
-  { id: "gn-wind", fn: () => fetchGoogleNews('"wind turbine" OR "wind power" OR "wind energy" OR "offshore wind"', "industry") },{ id: "rss-wind-wiley", fn: () => fetchJournalRSS("https://onlinelibrary.wiley.com/action/showFeed?jc=10991824&type=etoc&feed=rss", "Wind Energy (Wiley)", "风电动态") },
+// Google News for technical categories (via Clash proxy)
+  { id: "gn-metal", fn: () => fetchGoogleNews('"wind turbine" (steel OR material OR corrosion OR coating OR fatigue)', "金属材料") },
+  { id: "gn-noise", fn: () => fetchGoogleNews('"wind turbine" (noise OR acoustic OR aeroacoustic OR "sound pressure")', "风机噪声") },
+  { id: "gn-test", fn: () => fetchGoogleNews('"wind turbine" (testing OR inspection OR "structural health" OR monitoring OR "field test")', "风电试验") },
+  { id: "gn-bolt", fn: () => fetchGoogleNews('"wind turbine" (bolt OR fastener OR flange OR "bolted connection" OR tightening)', "风电螺栓") },
+
+  { id: "gn-wind", fn: () => fetchGoogleNews('"wind turbine" OR "wind power" OR "wind energy" OR "offshore wind"', "industry") },  // arXiv preprints
+  { id: "arxiv-wind", fn: () => fetchArXiv('all:"wind turbine" AND (all:material OR all:steel OR all:corrosion OR all:fatigue)', "金属材料") },
+  { id: "arxiv-noise", fn: () => fetchArXiv('all:"wind turbine" AND (all:noise OR all:acoustic OR all:aeroacoustic)', "风机噪声") },
+  { id: "arxiv-test", fn: () => fetchArXiv('all:"wind turbine" AND (all:testing OR all:monitoring OR all:inspection OR all:"structural health")', "风电试验") },
+  { id: "arxiv-bolt", fn: () => fetchArXiv('all:"wind turbine" AND (all:bolt OR all:fastener OR all:flange)', "风电螺栓") },
+
+  { id: "rss-wind-wiley", fn: () => fetchJournalRSS("https://onlinelibrary.wiley.com/action/showFeed?jc=10991824&type=etoc&feed=rss", "Wind Energy (Wiley)", "风电动态") },
   { id: "rss-wind-mdpi", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/wind", "Wind (MDPI)", "风电动态") },
   { id: "rss-iop", fn: () => fetchJournalRSS("https://iopscience.iop.org/journal/rss/1742-6596", "IOP JPCS", "风电动态") },
 ];
+
+async function fetchArXiv(query, label) {
+  try {
+    const url = "http://export.arxiv.org/api/query?search_query=" + encodeURIComponent(query) + "&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending";
+    const r = await fetch(url, { headers: { Accept: "application/atom+xml" } });
+    const text = await r.text();
+    const data = xmlParser.parse(text);
+    let entries = (data?.feed?.entry) || [];
+    if (!Array.isArray(entries)) entries = [entries];
+    return entries.map(e => ({
+      title: cleanText(String(e.title || "")),
+      url: String((e.link || [])[0]?.["@href"] || e.id || ""),
+      sourceUrl: String((e.link || [])[0]?.["@href"] || e.id || ""),
+      snippet: cleanText(String(e.summary || "")).slice(0, 2000),
+      source: "arXiv",
+      publishedAt: new Date(e.published || Date.now()).toISOString(),
+      collectedAt: now.toISOString(),
+      sourceChannel: "arXiv/" + label,
+      linkType: "publisher", region: "海外", language: "en",
+      sourceType: "学术论文", queryTopic: label, contextTags: [label]
+    })).filter(a => a.title && a.url);
+  } catch(e) { console.warn("arXiv " + label + ": " + e.message); return []; }
+}
+
 
 // OpenAlex sources (staggered)
 const oaQueries = config.researchQueries || [];
@@ -264,12 +298,18 @@ for (const a of inWindow) {
   if (isNoiseArticle(a)) { continue; }
   if (isLowQualityArticle(a)) { continue; }
   const isTrustedNews = a.sourceType === "行业资讯" && ((a.sourceChannel||"").includes("北极星") || (a.sourceChannel||"").includes("每日风电"));
-    if ((a.queryTopic||"").includes("试验")) {
+  // ALL articles (except trusted news) must pass domain relevance check
+  if (isTrustedNews) {
+    a.relevanceScore = Math.max(a.relevanceScore, 5);
+  } else {
+    if (!isDomainRelevant(a)) continue;
   }
-  if (a.queryTopic === "金属材料" || a.queryTopic === "风机噪声" || a.queryTopic === "风电试验" || a.queryTopic === "风电螺栓") { a.relevanceScore = Math.max(a.relevanceScore, 8); }
-  else if (isTrustedNews) { a.relevanceScore = Math.max(a.relevanceScore, 5); }
-  else if (a.queryTopic === "industry") { if (!isIndustryRelevant(a)) continue; a.relevanceScore += 3; }
-  else { if (!isDomainRelevant(a)) continue; }
+  // Score boost for topic-labeled articles that already passed domain check
+  if (a.queryTopic === "金属材料" || a.queryTopic === "风机噪声" || a.queryTopic === "风电试验" || a.queryTopic === "风电螺栓") {
+    a.relevanceScore = Math.max(a.relevanceScore, 8);
+  } else if (a.queryTopic === "industry") {
+    a.relevanceScore += 3;
+  }
   if (a.relevanceScore < 2) continue;
   filtered.push(a);
 }
@@ -380,7 +420,8 @@ if (aiProvider) {
 } else {
   console.log("No AI provider configured, using fallback summaries");
 }
-
+
+
 } // end skipAi
 
 // Write the output
