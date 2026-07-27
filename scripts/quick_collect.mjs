@@ -16,8 +16,8 @@ const openalexKey = process.env.OPENALEX_API_KEY || _apiKeys.openalex?.apiKey ||
 const deepseekKey = process.env.DEEPSEEK_API_KEY || _apiKeys.deepseek?.apiKey || "";
 const config = JSON.parse(await readFile("./config/sources.json", "utf8"));
 const keywords = config.relevanceKeywords || {};
-const periodStart = new Date("2026-07-13T00:00:00.000Z");
-const periodEnd = new Date("2026-07-20T23:59:59.999Z");
+const periodStart = new Date("2026-07-20T00:00:00.000Z");
+const periodEnd = new Date("2026-07-26T23:59:59.999Z");
 const academicStart = new Date("2026-01-01T00:00:00.000Z");
 
 async function fetchText(url) {
@@ -217,7 +217,8 @@ const sources = [
   { id: "gn-noise", fn: () => fetchGoogleNews('"wind turbine" noise OR acoustic OR sound OR vibration OR aeroacoustic', "风机噪声") },
   { id: "gn-test", fn: () => fetchGoogleNews('"wind turbine" testing OR inspection OR monitoring OR "structural health" OR NDT', "风电试验") },
   { id: "gn-bolt", fn: () => fetchGoogleNews('"wind turbine" bolt OR fastener OR flange OR connection OR tightening', "风电螺栓") },
-{ id: "rss-wind-wiley", fn: () => fetchJournalRSS("https://onlinelibrary.wiley.com/action/showFeed?jc=10991824&type=etoc&feed=rss", "Wind Energy (Wiley)", "风电动态") },
+
+  { id: "gn-wind", fn: () => fetchGoogleNews('"wind turbine" OR "wind power" OR "wind energy" OR "offshore wind"', "industry") },{ id: "rss-wind-wiley", fn: () => fetchJournalRSS("https://onlinelibrary.wiley.com/action/showFeed?jc=10991824&type=etoc&feed=rss", "Wind Energy (Wiley)", "风电动态") },
   { id: "rss-wind-mdpi", fn: () => fetchJournalRSS("https://www.mdpi.com/rss/journal/wind", "Wind (MDPI)", "风电动态") },
   { id: "rss-iop", fn: () => fetchJournalRSS("https://iopscience.iop.org/journal/rss/1742-6596", "IOP JPCS", "风电动态") },
 ];
