@@ -41,8 +41,13 @@ export function isDomainRelevant(article) {
   if (isNoiseArticle(article)) return false;
   if (isLowQualityArticle(article)) return false;
 
-  const windAnchors = ["风电", "风力发电", "风机", "风电场", "风电机组", "风电叶片",
-    "wind turbine", "wind power", "wind energy", "wind farm", "offshore wind", "wind turbine blade"];
+  const windAnchors = [
+    "??", "????", "??", "???", "????", "????",
+    "wind turbine", "wind power", "wind energy", "wind farm", "offshore wind", "wind turbine blade",
+    "monopile", "offshore structure", "renewable energy", "turbine blade", "turbine tower",
+    "aeroelastic", "offshore foundation", "wind load", "wind tunnel",
+    "????", "???", "??", "??", "??", "??", "??"
+  ]
   
   if (article.sourceType === '学术论文') {
     const windJournals = ["Wind Energy (Wiley)", "Wind (MDPI)", "Wind Energy Science", "IOP JPCS"];
@@ -56,11 +61,20 @@ export function isDomainRelevant(article) {
       
       if (isRelaxedTopic) {
         // Accept if has wind context OR topic-specific terms
-        const relaxedTerms = ["noise", "acoustic", "aeroacoustic", "sound", "vibration", 
-          "bolt", "fastener", "flange", "connection", "tension", "preload", 
-          "fatigue", "fracture", "crack", "aerodynamic", "blade", "airfoil", "CFD", "wake",
-          "噪声", "声学", "振动", "螺栓", "紧固件", "法兰", "连接", "预紧",
-          "疲劳", "断裂", "裂纹", "气动", "叶片", "翼型"];
+        const relaxedTerms = [
+          "noise", "acoustic", "aeroacoustic", "sound", "vibration", "noise reduction", "sound power",
+          "bolt", "fastener", "flange", "connection", "tension", "preload", "bolted", "tightening",
+          "fatigue", "fracture", "crack", "corrosion", "steel", "alloy", "weld", "casting", "coating", "S-N",
+          "experimental", "field test", "full-scale", "monitoring", "inspection", "structural health", "SHM", "NDT",
+          "aerodynamic", "blade", "airfoil", "CFD", "wake", "turbine", "rotor",
+          "monopile", "offshore", "renewable", "turbine",
+          "??", "??", "??", "??", "??",
+          "??", "???", "??", "??", "??", "??", "??",
+          "??", "??", "??", "??", "?", "??", "??", "??",
+          "??", "??", "??", "??", "???",
+          "??", "??", "??", "??",
+          "??", "???", "??", "??"
+        ]
         if (!hasWindContext && !relaxedTerms.some(k => containsKeyword(text, k))) return false;
       } else {
         // General papers: MUST have wind context
