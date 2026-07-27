@@ -26,7 +26,7 @@ const categoryRules = [
 ];
 
 // Sub-topic tags for academic research classification
-export const researchSubTopics = ["疲劳断裂", "AI动态", "噪声研究", "气动研究", "螺栓研究"];
+export const researchSubTopics = ["金属材料", "风机噪声", "风电试验", "风电螺栓"];
 
 // Relevance scoring
 export function relevanceScore(article, keywordWeights) {
@@ -52,9 +52,7 @@ export function isDomainRelevant(article) {
       const hasWindContext = windAnchors.some(k => containsKeyword(text, k));
       
       // Relaxed topics (noise, bolt, fatigue, aero): accept if topic-relevant
-      const isRelaxedTopic = article.queryTopic === "噪声研究" || article.queryTopic === "风机噪声研究" || article.queryTopic === "噪声" ||
-        article.queryTopic === "螺栓连接研究" || article.queryTopic === "螺栓研究" || article.queryTopic === "螺栓" ||
-        article.queryTopic === "疲劳断裂仿真" || article.queryTopic === "疲劳断裂" || article.queryTopic === "气动布局研究" || article.queryTopic === "气动";
+      const isRelaxedTopic = article.queryTopic === "金属材料" || article.queryTopic === "风机噪声" || article.queryTopic === "风电试验" || article.queryTopic === "风电螺栓";
       
       if (isRelaxedTopic) {
         // Accept if has wind context OR topic-specific terms
@@ -193,9 +191,14 @@ export function inferCategory(article) {
   // Academic papers → "学术研究" (with sub-topic preserved)
   if (article.sourceType === "学术论文" || article.sourceType === "论文") {
     if (matchedResearch) {
-      article._researchTag = matchedResearch;
+      return matchedResearch;
     }
-    return "学术研究";
+    // Fallback: check for wind context keywords
+    const windTerms = ["wind turbine", "风电", "风机"];
+    if (windTerms.some(k => text.includes(k.toLowerCase()))) {
+      return "金属材料";  // default academic category
+    }
+    return "风电动态";
   }
   
   // News/articles: use category rules
