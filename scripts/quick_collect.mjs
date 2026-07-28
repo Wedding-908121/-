@@ -354,9 +354,101 @@ async function fetchCwms() {
   } catch(e) { console.warn("CWMS: " + e.message); return []; }
 }
 
+
+// === 搜狗微信搜索 (Playwright + Edge) ===
+import { chromium } from "playwright";
+var _wechatCookies = null;
+try { _wechatCookies = JSON.parse(await readFile("./config/sogou_cookies.json", "utf8")); } catch { _wechatCookies = null; }
+
+async function fetchWechatArticles(query, label) {
+  let browser = null;
+  try {
+    // Launch Edge (already on user's machine)
+    browser = await chromium.launch({
+      headless: _wechatCookies ? true : false, // headless if we have cookies
+      executablePath: "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+    });
+    const context = await browser.newContext();
+    
+    // Restore cookies if available
+    if (_wechatCookies) {
+      await context.addCookies(_wechatCookies);
+      console.log("  WeChat: using saved cookies");
+    }
+    
+    const page = await context.newPage();
+    const searchUrl = "https://weixin.sogou.com/weixin?type=2&query=" + encodeURIComponent(query) + "&ie=utf8";
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+    
+    // If not headless, wait for user to solve captcha
+    if (!_wechatCookies) {
+      console.log("  WeChat: visible mode - solve captcha in browser, waiting 30s...");
+      await page.waitForTimeout(30000);
+    } else {
+      await page.waitForTimeout(3000);
+    }
+    
+    // Check if captcha page
+    const pageTitle = await page.title();
+    if (pageTitle.includes("搜狗搜索") && !pageTitle.includes("微信")) {
+      console.warn("  WeChat CAPTCHA detected - save cookies from visible mode first");
+      await browser.close();
+      return [];
+    }
+    
+    // Extract articles
+    const articles = await page.evaluate(() => {
+      const results = [];
+      const items = document.querySelectorAll(".news-list li, .news-list2 li, .txt-box");
+      for (const item of items) {
+        const titleEl = item.querySelector("h3 a, a");
+        const title = titleEl?.textContent?.trim() || "";
+        const href = titleEl?.getAttribute("href") || "";
+        const snippet = item.querySelector(".txt-info, .s-p, p")?.textContent?.trim() || "";
+        if (title.length > 10 && href) {
+          results.push({ title, href, snippet });
+        }
+      }
+      return results;
+    });
+    
+    // Save cookies for future headless use
+    if (!_wechatCookies && articles.length > 0) {
+      const cookies = await context.cookies();
+      await writeFile("./config/sogou_cookies.json", JSON.stringify(cookies, null, 2), "utf8");
+      console.log("  WeChat: cookies saved for future runs");
+    }
+    
+    await browser.close();
+    
+    // Convert to standard article format
+    return articles.map(a => ({
+      title: cleanText(a.title),
+      url: "https://weixin.sogou.com" + a.href,
+      sourceUrl: "https://weixin.sogou.com" + a.href,
+      snippet: cleanText(a.snippet).slice(0, 2000),
+      source: "微信公众号",
+      publishedAt: now.toISOString(),
+      collectedAt: now.toISOString(),
+      sourceChannel: "WeChat/" + label,
+      linkType: "publisher", region: "国内", language: "zh",
+      sourceType: "行业资讯", queryTopic: label, contextTags: [label]
+    })).filter(a => a.title && a.url);
+    
+  } catch(e) {
+    console.warn("WeChat " + label + ": " + e.message);
+    if (browser) try { await browser.close(); } catch {}
+    return [];
+  }
+}
+
 // OpenAlex sources (staggered)
 
 // 北极星技术 & 政策栏目
+sources.push({ id: "wechat-test", fn: () => fetchWechatArticles("风电 试验 OR 检测 OR 测试", "风电试验") });
+sources.push({ id: "wechat-bolt", fn: () => fetchWechatArticles("风电 螺栓 OR 紧固件 OR 法兰", "风电螺栓") });
+sources.push({ id: "wechat-noise", fn: () => fetchWechatArticles("风电 噪声 OR 降噪 OR 声学", "风机噪声") });
+sources.push({ id: "wechat-metal", fn: () => fetchWechatArticles("风电 金属材料 OR 钢材 OR 疲劳", "金属材料") });
 sources.push({ id: "bjx-tech", fn: () => fetchBjxSection("/js/", "风电试验") });
 sources.push({ id: "bjx-policy", fn: () => fetchBjxSection("/zc/", "风电试验") });
 // 全国风力发电标准化技术委员会
@@ -390,7 +482,10 @@ for (const a of rawArticles) {
   
   // Standards content: accept within 2026 (evergreen)
   const isStandards = (a.contextTags || []).includes("标准规范");
-  if (isStandards && pubDate.getFullYear() >= 2026) { inWindow.push(a); continue; }if (isAcademic) { if (pubDate >= academicStart) inWindow.push(a); continue; }
+  if (isStandards && pubDate.getFullYear() >= 2026) { inWindow.push(a); continue; }
+  // WeChat articles: accept by source (date extracted from search, use current window)
+  const isWeChat = (a.sourceChannel || "").includes("WeChat");
+  if (isWeChat) { inWindow.push(a); continue; }if (isAcademic) { if (pubDate >= academicStart) inWindow.push(a); continue; }
   if (pubDate >= newsStart && pubDate <= periodEnd) inWindow.push(a);
 }
 console.log("In window: " + inWindow.length);

@@ -18,6 +18,7 @@
   "dependencies": {
     "fast-xml-parser": "^5.10.0",
     "google-news-url-decoder": "^1.2.2",
-    "node-html-parser": "^7.0.1"
+    "node-html-parser": "^7.0.1",
+    "playwright": "^1.62.0"
   }
 }

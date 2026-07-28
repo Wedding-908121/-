@@ -1,0 +1,12 @@
+{
+  "_说明": "手工精选文章。每篇文章只需要 title 和 url，日期可选。采集脚本会自动提取内容、分类、AI摘要。",
+  "_使用方法": "在下面 articles 数组里添加文章，然后运行 npm run collect 即可",
+  "articles": [
+    {
+      "title": "示例：风力发电机组测试方法国家标准发布",
+      "url": "https://mp.weixin.qq.com/s/xxxxxxxxxxxx",
+      "category": "风电试验",
+      "date": "2026-07-25"
+    }
+  ]
+}

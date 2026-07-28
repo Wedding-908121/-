@@ -72,20 +72,33 @@ export function isWindTitle(title) {
   ];
   if (windRequired.some(k => text.includes(k.toLowerCase()))) return true;
   
-  // For bolt category news: allow without strict wind terms if bolt keywords are strong
-  const boltKeywords = ["bolt", "fastener", "flange", "preload", "bolted", "螺栓", "紧固件", "法兰", "预紧力"];
-  const testKeywords = ["tensile test", "hardness test", "mechanical testing", "material test", "ndt", "拉伸试验", "硬度试验", "力学性能", "无损检测"];
-  
-  if ((article.queryTopic === "风电螺栓" || article.contextTags?.includes("风电螺栓")) &&
+  // For WeChat/bolt/test: allow without strict wind terms if topic keywords present
+  const isWeChat = (article.sourceChannel || "").includes("WeChat");
+  const boltKeywords = ["bolt", "fastener", "flange", "preload", "bolted", "??", "???", "??", "???", "??", "?????", "??", "thread"];
+  const testKeywords = ["tensile test", "hardness test", "mechanical testing", "material test", "ndt", "????", "????", "????", "????", "??", "??", "??", "??", "??", "??"];
+  const metalKeywords = ["steel", "alloy", "corrosion", "fatigue", "fracture", "weld", "?", "??", "??", "??", "??", "??", "??"];
+  const noiseKeywords = ["noise", "acoustic", "aeroacoustic", "vibration", "sound", "??", "??", "??", "??", "??"];
+
+  // WeChat: 2 keyword matches (Sogou returns broad results)
+  if (isWeChat) {
+    if ((article.queryTopic === "风电螺栓" || article.contextTags?.includes("风电螺栓")) && boltKeywords.filter(k => text.includes(k.toLowerCase())).length >= 2) return true;
+    if ((article.queryTopic === "风电试验" || article.contextTags?.includes("风电试验")) && testKeywords.filter(k => text.includes(k.toLowerCase())).length >= 2) return true;
+    if ((article.queryTopic === "金属材料" || article.contextTags?.includes("金属材料")) && metalKeywords.filter(k => text.includes(k.toLowerCase())).length >= 2) return true;
+    if ((article.queryTopic === "风机噪声" || article.contextTags?.includes("风机噪声")) && noiseKeywords.filter(k => text.includes(k.toLowerCase())).length >= 2) return true;
+    return false;
+  }
+
+  // Non-WeChat: need 2+ keyword matches
+  if ((article.queryTopic === "????" || article.contextTags?.includes("????")) &&
       boltKeywords.filter(k => text.includes(k.toLowerCase())).length >= 2) {
     return true;
   }
-  if ((article.queryTopic === "风电试验" || article.contextTags?.includes("风电试验")) &&
+  if ((article.queryTopic === "????" || article.contextTags?.includes("????")) &&
       testKeywords.filter(k => text.includes(k.toLowerCase())).length >= 2) {
     return true;
   }
   
-  return false;
+return false;
 }
 export function isIndustryRelevant(article) {
   if (article.queryTopic !== "industry") return false;

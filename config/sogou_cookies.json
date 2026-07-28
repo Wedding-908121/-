@@ -1,0 +1,72 @@
+[
+  {
+    "name": "ABTEST",
+    "value": "0|1785205338|v1",
+    "domain": "weixin.sogou.com",
+    "path": "/",
+    "expires": 1787797337.93527,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SNUID",
+    "value": "6D2A97D8AFA9F81232A02CB8B0FC21AB",
+    "domain": ".sogou.com",
+    "path": "/",
+    "expires": 1816741337.93548,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SUID",
+    "value": "C28527777452A20B000000006A68125A",
+    "domain": ".weixin.sogou.com",
+    "path": "/",
+    "expires": 1819765337.93551,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ABTEST",
+    "value": "0|1785205339|v17",
+    "domain": "www.sogou.com",
+    "path": "/",
+    "expires": 1787797338.364183,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "IPLOC",
+    "value": "CN4302",
+    "domain": ".sogou.com",
+    "path": "/",
+    "expires": 1816741338.364233,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SUID",
+    "value": "C48527772254A20B000000006A68125B",
+    "domain": ".sogou.com",
+    "path": "/",
+    "expires": 1819765338.364251,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SUV",
+    "value": "007A1DE7772785C46A68125CF0A49699",
+    "domain": ".sogou.com",
+    "path": "/",
+    "expires": 1819765339.768757,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]
