@@ -19,7 +19,7 @@ const categoryRules = [
   ["风电动态", ["风电", "风力发电", "风机", "风场", "风电场", "风电项目", "机组", "叶片", "塔筒", "wind turbine", "wind power", "wind energy", "项目", "中标", "投产", "核准", "招标", "海上风电", "offshore", "新能源", "可再生能源"]],
   ["金属材料", ["steel", "alloy", "corrosion", "coating", "fatigue", "fracture", "crack", "weld", "casting", "S-N", "metallur", "microstructure", "钢", "合金", "腐蚀", "疲劳", "断裂", "裂纹", "焊接", "涂层", "有限元", "finite element", "寿命预测", "损伤容限", "金相", "微观组织", "齿轮", "轴承", "高强钢", "不锈钢", "应力腐蚀", "氢脆"]],
   ["风机噪声", ["noise", "aeroacoustic", "sound pressure", "sound power", "acoustic", "vibration", "noise reduction", "serration", "trailing edge", "噪声", "气动声学", "声压", "降噪", "振动", "NVH", "尾缘", "锯齿", "吸声", "隔声"]],
-  ["风电试验", ["experimental", "field test", "full-scale", "reliability test", "fatigue test", "structural health", "inspection", "monitoring", "NDT", "load test", "modal test", "tensile test", "hardness test", "impact test", "试验", "测试", "检测", "监测", "型式试验", "现场测试", "出厂试验", "并网测试", "载荷试验", "模态", "拉伸试验", "硬度试验", "冲击试验", "无损检测", "金相分析", "力学性能"]],
+  ["风电试验", ["experimental", "field test", "full-scale", "reliability test", "fatigue test", "structural health", "inspection", "monitoring", "NDT", "load test", "modal test", "tensile test", "hardness test", "impact test", "试验", "测试", "检测", "监测", "型式试验", "现场测试", "出厂试验", "并网测试", "载荷试验", "模态", "拉伸试验", "硬度试验", "冲击试验", "无损检测", "金相分析", "力学性能", "标准", "征求意见", "认证", "规范", "实证", "验证", "鉴定", "评估", "试验方法", "测试方法", "检测方法", "认证标准", "技术标准", "standard", "certification", "verification", "validation", "qualification"]],
   ["风电螺栓", ["bolt", "fastener", "flange", "preload", "tension", "bolted", "tightening", "anti-loosening", "ring flange", "螺纹", "螺栓", "紧固件", "法兰", "预紧力", "连接", "防松", "扭矩", "垫圈", "高强度螺栓", "nut", "washer", "threaded", "screw", "stud", "螺柱", "螺母", "垫片"]]
 ];
 
@@ -202,23 +202,18 @@ export function inferCategory(article) {
     "风电动态": "风电动态", "industry": "风电动态"
   };
   
-  // If queryTopic is specific and keyword-confirmed, use it
-  if (article.queryTopic && topicMap[article.queryTopic]) {
-    const mapped = topicMap[article.queryTopic];
-    if (mapped === "风电动态" || (scores[mapped] || 0) >= 2) {
-      return mapped;
-    }
-  }
-  
-  // News without strong keyword match → check technical categories first
+  // News articles: classify by keyword strength
+  // If article came from a targeted query, use lower threshold (2 instead of 3)
   if (article.sourceType === "行业资讯") {
+    const topicCat = topicMap[article.queryTopic] || null;
+    const threshold = topicCat ? 2 : 3;
     for (const cat of ["金属材料", "风机噪声", "风电试验", "风电螺栓"]) {
-      if ((scores[cat] || 0) >= 3) return cat;
+      if ((scores[cat] || 0) >= threshold) return cat;
     }
     return "风电动态";
   }
   
-  // Academic papers: queryTopic is reliable
+  // Academic papers: queryTopic is reliable (came from specific search)
   if (article.queryTopic && topicMap[article.queryTopic]) {
     return topicMap[article.queryTopic];
   }

@@ -293,7 +293,74 @@ async function fetchArXiv(query, label) {
 }
 
 
+
+// === 北极星技术/政策栏目爬虫 ===
+async function fetchBjxSection(path, label) {
+  try {
+    const html = await fetchText("https://fd.bjx.com.cn" + path);
+    const matches = [...html.matchAll(/<a[^>]+href="(https:\/\/news\.bjx\.com\.cn\/html\/\d+\/\d+\.shtml)"[^>]+title="([^"]+)"[^>]*>/g)];
+    const seen = new Set();
+    const articles = [];
+    for (const m of matches) {
+      const href = m[1], title = cleanText(m[2]);
+      if (!title || seen.has(href)) continue;
+      seen.add(href);
+      articles.push({
+        title,
+        url: href, sourceUrl: href,
+        snippet: "", source: "北极星风力发电网",
+        publishedAt: now.toISOString(), collectedAt: now.toISOString(),
+        sourceChannel: "北极星/" + label,
+        linkType: "publisher", region: "国内", language: "zh",
+        sourceType: "行业资讯", queryTopic: label, contextTags: [label]
+      });
+    }
+    return articles.slice(0, 30);
+  } catch(e) { console.warn("北极星" + label + ": " + e.message); return []; }
+}
+
+// === 全国风力发电标准化技术委员会爬虫 ===
+async function fetchCwms() {
+  try {
+    const articles = [];
+    // Scan recent IDs (newest first)
+    for (let id = 1010; id >= 950; id--) {
+      try {
+        const html = await fetchText("http://www.cwms.org.cn/index.php?id=" + id);
+        const titleMatch = html.match(/<title>([^<]+)<\/title>/);
+        if (!titleMatch || titleMatch[1].includes("提示信息")) continue;
+        const title = cleanText(titleMatch[1].split(" - ")[0]);
+        // Extract date
+        const dateMatch = html.match(/(d{4}-d{2}-d{2})/);
+        const pubDate = dateMatch ? new Date(dateMatch[1]) : now;
+        // Only 2026 articles
+        if (pubDate.getFullYear() < 2026) continue;
+        
+        articles.push({
+          title,
+          url: "http://www.cwms.org.cn/index.php?id=" + id,
+          sourceUrl: "http://www.cwms.org.cn/index.php?id=" + id,
+          snippet: "", source: "全国风力发电标准化技术委员会",
+          publishedAt: pubDate.toISOString(), collectedAt: now.toISOString(),
+          sourceChannel: "标委会/风电试验",
+          linkType: "publisher", region: "国内", language: "zh",
+          sourceType: "行业资讯", queryTopic: "风电试验", contextTags: ["风电试验", "标准规范"]
+        });
+        if (articles.length >= 10) break;
+      } catch(e) { /* skip invalid IDs */ }
+      await delay(300); // Rate limit
+    }
+    return articles;
+  } catch(e) { console.warn("CWMS: " + e.message); return []; }
+}
+
 // OpenAlex sources (staggered)
+
+// 北极星技术 & 政策栏目
+sources.push({ id: "bjx-tech", fn: () => fetchBjxSection("/js/", "风电试验") });
+sources.push({ id: "bjx-policy", fn: () => fetchBjxSection("/zc/", "风电试验") });
+// 全国风力发电标准化技术委员会
+sources.push({ id: "cwms", fn: () => fetchCwms() });
 const oaQueries = config.researchQueries || [];
 for (let i = 0; i < oaQueries.length; i++) {
   const q = oaQueries[i];
@@ -320,7 +387,10 @@ for (const a of rawArticles) {
   const isAcademic = a.sourceType === "学术论文";
   const isNewsScraper = (a.sourceChannel||"").includes("北极星") || (a.sourceChannel||"").includes("每日风电");
   if (isNewsScraper) { inWindow.push(a); continue; }
-  if (isAcademic) { if (pubDate >= academicStart) inWindow.push(a); continue; }
+  
+  // Standards content: accept within 2026 (evergreen)
+  const isStandards = (a.contextTags || []).includes("标准规范");
+  if (isStandards && pubDate.getFullYear() >= 2026) { inWindow.push(a); continue; }if (isAcademic) { if (pubDate >= academicStart) inWindow.push(a); continue; }
   if (pubDate >= newsStart && pubDate <= periodEnd) inWindow.push(a);
 }
 console.log("In window: " + inWindow.length);
