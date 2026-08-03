@@ -1,4 +1,4 @@
-const CACHE = "mech-intel-v3";
+﻿const CACHE = "mech-intel-v4";
 const PRECACHE = ["/", "/index.html", "/styles.css", "/app.js", "/runtime-config.js", "/vendor/lucide.min.js", "/manifest.webmanifest"];
 
 self.addEventListener("install", e => {
@@ -38,7 +38,8 @@ self.addEventListener("fetch", e => {
           caches.open(CACHE).then(c => c.put(e.request, clone));
         }
         return resp;
-      }).catch(() => cached || new Response("离线"))
+      }).catch(() => cached || new Response("绂荤嚎"))
     )
   );
 });
+
