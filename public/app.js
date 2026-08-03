@@ -160,7 +160,6 @@ async function loadData() {
           state.data = { ...archiveData, collectionStatus: { ...archiveData.collectionStatus, dataMode: "archive" } };
           state.articles = archiveData.articles || [];
           renderAll();
-          document.getElementById("brief-mode").textContent = "历史归档";
         } catch(e) {
           showToast("无法加载历史周报");
         }
@@ -216,17 +215,8 @@ function renderAll() {
 
 function renderHero() {
   const brief = state.data?.weeklyBrief || {};
-  document.getElementById("brief-period").textContent = "本周情报简报";
-  let weekEl = document.getElementById("brief-week-range");
-  if (!weekEl) {
-    weekEl = document.createElement("span");
-    weekEl.id = "brief-week-range";
-    weekEl.className = "brief-week-range";
     const briefPeriod = state.data?.weeklyBrief?.period || "";
-  weekEl.textContent = briefPeriod || "本周情报简报";
-    document.getElementById("brief-period").after(weekEl);
   }
-  document.getElementById("brief-mode").textContent = state.data?.collectionStatus?.dataMode === "live" ? "生产数据" : "";
   document.getElementById("brief-title").innerHTML = "本周汇集 <span class=\"accent\">" + (brief.total||0) + "</span> 条高相关机械共性情报";
   document.getElementById("brief-summary").textContent = "覆盖风电动态、金属材料、风机噪声、风电试验、风电螺栓五个方向" + (brief.period ? "，近" + brief.period : "");
   document.getElementById("metric-total").textContent = brief.total || "--";
