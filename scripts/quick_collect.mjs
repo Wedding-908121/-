@@ -16,8 +16,8 @@ const openalexKey = process.env.OPENALEX_API_KEY || _apiKeys.openalex?.apiKey ||
 const deepseekKey = process.env.DEEPSEEK_API_KEY || _apiKeys.deepseek?.apiKey || "";
 const config = JSON.parse(await readFile("./config/sources.json", "utf8"));
 const keywords = config.relevanceKeywords || {};
-const periodStart = new Date("2026-07-20T00:00:00.000Z");
-const periodEnd = new Date("2026-07-26T23:59:59.999Z");
+const periodStart = new Date("2026-07-27T00:00:00.000Z");
+const periodEnd = new Date("2026-08-02T23:59:59.999Z");
 const academicStart = new Date("2026-01-01T00:00:00.000Z");
 
 async function fetchText(url) {
