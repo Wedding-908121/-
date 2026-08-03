@@ -654,5 +654,33 @@ archiveIndex.sort((a,b) => b.week.localeCompare(a.week));
 await writeFile(new URL("index.json", archiveDir), JSON.stringify(archiveIndex, null, 2), "utf8");
 console.log("Archived to " + weekKey + " (" + archiveIndex.length + " weeks total)");
 
+
+// Preserve manually curated articles (WeChat, etc.) that CI would otherwise overwrite
+const manualSources = ["微信公众号", "孙老师", "徐磊", "失效与测试砖家", "佛山翁开尔", "明诺", "标准图集Xz", "作者：李建敏"];
+try {
+  const existing = JSON.parse(await readFile("./public/data/articles.json", "utf8"));
+  const manualArticles = (existing.articles || []).filter(a => 
+    manualSources.includes(a.source) || (a.sourceChannel && a.sourceChannel.includes("WeChat"))
+  );
+  if (manualArticles.length > 0) {
+    const existingIds = new Set(capped.map(a => a.id));
+    let merged = 0;
+    for (const art of manualArticles) {
+      if (!existingIds.has(art.id)) {
+        capped.push(art);
+        existingIds.add(art.id);
+        merged++;
+      }
+    }
+    console.log("Preserved " + merged + "/" + manualArticles.length + " manual articles");
+    const catCounts = {};
+    capped.forEach(a => { const c = a.category || "???"; catCounts[c] = (catCounts[c] || 0) + 1; });
+    output.weeklyBrief.categories = Object.entries(catCounts).map(([name, count]) => ({ name, count }));
+    output.weeklyBrief.total = capped.length;
+    output.collectionStatus.manualCount = manualArticles.length;
+    output.collectionStatus.autoCount = capped.length - manualArticles.length;
+  }
+} catch (e) { console.warn("Could not preserve manual articles: " + e.message); }
+
 await writeFile("./public/data/articles.json", JSON.stringify(output, null, 2), "utf8");
 console.log("\nWritten to public/data/articles.json");
