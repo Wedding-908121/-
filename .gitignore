@@ -2,7 +2,22 @@
 dist/
 _debug_archive/
 config/api.json
+_pdf_preview/
+
+# Temp debug scripts
+_*.py
+_*.cjs
+_*.json
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Logs
 *.log
 server_out.txt
 server_err.txt
+
+# IDE
+.vscode/
+.idea/
