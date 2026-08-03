@@ -10,10 +10,6 @@ on:
         required: false
         type: boolean
         default: false
-  schedule:
-    # 每周一 08:30（北京时间）= UTC 00:30 Monday
-    - cron: "30 0 * * 1"
-
 permissions:
   contents: write
   pages: write
