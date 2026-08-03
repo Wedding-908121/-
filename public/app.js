@@ -222,11 +222,8 @@ function renderHero() {
     weekEl = document.createElement("span");
     weekEl.id = "brief-week-range";
     weekEl.className = "brief-week-range";
-    const period = state.data?.period || {};
-  const from = (period.from || "").slice(0, 10).replace(/-/g, ".");
-  const to = (period.to || "").slice(0, 10).replace(/-/g, ".");
-  const weekNum = from ? (() => { const d = new Date(period.from); const jan1 = new Date(d.getFullYear(), 0, 1); return Math.ceil(((d - jan1) / 86400000 + jan1.getDay() + 1) / 7); })() : "";
-  weekEl.textContent = from + "-" + to + " 第" + weekNum + "周";
+    const briefPeriod = state.data?.weeklyBrief?.period || "";
+  weekEl.textContent = briefPeriod || "本周情报简报";
     document.getElementById("brief-period").after(weekEl);
   }
   document.getElementById("brief-mode").textContent = state.data?.collectionStatus?.dataMode === "live" ? "生产数据" : "";
