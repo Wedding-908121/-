@@ -23,6 +23,19 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
+  <script>
+    (async function() {
+      try {
+        var r = await fetch('./data/articles.json?t=' + Date.now());
+        var d = await r.json();
+        var v = d.generatedAt || '';
+        var old = localStorage.getItem('_mech_intel_version');
+        if (old && old !== v) { localStorage.setItem('_mech_intel_version', v); location.reload(); }
+        else { localStorage.setItem('_mech_intel_version', v); }
+      } catch(e) {}
+    })();
+  </script>
+
 </head>
 <body>
   <a class="skip-link" href="#article-feed">跳到资料列表</a>
