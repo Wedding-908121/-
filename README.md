@@ -1,14 +1,14 @@
-# 机械共性情报
+﻿# 机械共性部情报中心
 
-面向机械共性部门的每周行业情报 PWA — 覆盖风电装备、疲劳断裂仿真、AI辅助建模、风机噪声与气动布局研究。
+面向机械共性部门的每周行业情报系统 — 覆盖风电动态、金属材料、风机噪声、风电试验、风电螺栓五大方向，支持在线浏览与 PDF 导出。
 
-## 研究方向
+## 主题方向
 
-- **风电行业动态** — 国内外风电项目、整机厂商、供应链进展
-- **疲劳/断裂仿真** — 疲劳寿命预测、裂纹扩展、损伤容限、有限元仿真
-- **AI辅助建模** — 机器学习/深度学习在工程仿真中的应用、数字孪生、代理模型
-- **风机噪声研究** — 气动声学、噪声预测与降噪、NVH
-- **风机气动布局研究** — 叶片设计、翼型优化、CFD分析、气弹耦合
+- **风电动态** — 国内外风电行业新闻、项目进展、政策动态
+- **金属材料** — 风电用钢、特种合金、疲劳性能、材料试验
+- **风机噪声** — 气动噪声、结构噪声、降噪技术、测试标准
+- **风电试验** — 型式试验、疲劳试验、材料力学性能测试
+- **风电螺栓** — 高强度螺栓、预紧力、疲劳寿命、紧固技术
 
 ## 快速开始
 
@@ -16,51 +16,52 @@
 # 安装依赖
 pnpm install
 
-# 本地预览（需要先生成数据或使用演示数据）
+# 本地预览
 node server.mjs
 # 打开 http://localhost:4173
-
-# 采集数据（仅联网检索，不写入文件）
-node scripts/collect.mjs --dry-run
-
-# 正式采集 + AI 摘要（需配置 DeepSeek API Key）
-$env:AI_PROVIDER="deepseek"
-$env:DEEPSEEK_API_KEY="sk-xxx"
-$env:DEEPSEEK_MODEL="deepseek-chat"
-node scripts/collect.mjs
 ```
+
+## 每周更新流程
+
+1. 编辑 `config/manual-urls.txt`，填入新一周的 URL
+2. 运行采集脚本处理数据
+3. 本地验证后生成 PDF 并推送到 GitHub Pages
 
 ## 数据源
 
-| 数据源 | 说明 |
-|--------|------|
-| Bing News | 国内外新闻检索，国内可直连 |
-| OpenAlex | 学术论文开放索引 |
-
-全部数据源在国内均可正常访问，无需翻墙。
+| 数据源 | 类型 | 说明 |
+|--------|------|------|
+| 微信公众号 | 新闻/技术 | 手动采集，覆盖各主题 |
+| 北极星风电 | 新闻 | 国内风电行业龙头媒体 |
+| 每日风电 | 新闻 | 风电行业日更资讯 |
+| Google News | 新闻 | 国际风电动态 |
+| OpenAlex | 论文 | 学术论文开放索引 |
+| arXiv | 论文 | 预印本 |
+| RSSHub | 论文 | RSS 聚合 |
 
 ## 项目结构
 
 ```
-├── config/sources.json      # 数据源配置与关键词
-├── scripts/
-│   ├── collect.mjs          # 采集引擎
-│   ├── build.mjs            # 构建部署包
-│   └── lib/
-│       ├── ai.mjs           # AI 摘要模块
-│       └── articles.mjs     # 文章处理工具
-├── public/
-│   ├── index.html           # PWA 页面
-│   ├── app.js               # 前端交互
-│   ├── styles.css           # 50元人民币配色
-│   └── data/articles.json   # 情报数据文件
+├── config/                  # 数据源、API Key、手动 URL
+├── scripts/                 # 采集、AI摘要、PDF生成
+│   └── lib/                 # AI 模块、文章处理
+├── public/                  # Web 应用
+│   ├── assets/              # 图标
+│   ├── data/                # 情报数据 + 历史周报
+│   ├── vendor/              # 第三方库
+│   ├── index.html           # 主页
+│   ├── report.html          # PDF 报告模板
+│   ├── app.js               # 前端逻辑
+│   └── styles.css           # 人民币50元配色
 ├── server.mjs               # 本地开发服务器
-└── .github/workflows/       # 自动采集部署
+├── start.ps1                # 一键启动
+└── .github/workflows/       # CI 自动部署
 ```
+
+## 配色
+
+绿色基调（50元人民币配色）：主色 `#2E5C2E`，金色点缀 `#C8A45C`。
 
 ## 部署
 
-1. 将项目推送到 GitHub 仓库
-2. 在仓库 Settings → Secrets 中配置 `DEEPSEEK_API_KEY`
-3. 启用 GitHub Pages（Source: GitHub Actions）
-4. 每周一 08:30 自动采集并发布
+GitHub Pages + GitHub Actions 自动部署，推送即更新。

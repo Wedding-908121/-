@@ -1,22 +1,21 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>机械共性部情报中心 · 周报</title>
 <style>
   :root {
-    --red: #c41230;
-    --red-dark: #8b1a2b;
-    --red-deep: #5a0f18;
-    --red-light: #fef5f5;
-    --gold: #d4a843;
-    --bg: #fafafa;
-    --card-bg: #ffffff;
-    --text: #1a1a1a;
-    --text-secondary: #555;
-    --text-muted: #999;
-    --border: #e8e8e8;
+    --primary: #2E5C2E;
+    --primary-dark: #1A3A1A;
+    --primary-light: #4A8A4A;
+    --accent: #C8A45C;
+    --accent-light: #E8D5A8;
+    --bg: #F0F4EE;
+    --surface: #FFFFFF;
+    --text: #1A2E1A;
+    --text-secondary: #5A705A;
+    --text-muted: #8AA38A;
+    --border: #D2DDD0;
   }
 
   @page { size: A4; margin: 0; }
@@ -24,507 +23,227 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
-    background: #f0f0f0;
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    background: #FFFFFF;
     color: var(--text);
-    line-height: 1.7;
+    line-height: 1.8;
     max-width: 210mm;
     margin: 0 auto;
-    font-size: 10.5px;
+    font-size: 10.5pt;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
-  /* ===== COVER PAGE ===== */
+  /* ===== COVER ===== */
   .cover {
-    background: linear-gradient(155deg, #c41230 0%, #a01028 25%, #8b1a2b 55%, #5a0f18 100%);
+    background: linear-gradient(160deg, #1A3A1A 0%, #2E5C2E 40%, #3A6E3A 70%, #1A3A1A 100%);
     color: #fff;
-    padding: 70px 55px 55px;
-    position: relative;
-    overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center;
     min-height: 297mm;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 30px 50px 26px;
+    position: relative; overflow: hidden;
     page-break-after: always;
   }
   .cover::before {
-    content: "";
-    position: absolute;
-    top: -120px; right: -80px;
-    width: 450px; height: 450px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.025);
+    content: ""; position: absolute; top: -120px; right: -80px;
+    width: 500px; height: 500px; border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.06);
   }
   .cover::after {
-    content: "";
-    position: absolute;
-    bottom: -80px; left: -80px;
-    width: 320px; height: 320px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.02);
+    content: ""; position: absolute; bottom: -80px; left: -60px;
+    width: 350px; height: 350px; border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.04);
   }
-  .cover-top-line {
-    font-size: 9px;
-    letter-spacing: 8px;
-    opacity: 0.55;
-    text-transform: uppercase;
-    margin-bottom: 24px;
-    position: relative;
-    z-index: 1;
-    font-weight: 300;
+  .cover-ring {
+    position: absolute; top: 50%; left: -40px; transform: translateY(-50%);
+    width: 200px; height: 200px; border-radius: 50%;
+    border: 1px solid rgba(200,164,92,0.12); z-index: 0;
   }
-  .cover h1 {
-    font-size: 36px;
-    font-weight: 900;
-    letter-spacing: 4px;
-    margin-bottom: 16px;
-    position: relative;
-    z-index: 1;
-  }
-  .cover .period {
-    font-size: 20px;
-    font-weight: 300;
-    opacity: 0.9;
-    margin-bottom: 36px;
-    position: relative;
-    z-index: 1;
-    letter-spacing: 2px;
-  }
-  .cover .divider {
-    width: 50px;
-    height: 3px;
-    background: rgba(255,255,255,0.45);
-    margin-bottom: 28px;
-    position: relative;
-    z-index: 1;
-  }
-  .cover .desc {
-    font-size: 12px;
-    opacity: 0.75;
-    margin-bottom: 36px;
-    position: relative;
-    z-index: 1;
-    line-height: 1.8;
-    max-width: 500px;
-  }
-  .cover-stats {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
-  }
+  .cover-top { font-size: 9pt; letter-spacing: 8px; opacity: 0.45; margin-bottom: 14px; z-index: 1; position: relative; text-transform: uppercase; }
+  .cover h1 { font-size: 36pt; font-weight: 900; letter-spacing: 6px; margin-bottom: 8px; z-index: 1; position: relative; line-height: 1.15; }
+  .cover .subtitle { font-size: 12pt; font-weight: 300; opacity: 0.85; margin-bottom: 10px; z-index: 1; position: relative; letter-spacing: 2px; }
+  .cover .accent-line { width: 80px; height: 3px; background: var(--accent); margin-bottom: 14px; z-index: 1; position: relative; }
+  .cover .desc { font-size: 9pt; opacity: 0.7; line-height: 1.7; max-width: 500px; margin-bottom: 14px; z-index: 1; position: relative; }
+  .cover-stats { display: flex; gap: 24px; z-index: 1; position: relative; }
   .cover-stat { text-align: center; }
-  .cover-stat .num {
-    font-size: 38px;
-    font-weight: 800;
-    display: block;
-  }
-  .cover-stat .lbl {
-    font-size: 10px;
-    opacity: 0.65;
-    margin-top: 4px;
-    letter-spacing: 1px;
-  }
+  .cover-stat .num { font-size: 28pt; font-weight: 800; display: block; line-height: 1; }
+  .cover-stat .lbl { font-size: 8.5pt; opacity: 0.55; margin-top: 6px; letter-spacing: 1px; }
+  .cover-stat .num.accent { color: var(--accent); }
 
-  /* ===== STATS BAR ===== */
-  .stats-bar {
-    display: flex;
-    background: #fff;
-    border-bottom: 3px solid var(--red);
-    page-break-after: always;
+  .cover-toc-wrapper {
+    margin-top: 16px; z-index: 1; position: relative;
+    padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.10);
   }
-  .stats-bar .stat {
-    flex: 1;
+  .cover-toc-title { font-size: 9pt; opacity: 0.45; letter-spacing: 3px; margin-bottom: 8px; }
+  .cover-toc-item { display: flex; align-items: center; padding: 3px 0; font-size: 9pt; }
+  .cover-toc-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); margin-right: 12px; flex-shrink: 0; }
+  .cover-toc-name { flex: 1; opacity: 0.8; }
+  .cover-toc-count { opacity: 0.4; font-size: 8pt; }
+
+  .cover-source {
+    margin-top: 14px; z-index: 1; position: relative;
+    font-size: 7.5pt; opacity: 0.4; letter-spacing: 0.5px;
+    line-height: 1.6; padding-top: 8px;
     text-align: center;
-    padding: 20px 6px;
-    border-right: 1px solid #f0f0f0;
   }
-  .stats-bar .stat:last-child { border-right: none; }
-  .stats-bar .stat-val {
-    font-size: 30px;
-    font-weight: 800;
-    color: var(--red);
-  }
-  .stats-bar .stat-lbl {
-    font-size: 10px;
-    color: var(--text-secondary);
-    margin-top: 4px;
-  }
+  .cover-source p { margin: 2px 0; }
 
-  /* ===== TOC ===== */
-  .toc {
-    background: #fff;
-    padding: 24px 45px;
-    border-bottom: 1px solid var(--border);
-    page-break-after: always;
-  }
-  .toc-title {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--red);
-    margin-bottom: 12px;
-    letter-spacing: 2px;
-  }
-  .toc-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 20px;
-  }
-  .toc-list li {
-    font-size: 11px;
-    color: var(--text-secondary);
-  }
-  .toc-list li::before {
-    content: "●";
-    color: var(--red);
-    margin-right: 6px;
-    font-size: 8px;
-    vertical-align: middle;
-  }
-
-  /* ===== CONTENT ===== */
-  .content { background: #fff; padding: 12px 40px 30px; }
-
-  .section {
-    margin: 30px 0 18px;
+  /* ===== SECTION ===== */
+  .section-header {
+    background: var(--primary-dark);
+    color: #fff;
+    padding: 16px 50px;
+    display: flex; align-items: center; gap: 14px;
     page-break-inside: avoid;
+    page-break-before: always;
   }
-  .section:first-child { margin-top: 8px; }
-  .section-head {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid var(--red);
-  }
-  .section-num {
-    font-size: 26px;
-    font-weight: 900;
-    color: var(--red);
-    min-width: 30px;
-    font-style: italic;
-  }
-  .section-name {
-    font-size: 17px;
-    font-weight: 700;
-    color: #1a1a1a;
-    letter-spacing: 1px;
-  }
-  .section-count {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-left: auto;
-  }
+  .section-header.first { page-break-before: avoid; }
+  .section-header .sec-num { font-size: 22pt; font-weight: 900; opacity: 0.6; }
+  .section-header .sec-title { font-size: 14pt; font-weight: 700; letter-spacing: 2px; }
+  .section-header .sec-count { margin-left: auto; font-size: 9.5pt; opacity: 0.65; }
 
-  /* Article Card */
+  .content-area { background: var(--bg); padding: 22px 45px 32px; }
+
+  /* ===== ARTICLE CARD ===== */
   .article {
-    margin-bottom: 15px;
-    padding: 18px 22px;
-    background: var(--card-bg);
-    border-left: 3px solid var(--red);
-    border-radius: 2px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    margin-bottom: 12px; padding: 16px 20px;
+    background: var(--surface);
+    border-left: 3px solid var(--primary-light);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     page-break-inside: avoid;
   }
-  .art-header {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 8px;
+  .art-top { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 6px; }
+  .art-idx { font-size: 8pt; color: var(--text-muted); min-width: 18px; text-align: right; padding-top: 2px; }
+  .art-title { font-size: 11.5pt; font-weight: 700; color: var(--text); flex: 1; line-height: 1.55; }
+  .art-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; margin-left: 28px; }
+  .art-tag {
+    font-size: 7.5pt; padding: 2px 6px; border-radius: 3px;
+    background: var(--bg); color: var(--text-secondary);
   }
-  .art-num {
-    font-size: 13px;
-    font-weight: 900;
-    color: var(--red);
-    min-width: 24px;
-    padding-top: 2px;
-    font-style: italic;
-  }
-  .art-title {
-    flex: 1;
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.5;
-  }
-  .art-date {
-    font-size: 9px;
-    color: var(--text-muted);
-    white-space: nowrap;
-    padding-top: 3px;
-  }
-
-  .art-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 10px;
-    margin-left: 34px;
-  }
-  .tag {
-    font-size: 8.5px;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-  }
-  .tag-src { background: #f5f5f5; color: #666; }
-  .tag-type { background: #e8f0fe; color: #3867b2; }
-  .tag-type.is-paper { background: #fef3e2; color: #b26500; }
-  .tag-region { background: #e8f5e9; color: #2e7d32; }
-  .tag-topic { background: #fce4ec; color: #c41230; }
-
-  .art-summary {
-    margin-left: 34px;
-    font-size: 10px;
-    color: var(--text-secondary);
-    line-height: 1.65;
-    margin-bottom: 8px;
-    padding: 8px 12px;
-    background: #fafafa;
-    border-radius: 4px;
-    border-left: 2px solid #e0e0e0;
-  }
-
-  .art-keypoints {
-    margin-left: 34px;
-    list-style: none;
-    margin-bottom: 8px;
-  }
-  .art-keypoints li {
-    font-size: 10px;
-    color: var(--text);
-    line-height: 1.55;
-    padding: 2px 0 2px 14px;
-    position: relative;
-  }
-  .art-keypoints li::before {
-    content: "▸";
-    position: absolute;
-    left: 0;
-    color: var(--red);
-    font-size: 8px;
-  }
-
-  .art-impact {
-    margin-left: 34px;
-    font-size: 10px;
-    color: var(--red-dark);
-    line-height: 1.55;
-    padding: 8px 12px;
-    background: #fef5f5;
-    border-radius: 4px;
-    border-left: 2px solid var(--red);
-  }
-
-  .art-reliability {
-    margin-left: 34px;
-    margin-top: 6px;
-    font-size: 9px;
-    color: var(--text-muted);
-  }
-  .reli-dot {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin-right: 4px;
-    vertical-align: middle;
-  }
-  .reli-A { background: #4caf50; }
-  .reli-B { background: #ff9800; }
-  .reli-C { background: #f44336; }
-
-  .report-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 9px;
-    color: var(--text-muted);
-    border-top: 1px solid var(--border);
-  }
-
-  @media print {
-    body { background: #fff; max-width: none; }
-    .article { box-shadow: none; border-left-width: 2px; }
-    @page {
-      margin: 12mm 12mm 18mm 12mm;
-      @bottom-center {
-        content: "— " counter(page) " —";
-        font-size: 8px;
-        color: #999;
-        font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
-      }
-    }
-    @page :first {
-      margin: 0;
-      @bottom-center { content: none; }
-    }
-  }
+  .art-tag.src { background: var(--primary-dark); color: var(--accent-light); }
+  .art-tag.paper { background: #E8D5A8; color: #6B4F1A; }
+  .art-summary { font-size: 9.5pt; color: var(--text-secondary); margin-left: 28px; line-height: 1.75; margin-bottom: 6px; }
+  .art-keypoints { margin-left: 44px; margin-bottom: 4px; }
+  .art-keypoints li { font-size: 8.5pt; color: var(--text-secondary); margin-bottom: 2px; }
+  .art-impact { font-size: 8.5pt; color: var(--primary); margin-left: 28px; font-weight: 500; }
+  .art-reliability { display: inline-flex; align-items: center; gap: 4px; font-size: 7.5pt; color: var(--text-muted); margin-left: 28px; margin-top: 4px; }
+  .reli-dot { width: 6px; height: 6px; border-radius: 50%; }
+  .reli-A { background: #2E5C2E; }
+  .reli-B { background: #C8A45C; }
+  .reli-C { background: #D4953A; }
+  .reli-D { background: #C4554A; }
 </style>
 </head>
 <body>
 
 <div class="cover">
-  <div class="cover-top-line">MECHANICAL COMMONALITY · WEEKLY BRIEF</div>
-  <h1>机械共性部情报中心</h1>
-  <div class="period" id="cover-period">加载中...</div>
-  <div class="divider"></div>
-  <p class="desc" id="cover-desc">数据覆盖疲劳断裂仿真、风机噪声、风机气动布局、AI发展动态与风电行业动态五个主题</p>
+  <div class="cover-ring"></div>
+  <div class="cover-top">MECHANICAL COMMONALITY INTELLIGENCE</div>
+  <h1>机械共性部<br>情报中心</h1>
+  <div class="subtitle" id="cover-period">2026.07.27-2026.08.02 第31周</div>
+  <div class="accent-line"></div>
+  <div class="desc" id="cover-desc">覆盖风电动态、金属材料、风机噪声、风电试验、风电螺栓五个方向 · 共75条高相关情报</div>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="num" id="cover-total">--</span><span class="lbl">总资料数</span></div>
-    <div class="cover-stat"><span class="num" id="cover-papers">--</span><span class="lbl">研究论文</span></div>
-    <div class="cover-stat"><span class="num" id="cover-domestic">--</span><span class="lbl">国内资讯</span></div>
-    <div class="cover-stat"><span class="num" id="cover-cats">--</span><span class="lbl">覆盖主题</span></div>
+    <div class="cover-stat"><span class="num accent" id="cover-total">75</span><span class="lbl">收录情报</span></div>
+    <div class="cover-stat"><span class="num" id="cover-papers">0</span><span class="lbl">学术论文</span></div>
+    <div class="cover-stat"><span class="num" id="cover-domestic">0</span><span class="lbl">国内资讯</span></div>
+    <div class="cover-stat"><span class="num" id="cover-cats">5</span><span class="lbl">主题方向</span></div>
+  </div>
+  <div class="cover-toc-wrapper">
+    <div class="cover-toc-title">本期目录</div>
+    <div id="cover-toc-list"></div>
+  </div>
+  <div class="cover-source">
+    <p style="margin-bottom:2px;">数据覆盖疲劳断裂仿真、风机噪声、风机气动布局、AI发展动态与风电行业动态</p>
+    <p style="margin-bottom:2px;">数据来源：北极星风电 · 每日风电 · Google News · OpenAlex · arXiv · RSSHub · 微信公众号</p>
+    <p style="opacity:0.5;">https://wedding-908121.github.io/-/</p>
   </div>
 </div>
 
-<div class="stats-bar" id="stats-bar"></div>
-
-<div class="toc" id="toc" style="display:none;">
-  <div class="toc-title">目 录</div>
-  <ul class="toc-list" id="toc-list"></ul>
-</div>
-
-<div class="content" id="report-content">
-  <p style="text-align:center;color:#999;padding:60px;">正在加载数据...</p>
-</div>
-
-<div class="report-footer">
-  机械共性部情报中心 · 周报 · AI 辅助生成 · 仅供内部参考
-</div>
+<div id="report-body"></div>
 
 <script>
-(function() {
-  function esc(s) {
-    if (!s) return '';
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  }
+(async function() {
+  var resp = await fetch("./data/articles.json");
+  var data = await resp.json();
+  var articles = data.articles || [];
+  var brief = data.weeklyBrief || {};
+  var period = brief.period || "2026.07.27-2026.08.02 第31周";
+  var total = articles.length;
+  var papers = articles.filter(function(a) { return (a.sourceType||"").includes("论文"); }).length;
+  var domestic = articles.filter(function(a) { return a.region === "国内"; }).length;
 
-  fetch('./data/articles.json')
-    .then(function(r) { return r.json(); })
-    .then(function(json) {
-      var articles = json.articles || [];
-      var wb = json.weeklyBrief || {};
-      var period = wb.period || "2026.07.20-2026.07.26 第30周";
-      var description = json.description || "数据覆盖疲劳断裂仿真、风机噪声、风机气动布局、AI发展动态与风电行业动态五个主题";
-      var total = articles.length;
-      var papers = articles.filter(function(a) { return a.sourceType === "学术论文"; }).length;
-      var domestic = articles.filter(function(a) { return a.region === "国内"; }).length;
+  function esc(s) { return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
-      document.getElementById("cover-period").textContent = period;
-      document.getElementById("cover-desc").textContent = description;
+  var catOrder = ["风电动态", "金属材料", "风机噪声", "风电试验", "风电螺栓"];
+  var groups = {};
+  articles.forEach(function(a) {
+    var cat = a.category || "其他";
+    if (!groups[cat]) groups[cat] = [];
+    groups[cat].push(a);
+  });
+  var catNames = catOrder.filter(function(c) { return groups[c]; });
 
-      var catOrder = ["风电动态", "金属材料", "风机噪声", "风电试验", "风电螺栓"];
-      var catNamesFull = ["风电动态", "金属材料", "风机噪声", "风电试验", "风电螺栓"];
-      var groups = {};
-      articles.forEach(function(a) {
-        var cat = a.category || "其他";
-        if (!groups[cat]) groups[cat] = [];
-        groups[cat].push(a);
-      });
+  document.getElementById("cover-period").textContent = period;
+  document.getElementById("cover-desc").textContent = "覆盖风电动态、金属材料、风机噪声、风电试验、风电螺栓五个方向 · 共" + total + "条高相关情报";
+  document.getElementById("cover-total").textContent = total;
+  document.getElementById("cover-papers").textContent = papers;
+  document.getElementById("cover-domestic").textContent = domestic;
+  document.getElementById("cover-cats").textContent = catNames.length;
 
-      var catNames = catOrder.filter(function(c) { return groups[c]; });
+  var toc = document.getElementById("cover-toc-list");
+  catNames.forEach(function(c, i) {
+    toc.innerHTML += '<div class="cover-toc-item"><span class="cover-toc-dot"></span><span class="cover-toc-name">' + esc(c) + '</span><span class="cover-toc-count">' + (groups[c]||[]).length + ' 条</span></div>';
+  });
 
-      document.getElementById("cover-total").textContent = total;
-      document.getElementById("cover-papers").textContent = papers;
-      document.getElementById("cover-domestic").textContent = domestic;
-      document.getElementById("cover-cats").textContent = catNames.length || 5;
-
-      var statsBar = document.getElementById("stats-bar");
-      statsBar.innerHTML = catNamesFull.map(function(c) {
-        var cnt = (groups[c] || []).length;
-        return '<div class="stat"><div class="stat-val">' + cnt + '</div><div class="stat-lbl">' + esc(c) + '</div></div>';
-      }).join("");
-
-      var toc = document.getElementById("toc");
-      if (catNames.length > 1) {
-        toc.style.display = "block";
-        document.getElementById("toc-list").innerHTML = catNames.map(function(c, i) {
-          return '<li>' + (i+1) + '. ' + esc(c) + ' (' + (groups[c]||[]).length + '条)</li>';
-        }).join("");
-      }
-
-      var content = document.getElementById("report-content");
-      var html = "";
-      var globalIdx = 0;
-
-      catNames.forEach(function(cat, ci) {
-        var items = groups[cat] || [];
-        html += '<div class="section">';
-        html += '<div class="section-head">';
-        html += '<span class="section-num">' + String(ci+1).padStart(2,"0") + '</span>';
-        html += '<span class="section-name">' + esc(cat) + '</span>';
-        html += '<span class="section-count">共 ' + items.length + ' 条</span>';
-        html += '</div>';
-
-        items.forEach(function(a) {
-          globalIdx++;
-          var d = a.publishedAt ? new Date(a.publishedAt) : null;
-          var dateStr = d ? (d.getFullYear() + "/" + (d.getMonth()+1) + "/" + d.getDate()) : "-";
-          var title = a.titleZh || a.title || "(无标题)";
-          var summary = a.summary || "";
-          var keyPoints = a.keyPoints || [];
-          var impact = a.engineeringImpact || "";
-          var sourceType = a.sourceType || "资讯";
-          var isPaper = sourceType === "学术论文";
-          var tags = a.tags || [];
-          var reliability = a.reliability || {};
-          var grade = reliability.grade || "";
-
-          var cleanSummary = summary;
-          if (cleanSummary && cleanSummary.length > 350) {
-            cleanSummary = cleanSummary.slice(0, 350) + "…";
-          }
-
-          html += '<div class="article">';
-          html += '<div class="art-header">';
-          html += '<span class="art-num">' + String(globalIdx).padStart(2,"0") + '</span>';
-          html += '<span class="art-title">' + esc(title) + '</span>';
-          html += '<span class="art-date">' + dateStr + '</span>';
-          html += '</div>';
-
-          html += '<div class="art-meta">';
-          html += '<span class="tag tag-src">' + esc(a.source || "未知来源") + '</span>';
-          html += '<span class="tag tag-type' + (isPaper ? ' is-paper' : '') + '">' + (isPaper ? '📄 论文' : '📰 资讯') + '</span>';
-          if (a.region) html += '<span class="tag tag-region">' + esc(a.region) + '</span>';
-          if (tags.length) {
-            tags.forEach(function(t) { html += '<span class="tag tag-topic">' + esc(t) + '</span>'; });
-          }
-          html += '</div>';
-
-          if (cleanSummary) {
-            html += '<div class="art-summary">📋 ' + esc(cleanSummary) + '</div>';
-          }
-
-          if (keyPoints.length > 0) {
-            html += '<ul class="art-keypoints">' + keyPoints.map(function(k) { return '<li>' + esc(k) + '</li>'; }).join("") + '</ul>';
-          }
-
-          if (impact) {
-            html += '<div class="art-impact">💡 工程启示：' + esc(impact) + '</div>';
-          }
-
-          if (grade) {
-            var gradeClass = 'reli-' + grade;
-            var gradeLabel = reliability.label || grade;
-            html += '<div class="art-reliability"><span class="reli-dot ' + gradeClass + '"></span>可信度：' + esc(gradeLabel) + ' (' + (reliability.score || "--") + '分)</div>';
-          }
-
-          html += '</div>';
-        });
-
-        html += '</div>';
-      });
-
-      content.innerHTML = html || '<p style="text-align:center;color:#999;padding:60px;">暂无数据</p>';
-    })
-    .catch(function(e) {
-      document.getElementById("report-content").innerHTML = '<p style="text-align:center;color:#c41230;padding:60px;">加载失败: ' + e.message + '</p>';
+  var bodyEl = document.getElementById("report-body");
+  var globalIdx = 0;
+  catNames.forEach(function(cat, ci) {
+    var items = (groups[cat] || []).slice();
+    var sorted = items.slice().sort(function(a,b) {
+      return (b.summary||"").length - (a.summary||"").length;
     });
+    var interleaved = [];
+    var half = Math.ceil(sorted.length / 2);
+    for (var si = 0; si < half; si++) {
+      interleaved.push(sorted[si]);
+      if (si + half < sorted.length) interleaved.push(sorted[si + half]);
+    }
+
+    bodyEl.innerHTML += '<div class="section-header' + (ci === 0 ? ' first' : '') + '"><span class="sec-num">' + String(ci+1).padStart(2,"0") + '</span><span class="sec-title">' + esc(cat) + '</span><span class="sec-count">共 ' + items.length + ' 条</span></div>';
+    bodyEl.innerHTML += '<div class="content-area">';
+
+    interleaved.forEach(function(a) {
+      globalIdx++;
+      var d = a.publishedAt ? new Date(a.publishedAt) : null;
+      var dateStr = d ? (d.getFullYear() + "/" + (d.getMonth()+1) + "/" + d.getDate()) : "-";
+      var title = a.titleZh || a.title || "(无标题)";
+      var summary = (a.summary || "").length > 400 ? a.summary.slice(0,400) + "…" : (a.summary || "");
+      var keyPoints = a.keyPoints || [];
+      var impact = a.engineeringImpact || "";
+      var isPaper = (a.sourceType||"").includes("论文");
+      var rel = a.reliability || {};
+      var hasRel = typeof rel === "object" && rel.grade;
+
+      var html = '<div class="article">';
+      html += '<div class="art-top"><span class="art-idx">' + String(globalIdx).padStart(2,"0") + '</span><span class="art-title">' + esc(title) + '</span></div>';
+      html += '<div class="art-meta">';
+      html += '<span class="art-tag src">' + esc(a.source||"?") + '</span>';
+      html += '<span class="art-tag' + (isPaper?' paper':'') + '">' + (isPaper?'📄 论文':'📰 资讯') + '</span>';
+      if (a.region) html += '<span class="art-tag">' + esc(a.region) + '</span>';
+      if (dateStr !== "-") html += '<span class="art-tag">' + dateStr + '</span>';
+      html += '</div>';
+      if (summary) html += '<div class="art-summary">' + esc(summary) + '</div>';
+      if (keyPoints.length) html += '<ul class="art-keypoints">' + keyPoints.map(function(k){return '<li>'+esc(k)+'</li>';}).join("") + '</ul>';
+      if (impact) html += '<div class="art-impact">💡 ' + esc(impact) + '</div>';
+      if (hasRel) html += '<div class="art-reliability"><span class="reli-dot reli-' + rel.grade + '"></span>可信度 ' + esc(rel.label||rel.grade) + ' (' + (rel.score||"?") + '分)</div>';
+      html += '</div>';
+      bodyEl.innerHTML += html;
+    });
+
+    bodyEl.innerHTML += '</div>';
+  });
 })();
 </script>
 
