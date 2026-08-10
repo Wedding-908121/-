@@ -143,7 +143,7 @@
   <h1>机械共性部<br>情报中心</h1>
   <div class="subtitle" id="cover-period">2026.07.27-2026.08.02 第31周</div>
   <div class="accent-line"></div>
-  <div class="desc" id="cover-desc">覆盖风电动态、金属材料、风机噪声、风电试验、风电螺栓五个方向 · 共75条高相关情报</div>
+  <div class="desc" id="cover-desc">覆盖风电动态、结构AI、金属材料、风机噪声、风电试验、风电螺栓六个方向 · 共75条高相关情报</div>
   <div class="cover-stats">
     <div class="cover-stat"><span class="num accent" id="cover-total">75</span><span class="lbl">收录情报</span></div>
     <div class="cover-stat"><span class="num" id="cover-papers">0</span><span class="lbl">学术论文</span></div>
@@ -176,7 +176,7 @@
 
   function esc(s) { return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
-  var catOrder = ["风电动态", "金属材料", "风机噪声", "风电试验", "风电螺栓"];
+  var catOrder = ["风电动态", "结构AI", "金属材料", "风机噪声", "风电试验", "风电螺栓"];
   var groups = {};
   articles.forEach(function(a) {
     var cat = a.category || "其他";
@@ -186,7 +186,7 @@
   var catNames = catOrder.filter(function(c) { return groups[c]; });
 
   document.getElementById("cover-period").textContent = period;
-  document.getElementById("cover-desc").textContent = "覆盖风电动态、金属材料、风机噪声、风电试验、风电螺栓五个方向 · 共" + total + "条高相关情报";
+  document.getElementById("cover-desc").textContent = "覆盖风电动态、结构AI、金属材料、风机噪声、风电试验、风电螺栓六个方向 · 共" + total + "条高相关情报";
   document.getElementById("cover-total").textContent = total;
   document.getElementById("cover-papers").textContent = papers;
   document.getElementById("cover-domestic").textContent = domestic;
