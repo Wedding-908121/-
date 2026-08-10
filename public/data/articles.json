@@ -1,16 +1,16 @@
 {
   "app": "机械共性部情报中心",
-  "generatedAt": "2026-08-10T03:16:22.583Z",
+  "generatedAt": "2026-08-10T06:02:06.757Z",
   "collectionStatus": {
     "dataMode": "live",
     "demo": false,
-    "manualCount": 35,
-    "autoCount": 36
+    "manualCount": 34,
+    "autoCount": 33
   },
   "weeklyBrief": {
-    "total": 71,
-    "domestic": 43,
-    "papers": 14,
+    "total": 68,
+    "domestic": 42,
+    "papers": 11,
     "categories": [
       {
         "name": "风电动态",
@@ -41,7 +41,7 @@
   },
   "articles": [
     {
-      "id": "w32-gn-风电动态-1",
+      "id": "w32-a8992fb7ccc8",
       "title": "大力发展风电光伏助推绿色低碳发展-今日头条 - 光明网",
       "titleZh": "大力发展风电光伏助推绿色低碳发展",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SS05rb1d6bHlybWJsUnV1dzJyUWN6VXdtT2I2SlJHaWZOZUxhcEpPaGZlREM1MTVwUmhlb0lQSmJ3U0ZqMmtrYVhpWmRuS2hkNzUxbEVaTW84ZDRlazBwWjhiaTk1dmc?oc=5",
@@ -78,7 +78,7 @@
       "engineeringImpact": "为风电光伏工程规划提供参考，包括项目选址与规模设计、技术选型（如高效组件与风机机型）、并网与储能系统集成方案，以及政策合规性评估。同时，产业链协同和合作模式可指导工程实施中的资源整合与风险管控，提升项目经济性和可靠性。"
     },
     {
-      "id": "w32-gn-风电动态-4",
+      "id": "w32-43bb7cc70106",
       "title": "深交所史上最大IPO来了 华润新能源瞄准千亿市值 - 同花顺财经",
       "titleZh": "深交所史上最大IPO：华润新能源瞄准千亿市值",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PSE5fS1l2MnJHUXJmbkxfVDViSkNqTU56aEJqNjlQNzV5UllGM1ZMay1uN19yZ3NyRGlSYm5JcWw3RXZlWXhyaDN6c1llZDFubkUzbDRXZTYyYTExZzhDQ01Raw?oc=5",
@@ -113,7 +113,7 @@
       "engineeringImpact": "该IPO事件为风电工程领域提供了资本运作参考，表明大型能源企业正通过上市融资加速风电项目落地。工程团队可关注华润新能源后续项目招标、设备采购及技术升级动向，以把握市场机遇。同时，千亿市值目标或推动行业在风机大型化、智能运维等方向的技术投入，工程人员应关注相关技术标准与产业链配套变化。"
     },
     {
-      "id": "w32-gn-风电动态-2",
+      "id": "w32-577723300378",
       "title": "风电下一步卷什么？31省市“十五五”新能源重点规划全景扫描 - mwind.in-en.com",
       "titleZh": "风电下一步卷什么？31省市“十五五”新能源重点规划全景扫描",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DVlV0emNLNEdnX1M2dDhiSjI4R25IeGphZWdZdW5pQXlsUldHWmhnQVN4Mi10Q3ZLbDh4VWRieVhiLXFsNWlYMGxqMWN4b2hPMGNwR0hOVElMNDg?oc=5",
@@ -150,7 +150,7 @@
       "engineeringImpact": "为风电工程规划与设计提供关键参考：一是大基地项目需统筹考虑特高压外送通道容量与风电出力特性匹配，优化场址布局与升压站配置；二是海上风电工程需关注深远海漂浮式基础、大容量机组安装船等施工装备的选型与调度；三是储能配套要求直接影响风电场电气系统设计、升压站扩容及并网方案，需提前预留储能接口与用地；四是数字化智能运维系统需纳入风电场整体设计，包括传感器布点、数据采集与远程监控架构；五是央地合作模式要求工程团队具备跨区域协调能力，在项目前期阶段即需对接地方政府规划、电网接入条件与产业链资源，确保工程可实施性与经济性。"
     },
     {
-      "id": "w32-gn-风电动态-6",
+      "id": "w32-dd4e695a1ba0",
       "title": "风力发电，谁是盈利最强企业？ - 维科号",
       "titleZh": "风力发电行业盈利格局分析",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHUDVYRU4xeTIxT2RvNjVzTzVnTmdIaE95YUd3NzVIdjVpN2dQaGtfVWZqRmJiaFdJM202RTY2eWdBUm1FejVjOWpiTnNCdlNCV1h3?oc=5",
@@ -187,7 +187,7 @@
       "engineeringImpact": "本文为风电工程领域提供了盈利标杆企业的运营指标和项目选择参考，有助于评估不同技术路线和商业模式的经济性，指导后续风电场的选址、机组选型、运维策略及投资决策，尤其在平价上网背景下，对控制工程成本、提升发电收益具有直接借鉴意义。"
     },
     {
-      "id": "w32-gn-风电动态-3",
+      "id": "w32-48c18845350b",
       "title": "多重利好袭来，风电赛道迎强劲增长！绩优公司出炉，净利润最高增10倍+ - 证券时报",
       "titleZh": "多重利好袭来，风电赛道迎强劲增长！绩优公司出炉，净利润最高增10倍+",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SZHNfcGJTOUowSE9VRHRBcTFocDRVa2Rma0pobGVoQnE1WTBxMnFzRnpVeEQtUmZnTVZTSmRyU3NwazViS0NFQmkxWDlvUFJrNkJhMFNIdE90V0lL?oc=5",
@@ -224,7 +224,7 @@
       "engineeringImpact": "工程参考价值：本文为风电工程领域提供了最新的行业动态和趋势参考。工程技术人员可关注大兆瓦机组的设计与制造技术、海上风电施工与运维技术、以及智能化风电场管理系统的应用。同时，政策变化和产业链动态有助于工程项目的前期规划和投资决策，优化项目选址、设备选型和成本控制。企业合作案例可为工程项目的合作伙伴选择提供借鉴。"
     },
     {
-      "id": "w32-gn-风电动态-5",
+      "id": "w32-a5c6d7aa6d2d",
       "title": "高空风能发电详解-风光储氢 - cpem.org.cn",
       "titleZh": "高空风能发电详解",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50aDVSY3paTEs4YWl4U3AwQm5RYl9rQUpnYmNHSzh2X2JXNDhfeXF2WWo4NHE2MTRNZXFiSF9kbWlNTlFNVWZseDd0RnVTaUg4aTJKb01R?oc=5",
@@ -261,7 +261,7 @@
       "engineeringImpact": "为风电工程技术人员提供了高空风能技术路线对比与成熟度评估，有助于在风光储氢综合项目中评估高空风电的接入可行性与经济性，指导前期选址、设备选型及系统集成设计，同时提示关注空域审批与安全标准等工程前置条件。"
     },
     {
-      "id": "w32-gn-风电动态-0",
+      "id": "w32-d0d58ba299dc",
       "title": "风力发电更聪明更可靠（向新向优的中国产业） - 人民日报",
       "titleZh": "风力发电更聪明更可靠（向新向优的中国产业）",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mV2hzUHlmZ3dBOVgzODhLam1NUnhiQUZtb2pwcUx5OWEtRzRKNWFuYzhPaG5FbFc5OExuYWk4QklkN0tnS0FGZjFTM280WTBVbk90T2VzNzJKOU40Z2dfQWpSQlJza19MOGg5TmJRT1o4TVN5d2dPYXVLTERveE0?oc=5",
@@ -298,7 +298,7 @@
       "engineeringImpact": "工程参考价值在于：智能运维与预测性维护技术可显著降低风电度电成本与故障停机率；风机大型化与轻量化设计需配套高强度材料和新型传动系统；多能互补（风电+储能+氢能）对电网稳定性和能量管理提出新要求；国产化替代需关注轴承、变流器等关键部件的可靠性验证；项目选址与并网需结合智能气象预报和柔性输电技术。"
     },
     {
-      "id": "w32-gn-风电动态-7",
+      "id": "w32-cf5bce5ac5ac",
       "title": "中国能建完成包头风电项目风机吊装 - 能源界",
       "titleZh": "中国能建完成包头风电项目风机吊装",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RZm53bENyMjd6S0dBQzU1bldjSE9OUng4RjZZcEFfM1RrZTU2djBGbmc1Ylp5UzVkQW5LcFhVb1ZBUkowUzZ3eDFTd0V5RjdJVUpIRDItT1NpMFU?oc=5",
@@ -333,7 +333,7 @@
       "engineeringImpact": "该项目的风机吊装完成为同类风电工程提供了施工组织参考，特别是在大型风机安装、高空作业安全控制、多工种协同方面具有借鉴意义，有助于提升风电项目建设的标准化和效率。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-1abaf302348d",
       "title": "风控Agent实践：可推理的建模自动化——让LLM接管风控模型调参",
       "titleZh": "风控Agent实践：可推理的建模自动化——让LLM接管风控模型调参",
       "url": "https://mp.weixin.qq.com/s/Yfkbmnc_llDO-vNhaWMnyg",
@@ -371,7 +371,7 @@
       "engineeringImpact": "为风控模型开发提供了一种可推理、可解释的自动化调参方案，显著提升迭代效率，并满足强监管场景的可解释性要求。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-afddf7e208b2",
       "title": "智能审图2026最新综述：AI审图的技术演进与应用落地方法论",
       "titleZh": "智能审图2026最新综述：AI审图的技术演进与应用落地方法论",
       "url": "https://mp.weixin.qq.com/s/DYy2W_YQMSOrDe04YVsddQ",
@@ -409,7 +409,7 @@
       "engineeringImpact": "为工程审图软件研发提供技术路线参考，混合式AI架构可显著提升报建审批效率与可靠性，建议优先在低风险条款自动化审查中落地。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-24818913a37c",
       "title": "如何用Codex完成一次自动化科研？数据→建模→结果全流程",
       "titleZh": "如何用Codex完成一次自动化科研？数据→建模→结果全流程",
       "url": "https://mp.weixin.qq.com/s/CIlCY1uhsh4LHR9elgQvSQ",
@@ -447,7 +447,7 @@
       "engineeringImpact": "该案例展示了AI工具在科研和工程中实现全流程自动化的可行性，可大幅提升建模、出图和审核效率，为工程实践中的自动化设计提供了参考范式。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-8288f264e49c",
       "title": "AI 能自动检查 CAD 图纸错误吗？能查什么、怎么查、边界在哪",
       "titleZh": "AI 能自动检查 CAD 图纸错误吗？能查什么、怎么查、边界在哪",
       "url": "https://mp.weixin.qq.com/s/zpdVrGD5L_jmz3kQ7t6LGA",
@@ -485,7 +485,7 @@
       "engineeringImpact": "为工程团队提供了AI辅助审图的落地路径和边界认知，有助于优化审图流程，提升效率与质量，同时明确人机协作的合理分工。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-4be297d51050",
       "title": "只给一张工程图纸，AI 能独立操作 AutoCAD 画出可直接加工的 DWG 吗？实测来了",
       "titleZh": "只给一张工程图纸，AI 能独立操作 AutoCAD 画出可直接加工的 DWG 吗？实测来了",
       "url": "https://mp.weixin.qq.com/s/t1xEMP6o_Pn5xNs31aMMww",
@@ -523,7 +523,7 @@
       "engineeringImpact": "该实验证明AI可承担重复性制图工作，提高出图效率，但需人工审核关键信息，为工程制图自动化提供了实践参考。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-40d7f79de827",
       "title": "【实战教程】最新Python-PLAXIS自动化建模技术与典型岩土工程案例实践应用",
       "titleZh": "【实战教程】最新Python-PLAXIS自动化建模技术与典型岩土工程案例实践应用",
       "url": "https://mp.weixin.qq.com/s/OUBW7Hy2uu6_r10kfpW42w",
@@ -561,7 +561,7 @@
       "engineeringImpact": "该课程提供的Python-PLAXIS自动化建模技术可显著提升岩土工程数值模拟效率，减少重复性操作，适用于设计优化、方案比选和批量分析，对工程实践具有直接参考价值。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-8e673ffb1863",
       "title": "1分钟自动建模！PKPM-AIS 图纸自动建模工程实战",
       "titleZh": "1分钟自动建模！PKPM-AIS 图纸自动建模工程实战",
       "url": "https://mp.weixin.qq.com/s/zqGqGaniR9aWt6sFb86iFg",
@@ -599,7 +599,7 @@
       "engineeringImpact": "PKPM-AIS将传统人工图纸解析与建模转化为自动化流程，大幅提升建模效率（1分钟完成），减少重复劳动，为结构设计前期方案快速生成和优化提供了高效工具，具有显著工程实用价值。"
     },
     {
-      "id": "w32-gn-结构AI-0",
+      "id": "w32-825d33504ea4",
       "title": "REPORT – De Novo Synthetic Genomes: Evo Genomic AI &amp; Phage Design - debuglies.com",
       "titleZh": "报告——从头合成基因组：进化基因组AI与噬菌体设计",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNF9VRFliYmhGOW1Lel8xX09sck1wUHI1S0FrVEx2Y2RBbnNjMGpJMFh3d2pZV1BVeUV4X25nMFFUSkFaRDlIblV5WTB5YkE0MjRqaEhHQ3kxTzlQTWxjWkFrV3QwVU51cC1MdE5HSkxqMXJCRFB5VVJYTnJTcVlMblNvWm1zZXNJaG5rMFZOd0o0SE1SSjR6TmV3?oc=5",
@@ -636,46 +636,7 @@
       "engineeringImpact": "本文为工程领域提供了AI驱动的基因组设计自动化流程参考，包括建模、出图、审核等环节，可应用于合成生物学、生物制药和生物制造。其案例展示了AI如何缩短设计周期、降低成本，并提高设计的可靠性和可扩展性，对相关工程实践具有直接借鉴价值。"
     },
     {
-      "id": "oa-httpsopenalexorg",
-      "title": "Energy-Aware Digital Twin Allocation with LLMs for Adaptive Resource Management in Cloud-Native Infrastructures",
-      "titleZh": "基于大语言模型的数字孪生分配实现云原生基础设施中的自适应资源管理",
-      "url": "https://doi.org/https://doi.org/10.1007/s42979-026-05253-5",
-      "sourceUrl": "https://doi.org/https://doi.org/10.1007/s42979-026-05253-5",
-      "snippet": "Abstract Managing containerized workloads in cloud-native infrastructures poses complex challenges due to the need to simultaneously balance performance, efficiency, and sustainability. This work proposes an adaptive resource allocation framework that leverages Digital Twins for real-time system monitoring and integrates Large Language Models to support context-aware decision-making under multi-objective constraints. The proposed approach dynamically optimizes latency, bandwidth utilization, and",
-      "fullContent": "Abstract Managing containerized workloads in cloud-native infrastructures poses complex challenges due to the need to simultaneously balance performance, efficiency, and sustainability. This work proposes an adaptive resource allocation framework that leverages Digital Twins for real-time system monitoring and integrates Large Language Models to support context-aware decision-making under multi-objective constraints. The proposed approach dynamically optimizes latency, bandwidth utilization, and energy consumption, enabling intelligent workload orchestration across heterogeneous data center environments. A flexible utility function is introduced to allow system operators to adjust trade-offs between responsiveness and environmental impact. Experimental results demonstrate that the framework consistently outperforms traditional heuristic and learning-based baselines, achieving higher allocation accuracy, improved network utilization, and faster workload completion, while reducing overall energy consumption by more than 20% in sustainability-oriented scenarios. These findings highlight the potential of combining digital twins-driven observability with large language model-based reasoning to enable interpretable, adaptive, and energy-efficient resource management in next-generation cloud computing environments.",
-      "source": "SN Computer Science",
-      "publishedAt": "2026-08-08",
-      "collectedAt": "2026-08-10T03:12:36.277Z",
-      "sourceChannel": "OpenAlex/学术论文",
-      "sourceType": "学术论文",
-      "linkType": "research",
-      "region": "海外",
-      "language": "en",
-      "queryTopic": "结构AI",
-      "contextTags": [
-        "结构AI",
-        "学术论文"
-      ],
-      "category": "结构AI",
-      "tags": [
-        "Pedro Henrique Sachete Garcia, Arthur F. Lorenzon, Marcelo Caggiani Luizelli"
-      ],
-      "relevanceScore": 8,
-      "reliability": {
-        "grade": "A",
-        "label": "学术期刊",
-        "score": 85
-      },
-      "summary": "云原生基础设施中的容器化工作负载管理面临性能、效率和可持续性等多目标平衡的复杂挑战。本文提出了一种自适应资源分配框架，利用数字孪生实现实时系统监控，并集成大语言模型以支持多目标约束下的上下文感知决策。该方法动态优化延迟、带宽利用率和能耗，实现异构数据中心环境中的智能工作负载编排。框架引入了灵活的效用函数，允许系统操作员调整响应性与环境影响之间的权衡。实验结果表明，该框架在分配准确性、网络利用率和任务完成速度方面均优于传统启发式方法和基于学习的基线，在可持续性导向场景中总能耗降低超过20%。这些发现凸显了数字孪生驱动的可观测性与大语言模型推理相结合，为下一代云计算环境提供可解释、自适应和节能的资源管理的潜力。",
-      "keyPoints": [
-        "提出数字孪生与大语言模型融合的自适应资源分配框架，实现多目标优化",
-        "引入灵活效用函数，支持操作员动态调整性能与能耗的权衡",
-        "实验验证能耗降低超20%，分配准确性和网络利用率显著提升"
-      ],
-      "engineeringImpact": "该框架为云数据中心提供了一种可解释、自适应的资源管理方案，工程上可应用于智能运维、绿色计算和异构基础设施优化，帮助运维人员在大模型辅助下快速决策，降低能耗成本，提升系统响应能力。"
-    },
-    {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-f1ed9a846c2c",
       "title": "A Comprehensive Review of Malware Detection Techniques in Wireless Sensor Networks",
       "titleZh": "无线传感器网络中恶意软件检测技术的综合评述",
       "url": "https://doi.org/https://doi.org/10.38124/ijisrt/26aug099",
@@ -714,47 +675,7 @@
       "engineeringImpact": "该综述为WSNs安全工程提供了系统参考，帮助工程师根据资源约束和应用场景选择合适检测方案。其分类和比较可指导自动化检测工具的设计，例如结合轻量级ML模型实现实时检测，或利用区块链和联邦学习增强分布式安全审核。此外，传播建模方法可用于预测恶意软件扩散，辅助自动化应急响应和网络加固策略制定，提升WSNs在关键基础设施中的可靠性和安全性。"
     },
     {
-      "id": "oa-httpsopenalexorg",
-      "title": "Beyond Cell Expansion: Microcarriers as Functional and Edible Platforms for Cultivated Meat Production",
-      "titleZh": "超越细胞扩增：微载体作为培养肉生产的功能性和可食用平台",
-      "url": "https://doi.org/https://doi.org/10.1007/s11947-026-04494-9",
-      "sourceUrl": "https://doi.org/https://doi.org/10.1007/s11947-026-04494-9",
-      "snippet": "Abstract Cultivated meat has emerged as a promising strategy to mitigate the environmental impacts of conventional livestock production; however, its industrial scalability remains limited by the need to scale up anchorage-dependent cell cultures efficiently. Microcarriers have become a key enabling technology, providing high surface-area-to-volume ratios that support cell proliferation in bioreactor systems. This review critically evaluates current microcarrier fabrication strategies, with emph",
-      "fullContent": "Abstract Cultivated meat has emerged as a promising strategy to mitigate the environmental impacts of conventional livestock production; however, its industrial scalability remains limited by the need to scale up anchorage-dependent cell cultures efficiently. Microcarriers have become a key enabling technology, providing high surface-area-to-volume ratios that support cell proliferation in bioreactor systems. This review critically evaluates current microcarrier fabrication strategies, with emphasis on decellularization, electrospray, and emulsion-based approaches, and discusses their implications for scalability, food safety, and final product functionality. Decellularized plant and fungal matrices offer structurally complex, low-cost, and potentially edible alternatives that mimic the architecture of the extracellular matrix. In contrast, electrospray and emulsion techniques enable precise control over particle size, morphology, and mechanical properties using food-grade biopolymers such as gelatin, chitosan, and plant proteins. Despite these advances, significant challenges remain, particularly in balancing mechanical stability and cytocompatibility during crosslinking, ensuring regulatory compliance of food-grade materials, and maintaining cell viability under hydrodynamic stress in large-scale bioreactors. Notably, the choice of microcarrier directly influences not only cell expansion efficiency but also the nutritional, structural, and sensory attributes of the final product. Therefore, future research should prioritize integrating fabrication technologies with bioprocess engineering and food design principles to enable the development of cost-effective, consumer-acceptable cultivated meat products.",
-      "source": "Food and Bioprocess Technology",
-      "publishedAt": "2026-08-08",
-      "collectedAt": "2026-08-10T03:12:36.277Z",
-      "sourceChannel": "OpenAlex/学术论文",
-      "sourceType": "学术论文",
-      "linkType": "research",
-      "region": "海外",
-      "language": "en",
-      "queryTopic": "结构AI",
-      "contextTags": [
-        "结构AI",
-        "学术论文"
-      ],
-      "category": "结构AI",
-      "tags": [
-        "Gabrielle Antunes Seibert, Claudio Marcos Eugênio Malaghini, Silvani Verruck"
-      ],
-      "relevanceScore": 8,
-      "reliability": {
-        "grade": "A",
-        "label": "学术期刊",
-        "score": 85
-      },
-      "summary": "培养肉作为缓解传统畜牧业环境影响的策略而兴起，但其工业化规模受限于贴壁依赖细胞的高效扩增。微载体成为关键技术，提供高表面积体积比以支持生物反应器中的细胞增殖。本综述批判性评估了当前微载体的制备策略，重点包括脱细胞、电喷雾和乳液法，并讨论了它们对可扩展性、食品安全和最终产品功能的影响。脱细胞植物和真菌基质提供了结构复杂、低成本且可能可食用的替代品，模拟细胞外基质结构。相比之下，电喷雾和乳液技术利用食品级生物聚合物（如明胶、壳聚糖和植物蛋白）实现对粒径、形态和力学性能的精确控制。尽管有这些进展，仍存在重大挑战，尤其是在交联过程中平衡机械稳定性和细胞相容性、确保食品级材料的法规合规性，以及在大规模生物反应器中维持细胞在流体动力应力下的活力。值得注意的是，微载体的选择不仅直接影响细胞扩增效率，还影响最终产品的营养、结构和感官属性。因此，未来研究应优先将制备技术与生物过程工程和食品设计原则相结合，以开发经济高效、消费者可接受的培养肉产品。",
-      "keyPoints": [
-        "微载体是培养肉规模化生产的关键技术，通过高表面积体积比支持细胞扩增。",
-        "脱细胞植物/真菌基质提供低成本、可食用的仿生支架，而电喷雾和乳液法实现精确的微载体设计。",
-        "挑战包括交联中机械稳定性与细胞相容性的平衡、法规合规性及大规模生物反应器中的细胞活力。",
-        "微载体选择影响最终产品的营养、结构和感官属性，需整合制备技术与生物过程工程和食品设计。"
-      ],
-      "engineeringImpact": "本综述为培养肉生产中的微载体工程提供了系统评估，指导选择或开发适合的微载体制备方法（如脱细胞、电喷雾、乳液法），以平衡细胞扩增效率、可扩展性和食品安全性。工程上，需关注微载体材料的机械性能、生物相容性和可食用性，以及在大规模生物反应器中的性能表现。这为生物过程工程师和食品工程师提供了设计原则，以优化微载体性能并推动培养肉的工业化应用。"
-    },
-    {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-ef68e19667b3",
       "title": "Refill friction stir spot welding of dissimilar metals: a review on joint behavior, simulation strategies and application challenges",
       "titleZh": "异种金属回填搅拌摩擦点焊：接头行为、模拟策略与应用挑战综述",
       "url": "https://doi.org/https://doi.org/10.1080/10408436.2026.2707503",
@@ -794,48 +715,7 @@
       "engineeringImpact": "该综述为工程技术人员提供了RFSSW工艺的全面技术参考，包括工艺参数选择、接头性能优化和腐蚀控制策略。数值模拟方法可辅助工艺设计和参数优化，减少试验成本。尽管存在工具磨损和效率挑战，RFSSW在异种金属连接领域具有广阔应用前景，尤其适用于对重量和性能要求高的航空航天和汽车制造。未来研究应聚焦于工具材料改进、工艺自动化和智能化，以推动其工业化应用。"
     },
     {
-      "id": "oa-httpsopenalexorg",
-      "title": "LLMs’ reshaping of people, processes, products, and society in software development: a qualitative exploration with early adopters",
-      "titleZh": "大语言模型对软件开发中人员、流程、产品及社会的重塑：基于早期采用者的定性探索",
-      "url": "https://doi.org/https://doi.org/10.1007/s10664-026-10917-0",
-      "sourceUrl": "https://doi.org/https://doi.org/10.1007/s10664-026-10917-0",
-      "snippet": "Abstract Large language models (LLMs) are rapidly reshaping software development, but their impact across the full software development lifecycle is underexplored. Existing work tends to focus on isolated activities such as code generation or testing, leaving open questions about how LLMs affect developers, processes, products, and the broader software ecosystem. We address this gap through semi-structured interviews with sixteen early-adopter software professionals who integrated LLM-based tool",
-      "fullContent": "Abstract Large language models (LLMs) are rapidly reshaping software development, but their impact across the full software development lifecycle is underexplored. Existing work tends to focus on isolated activities such as code generation or testing, leaving open questions about how LLMs affect developers, processes, products, and the broader software ecosystem. We address this gap through semi-structured interviews with sixteen early-adopter software professionals who integrated LLM-based tools into their day-to-day work in early to mid-2023. We treat these interviews as early empirical evidence and compare participants’ accounts with recent work on LLMs in software engineering, noting which early patterns persist or shift. Using thematic analysis, we organize our findings around four dimensions: people, process, product, and society. Developers reported substantial productivity gains from reducing mundane tasks, streamlining search, and accelerating debugging, but also described a productivity-quality paradox: they frequently discarded generated code and shifted effort from writing code to critically evaluating and integrating it. LLM use was highly phase-dependent, with strong uptake in implementation and debugging but limited influence on requirements gathering and collaborative work. Participants developed new competencies to use LLMs effectively, including prompt engineering strategies, multi-layered verification, and security-conscious integration to protect proprietary data. They also anticipated changes in hiring expectations, team practices, and computing education, while emphasizing that human judgment and foundational software engineering skills remain essential. Our findings, consistent with evidence from large-scale studies, offer actionable implications for developers, organizations, educators, and tool designers seeking to integrate LLMs responsibly into professional software practice.",
-      "source": "Empirical Software Engineering",
-      "publishedAt": "2026-08-07",
-      "collectedAt": "2026-08-10T03:12:36.278Z",
-      "sourceChannel": "OpenAlex/学术论文",
-      "sourceType": "学术论文",
-      "linkType": "research",
-      "region": "海外",
-      "language": "en",
-      "queryTopic": "结构AI",
-      "contextTags": [
-        "结构AI",
-        "学术论文"
-      ],
-      "category": "结构AI",
-      "tags": [
-        "Benyamin T. Tabarsi, Heidi Reichert, Stephen D. Gilson"
-      ],
-      "relevanceScore": 8,
-      "reliability": {
-        "grade": "A",
-        "label": "学术期刊",
-        "score": 85
-      },
-      "summary": "本研究通过半结构化访谈16位在2023年初至中期将大语言模型（LLM）工具整合到日常工作中的软件专业人士，探讨LLM对软件开发生命周期的全面影响。研究发现，开发者报告了显著的生产力提升，如减少琐碎任务、简化搜索和加速调试，但同时也面临“生产力-质量悖论”：他们经常丢弃生成的代码，并将工作重心从编写代码转向批判性评估和集成。LLM的使用具有高度阶段依赖性，在实现和调试阶段采用率较高，但对需求收集和协作工作影响有限。参与者发展了新的能力，包括提示工程策略、多层验证和安全意识集成以保护专有数据。他们还预测了招聘期望、团队实践和计算教育的变化，同时强调人类判断和基础软件工程技能仍然至关重要。该研究为开发者、组织、教育者和工具设计者负责任地整合LLM提供了可操作的建议。",
-      "keyPoints": [
-        "自动化建模方法：LLM在代码生成和调试中表现出高采用率，但需求建模和架构设计仍依赖人工，提示工程成为关键技能。",
-        "自动化出图技术：LLM辅助生成代码和测试用例，但生成质量需人工验证，开发者需具备批判性评估能力。",
-        "自动化审核流程：多层验证和安全性检查成为必要流程，以应对LLM输出的潜在错误和隐私风险。",
-        "AI辅助设计工具：LLM工具如GitHub Copilot被广泛使用，但需结合上下文和领域知识进行定制化提示。",
-        "工程应用案例：早期采用者报告生产力提升，但强调人机协作和基础技能的重要性，大型研究结果与此一致。"
-      ],
-      "engineeringImpact": "工程参考价值：本研究表明，LLM可显著提升编码和调试效率，但需建立质量保障机制（如代码审查和测试）以应对生成代码的不可靠性。组织应投资于提示工程培训和LLM安全集成框架，同时保持对需求分析和协作流程的人工控制。教育机构需调整课程，强化批判性思维和LLM工具使用技能。工具设计者应开发更透明的LLM输出评估功能，支持可解释性和可追溯性。"
-    },
-    {
-      "id": "w32-gn-结构AI-3",
+      "id": "w32-d36fde7c6e57",
       "title": "NVIDIA Expands Agent Toolkit with PhysicsNeMo and CUDA-X Libraries - HPCwire",
       "titleZh": "NVIDIA通过PhysicsNeMo和CUDA-X库扩展智能体工具包",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcGZBSGRLQlJOSzJ1ZC1VMHVFZVhxQm5CWElneWJuVmRFQThFSEtlbVZoU1BHaUF1U0RqR1VxXzFiYS1yYjRVYklhWXhkdTFWZkg1d3VfQ185bEJwNlBUZm9DVTZhYnp5UW5WTXBqcjRCeWV2aE56M0xGRXE2NHFpcWJjdnNkRmQ0QnBRWmZqSFNHd3J2akZ5b0w5OVVqVDlUU21uWW9pQmJWa2llT2c?oc=5",
@@ -872,7 +752,7 @@
       "engineeringImpact": "该工具包为工程领域提供端到端的自动化解决方案，显著降低建模和仿真门槛，加速设计周期。工程师可借助AI辅助工具快速生成和验证方案，减少重复性工作，提高创新效率。同时，自动化审核流程有助于保证质量，适用于复杂工程系统，具有广泛的应用前景。"
     },
     {
-      "id": "w32-gn-结构AI-4",
+      "id": "w32-b79ce92ee0e4",
       "title": "Pharma.AI Q2 2026 Summer Webinar: A Deep Dive into Insilico Medicine’s Latest Platform Upgrades - insilico.com",
       "titleZh": "Pharma.AI 2026年第二季度夏季网络研讨会：深入探讨英矽智能最新平台升级",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1NEOFpyWjNLR1dLd2lJY0EyNXhkU0xRRGFmOXBDNmhfMFNZUjhjVXNiQ3dpcUZWenRTVEVpY2ctZDRYUWJjR214NjNDQXkxQjdsUk1yMS1NT1I4ZE5zclhlNmFUQ2xndmswMmlfSDVzTE93ZlpIeXZ4ZXpETWtIYzVORQ?oc=5",
@@ -909,7 +789,7 @@
       "engineeringImpact": "Pharma.AI的升级为药物研发工程提供了高价值参考：自动化建模和出图技术可推广至其他科研领域，提升数据处理与报告效率；自动化审核流程有助于建立质量保障体系；AI辅助设计工具展示了AI在复杂系统设计中的潜力。工程团队可借鉴其模块化、自动化、智能化集成思路，优化自身研发流程，加速创新。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-60925ab9e738",
       "title": "铸造合金常用热处理工艺",
       "titleZh": "铸造合金常用热处理工艺",
       "url": "https://mp.weixin.qq.com/s/phRMFlREPORu-y6LUouqGA",
@@ -947,7 +827,7 @@
       "engineeringImpact": "为齿轮、风电等关键零部件的材料选择和热处理工艺制定提供了直接的技术参数和工艺路线，有助于提升产品性能和使用寿命。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-ad95a0643cff",
       "title": "风电铸件的生产工艺要求及选择",
       "titleZh": "风电铸件的生产工艺要求及选择",
       "url": "https://mp.weixin.qq.com/s/A1OZRb9P8Do-DeoHW3b_AA",
@@ -984,7 +864,7 @@
       "engineeringImpact": "为风电铸件选材和热处理工艺提供指导，有助于提升风电设备可靠性和寿命，降低失效风险。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-a3e52813b0f2",
       "title": "齿轮传动设计（二）：齿轮的盔甲——材料、热处理与精度",
       "titleZh": "齿轮传动设计（二）：齿轮的盔甲——材料、热处理与精度",
       "url": "https://mp.weixin.qq.com/s/wdM-_QaBw3B7GSn1XuxdCQ",
@@ -1021,44 +901,7 @@
       "engineeringImpact": "为齿轮选材和热处理工艺提供系统参考，指导在重载、冲击等工况下平衡硬度与韧性，提升齿轮寿命和可靠性。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
-      "title": "球墨铸铁碳硅比设计的匹配性原则探讨",
-      "titleZh": "球墨铸铁碳硅比设计的匹配性原则探讨",
-      "url": "https://mp.weixin.qq.com/s/aqWsy2_2fWhyVMvZZfioIQ",
-      "sourceUrl": "https://mp.weixin.qq.com/s/aqWsy2_2fWhyVMvZZfioIQ",
-      "snippet": "碳硅比（C/Si）是球墨铸铁成分设计中一个常被提及却容易被简单化的参数。许多铸造工艺资料将其表述为一个固定临界值，似乎只要控制C/Si大于某个数值就能同时保障石墨化膨胀和补缩效果。然而，球墨铸铁的凝固行为和组织形成机制远比这种简化表述复杂得多。碳硅比设计的实质，是在石墨化膨胀贡献与硅的基体调控作用之间寻求动态平衡，其合理范围取决于铸件壁厚、牌号要求和铸型条件等多重因素的制约，不存在适用于所有铸件的通用临界值。一、壁厚效应：冷却速率对碳硅比选择的根本约束铸件壁厚所决定的冷却速率，是影响碳硅比调控方向的首要因素。其作用机制源于球墨铸铁凝固过程的两个基本特征：白口倾向与石墨漂浮。薄壁小件（壁厚＜10mm）冷却迅速，过冷倾向大，极易在铸件表层或薄壁部位出现游离渗碳体（白口组织）。此时工艺的首要任务是通过提高硅含量来强化孕育效果、促进石墨化，以消除白口。硅含量可达2.2%～2.6%，在碳含量保持常规水平的前提下，C/Si比往往偏低。厚大件（壁厚＞50mm）的情况则完全相反。此类铸件凝固缓慢，液相中存在充足时间让石墨球析出并长大、上浮，当碳当量偏高时极易产生石墨漂浮缺陷——石墨在铸件上表面积聚，形成一层性能劣化的异常组织。为防范石墨漂浮，厚大件必须适当降低碳含量，同时硅含量亦不宜过高（一般控制在2.0%～2.4%），以免进一步推高碳当量。可见，壁厚对C/Si比的制约方向截然相反——薄壁件需要低C/Si比以消除白口，厚大件则可能呈现高C/Si比以防范石墨漂浮。将任何单一数值作为通用标准，都会导致某一类铸件出现严重缺陷。二、基体组织要求：性能目标对碳硅比的差异化需求球墨铸铁的基体组织——铁素体与珠光体的比例——决定了铸件的力学性能水平，而硅含量是调控基体的关键元素。不同牌号对基体的要求不同，对碳硅比的需求自然各异。高牌号球墨铸铁（QT700、QT800等）要求以珠光体为基体，以获得高强度。硅是促进铁素体形成的元素，过高的硅含量会降低珠光体比例、削弱强度，因此硅含量需控制在较低水平（1.8%～2.2%）。铁素体基体球铁（QT400、QT450等）的情况正好相反。这类牌号要求以铁素体为主，以保障高伸长率和低温冲击韧性，硅含量需较高（2.4%～2.8%）以促进铁素体形成。此时C/Si比通常偏低，但铸件的铸造性能和韧性反而更优。由此可知，碳硅比数值的高低与铸造性能优劣之间不存在简单的正相关关系。C/Si比是碳和硅各自独立取值后的计算结果，而不是应当优先控制的目标参数。工艺设计中应首先根据牌号确定硅含量的合理范围，碳含量则根据壁厚和补缩需求独立设定，C/Si比仅作为校核参考。三、铸型冷却能力：生产条件对碳硅比选择的适应性调节铸型的冷却能力决定了铸件在共晶转变期间的实际冷却速率，进而影响石墨化程度、组织细化和石墨漂浮倾向。金属型铸造或铁型覆砂工艺具有强冷却能力，铸件凝固速度快，石墨化时间缩短但对孕育的要求相应降低，硅含量可适当下调，此时碳硅比呈现相应变化。湿型砂冷却能力较弱，凝固过程较长，若硅含量偏低则石墨化动力不足，白口倾向和碳化物析出风险增大，硅含量需相应提高。这一因素的影响表明，即使铸件壁厚和牌号完全相同，不同铸造工艺条件下的碳硅比设计也应有所差异。脱离具体生产条件讨论碳硅比的控制范围，本质上是不完整的。四、工程原则：系统匹配而非孤立达标基于以上分析，球墨铸铁碳硅比设计的合理方法，不应追求某个通用临界值，而应根据以下逻辑进行系统匹配：第一，根据牌号确定硅含量的基准范围——高牌号取下限，铁素体基体取上限。第二，根据壁厚调整碳含量——薄壁件确保石墨化充足，厚大件防范石墨漂浮。第三，根据铸型冷却能力对硅含量进行微调——强冷却条件下适当降低，弱冷却条件下适当提高。碳硅比是以上三步决定的碳含量与硅含量的比值，仅作为最终校核参数，验证其是否落在一个合理的波动区间内，而非将其作为工艺设计的第一控制目标。结语碳硅比设计的本质，是协调碳的石墨化膨胀贡献与硅的组织调控作用。壁厚决定冷却速率和凝固行为，基体组织决定性能方向，铸型条件决定工艺适应性——三者共同构成了碳硅比设计的约束体系，不存在某个超越这些条件的通用临界值。铸造工艺设计的基本素养，不在于记忆某个固定的工艺参数，而在于理解参数背后的物理机制，并根据具体条件做出精准的判断与选择。（仅供交流探讨）",
-      "fullContent": "碳硅比（C/Si）是球墨铸铁成分设计中一个常被提及却容易被简单化的参数。许多铸造工艺资料将其表述为一个固定临界值，似乎只要控制C/Si大于某个数值就能同时保障石墨化膨胀和补缩效果。然而，球墨铸铁的凝固行为和组织形成机制远比这种简化表述复杂得多。碳硅比设计的实质，是在石墨化膨胀贡献与硅的基体调控作用之间寻求动态平衡，其合理范围取决于铸件壁厚、牌号要求和铸型条件等多重因素的制约，不存在适用于所有铸件的通用临界值。一、壁厚效应：冷却速率对碳硅比选择的根本约束铸件壁厚所决定的冷却速率，是影响碳硅比调控方向的首要因素。其作用机制源于球墨铸铁凝固过程的两个基本特征：白口倾向与石墨漂浮。薄壁小件（壁厚＜10mm）冷却迅速，过冷倾向大，极易在铸件表层或薄壁部位出现游离渗碳体（白口组织）。此时工艺的首要任务是通过提高硅含量来强化孕育效果、促进石墨化，以消除白口。硅含量可达2.2%～2.6%，在碳含量保持常规水平的前提下，C/Si比往往偏低。厚大件（壁厚＞50mm）的情况则完全相反。此类铸件凝固缓慢，液相中存在充足时间让石墨球析出并长大、上浮，当碳当量偏高时极易产生石墨漂浮缺陷——石墨在铸件上表面积聚，形成一层性能劣化的异常组织。为防范石墨漂浮，厚大件必须适当降低碳含量，同时硅含量亦不宜过高（一般控制在2.0%～2.4%），以免进一步推高碳当量。可见，壁厚对C/Si比的制约方向截然相反——薄壁件需要低C/Si比以消除白口，厚大件则可能呈现高C/Si比以防范石墨漂浮。将任何单一数值作为通用标准，都会导致某一类铸件出现严重缺陷。二、基体组织要求：性能目标对碳硅比的差异化需求球墨铸铁的基体组织——铁素体与珠光体的比例——决定了铸件的力学性能水平，而硅含量是调控基体的关键元素。不同牌号对基体的要求不同，对碳硅比的需求自然各异。高牌号球墨铸铁（QT700、QT800等）要求以珠光体为基体，以获得高强度。硅是促进铁素体形成的元素，过高的硅含量会降低珠光体比例、削弱强度，因此硅含量需控制在较低水平（1.8%～2.2%）。铁素体基体球铁（QT400、QT450等）的情况正好相反。这类牌号要求以铁素体为主，以保障高伸长率和低温冲击韧性，硅含量需较高（2.4%～2.8%）以促进铁素体形成。此时C/Si比通常偏低，但铸件的铸造性能和韧性反而更优。由此可知，碳硅比数值的高低与铸造性能优劣之间不存在简单的正相关关系。C/Si比是碳和硅各自独立取值后的计算结果，而不是应当优先控制的目标参数。工艺设计中应首先根据牌号确定硅含量的合理范围，碳含量则根据壁厚和补缩需求独立设定，C/Si比仅作为校核参考。三、铸型冷却能力：生产条件对碳硅比选择的适应性调节铸型的冷却能力决定了铸件在共晶转变期间的实际冷却速率，进而影响石墨化程度、组织细化和石墨漂浮倾向。金属型铸造或铁型覆砂工艺具有强冷却能力，铸件凝固速度快，石墨化时间缩短但对孕育的要求相应降低，硅含量可适当下调，此时碳硅比呈现相应变化。湿型砂冷却能力较弱，凝固过程较长，若硅含量偏低则石墨化动力不足，白口倾向和碳化物析出风险增大，硅含量需相应提高。这一因素的影响表明，即使铸件壁厚和牌号完全相同，不同铸造工艺条件下的碳硅比设计也应有所差异。脱离具体生产条件讨论碳硅比的控制范围，本质上是不完整的。四、工程原则：系统匹配而非孤立达标基于以上分析，球墨铸铁碳硅比设计的合理方法，不应追求某个通用临界值，而应根据以下逻辑进行系统匹配：第一，根据牌号确定硅含量的基准范围——高牌号取下限，铁素体基体取上限。第二，根据壁厚调整碳含量——薄壁件确保石墨化充足，厚大件防范石墨漂浮。第三，根据铸型冷却能力对硅含量进行微调——强冷却条件下适当降低，弱冷却条件下适当提高。碳硅比是以上三步决定的碳含量与硅含量的比值，仅作为最终校核参数，验证其是否落在一个合理的波动区间内，而非将其作为工艺设计的第一控制目标。结语碳硅比设计的本质，是协调碳的石墨化膨胀贡献与硅的组织调控作用。壁厚决定冷却速率和凝固行为，基体组织决定性能方向，铸型条件决定工艺适应性——三者共同构成了碳硅比设计的约束体系，不存在某个超越这些条件的通用临界值。铸造工艺设计的基本素养，不在于记忆某个固定的工艺参数，而在于理解参数背后的物理机制，并根据具体条件做出精准的判断与选择。（仅供交流探讨）",
-      "source": "微信公众号",
-      "publishedAt": "2026-08-06T20:51:44.000Z",
-      "collectedAt": "2026-08-10T02:46:22.123Z",
-      "sourceChannel": "微信公众号/手动采集",
-      "linkType": "publisher",
-      "region": "国内",
-      "language": "zh",
-      "sourceType": "行业资讯",
-      "queryTopic": "金属材料",
-      "contextTags": [
-        "金属材料"
-      ],
-      "category": "金属材料",
-      "tags": [],
-      "relevanceScore": 10,
-      "reliability": {
-        "grade": "B",
-        "label": "可靠",
-        "score": 70
-      },
-      "summary": "本文探讨球墨铸铁碳硅比（C/Si）设计的匹配性原则，指出其并非固定临界值，而需根据壁厚、牌号和铸型条件动态调整。薄壁件（<10mm）需高硅（2.2%-2.6%）低C/Si以消除白口；厚大件（>50mm）需低碳低硅（2.0%-2.4%）防石墨漂浮。高牌号（QT700/800）需低硅（1.8%-2.2%）促珠光体，铁素体基体（QT400/450）需高硅（2.4%-2.8%）提韧性。铸型冷却能力影响硅含量微调。设计应优先按牌号定硅，按壁厚定碳，C/Si仅作校核。",
-      "keyPoints": [
-        "薄壁件需高硅（2.2%-2.6%）低C/Si防白口，厚大件需低硅（2.0%-2.4%）防石墨漂浮",
-        "高牌号球铁（QT700/800）硅含量1.8%-2.2%促珠光体，铁素体基体（QT400/450）硅含量2.4%-2.8%提韧性",
-        "碳硅比设计需匹配壁厚、基体要求和铸型冷却能力，无通用临界值",
-        "硅含量按牌号确定，碳含量按壁厚调整，C/Si仅作校核参数"
-      ],
-      "engineeringImpact": "为球墨铸铁工艺设计提供系统匹配原则，避免因固定C/Si值导致白口或石墨漂浮缺陷，提升铸件质量一致性。"
-    },
-    {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-864200e46968",
       "title": "QT400-18AL（-50℃）低温冲击材料化学成分如何选择与控制？",
       "titleZh": "QT400-18AL（-50℃）低温冲击材料化学成分如何选择与控制？",
       "url": "https://mp.weixin.qq.com/s/hgmf68uvadgN5rtkjVv-uw",
@@ -1096,7 +939,7 @@
       "engineeringImpact": "该研究为低温高韧性球墨铸铁的化学成分设计和工艺控制提供了具体参数，可直接指导风电、高铁等领域低温冲击铸件的生产，提高产品可靠性和合格率。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-5f335b6e6fce",
       "title": "34CrNi2Mo/34CrNiMo6合金结构钢：成分机制、风电大轴与 1.6582 终极工程解析",
       "titleZh": "34CrNi2Mo/34CrNiMo6合金结构钢：成分机制、风电大轴与 1.6582 终极工程解析",
       "url": "https://mp.weixin.qq.com/s/cTLoy3AgR6laszixN0qqog",
@@ -1134,7 +977,7 @@
       "engineeringImpact": "为风电和重型传动部件选材提供关键参数，指导在极寒环境下高疲劳寿命轴类零件的材料选择与热处理工艺设计。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-ed442d46a282",
       "title": "机械设计常用材料全攻略：90%场景支持套用，工程师选型必备手册！",
       "titleZh": "机械设计常用材料全攻略：90%场景支持套用，工程师选型必备手册！",
       "url": "https://mp.weixin.qq.com/s/v4p2H-9Ivnxa_tfLhsUUQw",
@@ -1171,7 +1014,7 @@
       "engineeringImpact": "为机械设计选材提供快速参考，尤其对齿轮、铸铁和热处理工艺的选择具有直接指导意义，有助于提升设计效率与可靠性。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-e07e02e511c3",
       "title": "风电用钢系列1｜风电钢是什么？一篇读懂风机\"骨架\"里的高强钢",
       "titleZh": "风电用钢系列1｜风电钢是什么？一篇读懂风机\"骨架\"里的高强钢",
       "url": "https://mp.weixin.qq.com/s/lpp6edJOv67gvq9RjCBgMQ",
@@ -1208,7 +1051,7 @@
       "engineeringImpact": "为风电用钢的选材、焊接工艺设计和质量控制提供关键参数，指导高强钢在风机结构中的应用，确保20年使用寿命下的安全可靠性。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-f1fb10199a1e",
       "title": "风电用钢系列2｜风电钢速查手册：40个核心术语，看懂行业不费劲",
       "titleZh": "风电用钢系列2｜风电钢速查手册：40个核心术语，看懂行业不费劲",
       "url": "https://mp.weixin.qq.com/s/xg8wJl4MA8yWFf3MEy2sIw",
@@ -1245,7 +1088,7 @@
       "engineeringImpact": "为风电用钢选材、热处理工艺制定及质量控制提供速查参考，有助于工程人员快速掌握关键术语和技术要点，提升设计制造效率。"
     },
     {
-      "id": "w32-gn-金属材料-1",
+      "id": "w32-cc0629aeb2e7",
       "title": "Alloy Steel Forging Market to Hit USD 20.14 Billion by 2032 | ATI, KOBELCO, Trenton, Thyssenkrupp, Aichi Steel - openPR.com",
       "titleZh": "合金钢锻造市场到2032年将达到201.4亿美元 | ATI、KOBELCO、Trenton、Thyssenkrupp、Aichi Steel - openPR.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT1RwUjRHNmFVNVZ4ODZ3dkhpUjU3cEpHMm8ybldqOFF3Z2lSeXZBcjlhaGZQSjF4RmJRTmxMd2JtRVZWalJ2bWpDcWF6QlZGRTg1RXNPaV82RVVNN2dzSVhILWlnSXdqN2pTczNUX0RzSklJYlBDcVRranVyWUJ3andLc0dWdEREOFQ0c3R6azl4M3I3NDNpdTNlckMwbjdq?oc=5",
@@ -1281,7 +1124,7 @@
       "engineeringImpact": "该市场预测为工程领域提供了合金钢需求增长的信号，尤其在齿轮和风电用钢方面，可能推动更高性能材料的研发。热处理工艺的优化将成为提升产品质量和降低成本的关键，工程人员需关注先进锻造技术和材料创新以满足未来市场需求。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-7ea903afb4c0",
       "title": "Delayed Hydrogen-Induced Cracking: Fundamentals and Real-World Examples",
       "titleZh": "延迟氢致开裂：基本原理与工程实例",
       "url": "https://doi.org/https://doi.org/10.1007/s13632-026-01361-z",
@@ -1320,7 +1163,7 @@
       "engineeringImpact": "为齿轮锻造材料、球墨铸铁及风电用钢的氢脆风险防控提供理论依据，指导材料热处理工艺优化（如去氢退火）、表面处理选择及服役应力评估，有助于制定延迟开裂的检测标准和预防策略，提升关键部件的可靠性和安全性。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-464f74f436a7",
       "title": "Numerical Simulation of Die Forging Processes: A Review of Finite Element Modelling Approaches, Material Models and Process Parameters",
       "titleZh": "模具锻造过程的数值模拟：有限元建模方法、材料模型和工艺参数综述",
       "url": "https://doi.org/https://doi.org/10.3390/app16146968",
@@ -1359,7 +1202,7 @@
       "engineeringImpact": "本综述为模具锻造工艺的数值模拟提供了系统性的方法论参考，有助于工程师选择合适的有限元模型和材料本构方程，优化锻造工艺参数（如温度、速度、润滑条件），减少试错成本。特别对于齿轮锻造、球墨铸铁和风电用钢等关键材料，文中提到的材料模型和热-力耦合模拟方法可用于预测微观组织演变和残余应力，提升产品质量和服役性能。同时，数字孪生和实时控制的概念为智能制造提供了方向，但需注意实验验证和热接触建模的挑战。"
     },
     {
-      "id": "w32-gn-金属材料-0",
+      "id": "w32-1530fb48bb47",
       "title": "Metal Casting Market Size, Share &amp; Growth Report 2034 - IMARC Group",
       "titleZh": "金属铸造市场规模、份额及增长报告2034 - IMARC集团",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ibEFTTmZWa2IzU183N0tnVkFYZ0RfN1g4YXR0SF90eElVWE9LQW84R25nTHkxaUJia2Z6TVo1RTFTb0QyNnYyZmtXRk5xRXRjUkhvSE52NmJqRE0?oc=5",
@@ -1396,7 +1239,7 @@
       "engineeringImpact": "对于工程领域，该报告提供了金属铸造市场的宏观趋势，有助于企业决策投资方向。但针对齿轮锻造材料、球墨铸铁、风电用钢及热处理工艺，报告缺乏具体技术参数和性能数据，工程人员需结合专业文献或标准获取详细指导。市场增长信号表明，高性能铸造材料在风电和汽车领域有广阔应用前景，但需关注材料工艺优化以满足严苛性能要求。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-d1bfa7bb8403",
       "title": "29.7MW风电-永隆省150名居民就噪音超标 要求Ecowin能源给与补偿",
       "titleZh": "29.7MW风电-永隆省150名居民就噪音超标 要求Ecowin能源给与补偿",
       "url": "https://mp.weixin.qq.com/s/dYJtfGFKfvWRbZllUfTrWQ",
@@ -1434,7 +1277,7 @@
       "engineeringImpact": "该案例为风电项目噪声治理提供实证，强调需综合应用叶片降噪设计、气动噪声控制及标准化测试方法，以符合环保法规并减少社区冲突。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-dbd5853e1d12",
       "title": "整机巨头，要给风机装上“翅膀”",
       "titleZh": "整机巨头，要给风机装上“翅膀”",
       "url": "https://mp.weixin.qq.com/s/daDAHMUDTj0tANDtHW2GLg",
@@ -1471,7 +1314,7 @@
       "engineeringImpact": "该技术为风机降噪提供了仿生学工程方案，可提升项目选址灵活性和装机容量，对风电场降噪设计和优化具有直接参考价值。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-c7cc0d9a8c22",
       "title": "潮汐力风机叶片裂纹声纹监测系统亮相2026电力建设科技发展大会",
       "titleZh": "潮汐力风机叶片裂纹声纹监测系统亮相2026电力建设科技发展大会",
       "url": "https://mp.weixin.qq.com/s/IfsAov8gkmecbhYpMUcEuA",
@@ -1508,7 +1351,7 @@
       "engineeringImpact": "该声纹监测系统为风机叶片早期缺陷检测提供了非接触、连续监测的工程方案，显著提升运维效率与安全性，对风电行业智能运维实践具有重要参考价值。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-88a0b8958a16",
       "title": "Research Progress on Underwater Ship Propulsion in the Context of Green Transition—Energy Efficiency and Noise Reduction",
       "titleZh": "绿色转型背景下水下船舶推进研究进展——能效与降噪",
       "url": "https://doi.org/https://doi.org/10.1016/j.fmre.2026.06.018",
@@ -1548,7 +1391,7 @@
       "engineeringImpact": "该综述为水下推进器的绿色设计提供了系统性的技术路线图，强调了能效与降噪的协同优化潜力。工程上可指导新型螺旋桨和推进器的设计，通过仿生和智能材料降低噪声同时提升效率，有助于满足国际海事组织（IMO）的减排要求和水下噪声法规，对军用潜艇声隐身和民用船舶舒适性均有重要参考价值。"
     },
     {
-      "id": "w32-gn-风机噪声-0",
+      "id": "w32-b52c54958d49",
       "title": "More power, less noise: what wind energy can learn from wildlife - Northumbria University",
       "titleZh": "更多电力，更少噪音：风能可以从野生动物身上学到什么 - 诺森比亚大学",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLWRRQjRkUGZqOWtHZVRxdU9VR0c0QVBRVzJNdzZYMmZaU1BNbU9GSDM4WTJ1UDlHZ3hBRFJoUnVSOGVQVnp0VEVWTDlfOW4xMFNrQ1ZQWFFNcXdtdWREdHZkNGFRUUlDZXFlNG1yTDJQRVozQ1hYYWFJdlhWaWJ2SS1aeThpVXpKX0l2NXBzNDJ0TzZKc2hZSVlnM21nMGh0Z3FrSzRfT2p4TjNmdTN4VUY0WENMcFczcW1F?oc=5",
@@ -1584,7 +1427,7 @@
       "engineeringImpact": "该研究为风力发电机叶片设计提供了仿生学参考，有助于开发低噪声、高效率的叶片结构。通过应用这些降噪技术，可以降低风电场对周边社区的噪声干扰，从而减少社会阻力，促进风能项目的推广。同时，提高发电效率有助于降低度电成本，增强风能的竞争力。噪声测试方法的完善也为叶片设计验证提供了可靠工具。"
     },
     {
-      "id": "w32-gn-风机噪声-1",
+      "id": "w32-25eed00f442c",
       "title": "Enhancing aerodynamic performance using biomimetic wavy trailing edges on aircraft wing at low Reynolds number - Nature",
       "titleZh": "低雷诺数下仿生波浪尾缘提升飞机机翼气动性能",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2U19aWXpYRnlvZmh0am1kWDk3amJPTWpobHZJYWZGQ0dLUFRfM1hPaF9kQ1c2cHRLUldoZ1pHZS12endfcXNjRWxId0FKRWMxV1hnZlpKSHR2WlFYMldR?oc=5",
@@ -1619,7 +1462,7 @@
       "engineeringImpact": "该研究为飞机机翼设计提供了仿生学思路，尤其在无人机、小型飞行器等低雷诺数飞行器上，波浪尾缘结构可作为一种被动降噪和增升手段，有助于提升气动效率并降低噪声污染，对航空工程中的降噪材料和结构设计具有直接参考价值。"
     },
     {
-      "id": "w32-gn-风机噪声-2",
+      "id": "w32-6c0bdd874e11",
       "title": "A roadmap for required technological advancements to further reduce onshore wind turbine noise impact on the environment - Wiley Interdisciplinary Reviews",
       "titleZh": "陆上风力涡轮机噪声环境影响进一步降低所需技术进展路线图",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2OFdfNHU2d09xTjJuYW9JQktuNUlicWpxWFd0TWdZQzEtYVJPMHZSeG5iRFJqWGdBRnRYZ084eC1udkx4dVFOVUkyMmFOZnV5eURwaVR1N3VOdk5naHpUblcxR2lMeUcycUE?oc=5",
@@ -1655,7 +1498,7 @@
       "engineeringImpact": "该路线图为风电工程领域提供了明确的降噪技术研发优先级和阶段性目标，有助于指导叶片设计、材料选型和测试标准制定。工程人员可借鉴其提出的被动/主动降噪技术组合方案，优化风电机组气动外形与结构，降低噪声排放，同时提升发电效率。此外，先进的噪声测试方法可应用于现场验收和风电场布局优化，对缓解邻避效应、推动风电项目合规审批具有直接参考价值。"
     },
     {
-      "id": "w32-gn-风机噪声-3",
+      "id": "w32-0ededf1f4987",
       "title": "Low-Noise Wind Turbine Blades Inspired by Owl Wings - power-eng.com",
       "titleZh": "仿猫头鹰翼的低声噪风力机叶片",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc2FDQXNkbzFwLVZ1anhiQm1EQU5rMVFKU1dqTjhDa21VYkl6WkpRZlYtcjVBMTdrLTYwRUJEeUpYdVJUQWV5cnhKeVNDdmlOUWRSbk1LbVJNT3ZpdEdjQkN6TUdjTzlET3VqYThWRUNCMENIMk13UFUxaG5ISHBqOFJscjRQZkx3cFNkZy1pRk5nam1jWmVQUmc5a1RhMjVQRVlv?oc=5",
@@ -1692,7 +1535,7 @@
       "engineeringImpact": "该技术为风力机降噪提供了仿生学工程方案，可直接指导叶片气动外形优化和材料选型。工程人员可参考锯齿参数（如齿长、齿距）和表面处理工艺进行原型测试，并结合风洞数据调整设计。此外，降噪设计需平衡发电效率与噪声水平，为后续CFD仿真和结构疲劳分析提供基准，有助于推动低噪声风力机在分布式能源和城市近郊的应用。"
     },
     {
-      "id": "w32-gn-风机噪声-4",
+      "id": "w32-e435508956d3",
       "title": "Siemens low noise wind turbine blades inspired by silent flight of the owl - Windpower Engineering &amp; Development",
       "titleZh": "西门子仿猫头鹰静音飞行的低噪声风电叶片",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS21HWFZGUEUtMnNwT3JYT2FzNVhrTkZXR0FGNXgtZVhxV00xOWdkb0FxQzZuZkRXbzdnYzBEVmZYSUdyTnVtdS05NUdpNkhua1dMVGotNHdhZjZkdVRvNF9maXEzamF1TUJmWUVsM0VISVMyZnlmd2V2czBsTDNXRklyV3FPR25wekxwUGFpc25kUzNVa1lxNFY4bVV4OHdOb2owRQ?oc=5",
@@ -1728,7 +1571,7 @@
       "engineeringImpact": "该技术为风电叶片降噪提供了仿生学解决方案，具有实际工程应用价值，可在不牺牲发电效率的前提下降低噪声，有助于风电场的选址和社区接受度提升。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-0b60ce0067ab",
       "title": "意大利初创企业在卡拉布里亚测试海上风电新型储能技术",
       "titleZh": "意大利初创企业在卡拉布里亚测试海上风电新型储能技术",
       "url": "https://mp.weixin.qq.com/s/PlB-dOgVhv5ms8E1Osyx0w",
@@ -1766,7 +1609,7 @@
       "engineeringImpact": "该技术为海上风电储能提供新路径，其试验流程和海洋环境适配性验证方法对海洋工程装备研发具有参考价值。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-fc3b484caedd",
       "title": "《风电钢塔残余应力场时效演化的非线性振动诱导机制及疲劳性能增益效应研究》",
       "titleZh": "《风电钢塔残余应力场时效演化的非线性振动诱导机制及疲劳性能增益效应研究》",
       "url": "https://mp.weixin.qq.com/s/uR5693APKYyMXzdzIAyZRg",
@@ -1804,7 +1647,7 @@
       "engineeringImpact": "该研究为风电钢塔制造中残余应力控制提供了高效、经济的振动时效工艺参考，有助于提升塔筒质量与服役寿命。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-abbe1aa75d1e",
       "title": "再添叶片测试阵地！双瑞复材风电装备综合检测能力全面升级",
       "titleZh": "再添叶片测试阵地！双瑞复材风电装备综合检测能力全面升级",
       "url": "https://mp.weixin.qq.com/s/M_l4AMe7ZReje2Kd6WJL_A",
@@ -1842,7 +1685,7 @@
       "engineeringImpact": "该测试平台提升了大型风电叶片全尺寸试验能力，为叶片设计验证和认证提供可靠数据，支撑深远海超大功率风电发展。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-fd62b7baaa5a",
       "title": "风电塔筒Q420/Q355板材门框热处理后硬度强制管控标准",
       "titleZh": "风电塔筒Q420/Q355板材门框热处理后硬度强制管控标准",
       "url": "https://mp.weixin.qq.com/s/4X9hJOY4kRm2jFk6xo3UPg",
@@ -1880,7 +1723,7 @@
       "engineeringImpact": "为风电塔筒门框热处理硬度验收提供了明确量化标准，可直接用于生产质量管控和工艺优化，确保结构安全与耐久性。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-64ab74c111ae",
       "title": "材料韧性如何判断？走进双盛冲击检测实验室",
       "titleZh": "材料韧性如何判断？走进双盛冲击检测实验室",
       "url": "https://mp.weixin.qq.com/s/7ixHCjsZR53Isd8lXdT-MA",
@@ -1918,7 +1761,7 @@
       "engineeringImpact": "为工程选材、焊接工艺评定和产品质量验收提供了标准化的冲击韧性检测方法和数据依据，有助于预防低温脆断和突发冲击失效。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-1ad5b852bf77",
       "title": "金属疲劳断裂：材料为何「累」到开裂 | Metal Fatigue Fracture",
       "titleZh": "金属疲劳断裂：材料为何「累」到开裂 | Metal Fatigue Fracture",
       "url": "https://mp.weixin.qq.com/s/To5J0FpY-9wxtw6DyO845A",
@@ -1956,7 +1799,7 @@
       "engineeringImpact": "为金属材料疲劳性能评估提供标准化试验路径，指导关键承力部件的安全寿命设计与失效分析。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-5190eec85c14",
       "title": "从「看见裂纹」到「看见风险」",
       "titleZh": "从「看见裂纹」到「看见风险」",
       "url": "https://mp.weixin.qq.com/s/jO0Oe2xT0bSMjGw0XVjzkQ",
@@ -1994,7 +1837,7 @@
       "engineeringImpact": "该信息为风电叶片监测技术选型提供量化依据，强调分布式光纤应变在早期裂纹检测中的优势，有助于优化运维策略，延长叶片寿命。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-cf1080df9876",
       "title": "【新论文速递】面向耐久性提升的栓接Fe-SMA修复横隔板疲劳裂纹：数值模拟与机器学习",
       "titleZh": "【新论文速递】面向耐久性提升的栓接Fe-SMA修复横隔板疲劳裂纹：数值模拟与机器学习",
       "url": "https://mp.weixin.qq.com/s/X9QUBykbE3dXJxAkhDC6PQ",
@@ -2032,7 +1875,7 @@
       "engineeringImpact": "该研究为钢桥横隔板疲劳裂纹的栓接Fe-SMA修复提供了量化设计参数和预测模型，可直接指导工程加固设计，提升修复耐久性和可靠性。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-c1d4dfa1c5c2",
       "title": "博士论文答辩 PPT：大型混塔式风电机组耦合非线性动力学分析与性能评估",
       "titleZh": "博士论文答辩 PPT：大型混塔式风电机组耦合非线性动力学分析与性能评估",
       "url": "https://mp.weixin.qq.com/s/SnHhudblwmbNDHciEH24dg",
@@ -2068,7 +1911,7 @@
       "engineeringImpact": "该研究为大型混塔式风电机组的动力学仿真提供了耦合分析框架，有助于提高设计阶段性能评估的准确性，对工程实践中的仿真建模与荷载分析具有参考价值。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-13b66db0dfc6",
       "title": "Detection and monitoring technologies for underwater concrete structural damage: A review",
       "titleZh": "水下混凝土结构损伤检测与监测技术：综述",
       "url": "https://doi.org/https://doi.org/10.1177/14759217261472404",
@@ -2108,7 +1951,7 @@
       "engineeringImpact": "本综述为水下混凝土结构损伤检测提供了系统的技术参考，工程人员可根据损伤类型和监测需求选择合适的检测方法。埋入式传感器适用于长期健康监测，无损检测技术适用于定期巡检和快速评估，温度示踪法在渗漏和内部损伤检测中具有潜力。结合水下机器人可提高检测效率和安全性，降低人工潜水风险。该综述有助于推动检测技术标准化和智能化，提升水下工程的安全性和经济性。"
     },
     {
-      "id": "w32-gn-风电试验-0",
+      "id": "w32-df3940e3f66e",
       "title": "Structural Health Monitoring Market Share, Size, Trend, 2034 - Fortune Business Insights",
       "titleZh": "结构健康监测市场份额、规模、趋势，2034年 - 财富商业洞察",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSkZqYmVxSW5wcF90YTFjNEdXbzdreVFsV1RlMHY2cElDQ3BaNzJpcUxqd2dKM2tFNmNlSmViOWNMRDdsQmRUOFdtc21zc0l6dXlORnZvUTllRmNYX0d5dGZyTzRVZjltamZSQ2daYVVmMG5pcGU0QTEtajhJSXpJU1F2bTJ3bm5ndHc?oc=5",
@@ -2144,7 +1987,7 @@
       "engineeringImpact": "该文章对工程领域的参考价值主要在于市场趋势和投资方向，而非具体试验技术。对于结构工程师，它提示了向数字化监测转型的必要性，但缺乏材料试验方法、裂纹试验技术、疲劳数据或静强度标准等细节。因此，工程人员需结合其他技术文献来获取具体的试验规程和数据分析方法，以优化结构健康监测系统的设计和实施。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-feb771b08d61",
       "title": "Development and Performance Validation of an Openable Yoke-Type E/M Sensor for Tension Force Monitoring in Tension Members",
       "titleZh": "可开合轭式电磁传感器开发及性能验证用于受拉构件拉力监测",
       "url": "https://doi.org/https://doi.org/10.58286/33949",
@@ -2183,7 +2026,7 @@
       "engineeringImpact": "该可开合轭式E/M传感器为受拉构件拉力监测提供了一种非破坏性、可现场快速安装的解决方案，降低了传统传感器安装复杂度和维护成本，提高了监测效率。其设计验证方法（仿真与实验结合）为同类传感器开发提供了参考，尤其适用于恶劣环境下的长期结构健康监测，对提升基础设施安全性和延长使用寿命具有重要工程价值。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-b0ec3de644e3",
       "title": "Development of Magnetic Flux Leakage Sensor for Local Damage Detection in Chain",
       "titleZh": "用于链条局部损伤检测的磁通泄漏传感器开发",
       "url": "https://doi.org/https://doi.org/10.58286/33951",
@@ -2224,7 +2067,7 @@
       "engineeringImpact": "该MFL传感器系统为链条类关键承载部件的在线健康监测提供了非破坏性检测方案，能够早期识别局部损伤，预防因链条断裂导致的设备停机和安全事故。其信号处理方法（去趋势、FFT、带通滤波）可推广至其他铁磁性结构的损伤检测，具有较高的工程实用价值。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-be6b639c21f7",
       "title": "Selected Aspects of Nonlinear Acoustics in Structural Health Monitoring Applications",
       "titleZh": "非线性声学在结构健康监测应用中的若干方面",
       "url": "https://doi.org/https://doi.org/10.58286/34046",
@@ -2263,7 +2106,7 @@
       "engineeringImpact": "本文为结构健康监测提供了非线性声学检测的理论与实验基础，尤其适用于早期疲劳裂纹和复合材料损伤的检测。其非接触激光测量方式便于工程现场应用，振动声调制和卢森堡-高尔基效应技术可集成到现有无损检测体系中，提高损伤识别灵敏度。研究结果有助于制定基于非线性声学的检测标准和流程，对航空航天、土木和机械结构的健康监测具有重要参考价值。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-90c88843e428",
       "title": "OVERLOAD DETECTION IN CARBON/GLASS HYBRID COMPOSITES VIA FRAGMENTATION-INDUCED ELECTRICAL RESISTANCE CHANGE",
       "titleZh": "碳/玻璃混杂复合材料中基于碎片化诱导电阻变化的过载检测",
       "url": "https://doi.org/https://doi.org/10.1016/j.sna.2026.118237",
@@ -2304,7 +2147,7 @@
       "engineeringImpact": "该研究为高价值结构（如风电叶片、航空航天部件）提供了一种低成本、实时、双模式（电学和视觉）的过载和损伤检测方法。通过设计碳层结构，可定制传感灵敏度和范围，有利于预测性维护和结构健康监测，减少停机时间和检查成本。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-27ce5d5e24a3",
       "title": "振动试验下不同加固件对螺钉连接性能的影响研究...",
       "titleZh": "振动试验下不同加固件对螺钉连接性能的影响研究...",
       "url": "https://mp.weixin.qq.com/s/eoO2i5VoHu_1Sg06Gcouow",
@@ -2342,7 +2185,7 @@
       "engineeringImpact": "为振动环境下螺纹连接方案选型提供依据，插销钢套适用于高可靠、恶劣工况，钢丝螺套适用于需缓冲且可维修的场合。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-d0048359be07",
       "title": "ML35CrMo螺栓断裂原因分析",
       "titleZh": "ML35CrMo螺栓断裂原因分析",
       "url": "https://mp.weixin.qq.com/s/NdypAjuVDeKCf6mBCkXQXw",
@@ -2378,7 +2221,7 @@
       "engineeringImpact": "该分析为高强度螺栓的工艺优化和预紧力控制提供了具体方向，对预防类似断裂事故具有直接指导价值。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-ff80fd59fb3e",
       "title": "高强预紧螺栓连接计算——VDI2230 读后心得",
       "titleZh": "高强预紧螺栓连接计算——VDI2230 读后心得",
       "url": "https://mp.weixin.qq.com/s/ZD_1TywWpe4IJd-n8YjgsA",
@@ -2416,7 +2259,7 @@
       "engineeringImpact": "该信息为螺栓连接设计提供了系统化的计算框架和输出清单，有助于工程师规范螺栓强度校核、预紧力控制和疲劳评估，提升连接可靠性。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-085cb9bb0ee9",
       "title": "高强度不锈钢螺栓选型、装配、验收全流程指南",
       "titleZh": "高强度不锈钢螺栓选型、装配、验收全流程指南",
       "url": "https://mp.weixin.qq.com/s/UH-bbVGQtG9GbUvpYOvrAQ",
@@ -2454,7 +2297,7 @@
       "engineeringImpact": "为高强度不锈钢螺栓的选型、装配和验收提供了标准化流程，有助于预防工程中常见的松动、断裂等失效问题，提升结构安全性和使用寿命。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-f38d2af8de05",
       "title": "高强螺栓测试——预紧力及相关工艺参数",
       "titleZh": "高强螺栓测试——预紧力及相关工艺参数",
       "url": "https://mp.weixin.qq.com/s/drSlix3g4-zWRKvJomXliQ",
@@ -2491,7 +2334,7 @@
       "engineeringImpact": "为高强螺栓预紧力测试提供了系统方法选择依据，对紧固工艺参数验证和连接可靠性评估具有直接指导价值。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-2cd9a91223c7",
       "title": "ANSYS WB螺栓及螺栓连接结构强度设计与校核、松脱与振动分析、疲劳与断裂计算",
       "titleZh": "ANSYS WB螺栓及螺栓连接结构强度设计与校核、松脱与振动分析、疲劳与断裂计算",
       "url": "https://mp.weixin.qq.com/s/kMTkBeycWtYviHxN7Ias8w",
@@ -2529,7 +2372,7 @@
       "engineeringImpact": "该培训内容为螺栓连接结构的设计、校核与失效分析提供了系统化的仿真方法，可直接应用于航空航天、船舶重工等领域的工程实践，提升结构安全性与可靠性。"
     },
     {
-      "id": "w32-aHR0cHM6Ly9t",
+      "id": "w32-75f46a3659e3",
       "title": "组合螺栓抗拉强度检测方法及紧固件质量管控解析",
       "titleZh": "组合螺栓抗拉强度检测方法及紧固件质量管控解析",
       "url": "https://mp.weixin.qq.com/s/-hgCulm2YAfbjubO2UYVlQ",
@@ -2566,7 +2409,7 @@
       "engineeringImpact": "为高强度组合螺栓的强度校核与质量管控提供系统方法，指导重载装配场景下的选型与验收，降低安全风险。"
     },
     {
-      "id": "oa-httpsopenalexorg",
+      "id": "w32-cbc75974167a",
       "title": "Service life under the influence of imperfect installation conditions: a probabilistic fatigue framework for bolted railway noise barrier connections",
       "titleZh": "非理想安装条件下螺栓连接铁路声屏障的疲劳寿命：概率疲劳框架",
       "url": "https://doi.org/https://doi.org/10.1080/15732479.2026.2699884",
@@ -2607,7 +2450,7 @@
       "engineeringImpact": "该研究为高速铁路声屏障螺栓连接提供了基于可靠性的疲劳评估方法，能够量化非理想安装条件对寿命的影响，支持结构健康监测数据整合，有助于实现条件维护和资源优化，对既有和新建结构均具有工程参考价值。"
     },
     {
-      "id": "w32-gn-风电螺栓-1",
+      "id": "w32-8958694c4ccd",
       "title": "Revolutionary Permanent Fastener Offers Unmatched Vibration Resistance — Yet Removes Easily with Standard Torque Tools - WorkBoat",
       "titleZh": "革命性永久紧固件：卓越抗振性能与标准扭矩工具易拆卸并存",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOWZXZjJxdHhKbGpOYlBEUk9lVmlRWkRwRWlIb0R4LUc0Z3puWWlyQmdhSG5aNzJHQnNHQlF0bU5OT2NSRXlBbWQtWkhKcndiNVExZGx6emtmZkdWTTVmOGV5TTFzWjdoeXQ1UGhWcDBSMEpKVWIwM0M1ZFlaZ3lnLWtIWE5MeTlHcTFsVVAxcU83MEQ1cGJSSjR5WU9ZOUpSRGZ0RkJmSmNwM3FSY3pMRFQ0MDRHaWFRMzVrc3NiOFo5amEzeWhmNk00eWpJSHRVbkluaHlnWnc3R0ZhTU5FdEtqUllTZw?oc=5",
@@ -2642,7 +2485,7 @@
       "engineeringImpact": "该技术为螺栓连接设计提供了新思路，尤其在需要高可靠性与可维护性并重的场景（如船舶推进系统、重型车辆悬挂）具有工程参考价值。其可拆卸特性降低了维修停机时间，而抗振性能减少了对额外锁紧装置（如厌氧胶、锁紧垫圈）的依赖，可能简化装配工艺并降低全生命周期成本。此外，对预紧力精确控制的要求，提示工程实践中需结合扭矩-转角法或超声波测量等先进手段，以充分发挥该紧固件的性能优势。"
     },
     {
-      "id": "w32-gn-风电螺栓-0",
+      "id": "w32-40e710b6729d",
       "title": "Crack propagation analysis and fatigue life assessment of high-strength bolts based on fracture mechanics - Nature",
       "titleZh": "基于断裂力学的高强度螺栓裂纹扩展分析与疲劳寿命评估",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8za1JEbHUyYldkeXc3UmVjaFFoMG5Nbm9HQ1lDRFczY3VxVHpQUDk3Q2ZfaFJUM0IyRWRUT3ZLc1BWTG9HZEhqLWNsNUdxSlRtYkZJQkN1MWZPVFF4UGRr?oc=5",
@@ -2679,7 +2522,7 @@
       "engineeringImpact": "该研究为高强度螺栓的设计与维护提供了断裂力学分析框架，有助于工程实践中优化螺栓选型、加工工艺和预紧力控制，提高连接结构的可靠性和耐久性，对桥梁、建筑、机械等领域的螺栓连接设计具有重要参考价值。"
     },
     {
-      "id": "w32-gn-风电螺栓-2",
+      "id": "w32-d49ff1f59798",
       "title": "No torque required for this Huck Bobtail fastener - Windpower Engineering &amp; Development",
       "titleZh": "Huck Bobtail紧固件无需扭矩——风电工程与发展",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZeVRuOUNFQ3BhcHFYTmhpSHpOUExoSGR1dzF2SGRtV1dFUldTNktRT0pfeHd3T2Z5RzBsUjVBWnYzdFFSeG90MG5PbFUzLVFKLV9YSk1ybF9vWDF2ZGlINFlXbGFGcENBUDcyUGpFTXFyUXVYaS0yUnMyNlRzVm8?oc=5",
@@ -2713,6 +2556,43 @@
         "螺栓强度校核可能基于拉伸载荷和剪切载荷的联合分析，确保在极端工况下满足安全系数。"
       ],
       "engineeringImpact": "该技术为风电行业提供了一种高可靠性、低安装复杂度的紧固方案，尤其适用于塔筒法兰、叶片连接等关键部位。其无扭矩特性可减少现场工具依赖，提高装配效率，同时通过优化预紧力控制可能延长疲劳寿命，对工程实践具有直接参考价值。"
+    },
+    {
+      "id": "w32-b58a1e19e5ad",
+      "title": "球墨铸铁碳硅比设计的匹配性原则探讨",
+      "titleZh": "球墨铸铁碳硅比设计的匹配性原则探讨",
+      "url": "https://mp.weixin.qq.com/s/aqWsy2_2fWhyVMvZZfioIQ",
+      "sourceUrl": "https://mp.weixin.qq.com/s/aqWsy2_2fWhyVMvZZfioIQ",
+      "snippet": "碳硅比（C/Si）是球墨铸铁成分设计中一个常被提及却容易被简单化的参数。许多铸造工艺资料将其表述为一个固定临界值，似乎只要控制C/Si大于某个数值就能同时保障石墨化膨胀和补缩效果。然而，球墨铸铁的凝固行为和组织形成机制远比这种简化表述复杂得多。碳硅比设计的实质，是在石墨化膨胀贡献与硅的基体调控作用之间寻求动态平衡，其合理范围取决于铸件壁厚、牌号要求和铸型条件等多重因素的制约，不存在适用于所有铸件的通用临界值。一、壁厚效应：冷却速率对碳硅比选择的根本约束铸件壁厚所决定的冷却速率，是影响碳硅比调控方向的首要因素。其作用机制源于球墨铸铁凝固过程的两个基本特征：白口倾向与石墨漂浮。薄壁小件（壁厚＜10mm）冷却迅速，过冷倾向大，极易在铸件表层或薄壁部位出现游离渗碳体（白口组织）。此时工艺的首要任务是通过提高硅含量来强化孕育效果、促进石墨化，以消除白口。硅含量可达2.2%～2.6%，在碳含量保持常规水平的前提下，C/Si比往往偏低。厚大件（壁厚＞50mm）的情况则完全相反。此类铸件凝固缓慢，液相中存在充足时间让石墨球析出并长大、上浮，当碳当量偏高时极易产生石墨漂浮缺陷——石墨在铸件上表面积聚，形成一层性能劣化的异常组织。为防范石墨漂浮，厚大件必须适当降低碳含量，同时硅含量亦不宜过高（一般控制在2.0%～2.4%），以免进一步推高碳当量。可见，壁厚对C/Si比的制约方向截然相反——薄壁件需要低C/Si比以消除白口，厚大件则可能呈现高C/Si比以防范石墨漂浮。将任何单一数值作为通用标准，都会导致某一类铸件出现严重缺陷。二、基体组织要求：性能目标对碳硅比的差异化需求球墨铸铁的基体组织——铁素体与珠光体的比例——决定了铸件的力学性能水平，而硅含量是调控基体的关键元素。不同牌号对基体的要求不同，对碳硅比的需求自然各异。高牌号球墨铸铁（QT700、QT800等）要求以珠光体为基体，以获得高强度。硅是促进铁素体形成的元素，过高的硅含量会降低珠光体比例、削弱强度，因此硅含量需控制在较低水平（1.8%～2.2%）。铁素体基体球铁（QT400、QT450等）的情况正好相反。这类牌号要求以铁素体为主，以保障高伸长率和低温冲击韧性，硅含量需较高（2.4%～2.8%）以促进铁素体形成。此时C/Si比通常偏低，但铸件的铸造性能和韧性反而更优。由此可知，碳硅比数值的高低与铸造性能优劣之间不存在简单的正相关关系。C/Si比是碳和硅各自独立取值后的计算结果，而不是应当优先控制的目标参数。工艺设计中应首先根据牌号确定硅含量的合理范围，碳含量则根据壁厚和补缩需求独立设定，C/Si比仅作为校核参考。三、铸型冷却能力：生产条件对碳硅比选择的适应性调节铸型的冷却能力决定了铸件在共晶转变期间的实际冷却速率，进而影响石墨化程度、组织细化和石墨漂浮倾向。金属型铸造或铁型覆砂工艺具有强冷却能力，铸件凝固速度快，石墨化时间缩短但对孕育的要求相应降低，硅含量可适当下调，此时碳硅比呈现相应变化。湿型砂冷却能力较弱，凝固过程较长，若硅含量偏低则石墨化动力不足，白口倾向和碳化物析出风险增大，硅含量需相应提高。这一因素的影响表明，即使铸件壁厚和牌号完全相同，不同铸造工艺条件下的碳硅比设计也应有所差异。脱离具体生产条件讨论碳硅比的控制范围，本质上是不完整的。四、工程原则：系统匹配而非孤立达标基于以上分析，球墨铸铁碳硅比设计的合理方法，不应追求某个通用临界值，而应根据以下逻辑进行系统匹配：第一，根据牌号确定硅含量的基准范围——高牌号取下限，铁素体基体取上限。第二，根据壁厚调整碳含量——薄壁件确保石墨化充足，厚大件防范石墨漂浮。第三，根据铸型冷却能力对硅含量进行微调——强冷却条件下适当降低，弱冷却条件下适当提高。碳硅比是以上三步决定的碳含量与硅含量的比值，仅作为最终校核参数，验证其是否落在一个合理的波动区间内，而非将其作为工艺设计的第一控制目标。结语碳硅比设计的本质，是协调碳的石墨化膨胀贡献与硅的组织调控作用。壁厚决定冷却速率和凝固行为，基体组织决定性能方向，铸型条件决定工艺适应性——三者共同构成了碳硅比设计的约束体系，不存在某个超越这些条件的通用临界值。铸造工艺设计的基本素养，不在于记忆某个固定的工艺参数，而在于理解参数背后的物理机制，并根据具体条件做出精准的判断与选择。（仅供交流探讨）",
+      "fullContent": "碳硅比（C/Si）是球墨铸铁成分设计中一个常被提及却容易被简单化的参数。许多铸造工艺资料将其表述为一个固定临界值，似乎只要控制C/Si大于某个数值就能同时保障石墨化膨胀和补缩效果。然而，球墨铸铁的凝固行为和组织形成机制远比这种简化表述复杂得多。碳硅比设计的实质，是在石墨化膨胀贡献与硅的基体调控作用之间寻求动态平衡，其合理范围取决于铸件壁厚、牌号要求和铸型条件等多重因素的制约，不存在适用于所有铸件的通用临界值。一、壁厚效应：冷却速率对碳硅比选择的根本约束铸件壁厚所决定的冷却速率，是影响碳硅比调控方向的首要因素。其作用机制源于球墨铸铁凝固过程的两个基本特征：白口倾向与石墨漂浮。薄壁小件（壁厚＜10mm）冷却迅速，过冷倾向大，极易在铸件表层或薄壁部位出现游离渗碳体（白口组织）。此时工艺的首要任务是通过提高硅含量来强化孕育效果、促进石墨化，以消除白口。硅含量可达2.2%～2.6%，在碳含量保持常规水平的前提下，C/Si比往往偏低。厚大件（壁厚＞50mm）的情况则完全相反。此类铸件凝固缓慢，液相中存在充足时间让石墨球析出并长大、上浮，当碳当量偏高时极易产生石墨漂浮缺陷——石墨在铸件上表面积聚，形成一层性能劣化的异常组织。为防范石墨漂浮，厚大件必须适当降低碳含量，同时硅含量亦不宜过高（一般控制在2.0%～2.4%），以免进一步推高碳当量。可见，壁厚对C/Si比的制约方向截然相反——薄壁件需要低C/Si比以消除白口，厚大件则可能呈现高C/Si比以防范石墨漂浮。将任何单一数值作为通用标准，都会导致某一类铸件出现严重缺陷。二、基体组织要求：性能目标对碳硅比的差异化需求球墨铸铁的基体组织——铁素体与珠光体的比例——决定了铸件的力学性能水平，而硅含量是调控基体的关键元素。不同牌号对基体的要求不同，对碳硅比的需求自然各异。高牌号球墨铸铁（QT700、QT800等）要求以珠光体为基体，以获得高强度。硅是促进铁素体形成的元素，过高的硅含量会降低珠光体比例、削弱强度，因此硅含量需控制在较低水平（1.8%～2.2%）。铁素体基体球铁（QT400、QT450等）的情况正好相反。这类牌号要求以铁素体为主，以保障高伸长率和低温冲击韧性，硅含量需较高（2.4%～2.8%）以促进铁素体形成。此时C/Si比通常偏低，但铸件的铸造性能和韧性反而更优。由此可知，碳硅比数值的高低与铸造性能优劣之间不存在简单的正相关关系。C/Si比是碳和硅各自独立取值后的计算结果，而不是应当优先控制的目标参数。工艺设计中应首先根据牌号确定硅含量的合理范围，碳含量则根据壁厚和补缩需求独立设定，C/Si比仅作为校核参考。三、铸型冷却能力：生产条件对碳硅比选择的适应性调节铸型的冷却能力决定了铸件在共晶转变期间的实际冷却速率，进而影响石墨化程度、组织细化和石墨漂浮倾向。金属型铸造或铁型覆砂工艺具有强冷却能力，铸件凝固速度快，石墨化时间缩短但对孕育的要求相应降低，硅含量可适当下调，此时碳硅比呈现相应变化。湿型砂冷却能力较弱，凝固过程较长，若硅含量偏低则石墨化动力不足，白口倾向和碳化物析出风险增大，硅含量需相应提高。这一因素的影响表明，即使铸件壁厚和牌号完全相同，不同铸造工艺条件下的碳硅比设计也应有所差异。脱离具体生产条件讨论碳硅比的控制范围，本质上是不完整的。四、工程原则：系统匹配而非孤立达标基于以上分析，球墨铸铁碳硅比设计的合理方法，不应追求某个通用临界值，而应根据以下逻辑进行系统匹配：第一，根据牌号确定硅含量的基准范围——高牌号取下限，铁素体基体取上限。第二，根据壁厚调整碳含量——薄壁件确保石墨化充足，厚大件防范石墨漂浮。第三，根据铸型冷却能力对硅含量进行微调——强冷却条件下适当降低，弱冷却条件下适当提高。碳硅比是以上三步决定的碳含量与硅含量的比值，仅作为最终校核参数，验证其是否落在一个合理的波动区间内，而非将其作为工艺设计的第一控制目标。结语碳硅比设计的本质，是协调碳的石墨化膨胀贡献与硅的组织调控作用。壁厚决定冷却速率和凝固行为，基体组织决定性能方向，铸型条件决定工艺适应性——三者共同构成了碳硅比设计的约束体系，不存在某个超越这些条件的通用临界值。铸造工艺设计的基本素养，不在于记忆某个固定的工艺参数，而在于理解参数背后的物理机制，并根据具体条件做出精准的判断与选择。（仅供交流探讨）",
+      "source": "微信公众号",
+      "publishedAt": "2026-08-06T20:51:44.000Z",
+      "collectedAt": "2026-08-10T02:46:22.123Z",
+      "sourceChannel": "微信公众号/手动采集",
+      "linkType": "publisher",
+      "region": "国内",
+      "language": "zh",
+      "sourceType": "行业资讯",
+      "queryTopic": "金属材料",
+      "contextTags": [
+        "金属材料"
+      ],
+      "category": "金属材料",
+      "tags": [],
+      "relevanceScore": 10,
+      "reliability": {
+        "grade": "B",
+        "label": "可靠",
+        "score": 70
+      },
+      "summary": "本文探讨球墨铸铁碳硅比（C/Si）设计的匹配性原则，指出其并非固定临界值，而需根据壁厚、牌号和铸型条件动态调整。薄壁件（<10mm）需高硅（2.2%-2.6%）低C/Si以消除白口；厚大件（>50mm）需低碳低硅（2.0%-2.4%）防石墨漂浮。高牌号（QT700/800）需低硅（1.8%-2.2%）促珠光体，铁素体基体（QT400/450）需高硅（2.4%-2.8%）提韧性。铸型冷却能力影响硅含量微调。设计应优先按牌号定硅，按壁厚定碳，C/Si仅作校核。",
+      "keyPoints": [
+        "薄壁件需高硅（2.2%-2.6%）低C/Si防白口，厚大件需低硅（2.0%-2.4%）防石墨漂浮",
+        "高牌号球铁（QT700/800）硅含量1.8%-2.2%促珠光体，铁素体基体（QT400/450）硅含量2.4%-2.8%提韧性",
+        "碳硅比设计需匹配壁厚、基体要求和铸型冷却能力，无通用临界值",
+        "硅含量按牌号确定，碳含量按壁厚调整，C/Si仅作校核参数"
+      ],
+      "engineeringImpact": "为球墨铸铁工艺设计提供系统匹配原则，避免因固定C/Si值导致白口或石墨漂浮缺陷，提升铸件质量一致性。"
     }
   ]
 }
