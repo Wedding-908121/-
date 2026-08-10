@@ -216,7 +216,7 @@ function renderAll() {
 function renderHero() {
   const brief = state.data?.weeklyBrief || {};
   document.getElementById("brief-title").innerHTML = "本周汇集 <span class=\"accent\">" + (brief.total||0) + "</span> 条高相关机械共性情报";
-  document.getElementById("brief-summary").textContent = "覆盖风电动态、金属材料、风机噪声、风电试验、风电螺栓五个方向" + (brief.period ? "，近" + brief.period : "");
+  document.getElementById("brief-summary").textContent = "覆盖风电动态、结构AI、金属材料、风机噪声、风电试验、风电螺栓六个方向" + (brief.period ? "，近" + brief.period : "");
   document.getElementById("metric-total").textContent = brief.total || "--";
   document.getElementById("metric-domestic").textContent = brief.domestic || "--";
   document.getElementById("metric-papers").textContent = brief.papers || "--";
