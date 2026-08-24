@@ -1,12 +1,25 @@
-﻿// 北极星风电 - list page with dates (no detail fetch needed)
 import { createHash } from 'crypto';
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-const PERIOD_START = new Date('2026-08-10T00:00:00+08:00');
-const PERIOD_END = new Date('2026-08-16T23:59:59+08:00');
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const root = join(__dirname, '..');
+
+const raw = readFileSync(join(root, 'config/manual-urls.txt'), 'utf8');
+const dateLine = raw.split('\n')[0].trim();
+const [startStr, endStr] = dateLine.split('-');
+const PERIOD_START = new Date(startStr + 'T00:00:00+08:00');
+const PERIOD_END = new Date(endStr + 'T23:59:59+08:00');
+
+const start = new Date(startStr + 'T00:00:00+08:00');
+const year = start.getFullYear();
+const jan1 = new Date(year, 0, 1);
+const weekNum = Math.ceil((((start - jan1) / 86400000) + jan1.getDay() + 1) / 7);
+const ID_PREFIX = 'w' + weekNum + '-';
 
 function makeId(url, title, salt) {
-  return 'w33-' + createHash('md5').update(url + '|' + title + '|' + salt).digest('hex').substring(0, 12);
+  return ID_PREFIX + createHash('md5').update(url + '|' + title + '|' + salt).digest('hex').substring(0, 12);
 }
 
 function cleanText(s) {
@@ -25,7 +38,6 @@ for (let page = 1; page <= 4; page++) {
     });
     const html = await r.text();
     
-    // Match: <a href="..." title="TITLE">TITLE</a><span>DATE</span>
     const re = /<a href="(https?:\/\/news\.bjx\.com\.cn\/html\/[^"]+)"[^>]*title="([^"]+)"[^>]*>[^<]*<\/a><span>(\d{4}-\d{2}-\d{2})<\/span>/g;
     let m;
     while ((m = re.exec(html)) !== null) {
@@ -60,7 +72,6 @@ for (let page = 1; page <= 4; page++) {
           relevanceScore: 8,
           reliability: { grade: 'B', label: '行业媒体', score: 75 }
         });
-        console.log('OK:', dateStr, '|', title.substring(0, 55));
       }
     }
   } catch(e) {
@@ -69,5 +80,5 @@ for (let page = 1; page <= 4; page++) {
   await new Promise(r => setTimeout(r, 400));
 }
 
-console.log('\nTotal in period:', articles.length);
+console.log('Period:', dateLine, '| Total in period:', articles.length);
 writeFileSync('temp_bjx.json', JSON.stringify(articles, null, 2), 'utf8');
