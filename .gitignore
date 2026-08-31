@@ -21,3 +21,7 @@ server_err.txt
 # IDE
 .vscode/
 .idea/
+
+# Weekly temp files
+temp_*.json
+temp_*.mjs
